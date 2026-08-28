@@ -734,7 +734,11 @@ function mergeUserHymnsIntoPools() {
 }
 mergeUserHymnsIntoPools();
 
-fetch('../content/proper_texts/hymns.json')
+// Relative to docs/*.html itself (a docs/content/... copy kept in sync by
+// render_day.py's copy_docs_assets, not "../content" up to the project
+// root) - GitHub Pages serves docs/ AS the site root, so "../" would 404
+// there even though it happens to also work under the local dev server.
+fetch('content/proper_texts/hymns.json')
   .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
   .then(raw => { DATA.hymn_pools = poolsFromRawHymns(raw); mergeUserHymnsIntoPools(); render(); })
   .catch(() => { /* no server, or fetch blocked under file:// - keep the baked-in pool */ });

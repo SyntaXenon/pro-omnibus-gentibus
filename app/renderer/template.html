@@ -5,16 +5,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=EB+Garamond:ital@0;1&family=Crimson+Text:ital@0;1&family=Alegreya:ital@0;1&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
 <style>
 /* Locally-supplied liturgical typefaces (project's own /fonts folder, not a
-   web font service) - paths are relative to docs/*.html, where every
-   generated page actually lives. */
+   web font service) - paths are relative to docs/*.html itself (a docs/fonts/
+   copy, kept in sync by render_day.py on every build - see copy_docs_assets),
+   not "../fonts" up to the project root: GitHub Pages serves docs/ AS the
+   site root, so a "../" reference resolves to nothing there, even though it
+   happens to also work under the local dev server (which serves the whole
+   project root, one level further up). Same reasoning for content/ below. */
 @font-face {
   font-family: 'Roman Uncial Modern';
-  src: url('../fonts/RomanUncialModern.ttf') format('truetype');
+  src: url('fonts/RomanUncialModern.ttf') format('truetype');
   font-display: swap;
 }
 @font-face {
   font-family: 'Kliment Std';
-  src: url('../fonts/Kliment_Std.ttf') format('truetype');
+  src: url('fonts/Kliment_Std.ttf') format('truetype');
   font-display: swap;
 }
 /* ============================================================

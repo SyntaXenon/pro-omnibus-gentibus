@@ -17,6 +17,7 @@ before (real vs. "[not yet sourced]").
 """
 import json
 import re
+import shutil
 import sys
 from datetime import date, timedelta
 from pathlib import Path
@@ -2253,6 +2254,31 @@ def render_for_date(demo_date: date, out_name: str):
     render_for_date_range(demo_date, 0, 0, out_name)
 
 
+def copy_docs_assets():
+    """Mirrors the handful of files docs/*.html reference by a docs-relative
+    path (see the "Locally-supplied liturgical typefaces" comment in
+    template.html and the hymns.json fetch in template.js) into docs/ itself,
+    so those references resolve correctly both under GitHub Pages (which
+    serves docs/ AS the site root - a project-root-relative path 404s there)
+    and under the local dev server (which serves the whole project root, so
+    a docs-relative path still lands on the same real files one level up).
+    Cheap to just overwrite every time rather than diffing first."""
+    project_root = APP_ROOT.parent
+    docs = project_root / "docs"
+
+    fonts_dst = docs / "fonts"
+    fonts_dst.mkdir(parents=True, exist_ok=True)
+    for font_file in (project_root / "fonts").glob("*.ttf"):
+        shutil.copy2(font_file, fonts_dst / font_file.name)
+
+    hymns_src = project_root / "content" / "proper_texts" / "hymns.json"
+    hymns_dst = docs / "content" / "proper_texts" / "hymns.json"
+    hymns_dst.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(hymns_src, hymns_dst)
+
+    print(f"Copied fonts + hymns.json into {docs}")
+
+
 if __name__ == "__main__":
     render_for_date(date(2026, 7, 30), "demo_vespers.html")       # ferial Thursday (regression check)
     render_for_date(date(2026, 8, 2), "demo_sunday.html")          # Sunday (new)
@@ -2263,3 +2289,4 @@ if __name__ == "__main__":
     # Also written to index.html - GitHub Pages serves docs/ as the site root
     # and needs that exact filename for the bare domain to load anything.
     render_for_date_range(date.today(), 3, 7, ["demo_today.html", "index.html"])
+    copy_docs_assets()
