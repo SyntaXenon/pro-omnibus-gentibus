@@ -2194,13 +2194,18 @@ def build_date_payload(d: date, corpora: dict, proper: dict):
     }
 
 
-def render_for_date_range(center_date: date, days_before: int, days_after: int, out_name: str):
+def render_for_date_range(center_date: date, days_before: int, days_after: int, out_name):
     """Builds every date from center_date - days_before to center_date + days_after
     and embeds all of them in one page. Without dev_server.py running, a client can't
     ask for a day outside this window - but baking in a wide-enough window lets the
     page pick the right day for whatever timezone the viewer is actually in (the
     generator's own "today" won't match every viewer's "today" 1:1), rather than
-    just statically showing one fixed day and warning when it's stale."""
+    just statically showing one fixed day and warning when it's stale.
+    out_name: a single filename, or a list/tuple of filenames to write the exact
+    same computed page to more than once (e.g. "demo_today.html" AND
+    "index.html", so GitHub Pages - which needs docs/index.html as the landing
+    page - always stays in sync with the rolling demo without a separate copy
+    step)."""
     corpora = {lang: BibleCorpus(lang) for lang in LANGUAGES}
     proper = {lang: ProperTextLibrary(lang) for lang in LANGUAGES}
 
@@ -2236,9 +2241,11 @@ def render_for_date_range(center_date: date, days_before: int, days_after: int, 
     html = html.replace("__DATE__", center_date.isoformat())
     html = html.replace("__DATA_JSON__", json.dumps(data, ensure_ascii=False))
 
-    out_path = APP_ROOT.parent / "docs" / out_name
-    out_path.write_text(html, encoding="utf-8")
-    print(f"Wrote {out_path} ({len(dates_data)} dates: {min(dates_data)} to {max(dates_data)})")
+    out_names = [out_name] if isinstance(out_name, str) else list(out_name)
+    for name in out_names:
+        out_path = APP_ROOT.parent / "docs" / name
+        out_path.write_text(html, encoding="utf-8")
+        print(f"Wrote {out_path} ({len(dates_data)} dates: {min(dates_data)} to {max(dates_data)})")
 
 
 def render_for_date(demo_date: date, out_name: str):
@@ -2253,4 +2260,6 @@ if __name__ == "__main__":
     render_for_date(date(2026, 8, 1), "demo_saturday.html")        # Saturday -> Sunday's First Vespers (new)
     # 3 days before today through a full week ahead, so viewers in any timezone
     # land inside the window and the page can auto-select their actual "today".
-    render_for_date_range(date.today(), 3, 7, "demo_today.html")
+    # Also written to index.html - GitHub Pages serves docs/ as the site root
+    # and needs that exact filename for the bare domain to load anything.
+    render_for_date_range(date.today(), 3, 7, ["demo_today.html", "index.html"])
