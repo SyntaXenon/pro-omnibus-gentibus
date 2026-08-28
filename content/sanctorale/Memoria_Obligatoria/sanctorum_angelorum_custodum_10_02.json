@@ -1,0 +1,14 @@
+{
+  "id": "guardian_angels_10_02",
+  "titulus": "Sanctorum Angelorum Custodum",
+  "dies": "10-02",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "collecta": "Deus, qui ineffábili providéntia sanctos Angelos tuos ad nostram custódiam míttere dignáris: largíre supplícibus tuis; et eórum semper protectióne deféndi, et ætérna societáte gaudére.",
+  "antiphonae_evangelicae": {
+    "magnificat": "Omnes sunt administratorii Spiritus, in ministerium missi propter eos, qui hereditatem capiunt salutis.",
+    "magnificat_es": "Todos son espíritus administradores, enviados para servicio de aquellos que han de heredar la salvación.",
+    "benedictus": "Reversus est Angelus qui loquebatur in me, et suscitavit me; quasi virum qui suscitatur a somno suo.",
+    "benedictus_es": "Volvió el ángel que hablaba conmigo, y me despertó, como a un hombre que se despierta de su sueño."
+  }
+}

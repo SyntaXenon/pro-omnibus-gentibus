@@ -1,0 +1,86 @@
+{
+  "id": "dedication_lateran_11_09",
+  "titulus": "In Dedicatione Basilicæ Lateranensis",
+  "dies": "11-09",
+  "gradus": "FESTUM",
+  "color": "ALBUS",
+  "habet_primas_vesperas": false,
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Benedíctus es, Dómine, in firmaménto cæli.",
+        "antiphona_es": "Bendito eres, Señor, en el firmamento del cielo.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "lectio_brevis_vesperarum": "rev 21:2-3,22,27",
+    "lectio_brevis_laudum": "isa 56:7",
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 45",
+        "antiphona": "Sanctificávit Dóminus tabernáculum suum: hæc est domus Dei, in qua invocétur nomen eius, de qua scriptum est: Erit nomen meum ibi, dicit Dóminus.",
+        "antiphona_es": "El Señor santificó su morada: esta es la casa de Dios, donde se invocará su nombre, de la cual está escrito: Allí estará mi nombre, dice el Señor."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 121",
+        "antiphona": "In domum Dómini lætántes íbimus.",
+        "antiphona_es": "Iremos con alegría a la casa del Señor."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "rev 19:1-2,5-7",
+        "antiphona": "Laudem dícite Deo nostro, omnes sancti eius.",
+        "antiphona_es": "Dad alabanza a nuestro Dios, todos sus santos."
+      }
+    ]
+  },
+  "collecta": "Deus, qui nobis per singulos annos hujus sancti templi tui consecrationis reparas diem, et sacris semper mysteriis repræsentas incolumes: exaudi preces populi tui, et præsta; ut quisquis hoc templum beneficia petiturus ingreditur, cuncta se impetrasse lætetur.",
+  "antiphonae_evangelicae": {
+    "magnificat": "Sanctificavit Dominus tabernaculum suum: quia hæc est domus Dei, in qua invocabitur nomen ejus, de quo scriptum est: Et erit nomen meum ibi, dicit Dominus.",
+    "benedictus": "O quam metuendus est locus iste: vere non est hic aliud, nisi domus Dei, et porta cæli.",
+    "benedictus_es": "Oh, cuán temible es este lugar: verdaderamente no es otra cosa que la casa de Dios y la puerta del cielo.",
+    "magnificat_es": "El Señor santificó su tabernáculo, porque esta es la casa de Dios, en la que será invocado su nombre, según está escrito: Allí estará mi nombre, dice el Señor."
+  },
+  "breviarium_id": "dedication_of_the_lateran_basilica"
+}

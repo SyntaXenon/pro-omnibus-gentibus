@@ -1,0 +1,86 @@
+{
+  "id": "exaltation_cross_09_14",
+  "titulus": "In Exaltatione Sanctæ Crucis",
+  "dies": "09-14",
+  "gradus": "FESTUM",
+  "color": "RUBER",
+  "habet_primas_vesperas": false,
+  "collecta": "Deus, qui nos hodiérna die Exaltatiónis sanctæ Crucis ánnua sollemnitáte lætíficas: præsta, quǽsumus; ut, cujus mystérium in terra cognóvimus, ejus redemptiónis præmia in cœlo mereámur. $Per eundem",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Crux benedícta nitet, Dóminus qua carne pepéndit atque cruóre suo vúlnera nostra lavit.",
+        "antiphona_es": "Resplandece la cruz bendita, en la que el Señor pendió en la carne y con su sangre lavó nuestras heridas.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 109:1-5,7",
+        "antiphona": "O magnum pietátis opus! Mors mórtua tunc est, quando hoc in ligno mórtua vita fuit.",
+        "antiphona_es": "¡Oh gran obra de amor! La muerte murió cuando en este madero murió la Vida."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 115",
+        "antiphona": "Tuam crucem adorámus, Dómine, tuam gloriósam recólimus passiónem; miserére nostri, qui passus es pro nobis.",
+        "antiphona_es": "Adoramos tu cruz, Señor, recordamos tu gloriosa pasión; ten piedad de nosotros, tú que padeciste por nosotros."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "rev 4:11;5:9,10,12",
+        "antiphona": "Adorámus te, Christe, et benedícimus tibi, quia per crucem tuam redemísti mundum.",
+        "antiphona_es": "Te adoramos, Cristo, y te bendecimos, porque por tu cruz redimiste al mundo."
+      }
+    ],
+    "lectio_brevis_vesperarum": "1cor 1:23-24",
+    "lectio_brevis_laudum": "heb 2:9-10"
+  },
+  "antiphonae_evangelicae": {
+    "magnificat": "O Crux, splendidior cunctis astris, mundo celebris, hominibus multum amabilis, sanctior universis: quæ sola fuisti digna portare talentum mundi, dulce lignum, dulces clavos, dulcia ferens pondera; salva præsentem catervam in tuis hodie laudibus congregatam.",
+    "benedictus": "Super omnia ligna cedrorum tu sola excelsior, in qua Vita mundi pependit, in qua Christus triumphavit, et mors mortem superavit in æternum.",
+    "benedictus_es": "Más excelsa que todos los cedros eres tú sola, en la que pendió la Vida del mundo, en la que Cristo triunfó y la muerte venció a la muerte para siempre.",
+    "magnificat_es": "Oh Cruz, más espléndida que todos los astros, célebre en el mundo, muy amable a los hombres, más santa que todas las cosas, que sola fuiste digna de llevar el rescate del mundo: dulce leño, dulces clavos, que llevas dulce carga; salva a la asamblea aquí presente, congregada hoy en tus alabanzas."
+  },
+  "breviarium_id": "exaltation_of_the_holy_cross"
+}

@@ -1,0 +1,5949 @@
+{
+  "_source": "Synced from the Liturgical Calendar API (litcal.johnromanodorazio.com), Apache-2.0, General Roman Calendar. Merged from two API 'litcal years' (the API's year runs Advent-to-Advent, not Jan-Dec) to cover this full civil year. This is a periodic local cache, not a live dependency - the app reads this file, it does not call the API at runtime. Re-sync periodically (e.g. yearly, or after a canonization/calendar change).",
+  "year": 2026,
+  "days": {
+    "2026-01-01": {
+      "primary": {
+        "event_key": "MaryMotherOfGod",
+        "name": "SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-02": {
+      "primary": {
+        "event_key": "StsBasilGreg",
+        "name": "Sancti Basilii Magni et Gregorii Nazianzeni, episcoporum et Ecclesiæ doctorum",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-03": {
+      "primary": {
+        "event_key": "Christmas2_vigil",
+        "name": "Dominica II Post Nativitatem Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "NameJesus",
+          "name": "Sanctissimi Nominis Iesu",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-01-04": {
+      "primary": {
+        "event_key": "Christmas2",
+        "name": "Dominica II Post Nativitatem",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-05": {
+      "primary": {
+        "event_key": "Epiphany_vigil",
+        "name": "In Epiphania Domini Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-06": {
+      "primary": {
+        "event_key": "Epiphany",
+        "name": "In Epiphania Domini",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-07": {
+      "primary": {
+        "event_key": "DayAfterEpiphanyJan7",
+        "name": "Feria IV temporis Nativitatis",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StRayPenyafort",
+          "name": "Sancti Raimundi de Penyafort, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-01-08": {
+      "primary": {
+        "event_key": "DayAfterEpiphanyJan8",
+        "name": "Feria V temporis Nativitatis",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-09": {
+      "primary": {
+        "event_key": "DayAfterEpiphanyJan9",
+        "name": "Feria VI temporis Nativitatis",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-10": {
+      "primary": {
+        "event_key": "BaptismLord_vigil",
+        "name": "In Festo Baptismatis Domini Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-11": {
+      "primary": {
+        "event_key": "BaptismLord",
+        "name": "In Festo Baptismatis Domini",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-12": {
+      "primary": {
+        "event_key": "OrdWeekday1Monday",
+        "name": "Feria II Hebdomadæ Primæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-13": {
+      "primary": {
+        "event_key": "OrdWeekday1Tuesday",
+        "name": "Feria III Hebdomadæ Primæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StHilaryPoitiers",
+          "name": "Sancti Hilarii, episcopi et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-01-14": {
+      "primary": {
+        "event_key": "OrdWeekday1Wednesday",
+        "name": "Feria IV Hebdomadæ Primæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-15": {
+      "primary": {
+        "event_key": "OrdWeekday1Thursday",
+        "name": "Feria V Hebdomadæ Primæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-16": {
+      "primary": {
+        "event_key": "OrdWeekday1Friday",
+        "name": "Feria VI Hebdomadæ Primæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-17": {
+      "primary": {
+        "event_key": "OrdSunday2_vigil",
+        "name": "Dominica II «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-18": {
+      "primary": {
+        "event_key": "OrdSunday2",
+        "name": "Dominica II «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-19": {
+      "primary": {
+        "event_key": "OrdWeekday2Monday",
+        "name": "Feria II Hebdomadæ Secundæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-20": {
+      "primary": {
+        "event_key": "OrdWeekday2Tuesday",
+        "name": "Feria III Hebdomadæ Secundæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StFabianPope",
+          "name": "Sancti Fabiani, papæ et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StSebastian",
+          "name": "Sancti Sebastiani, martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-01-21": {
+      "primary": {
+        "event_key": "StAgnes",
+        "name": "Sanctæ Agnetis, virginis et martyris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white",
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-22": {
+      "primary": {
+        "event_key": "OrdWeekday2Thursday",
+        "name": "Feria V Hebdomadæ Secundæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StVincentDeacon",
+          "name": "Sancti Vincentii, diaconi et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-01-23": {
+      "primary": {
+        "event_key": "OrdWeekday2Friday",
+        "name": "Feria VI Hebdomadæ Secundæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-24": {
+      "primary": {
+        "event_key": "OrdSunday3_vigil",
+        "name": "Dominica III «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-25": {
+      "primary": {
+        "event_key": "OrdSunday3",
+        "name": "Dominica III «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-26": {
+      "primary": {
+        "event_key": "StsTimothyTitus",
+        "name": "Sanctorum Timothei et Titi, episcoporum",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-27": {
+      "primary": {
+        "event_key": "OrdWeekday3Tuesday",
+        "name": "Feria III Hebdomadæ Tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StAngelaMerici",
+          "name": "Sanctæ Angelæ Merici, virginis",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-01-28": {
+      "primary": {
+        "event_key": "StThomasAquinas",
+        "name": "Sancti Thomæ de Aquino, presbyteri et Ecclesiæ doctoris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-29": {
+      "primary": {
+        "event_key": "OrdWeekday3Thursday",
+        "name": "Feria V Hebdomadæ Tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-30": {
+      "primary": {
+        "event_key": "OrdWeekday3Friday",
+        "name": "Feria VI Hebdomadæ Tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-01-31": {
+      "primary": {
+        "event_key": "OrdSunday4_vigil",
+        "name": "Dominica IV «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-01": {
+      "primary": {
+        "event_key": "OrdSunday4",
+        "name": "Dominica IV «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-02": {
+      "primary": {
+        "event_key": "Presentation",
+        "name": "In Præsentatione Domini",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-03": {
+      "primary": {
+        "event_key": "OrdWeekday4Tuesday",
+        "name": "Feria III Hebdomadæ Quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StBlase",
+          "name": "Sancti Blasii, episcopi et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StAnsgar",
+          "name": "Sancti Ansgarii, episcopi",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-02-04": {
+      "primary": {
+        "event_key": "OrdWeekday4Wednesday",
+        "name": "Feria IV Hebdomadæ Quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-05": {
+      "primary": {
+        "event_key": "StAgatha",
+        "name": "Sanctæ Agathæ, virginis et martyris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white",
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-06": {
+      "primary": {
+        "event_key": "StsPaulMiki",
+        "name": "Sanctorum Pauli Miki et sociorum, martyrum",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-07": {
+      "primary": {
+        "event_key": "OrdSunday5_vigil",
+        "name": "Dominica V «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "SatMemBVM1",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-02-08": {
+      "primary": {
+        "event_key": "OrdSunday5",
+        "name": "Dominica V «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-09": {
+      "primary": {
+        "event_key": "OrdWeekday5Monday",
+        "name": "Feria II Hebdomadæ Quintæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-10": {
+      "primary": {
+        "event_key": "StScholastica",
+        "name": "Sanctæ Scholasticæ, virginis",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-11": {
+      "primary": {
+        "event_key": "OrdWeekday5Wednesday",
+        "name": "Feria IV Hebdomadæ Quintæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "OurLadyOfLourdes",
+          "name": "Beatæ Mariæ Virginis de Lourdes",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-02-12": {
+      "primary": {
+        "event_key": "OrdWeekday5Thursday",
+        "name": "Feria V Hebdomadæ Quintæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-13": {
+      "primary": {
+        "event_key": "OrdWeekday5Friday",
+        "name": "Feria VI Hebdomadæ Quintæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-14": {
+      "primary": {
+        "event_key": "OrdSunday6_vigil",
+        "name": "Dominica VI «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-15": {
+      "primary": {
+        "event_key": "OrdSunday6",
+        "name": "Dominica VI «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-16": {
+      "primary": {
+        "event_key": "OrdWeekday6Monday",
+        "name": "Feria II Hebdomadæ Sextæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-17": {
+      "primary": {
+        "event_key": "OrdWeekday6Tuesday",
+        "name": "Feria III Hebdomadæ Sextæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "SevenHolyFounders",
+          "name": "Sanctorum Septem Fundatorum Ordinis Servorum B. M. V.",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-02-18": {
+      "primary": {
+        "event_key": "AshWednesday",
+        "name": "Feria IV Cinerum",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-19": {
+      "primary": {
+        "event_key": "ThursdayAfterAshWednesday",
+        "name": "Feria V post Feria IV Cinerum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-20": {
+      "primary": {
+        "event_key": "FridayAfterAshWednesday",
+        "name": "Feria VI post Feria IV Cinerum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-21": {
+      "primary": {
+        "event_key": "Lent1_vigil",
+        "name": "Dominica I in Quadragesima Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StPeterDamian",
+          "name": "Sancti Petri Damiani, episcopi et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-02-22": {
+      "primary": {
+        "event_key": "Lent1",
+        "name": "Dominica I in Quadragesima",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-23": {
+      "primary": {
+        "event_key": "LentWeekday1Monday",
+        "name": "Feria II Hebdomadæ Primæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StPolycarp",
+          "name": "Sancti Polycarpi, episcopi et martyris",
+          "grade": 1,
+          "grade_lcl": "commemoratio"
+        }
+      ]
+    },
+    "2026-02-24": {
+      "primary": {
+        "event_key": "LentWeekday1Tuesday",
+        "name": "Feria III Hebdomadæ Primæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-25": {
+      "primary": {
+        "event_key": "LentWeekday1Wednesday",
+        "name": "Feria IV Hebdomadæ Primæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-26": {
+      "primary": {
+        "event_key": "LentWeekday1Thursday",
+        "name": "Feria V Hebdomadæ Primæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-02-27": {
+      "primary": {
+        "event_key": "LentWeekday1Friday",
+        "name": "Feria VI Hebdomadæ Primæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StGregoryNarek",
+          "name": "Sancti Gregorii Narecensis, abbatis et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-02-28": {
+      "primary": {
+        "event_key": "Lent2_vigil",
+        "name": "Dominica II in Quadragesima Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-01": {
+      "primary": {
+        "event_key": "Lent2",
+        "name": "Dominica II in Quadragesima",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-02": {
+      "primary": {
+        "event_key": "LentWeekday2Monday",
+        "name": "Feria II Hebdomadæ Secundæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-03": {
+      "primary": {
+        "event_key": "LentWeekday2Tuesday",
+        "name": "Feria III Hebdomadæ Secundæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-04": {
+      "primary": {
+        "event_key": "LentWeekday2Wednesday",
+        "name": "Feria IV Hebdomadæ Secundæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StCasimir",
+          "name": "Sancti Casimiri",
+          "grade": 1,
+          "grade_lcl": "commemoratio"
+        }
+      ]
+    },
+    "2026-03-05": {
+      "primary": {
+        "event_key": "LentWeekday2Thursday",
+        "name": "Feria V Hebdomadæ Secundæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-06": {
+      "primary": {
+        "event_key": "LentWeekday2Friday",
+        "name": "Feria VI Hebdomadæ Secundæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-07": {
+      "primary": {
+        "event_key": "Lent3_vigil",
+        "name": "Dominica III in Quadragesima Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 3,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StsPerpetuaFelicity",
+          "name": "Sanctarum Perpetuæ et Felicitatis, martyrum",
+          "grade": 1,
+          "grade_lcl": "commemoratio"
+        }
+      ]
+    },
+    "2026-03-08": {
+      "primary": {
+        "event_key": "Lent3",
+        "name": "Dominica III in Quadragesima",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 3,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-09": {
+      "primary": {
+        "event_key": "LentWeekday3Monday",
+        "name": "Feria II Hebdomadæ Tertiæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 3,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StFrancesRome",
+          "name": "Sanctæ Franciscæ Romanæ, religiosæ",
+          "grade": 1,
+          "grade_lcl": "commemoratio"
+        }
+      ]
+    },
+    "2026-03-10": {
+      "primary": {
+        "event_key": "LentWeekday3Tuesday",
+        "name": "Feria III Hebdomadæ Tertiæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 3,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-11": {
+      "primary": {
+        "event_key": "LentWeekday3Wednesday",
+        "name": "Feria IV Hebdomadæ Tertiæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 3,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-12": {
+      "primary": {
+        "event_key": "LentWeekday3Thursday",
+        "name": "Feria V Hebdomadæ Tertiæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 3,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-13": {
+      "primary": {
+        "event_key": "LentWeekday3Friday",
+        "name": "Feria VI Hebdomadæ Tertiæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 3,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-14": {
+      "primary": {
+        "event_key": "Lent4_vigil",
+        "name": "Dominica IV in Quadragesima Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 4,
+        "color": [
+          "rose",
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-15": {
+      "primary": {
+        "event_key": "Lent4",
+        "name": "Dominica IV in Quadragesima",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 4,
+        "color": [
+          "rose",
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-16": {
+      "primary": {
+        "event_key": "LentWeekday4Monday",
+        "name": "Feria II Hebdomadæ Quartæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 4,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-17": {
+      "primary": {
+        "event_key": "LentWeekday4Tuesday",
+        "name": "Feria III Hebdomadæ Quartæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 4,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StPatrick",
+          "name": "Sancti Patricii, episcopi",
+          "grade": 1,
+          "grade_lcl": "commemoratio"
+        }
+      ]
+    },
+    "2026-03-18": {
+      "primary": {
+        "event_key": "StJoseph_vigil",
+        "name": "Sancti Ioseph Sponsi Beatæ Mariæ Virginis Missa in Vigilia",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StCyrilJerusalem",
+          "name": "Sancti Cyrilli Hierosolymitani, episcopi et Ecclesiæ doctoris",
+          "grade": 1,
+          "grade_lcl": "commemoratio"
+        }
+      ]
+    },
+    "2026-03-19": {
+      "primary": {
+        "event_key": "StJoseph",
+        "name": "Sancti Ioseph Sponsi Beatæ Mariæ Virginis",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-20": {
+      "primary": {
+        "event_key": "LentWeekday4Friday",
+        "name": "Feria VI Hebdomadæ Quartæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 4,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-21": {
+      "primary": {
+        "event_key": "Lent5_vigil",
+        "name": "Dominica V in Quadragesima Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-22": {
+      "primary": {
+        "event_key": "Lent5",
+        "name": "Dominica V in Quadragesima",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-23": {
+      "primary": {
+        "event_key": "LentWeekday5Monday",
+        "name": "Feria II Hebdomadæ Quintæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StTuribius",
+          "name": "Sancti Turibii de Mongrovejo, episcopi",
+          "grade": 1,
+          "grade_lcl": "commemoratio"
+        }
+      ]
+    },
+    "2026-03-24": {
+      "primary": {
+        "event_key": "Annunciation_vigil",
+        "name": "In Annuntiatione Domini Missa in Vigilia",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-25": {
+      "primary": {
+        "event_key": "Annunciation",
+        "name": "In Annuntiatione Domini",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-26": {
+      "primary": {
+        "event_key": "LentWeekday5Thursday",
+        "name": "Feria V Hebdomadæ Quintæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-27": {
+      "primary": {
+        "event_key": "LentWeekday5Friday",
+        "name": "Feria VI Hebdomadæ Quintæ Quadragesimæ",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "LENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-28": {
+      "primary": {
+        "event_key": "PalmSun_vigil",
+        "name": "Dominica in Palmis Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-29": {
+      "primary": {
+        "event_key": "PalmSun",
+        "name": "Dominica in Palmis",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-30": {
+      "primary": {
+        "event_key": "MonHolyWeek",
+        "name": "Feria II Hebdomadæ Sanctæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-03-31": {
+      "primary": {
+        "event_key": "TueHolyWeek",
+        "name": "Feria III Hebdomadæ Sanctæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-01": {
+      "primary": {
+        "event_key": "WedHolyWeek",
+        "name": "Feria IV Hebdomadæ Sanctæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-02": {
+      "primary": {
+        "event_key": "HolyThursChrism",
+        "name": "Missa Chrismatis",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "LENT",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-03": {
+      "primary": {
+        "event_key": "GoodFri",
+        "name": "Feria VI in Passione Domini",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER_TRIDUUM",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-04": {
+      "primary": {
+        "event_key": "EasterVigil",
+        "name": "Vigilia Paschalis",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER_TRIDUUM",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-05": {
+      "primary": {
+        "event_key": "Easter",
+        "name": "Dominica Paschæ in Resurrectione Domini",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-06": {
+      "primary": {
+        "event_key": "MonOctaveEaster",
+        "name": "Feria II infra Octavam Paschæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-07": {
+      "primary": {
+        "event_key": "TueOctaveEaster",
+        "name": "Feria III infra Octavam Paschæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-08": {
+      "primary": {
+        "event_key": "WedOctaveEaster",
+        "name": "Feria IV infra Octavam Paschæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-09": {
+      "primary": {
+        "event_key": "ThuOctaveEaster",
+        "name": "Feria V infra Octavam Paschæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-10": {
+      "primary": {
+        "event_key": "FriOctaveEaster",
+        "name": "Feria VI infra Octavam Paschæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-11": {
+      "primary": {
+        "event_key": "SatOctaveEaster",
+        "name": "Sabbato infra Octavam Paschæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-12": {
+      "primary": {
+        "event_key": "Easter2",
+        "name": "Dominica II in Paschæ vel Dominica Divinæ Misericordiæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 2,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-13": {
+      "primary": {
+        "event_key": "EasterWeekday2Monday",
+        "name": "Feria II Hebdomadæ Secundæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 2,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StMartinPope",
+          "name": "Sancti Martini I, papæ et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-04-14": {
+      "primary": {
+        "event_key": "EasterWeekday2Tuesday",
+        "name": "Feria III Hebdomadæ Secundæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 2,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-15": {
+      "primary": {
+        "event_key": "EasterWeekday2Wednesday",
+        "name": "Feria IV Hebdomadæ Secundæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 2,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-16": {
+      "primary": {
+        "event_key": "EasterWeekday2Thursday",
+        "name": "Feria V Hebdomadæ Secundæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 2,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-17": {
+      "primary": {
+        "event_key": "EasterWeekday2Friday",
+        "name": "Feria VI Hebdomadæ Secundæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 2,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-18": {
+      "primary": {
+        "event_key": "Easter3_vigil",
+        "name": "Dominica III in Paschæ Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-19": {
+      "primary": {
+        "event_key": "Easter3",
+        "name": "Dominica III in Paschæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-20": {
+      "primary": {
+        "event_key": "EasterWeekday3Monday",
+        "name": "Feria II Hebdomadæ Tertiæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-21": {
+      "primary": {
+        "event_key": "EasterWeekday3Tuesday",
+        "name": "Feria III Hebdomadæ Tertiæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StAnselm",
+          "name": "Sancti Anselmi, episcopi et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-04-22": {
+      "primary": {
+        "event_key": "EasterWeekday3Wednesday",
+        "name": "Feria IV Hebdomadæ Tertiæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-23": {
+      "primary": {
+        "event_key": "EasterWeekday3Thursday",
+        "name": "Feria V Hebdomadæ Tertiæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StGeorge",
+          "name": "Sancti Georgii, martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StAdalbert",
+          "name": "Sancti Adalberti, episcopi et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-04-24": {
+      "primary": {
+        "event_key": "EasterWeekday3Friday",
+        "name": "Feria VI Hebdomadæ Tertiæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StFidelisSigmaringen",
+          "name": "Sancti Fidelis de Sigmaringen, presbyteri et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-04-25": {
+      "primary": {
+        "event_key": "Easter4_vigil",
+        "name": "Dominica IV in Paschæ Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 4,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-26": {
+      "primary": {
+        "event_key": "Easter4",
+        "name": "Dominica IV in Paschæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 4,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-27": {
+      "primary": {
+        "event_key": "EasterWeekday4Monday",
+        "name": "Feria II Hebdomadæ Quartæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 4,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-28": {
+      "primary": {
+        "event_key": "EasterWeekday4Tuesday",
+        "name": "Feria III Hebdomadæ Quartæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 4,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StPeterChanel",
+          "name": "Sancti Petri Chanel, presbyteri et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StLouisGrignionMontfort",
+          "name": "Sancti Ludovici Mariæ Grignion de Montfort, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-04-29": {
+      "primary": {
+        "event_key": "StCatherineSiena",
+        "name": "Sanctæ Catharinæ Senensis, virginis",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-04-30": {
+      "primary": {
+        "event_key": "EasterWeekday4Thursday",
+        "name": "Feria V Hebdomadæ Quartæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 4,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StPiusV",
+          "name": "Sancti Pii V, papæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-05-01": {
+      "primary": {
+        "event_key": "EasterWeekday4Friday",
+        "name": "Feria VI Hebdomadæ Quartæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 4,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StJosephWorker",
+          "name": "Sancti Ioseph opificis",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-05-02": {
+      "primary": {
+        "event_key": "Easter5_vigil",
+        "name": "Dominica V in Paschæ Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 1,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-03": {
+      "primary": {
+        "event_key": "Easter5",
+        "name": "Dominica V in Paschæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 1,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-04": {
+      "primary": {
+        "event_key": "EasterWeekday5Monday",
+        "name": "Feria II Hebdomadæ Quintæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 1,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-05": {
+      "primary": {
+        "event_key": "EasterWeekday5Tuesday",
+        "name": "Feria III Hebdomadæ Quintæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 1,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-06": {
+      "primary": {
+        "event_key": "EasterWeekday5Wednesday",
+        "name": "Feria IV Hebdomadæ Quintæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 1,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-07": {
+      "primary": {
+        "event_key": "EasterWeekday5Thursday",
+        "name": "Feria V Hebdomadæ Quintæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 1,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-08": {
+      "primary": {
+        "event_key": "EasterWeekday5Friday",
+        "name": "Feria VI Hebdomadæ Quintæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 1,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-09": {
+      "primary": {
+        "event_key": "Easter6_vigil",
+        "name": "Dominica VI in Paschæ Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 2,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-10": {
+      "primary": {
+        "event_key": "Easter6",
+        "name": "Dominica VI in Paschæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 2,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-11": {
+      "primary": {
+        "event_key": "EasterWeekday6Monday",
+        "name": "Feria II Hebdomadæ Sextæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 2,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-12": {
+      "primary": {
+        "event_key": "EasterWeekday6Tuesday",
+        "name": "Feria III Hebdomadæ Sextæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 2,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StsNereusAchilleus",
+          "name": "Sanctorum Nerei et Achillei, martyrum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StPancras",
+          "name": "Sancti Pancratii, martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-05-13": {
+      "primary": {
+        "event_key": "Ascension_vigil",
+        "name": "In Ascensione Domini Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "OurLadyOfFatima",
+          "name": "Beatæ Mariæ Virginis de Fatima",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-05-14": {
+      "primary": {
+        "event_key": "Ascension",
+        "name": "In Ascensione Domini",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-15": {
+      "primary": {
+        "event_key": "EasterWeekday6Friday",
+        "name": "Feria VI Hebdomadæ Sextæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 2,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-16": {
+      "primary": {
+        "event_key": "Easter7_vigil",
+        "name": "Dominica VII Paschæ Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-17": {
+      "primary": {
+        "event_key": "Easter7",
+        "name": "Dominica VII Paschæ",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-18": {
+      "primary": {
+        "event_key": "EasterWeekday7Monday",
+        "name": "Feria II Hebdomadæ Septimæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StJohnIPope",
+          "name": "Sancti Ioannis I, papæ et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-05-19": {
+      "primary": {
+        "event_key": "EasterWeekday7Tuesday",
+        "name": "Feria III Hebdomadæ Septimæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-20": {
+      "primary": {
+        "event_key": "EasterWeekday7Wednesday",
+        "name": "Feria IV Hebdomadæ Septimæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StBernardineSiena",
+          "name": "Sancti Bernardini Senensis, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-05-21": {
+      "primary": {
+        "event_key": "EasterWeekday7Thursday",
+        "name": "Feria V Hebdomadæ Septimæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StChristopherMagallanes",
+          "name": "Sanctorum Christophori Magallanes, presbyteri, et sociorum, martyrum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-05-22": {
+      "primary": {
+        "event_key": "EasterWeekday7Friday",
+        "name": "Feria VI Hebdomadæ Septimæ Temporis Paschali",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "EASTER",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StRitaCascia",
+          "name": "Sanctæ Ritæ de Cascia, religiosæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-05-23": {
+      "primary": {
+        "event_key": "Pentecost_vigil",
+        "name": "Dominica Pentecostes Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-24": {
+      "primary": {
+        "event_key": "Pentecost",
+        "name": "Dominica Pentecostes",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "EASTER",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-25": {
+      "primary": {
+        "event_key": "MaryMotherChurch",
+        "name": "Beatæ Mariæ Virginis, Ecclesiæ Matris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-26": {
+      "primary": {
+        "event_key": "StPhilipNeri",
+        "name": "Sancti Philippi Neri, presbyteri",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-27": {
+      "primary": {
+        "event_key": "OrdWeekday8Wednesday",
+        "name": "Feria IV Hebdomadæ Octavæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StAugustineCanterbury",
+          "name": "Sancti Augustini Cantuariensis, episcopi",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-05-28": {
+      "primary": {
+        "event_key": "OrdWeekday8Thursday",
+        "name": "Feria V Hebdomadæ Octavæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-05-29": {
+      "primary": {
+        "event_key": "OrdWeekday8Friday",
+        "name": "Feria VI Hebdomadæ Octavæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StPaulVI",
+          "name": "Sancti Pauli VI, Papæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-05-30": {
+      "primary": {
+        "event_key": "Trinity_vigil",
+        "name": "Dominica post Pentecostem Sanctissimæ Trinitatis Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "SatMemBVM2",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-05-31": {
+      "primary": {
+        "event_key": "Trinity",
+        "name": "Dominica post Pentecostem Sanctissimæ Trinitatis",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-01": {
+      "primary": {
+        "event_key": "StJustinMartyr",
+        "name": "Sancti Iustini, martyris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-02": {
+      "primary": {
+        "event_key": "OrdWeekday9Tuesday",
+        "name": "Feria III Hebdomadæ Nonæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StsMarcellinusPeter",
+          "name": "Sanctorum Marcellini et Petri, martyrum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-06-03": {
+      "primary": {
+        "event_key": "CorpusChristi_vigil",
+        "name": "Ss.mi Corporis et Sanguinis Christi Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-04": {
+      "primary": {
+        "event_key": "CorpusChristi",
+        "name": "Ss.mi Corporis et Sanguinis Christi",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-05": {
+      "primary": {
+        "event_key": "StBoniface",
+        "name": "Sancti Bonifatii, episcopi et martyris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white",
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-06": {
+      "primary": {
+        "event_key": "OrdSunday10_vigil",
+        "name": "Dominica X «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StNorbert",
+          "name": "Sancti Norberti, episcopi",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "SatMemBVM3",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-06-07": {
+      "primary": {
+        "event_key": "OrdSunday10",
+        "name": "Dominica X «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-08": {
+      "primary": {
+        "event_key": "OrdWeekday10Monday",
+        "name": "Feria II Hebdomadæ Decimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-09": {
+      "primary": {
+        "event_key": "OrdWeekday10Tuesday",
+        "name": "Feria III Hebdomadæ Decimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StEphrem",
+          "name": "Sancti Ephræm, diaconi et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-06-10": {
+      "primary": {
+        "event_key": "OrdWeekday10Wednesday",
+        "name": "Feria IV Hebdomadæ Decimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-11": {
+      "primary": {
+        "event_key": "SacredHeart_vigil",
+        "name": "Sacratissimi Cordis Iesu Missa in Vigilia",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-12": {
+      "primary": {
+        "event_key": "SacredHeart",
+        "name": "Sacratissimi Cordis Iesu",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-13": {
+      "primary": {
+        "event_key": "OrdSunday11_vigil",
+        "name": "Dominica XI «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "ImmaculateHeart",
+          "name": "Immaculati Cordis Beatæ Mariæ Virginis",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StAnthonyPadua",
+          "name": "Sancti Antonii de Padova, presbyteri et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-06-14": {
+      "primary": {
+        "event_key": "OrdSunday11",
+        "name": "Dominica XI «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-15": {
+      "primary": {
+        "event_key": "OrdWeekday11Monday",
+        "name": "Feria II Hebdomadæ Undecimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-16": {
+      "primary": {
+        "event_key": "OrdWeekday11Tuesday",
+        "name": "Feria III Hebdomadæ Undecimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-17": {
+      "primary": {
+        "event_key": "OrdWeekday11Wednesday",
+        "name": "Feria IV Hebdomadæ Undecimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-18": {
+      "primary": {
+        "event_key": "OrdWeekday11Thursday",
+        "name": "Feria V Hebdomadæ Undecimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-19": {
+      "primary": {
+        "event_key": "OrdWeekday11Friday",
+        "name": "Feria VI Hebdomadæ Undecimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StRomuald",
+          "name": "Sancti Romualdi, abbatis",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-06-20": {
+      "primary": {
+        "event_key": "OrdSunday12_vigil",
+        "name": "Dominica XII «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "SatMemBVM4",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-06-21": {
+      "primary": {
+        "event_key": "OrdSunday12",
+        "name": "Dominica XII «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-22": {
+      "primary": {
+        "event_key": "OrdWeekday12Monday",
+        "name": "Feria II Hebdomadæ Duodecimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StPaulinusNola",
+          "name": "Sancti Paulini Nolani, episcopi",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StsJohnFisherThomasMore",
+          "name": "Sanctorum Ioannis Fisher, episcopi, et Thomæ More, martyrum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-06-23": {
+      "primary": {
+        "event_key": "NativityJohnBaptist_vigil",
+        "name": "In Nativitate Sancti Ioannis Baptistæ Missa in Vigilia",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-24": {
+      "primary": {
+        "event_key": "NativityJohnBaptist",
+        "name": "In Nativitate Sancti Ioannis Baptistæ",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-25": {
+      "primary": {
+        "event_key": "OrdWeekday12Thursday",
+        "name": "Feria V Hebdomadæ Duodecimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-26": {
+      "primary": {
+        "event_key": "OrdWeekday12Friday",
+        "name": "Feria VI Hebdomadæ Duodecimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-27": {
+      "primary": {
+        "event_key": "OrdSunday13_vigil",
+        "name": "Dominica XIII «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StCyrilAlexandria",
+          "name": "Sancti Cyrilli Alexandrini, episcopi et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "SatMemBVM5",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-06-28": {
+      "primary": {
+        "event_key": "StsPeterPaulAp_vigil",
+        "name": "Sanctorum Petri et Pauli, Apostolorum Missa in Vigilia",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-29": {
+      "primary": {
+        "event_key": "StsPeterPaulAp",
+        "name": "Sanctorum Petri et Pauli, Apostolorum",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-06-30": {
+      "primary": {
+        "event_key": "OrdWeekday13Tuesday",
+        "name": "Feria III Hebdomadæ Decimæ tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "FirstMartyrsRome",
+          "name": "Sanctorum Protomartyrum sanctæ Romanæ Ecclesiæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-01": {
+      "primary": {
+        "event_key": "OrdWeekday13Wednesday",
+        "name": "Feria IV Hebdomadæ Decimæ tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-02": {
+      "primary": {
+        "event_key": "OrdWeekday13Thursday",
+        "name": "Feria V Hebdomadæ Decimæ tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-03": {
+      "primary": {
+        "event_key": "StThomasAp",
+        "name": "Sancti Thomæ, Apostoli",
+        "grade": 4,
+        "grade_lcl": "FESTUM",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-04": {
+      "primary": {
+        "event_key": "OrdSunday14_vigil",
+        "name": "Dominica XIV «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StElizabethPortugal",
+          "name": "Sanctæ Elisabeth Lusitaniæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "SatMemBVM6",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-05": {
+      "primary": {
+        "event_key": "OrdSunday14",
+        "name": "Dominica XIV «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-06": {
+      "primary": {
+        "event_key": "OrdWeekday14Monday",
+        "name": "Feria II Hebdomadæ Decimæ quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StMariaGoretti",
+          "name": "Sanctæ Mariæ Goretti, virginis et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-07": {
+      "primary": {
+        "event_key": "OrdWeekday14Tuesday",
+        "name": "Feria III Hebdomadæ Decimæ quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-08": {
+      "primary": {
+        "event_key": "OrdWeekday14Wednesday",
+        "name": "Feria IV Hebdomadæ Decimæ quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-09": {
+      "primary": {
+        "event_key": "OrdWeekday14Thursday",
+        "name": "Feria V Hebdomadæ Decimæ quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StAugustineZhaoRong",
+          "name": "Sanctorum Augustini Zhao Rong, presbyteri et sociorum, martyrum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-10": {
+      "primary": {
+        "event_key": "OrdWeekday14Friday",
+        "name": "Feria VI Hebdomadæ Decimæ quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-11": {
+      "primary": {
+        "event_key": "OrdSunday15_vigil",
+        "name": "Dominica XV «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-12": {
+      "primary": {
+        "event_key": "OrdSunday15",
+        "name": "Dominica XV «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-13": {
+      "primary": {
+        "event_key": "OrdWeekday15Monday",
+        "name": "Feria II Hebdomadæ Decimæ quintæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StHenry",
+          "name": "Sancti Henrici",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-14": {
+      "primary": {
+        "event_key": "OrdWeekday15Tuesday",
+        "name": "Feria III Hebdomadæ Decimæ quintæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StCamillusDeLellis",
+          "name": "Sancti Camilli de Lellis, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-15": {
+      "primary": {
+        "event_key": "StBonaventure",
+        "name": "Sancti Bonaventuræ, episcopi et Ecclesiæ doctoris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-16": {
+      "primary": {
+        "event_key": "OrdWeekday15Thursday",
+        "name": "Feria V Hebdomadæ Decimæ quintæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "OurLadyOfMountCarmel",
+          "name": "Beatæ Mariæ Virginis de Monte Carmelo",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-17": {
+      "primary": {
+        "event_key": "OrdWeekday15Friday",
+        "name": "Feria VI Hebdomadæ Decimæ quintæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-18": {
+      "primary": {
+        "event_key": "OrdSunday16_vigil",
+        "name": "Dominica XVI «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "SatMemBVM7",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-19": {
+      "primary": {
+        "event_key": "OrdSunday16",
+        "name": "Dominica XVI «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-20": {
+      "primary": {
+        "event_key": "OrdWeekday16Monday",
+        "name": "Feria II Hebdomadæ Decimæ sextæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StApollinaris",
+          "name": "Sancti Apollinaris, episcopi et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-21": {
+      "primary": {
+        "event_key": "OrdWeekday16Tuesday",
+        "name": "Feria III Hebdomadæ Decimæ sextæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StLawrenceBrindisi",
+          "name": "Sancti Laurentii de Brindisi, presbyteri et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-22": {
+      "primary": {
+        "event_key": "StMaryMagdalene",
+        "name": "Sanctæ Mariæ Magdalenæ",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-23": {
+      "primary": {
+        "event_key": "OrdWeekday16Thursday",
+        "name": "Feria V Hebdomadæ Decimæ sextæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StBridget",
+          "name": "Sanctæ Brigittæ, religiosæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-24": {
+      "primary": {
+        "event_key": "OrdWeekday16Friday",
+        "name": "Feria VI Hebdomadæ Decimæ sextæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StSharbelMakhluf",
+          "name": "Sancti Sarbelii Makhluf, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-25": {
+      "primary": {
+        "event_key": "OrdSunday17_vigil",
+        "name": "Dominica XVII «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-26": {
+      "primary": {
+        "event_key": "OrdSunday17",
+        "name": "Dominica XVII «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-27": {
+      "primary": {
+        "event_key": "OrdWeekday17Monday",
+        "name": "Feria II Hebdomadæ Decimæ septimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-28": {
+      "primary": {
+        "event_key": "OrdWeekday17Tuesday",
+        "name": "Feria III Hebdomadæ Decimæ septimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-29": {
+      "primary": {
+        "event_key": "StMartha",
+        "name": "Sanctæ Marthæ",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-07-30": {
+      "primary": {
+        "event_key": "OrdWeekday17Thursday",
+        "name": "Feria V Hebdomadæ Decimæ septimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StPeterChrysologus",
+          "name": "Sancti Petri Chrysologui, episcopi et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-07-31": {
+      "primary": {
+        "event_key": "StIgnatiusLoyola",
+        "name": "Sancti Ignatii de Loyola, presbyteri",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-01": {
+      "primary": {
+        "event_key": "OrdSunday18_vigil",
+        "name": "Dominica XVIII «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-02": {
+      "primary": {
+        "event_key": "OrdSunday18",
+        "name": "Dominica XVIII «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-03": {
+      "primary": {
+        "event_key": "OrdWeekday18Monday",
+        "name": "Feria II Hebdomadæ Duodevicesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-04": {
+      "primary": {
+        "event_key": "StJeanVianney",
+        "name": "Sancti Ioannis Mariæ Vianney, presbyteri",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-05": {
+      "primary": {
+        "event_key": "OrdWeekday18Wednesday",
+        "name": "Feria IV Hebdomadæ Duodevicesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "DedicationStMaryMajor",
+          "name": "In Dedicatione basilicæ Sanctæ Mariæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-08-06": {
+      "primary": {
+        "event_key": "Transfiguration",
+        "name": "In Transfiguratione Domini",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-07": {
+      "primary": {
+        "event_key": "OrdWeekday18Friday",
+        "name": "Feria VI Hebdomadæ Duodevicesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StSixtusIIPope",
+          "name": "Sanctorum Xysti II, papæ, et sociorum, martyrum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StCajetan",
+          "name": "Sancti Caietani, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-08-08": {
+      "primary": {
+        "event_key": "OrdSunday19_vigil",
+        "name": "Dominica XIX «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-09": {
+      "primary": {
+        "event_key": "OrdSunday19",
+        "name": "Dominica XIX «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-10": {
+      "primary": {
+        "event_key": "StLawrenceDeacon",
+        "name": "Sancti Laurentii, diaconi et martyris",
+        "grade": 4,
+        "grade_lcl": "FESTUM",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white",
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-11": {
+      "primary": {
+        "event_key": "StClare",
+        "name": "Sanctæ Claræ, virginis",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-12": {
+      "primary": {
+        "event_key": "OrdWeekday19Wednesday",
+        "name": "Feria IV Hebdomadæ Undevicesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StJaneFrancesDeChantal",
+          "name": "Sanctæ Ioannæ Franciscæ de Chantal, religiosæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-08-13": {
+      "primary": {
+        "event_key": "OrdWeekday19Thursday",
+        "name": "Feria V Hebdomadæ Undevicesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StsPontianHippolytus",
+          "name": "Sanctorum Pontiani, papæ, et Hippolyti, presbyteri, martyrum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-08-14": {
+      "primary": {
+        "event_key": "Assumption_vigil",
+        "name": "In Assumptione Beatæ Mariæ Virginis Missa in Vigilia",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-15": {
+      "primary": {
+        "event_key": "Assumption",
+        "name": "In Assumptione Beatæ Mariæ Virginis",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-16": {
+      "primary": {
+        "event_key": "OrdSunday20",
+        "name": "Dominica XX «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-17": {
+      "primary": {
+        "event_key": "OrdWeekday20Monday",
+        "name": "Feria II Hebdomadæ Vigesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-18": {
+      "primary": {
+        "event_key": "OrdWeekday20Tuesday",
+        "name": "Feria III Hebdomadæ Vigesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-19": {
+      "primary": {
+        "event_key": "OrdWeekday20Wednesday",
+        "name": "Feria IV Hebdomadæ Vigesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StJohnEudes",
+          "name": "Sancti Ioannis Eudes, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-08-20": {
+      "primary": {
+        "event_key": "StBernardClairvaux",
+        "name": "Sancti Bernardi, abbatis et Ecclesiæ doctoris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-21": {
+      "primary": {
+        "event_key": "StPiusX",
+        "name": "Sancti Pii X, papæ",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-22": {
+      "primary": {
+        "event_key": "OrdSunday21_vigil",
+        "name": "Dominica XXI «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-23": {
+      "primary": {
+        "event_key": "OrdSunday21",
+        "name": "Dominica XXI «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-24": {
+      "primary": {
+        "event_key": "StBartholomewAp",
+        "name": "Sancti Bartholomæi, Apostoli",
+        "grade": 4,
+        "grade_lcl": "FESTUM",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-25": {
+      "primary": {
+        "event_key": "OrdWeekday21Tuesday",
+        "name": "Feria III Hebdomadæ Vigesimæ primæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StLouis",
+          "name": "Sancti Ludovici",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StJosephCalasanz",
+          "name": "Sancti Ioseph de Calasanz, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-08-26": {
+      "primary": {
+        "event_key": "OrdWeekday21Wednesday",
+        "name": "Feria IV Hebdomadæ Vigesimæ primæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-27": {
+      "primary": {
+        "event_key": "StMonica",
+        "name": "Sanctæ Monicæ",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-28": {
+      "primary": {
+        "event_key": "StAugustineHippo",
+        "name": "Sancti Augustini, episcopi et Ecclesiæ doctoris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-29": {
+      "primary": {
+        "event_key": "OrdSunday22_vigil",
+        "name": "Dominica XXII «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-30": {
+      "primary": {
+        "event_key": "OrdSunday22",
+        "name": "Dominica XXII «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-08-31": {
+      "primary": {
+        "event_key": "OrdWeekday22Monday",
+        "name": "Feria II Hebdomadæ Vigesimæ secundæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-01": {
+      "primary": {
+        "event_key": "OrdWeekday22Tuesday",
+        "name": "Feria III Hebdomadæ Vigesimæ secundæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-02": {
+      "primary": {
+        "event_key": "OrdWeekday22Wednesday",
+        "name": "Feria IV Hebdomadæ Vigesimæ secundæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-03": {
+      "primary": {
+        "event_key": "StGregoryGreat",
+        "name": "Sancti Gregorii Magni, papæ et Ecclesiæ doctoris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-04": {
+      "primary": {
+        "event_key": "OrdWeekday22Friday",
+        "name": "Feria VI Hebdomadæ Vigesimæ secundæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-05": {
+      "primary": {
+        "event_key": "OrdSunday23_vigil",
+        "name": "Dominica XXIII «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StMotherTeresa",
+          "name": "Sanctæ Teresiæ de Calcutta, virginis",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "SatMemBVM8",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-09-06": {
+      "primary": {
+        "event_key": "OrdSunday23",
+        "name": "Dominica XXIII «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-07": {
+      "primary": {
+        "event_key": "OrdWeekday23Monday",
+        "name": "Feria II Hebdomadæ Vigesimæ tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-08": {
+      "primary": {
+        "event_key": "NativityVirginMary",
+        "name": "In Nativitate Beatæ Mariæ Virginis",
+        "grade": 4,
+        "grade_lcl": "FESTUM",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-09": {
+      "primary": {
+        "event_key": "OrdWeekday23Wednesday",
+        "name": "Feria IV Hebdomadæ Vigesimæ tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StPeterClaver",
+          "name": "Sancti Petri Claver, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-09-10": {
+      "primary": {
+        "event_key": "OrdWeekday23Thursday",
+        "name": "Feria V Hebdomadæ Vigesimæ tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-11": {
+      "primary": {
+        "event_key": "OrdWeekday23Friday",
+        "name": "Feria VI Hebdomadæ Vigesimæ tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-12": {
+      "primary": {
+        "event_key": "OrdSunday24_vigil",
+        "name": "Dominica XXIV «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "HolyNameMary",
+          "name": "Sanctissimi Nominis Mariæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "SatMemBVM9",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-09-13": {
+      "primary": {
+        "event_key": "OrdSunday24",
+        "name": "Dominica XXIV «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-14": {
+      "primary": {
+        "event_key": "ExaltationCross",
+        "name": "In Exaltatione Sanctæ Crucis",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-15": {
+      "primary": {
+        "event_key": "OurLadyOfSorrows",
+        "name": "Beatæ Mariæ Virginis Perdolentis",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-16": {
+      "primary": {
+        "event_key": "StsCorneliusCyprian",
+        "name": "Sanctorum Cornelii, papæ, et Cypriani, episcopi, martyrum",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white",
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-17": {
+      "primary": {
+        "event_key": "OrdWeekday24Thursday",
+        "name": "Feria V Hebdomadæ Vigesimæ quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StRobertBellarmine",
+          "name": "Sancti Roberti Bellarmino, episcopi et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StHildegardBingen",
+          "name": "Sanctæ Hildegardis Bingensis, virginis et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-09-18": {
+      "primary": {
+        "event_key": "OrdWeekday24Friday",
+        "name": "Feria VI Hebdomadæ Vigesimæ quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-19": {
+      "primary": {
+        "event_key": "OrdSunday25_vigil",
+        "name": "Dominica XXV «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StJanuarius",
+          "name": "Sancti Ianuarii, episcopi et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "SatMemBVM10",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-09-20": {
+      "primary": {
+        "event_key": "OrdSunday25",
+        "name": "Dominica XXV «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-21": {
+      "primary": {
+        "event_key": "StMatthewEvangelist",
+        "name": "Sancti Matthæi, apostoli et evangelistæ",
+        "grade": 4,
+        "grade_lcl": "FESTUM",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-22": {
+      "primary": {
+        "event_key": "OrdWeekday25Tuesday",
+        "name": "Feria III Hebdomadæ Vigesimæ quintæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-23": {
+      "primary": {
+        "event_key": "StPioPietrelcina",
+        "name": "S. Pii de Pietrelcina, presbyteri",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-24": {
+      "primary": {
+        "event_key": "OrdWeekday25Thursday",
+        "name": "Feria V Hebdomadæ Vigesimæ quintæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-25": {
+      "primary": {
+        "event_key": "OrdWeekday25Friday",
+        "name": "Feria VI Hebdomadæ Vigesimæ quintæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-26": {
+      "primary": {
+        "event_key": "OrdSunday26_vigil",
+        "name": "Dominica XXVI «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StsCosmasDamian",
+          "name": "Ss. Cosmæ et Damiani, martyrum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "SatMemBVM11",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-09-27": {
+      "primary": {
+        "event_key": "OrdSunday26",
+        "name": "Dominica XXVI «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-28": {
+      "primary": {
+        "event_key": "OrdWeekday26Monday",
+        "name": "Feria II Hebdomadæ Vigesimæ sextæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StWenceslaus",
+          "name": "Sancti Venceslai, martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StsLawrenceRuiz",
+          "name": "Sanctorum Laurentii Ruiz et sociorum, martyrum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-09-29": {
+      "primary": {
+        "event_key": "StsArchangels",
+        "name": "Sanctorum Michælis, Gabrielis et Raphælis, archangelorum",
+        "grade": 4,
+        "grade_lcl": "FESTUM",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-09-30": {
+      "primary": {
+        "event_key": "StJerome",
+        "name": "Sancti Hieronymi, presbyteri et Ecclesiæ doctoris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-01": {
+      "primary": {
+        "event_key": "StThereseChildJesus",
+        "name": "Sanctæ Teresiæ a Iesu Infante, virginis et Ecclesiæ doctoris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-02": {
+      "primary": {
+        "event_key": "GuardianAngels",
+        "name": "Sanctorum Angelorum Custodum",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-03": {
+      "primary": {
+        "event_key": "OrdSunday27_vigil",
+        "name": "Dominica XXVII «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "SatMemBVM12",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-10-04": {
+      "primary": {
+        "event_key": "OrdSunday27",
+        "name": "Dominica XXVII «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-05": {
+      "primary": {
+        "event_key": "OrdWeekday27Monday",
+        "name": "Feria II Hebdomadæ Vigesimæ septimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StFaustinaKowalska",
+          "name": "Sanctæ Faustinæ Kowalska",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-10-06": {
+      "primary": {
+        "event_key": "OrdWeekday27Tuesday",
+        "name": "Feria III Hebdomadæ Vigesimæ septimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StBruno",
+          "name": "Sancti Brunonis, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-10-07": {
+      "primary": {
+        "event_key": "OurLadyOfTheRosary",
+        "name": "Beatæ Mariæ Virginis a Rosario",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-08": {
+      "primary": {
+        "event_key": "OrdWeekday27Thursday",
+        "name": "Feria V Hebdomadæ Vigesimæ septimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-09": {
+      "primary": {
+        "event_key": "OrdWeekday27Friday",
+        "name": "Feria VI Hebdomadæ Vigesimæ septimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StDenis",
+          "name": "Sanctorum Dionysii, episcopi, et sociorum, martyrum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StJohnLeonardi",
+          "name": "Sancti Ioannis Leonardi, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-10-10": {
+      "primary": {
+        "event_key": "OrdSunday28_vigil",
+        "name": "Dominica XXVIII «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "SatMemBVM13",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-10-11": {
+      "primary": {
+        "event_key": "OrdSunday28",
+        "name": "Dominica XXVIII «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-12": {
+      "primary": {
+        "event_key": "OrdWeekday28Monday",
+        "name": "Feria II Hebdomadæ Vigesimæ octavæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-13": {
+      "primary": {
+        "event_key": "OrdWeekday28Tuesday",
+        "name": "Feria III Hebdomadæ Vigesimæ octavæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-14": {
+      "primary": {
+        "event_key": "OrdWeekday28Wednesday",
+        "name": "Feria IV Hebdomadæ Vigesimæ octavæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StCallistusIPope",
+          "name": "Sancti Callisti I, papæ et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-10-15": {
+      "primary": {
+        "event_key": "StTeresaJesus",
+        "name": "Sanctæ Teresiæ de Avila, virginis",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-16": {
+      "primary": {
+        "event_key": "OrdWeekday28Friday",
+        "name": "Feria VI Hebdomadæ Vigesimæ octavæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StHedwig",
+          "name": "Sancti Hedvigis, religiosæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StMargaretAlacoque",
+          "name": "Sanctæ Margaritæ Mariæ Alacoque, virginis",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-10-17": {
+      "primary": {
+        "event_key": "OrdSunday29_vigil",
+        "name": "Dominica XXIX «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-18": {
+      "primary": {
+        "event_key": "OrdSunday29",
+        "name": "Dominica XXIX «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-19": {
+      "primary": {
+        "event_key": "OrdWeekday29Monday",
+        "name": "Feria II Hebdomadæ Vigesimæ nonæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StsJeanBrebeuf",
+          "name": "Sanctorum Ioannis de Brébeuf et Isaac Jogues, presbyterorum, et sociorum, martyrum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StPaulCross",
+          "name": "Sancti Pauli a Cruce, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-10-20": {
+      "primary": {
+        "event_key": "OrdWeekday29Tuesday",
+        "name": "Feria III Hebdomadæ Vigesimæ nonæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-21": {
+      "primary": {
+        "event_key": "OrdWeekday29Wednesday",
+        "name": "Feria IV Hebdomadæ Vigesimæ nonæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-22": {
+      "primary": {
+        "event_key": "OrdWeekday29Thursday",
+        "name": "Feria V Hebdomadæ Vigesimæ nonæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StJohnPaulII",
+          "name": "S. Ioannis Pauli II, papæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-10-23": {
+      "primary": {
+        "event_key": "OrdWeekday29Friday",
+        "name": "Feria VI Hebdomadæ Vigesimæ nonæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StJohnCapistrano",
+          "name": "Sancti Ioannis de Capestrano, presbyteri",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-10-24": {
+      "primary": {
+        "event_key": "OrdSunday30_vigil",
+        "name": "Dominica XXX «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StAnthonyMaryClaret",
+          "name": "Sancti Antonii Mariæ Claret, episcopi",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "SatMemBVM14",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-10-25": {
+      "primary": {
+        "event_key": "OrdSunday30",
+        "name": "Dominica XXX «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-26": {
+      "primary": {
+        "event_key": "OrdWeekday30Monday",
+        "name": "Feria II Hebdomadæ Trigesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-27": {
+      "primary": {
+        "event_key": "OrdWeekday30Tuesday",
+        "name": "Feria III Hebdomadæ Trigesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-28": {
+      "primary": {
+        "event_key": "StSimonStJudeAp",
+        "name": "Sanctorum Simonis et Iudæ, apostolorum",
+        "grade": 4,
+        "grade_lcl": "FESTUM",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-29": {
+      "primary": {
+        "event_key": "OrdWeekday30Thursday",
+        "name": "Feria V Hebdomadæ Trigesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-30": {
+      "primary": {
+        "event_key": "OrdWeekday30Friday",
+        "name": "Feria VI Hebdomadæ Trigesimæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-10-31": {
+      "primary": {
+        "event_key": "AllSaints_vigil",
+        "name": "Omnium Sanctorum Missa in Vigilia",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "SatMemBVM15",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-11-01": {
+      "primary": {
+        "event_key": "AllSaints",
+        "name": "Omnium Sanctorum",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-02": {
+      "primary": {
+        "event_key": "AllSouls",
+        "name": "In Commemoratione Omnium Fidelium Defunctorum",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-03": {
+      "primary": {
+        "event_key": "OrdWeekday31Tuesday",
+        "name": "Feria III Hebdomadæ Trigesimæ primæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StMartinPorres",
+          "name": "Sancti Martini de Porres, religiosi",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-11-04": {
+      "primary": {
+        "event_key": "StCharlesBorromeo",
+        "name": "Sancti Caroli Borromeo, episcopi",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-05": {
+      "primary": {
+        "event_key": "OrdWeekday31Thursday",
+        "name": "Feria V Hebdomadæ Trigesimæ primæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-06": {
+      "primary": {
+        "event_key": "OrdWeekday31Friday",
+        "name": "Feria VI Hebdomadæ Trigesimæ primæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 3,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-07": {
+      "primary": {
+        "event_key": "OrdSunday32_vigil",
+        "name": "Dominica XXXII «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "SatMemBVM16",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-11-08": {
+      "primary": {
+        "event_key": "OrdSunday32",
+        "name": "Dominica XXXII «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-09": {
+      "primary": {
+        "event_key": "DedicationLateran",
+        "name": "In Dedicatione Basilicæ Lateranensis",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-10": {
+      "primary": {
+        "event_key": "StLeoGreat",
+        "name": "Sancti Leonis Magni, papæ et Ecclesiæ doctoris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-11": {
+      "primary": {
+        "event_key": "StMartinTours",
+        "name": "Sancti Martini, episcopi",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-12": {
+      "primary": {
+        "event_key": "StJosaphat",
+        "name": "Sancti Iosaphat, episcopi et martyris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white",
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-13": {
+      "primary": {
+        "event_key": "OrdWeekday32Friday",
+        "name": "Feria VI Hebdomadæ Trigesimæ secundæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 4,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-14": {
+      "primary": {
+        "event_key": "OrdSunday33_vigil",
+        "name": "Dominica XXXIII «Per Annum» Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "SatMemBVM17",
+          "name": "Memoria Sanctæ Mariæ in Sabbato",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-11-15": {
+      "primary": {
+        "event_key": "OrdSunday33",
+        "name": "Dominica XXXIII «Per Annum»",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-16": {
+      "primary": {
+        "event_key": "OrdWeekday33Monday",
+        "name": "Feria II Hebdomadæ Trigesimæ tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StMargaretScotland",
+          "name": "Sanctæ Margaritæ Scotiæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StGertrudeGreat",
+          "name": "Sanctæ Gertrudis, virginis",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-11-17": {
+      "primary": {
+        "event_key": "StElizabethHungary",
+        "name": "Sanctæ Elisabeth Hungariæ",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-18": {
+      "primary": {
+        "event_key": "OrdWeekday33Wednesday",
+        "name": "Feria IV Hebdomadæ Trigesimæ tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "DedicationStsPeterPaul",
+          "name": "In Dedicatione basilicarum Sanctorum Petri et Pauli, apostolorum",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-11-19": {
+      "primary": {
+        "event_key": "OrdWeekday33Thursday",
+        "name": "Feria V Hebdomadæ Trigesimæ tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-20": {
+      "primary": {
+        "event_key": "OrdWeekday33Friday",
+        "name": "Feria VI Hebdomadæ Trigesimæ tertiæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 1,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-21": {
+      "primary": {
+        "event_key": "ChristKing_vigil",
+        "name": "Domini Nostri Iesu Christi Universorum Regis Missa in Vigilia",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-22": {
+      "primary": {
+        "event_key": "ChristKing",
+        "name": "Domini Nostri Iesu Christi Universorum Regis",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-23": {
+      "primary": {
+        "event_key": "OrdWeekday34Monday",
+        "name": "Feria II Hebdomadæ Trigesimæ quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StClementIPope",
+          "name": "Sancti Clementis I, papæ et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        },
+        {
+          "event_key": "StColumban",
+          "name": "Sancti Columbani, abbatis",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-11-24": {
+      "primary": {
+        "event_key": "StAndrewDungLac",
+        "name": "Sanctorum Andreæ Dung-Lac, presbyteri, et sociorum, martyrum",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-25": {
+      "primary": {
+        "event_key": "OrdWeekday34Wednesday",
+        "name": "Feria IV Hebdomadæ Trigesimæ quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StCatherineAlexandria",
+          "name": "Sanctæ Catharinæ Alexandrinæ, virginis et martyris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-11-26": {
+      "primary": {
+        "event_key": "OrdWeekday34Thursday",
+        "name": "Feria V Hebdomadæ Trigesimæ quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-27": {
+      "primary": {
+        "event_key": "OrdWeekday34Friday",
+        "name": "Feria VI Hebdomadæ Trigesimæ quartæ Temporis per annum",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ORDINARY_TIME",
+        "psalter_week": 2,
+        "color": [
+          "green"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-28": {
+      "primary": {
+        "event_key": "Advent1_vigil",
+        "name": "Dominica Prima Adventus Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ADVENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-29": {
+      "primary": {
+        "event_key": "Advent1",
+        "name": "Dominica Prima Adventus",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ADVENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-11-30": {
+      "primary": {
+        "event_key": "StAndrewAp",
+        "name": "Sancti Andreæ, apostoli",
+        "grade": 4,
+        "grade_lcl": "FESTUM",
+        "season": "ADVENT",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-01": {
+      "primary": {
+        "event_key": "AdventWeekday1Tuesday",
+        "name": "Feria III Hebdomadæ Primæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-02": {
+      "primary": {
+        "event_key": "AdventWeekday1Wednesday",
+        "name": "Feria IV Hebdomadæ Primæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-03": {
+      "primary": {
+        "event_key": "StFrancisXavier",
+        "name": "Sancti Francisci Xavier, presbyteri",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ADVENT",
+        "psalter_week": 1,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-04": {
+      "primary": {
+        "event_key": "AdventWeekday1Friday",
+        "name": "Feria VI Hebdomadæ Primæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 1,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StJohnDamascene",
+          "name": "Sancti Ioannis Damasceni, presbyteri et Ecclesiæ doctoris",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-12-05": {
+      "primary": {
+        "event_key": "Advent2_vigil",
+        "name": "Dominica Secunda Adventus Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ADVENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-06": {
+      "primary": {
+        "event_key": "Advent2",
+        "name": "Dominica Secunda Adventus",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ADVENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-07": {
+      "primary": {
+        "event_key": "ImmaculateConception_vigil",
+        "name": "In Conceptione Immaculata Beatæ Mariæ Virginis Missa in Vigilia",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ADVENT",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-08": {
+      "primary": {
+        "event_key": "ImmaculateConception",
+        "name": "In Conceptione Immaculata Beatæ Mariæ Virginis",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "ADVENT",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-09": {
+      "primary": {
+        "event_key": "AdventWeekday2Wednesday",
+        "name": "Feria IV Hebdomadæ Secundæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "JuanDiego",
+          "name": "Sancti Ioannis Didaci Cuauhtlatoatzin",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-12-10": {
+      "primary": {
+        "event_key": "AdventWeekday2Thursday",
+        "name": "Feria V Hebdomadæ Secundæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "OurLadyOfLoreto",
+          "name": "Beatæ Mariæ Virginis de Loreto",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-12-11": {
+      "primary": {
+        "event_key": "AdventWeekday2Friday",
+        "name": "Feria VI Hebdomadæ Secundæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 2,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StDamasusIPope",
+          "name": "Sancti Damasi I, papæ",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-12-12": {
+      "primary": {
+        "event_key": "Advent3_vigil",
+        "name": "Dominica Tertia Adventus (Gaudete) Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ADVENT",
+        "psalter_week": 3,
+        "color": [
+          "rose",
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "OurLadyOfGuadalupe",
+          "name": "Beatæ Mariæ Virginis Guadalupensis",
+          "grade": 2,
+          "grade_lcl": "memoria ad libitum"
+        }
+      ]
+    },
+    "2026-12-13": {
+      "primary": {
+        "event_key": "Advent3",
+        "name": "Dominica Tertia Adventus (Gaudete)",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ADVENT",
+        "psalter_week": 3,
+        "color": [
+          "rose",
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-14": {
+      "primary": {
+        "event_key": "StJohnCross",
+        "name": "Sancti Ioannis a Cruce, presbyteri et Ecclesiæ doctoris",
+        "grade": 3,
+        "grade_lcl": "Memoria obligatoria",
+        "season": "ADVENT",
+        "psalter_week": 3,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-15": {
+      "primary": {
+        "event_key": "AdventWeekday3Tuesday",
+        "name": "Feria III Hebdomadæ Tertiæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 3,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-16": {
+      "primary": {
+        "event_key": "AdventWeekday3Wednesday",
+        "name": "Feria IV Hebdomadæ Tertiæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 3,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-17": {
+      "primary": {
+        "event_key": "AdventWeekdayDec17",
+        "name": "Feria V Hebdomadæ Tertiæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 3,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-18": {
+      "primary": {
+        "event_key": "AdventWeekdayDec18",
+        "name": "Feria VI Hebdomadæ Tertiæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 3,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-19": {
+      "primary": {
+        "event_key": "Advent4_vigil",
+        "name": "Dominica Quarta Adventus Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ADVENT",
+        "psalter_week": 4,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-20": {
+      "primary": {
+        "event_key": "Advent4",
+        "name": "Dominica Quarta Adventus",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "ADVENT",
+        "psalter_week": 4,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-21": {
+      "primary": {
+        "event_key": "AdventWeekdayDec21",
+        "name": "Feria II Hebdomadæ Quartæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 4,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StPeterCanisius",
+          "name": "Sancti Petri Canisii, presbyteri et Ecclesiæ doctoris",
+          "grade": 1,
+          "grade_lcl": "commemoratio"
+        }
+      ]
+    },
+    "2026-12-22": {
+      "primary": {
+        "event_key": "AdventWeekdayDec22",
+        "name": "Feria III Hebdomadæ Quartæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 4,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-23": {
+      "primary": {
+        "event_key": "AdventWeekdayDec23",
+        "name": "Feria IV Hebdomadæ Quartæ Adventus",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "ADVENT",
+        "psalter_week": 4,
+        "color": [
+          "purple"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StJohnKanty",
+          "name": "Sancti Ioannis de Kęty, presbyteri",
+          "grade": 1,
+          "grade_lcl": "commemoratio"
+        }
+      ]
+    },
+    "2026-12-24": {
+      "primary": {
+        "event_key": "Christmas_vigil",
+        "name": "In Nativitate Domini Missa in Vigilia",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-25": {
+      "primary": {
+        "event_key": "Christmas",
+        "name": "In Nativitate Domini",
+        "grade": 7,
+        "grade_lcl": "celebratio altioris ordinis quam sollemnitatis",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-26": {
+      "primary": {
+        "event_key": "HolyFamily_vigil",
+        "name": "S. Familiæ Iesu, Mariæ et Joseph Missa in Vigilia",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-27": {
+      "primary": {
+        "event_key": "HolyFamily",
+        "name": "S. Familiæ Iesu, Mariæ et Joseph",
+        "grade": 5,
+        "grade_lcl": "FESTUM DOMINI",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-28": {
+      "primary": {
+        "event_key": "HolyInnocents",
+        "name": "Sanctorum Innocentium, martyrum",
+        "grade": 4,
+        "grade_lcl": "FESTUM",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "red"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-29": {
+      "primary": {
+        "event_key": "ChristmasWeekdayDec29",
+        "name": "Dies Quintus Octavæ Nativitatis",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StThomasBecket",
+          "name": "Sancti Thomæ Becket, episcopi et martyris",
+          "grade": 1,
+          "grade_lcl": "commemoratio"
+        }
+      ]
+    },
+    "2026-12-30": {
+      "primary": {
+        "event_key": "ChristmasWeekdayDec30",
+        "name": "Dies Sextus Octavæ Nativitatis",
+        "grade": 0,
+        "grade_lcl": "feria",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": []
+    },
+    "2026-12-31": {
+      "primary": {
+        "event_key": "MaryMotherOfGod_vigil",
+        "name": "SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ Missa in Vigilia",
+        "grade": 6,
+        "grade_lcl": "SOLLEMNITAS",
+        "season": "CHRISTMAS",
+        "psalter_week": 0,
+        "color": [
+          "white"
+        ]
+      },
+      "optional_alternatives": [
+        {
+          "event_key": "StSylvesterIPope",
+          "name": "Sancti Silvestri I, papæ",
+          "grade": 1,
+          "grade_lcl": "commemoratio"
+        }
+      ]
+    }
+  }
+}

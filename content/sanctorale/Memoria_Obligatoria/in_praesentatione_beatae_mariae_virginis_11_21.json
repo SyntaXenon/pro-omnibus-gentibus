@@ -1,0 +1,16 @@
+{
+  "id": "presentation_mary_11_21",
+  "titulus": "In Præsentatione Beatæ Mariæ Virginis",
+  "dies": "11-21",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "collecta": "Deus, qui beatam Mariam semper Virginem, Spiritus Sancti habitaculum, hodierna die in templo præsentari voluisti: præsta, quæsumus; ut, ejus intercessione, in templo gloriæ tuæ præsentari mereamur.",
+  "antiphonae_evangelicae": {
+    "benedictus": "Beáta es, María, quæ credidísti: perficiéntur in te quæ dicta sunt tibi a Dómino.",
+    "benedictus_es": "Bienaventurada tú, María, que has creído: se cumplirá en ti lo que te fue dicho de parte del Señor.",
+    "magnificat": "Beáta Dei Génetrix, María, Virgo perpétua, templum Dómini, sacrárium Spíritus Sancti, sola sine exémplo placuísti Dómino nostro Iesu Christo.",
+    "magnificat_es": "Bendita Madre de Dios, María, Virgen perpetua, templo del Señor, santuario del Espíritu Santo, tú sola, sin igual, agradaste a nuestro Señor Jesucristo."
+  },
+  "breviarium_id": "presentation_of_the_blessed_virgin_mary",
+  "commune_subsidiarium": "COMMON_BVM"
+}

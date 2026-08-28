@@ -1,0 +1,14 @@
+{
+  "id": "name_jesus_01_03",
+  "titulus": "Sanctissimi Nominis Iesu",
+  "dies": "01-03",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "ALBUS",
+  "collecta": "Deus, qui salutem humani generis in Verbi tui incarnatione fundasti, da populis tuis misericordiam quam deposcunt, ut sciant omnes non esse, quam Unigeniti tui, nomen aliud invocandum. Qui tecum.",
+  "antiphonae_evangelicae": {
+    "benedictus": "Dedit se, ut liberáret pópulum et acquíreret sibi nomen ætérnum.",
+    "benedictus_es": "Se entregó a sí mismo, para librar a su pueblo y adquirirse un nombre eterno.",
+    "magnificat": "Vocábis nomen eius Iesum; ipse enim salvum fáciet pópulum suum a peccátis eórum.",
+    "magnificat_es": "Le pondrás por nombre Jesús, porque él salvará a su pueblo de sus pecados."
+  }
+}

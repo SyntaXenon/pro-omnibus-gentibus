@@ -1,0 +1,16 @@
+{
+  "id": "sts_charles_lwanga_06_03",
+  "titulus": "Sanctorum Caroli Lwanga et sociorum, martyrum",
+  "dies": "06-03",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "RUBER",
+  "commune_subsidiarium": "COMMON_MARTYRS",
+  "collecta": "Deus, qui sánguinem mártyrum semen christianórum esse fecísti: concéde propítius; ut tuæ ager Ecclésiæ, beatórum Caróli eiúsque sociórum cruóre rigátus, in amplam tibi messem iúgiter fecundétur.",
+  "antiphonae_evangelicae": {
+    "benedictus": "Beáti qui persecutiónem patiúntur propter iustítiam, quóniam ipsórum est regnum cælórum.",
+    "benedictus_es": "Bienaventurados los que padecen persecución por la justicia, porque de ellos es el reino de los cielos.",
+    "magnificat": "Gaudent in cælis ánimæ sanctórum, qui Christi vestígia sunt secúti; et quia pro eius amóre sánguinem suum fudérunt, ídeo cum Christo exsúltant sine fine.",
+    "magnificat_es": "Se alegran en los cielos las almas de los santos, que siguieron las huellas de Cristo; y porque derramaron su sangre por su amor, exultan con Cristo sin fin."
+  },
+  "breviarium_id": "charles_lwanga_and_companions_martyrs"
+}

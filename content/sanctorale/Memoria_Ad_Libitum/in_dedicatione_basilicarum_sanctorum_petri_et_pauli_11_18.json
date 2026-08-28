@@ -1,0 +1,14 @@
+{
+  "id": "dedication_sts_peter_paul_11_18",
+  "titulus": "In Dedicatione basilicarum Sanctorum Petri et Pauli, apostolorum",
+  "dies": "11-18",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "ALBUS",
+  "collecta": "Deus, qui nobis per singulos annos hujus sancti templi tui consecrationis reparas diem, et sacris semper mysteriis repræsentas incolumes: exaudi preces populi tui, et præsta; ut quisquis hoc templum beneficia petiturus ingreditur, cuncta se impetrasse lætetur.",
+  "antiphonae_evangelicae": {
+    "magnificat": "Sanctificavit Dominus tabernaculum suum: quia hæc est domus Dei, in qua invocabitur nomen ejus, de quo scriptum est: Et erit nomen meum ibi, dicit Dominus.",
+    "benedictus": "O quam metuendus est locus iste: vere non est hic aliud, nisi domus Dei, et porta cæli.",
+    "benedictus_es": "Oh, cuán temible es este lugar: verdaderamente no es otra cosa que la casa de Dios y la puerta del cielo.",
+    "magnificat_es": "El Señor santificó su tabernáculo, porque esta es la casa de Dios, en la que será invocado su nombre, según está escrito: Allí estará mi nombre, dice el Señor."
+  }
+}

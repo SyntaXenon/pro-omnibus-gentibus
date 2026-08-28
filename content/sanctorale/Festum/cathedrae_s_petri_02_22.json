@@ -1,0 +1,86 @@
+{
+  "id": "chair_st_peter_02_22",
+  "titulus": "Cathedræ S. Petri, Apostoli",
+  "dies": "02-22",
+  "gradus": "FESTUM",
+  "color": "ALBUS",
+  "habet_primas_vesperas": false,
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Tu es Christus, Fílius Dei vivi. Et tu beátus es, Simon Bar Iona.",
+        "antiphona_es": "Tú eres el Cristo, el Hijo de Dios vivo. Y tú eres bienaventurado, Simón, hijo de Jonás.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "lectio_brevis_vesperarum": "heb 13:20-21",
+    "lectio_brevis_laudum": "acts 15:7-9",
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 115",
+        "antiphona": "Petre, amas me? Tu scis, Dómine, quia amo te. Pasce oves meas.",
+        "antiphona_es": "Pedro, ¿me amas? Señor, tú sabes que te amo. Apacienta mis ovejas."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 125",
+        "antiphona": "Petrus servabátur in cárcere, et orátio fiébat pro eo sine intermissióne ab Ecclésia ad Deum.",
+        "antiphona_es": "Pedro estaba custodiado en la cárcel, y la Iglesia oraba sin cesar a Dios por él."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "eph 1:3-10",
+        "antiphona": "Tu es Petrus, et super hanc petram ædificábo Ecclésiam meam.",
+        "antiphona_es": "Tú eres Pedro, y sobre esta piedra edificaré mi Iglesia."
+      }
+    ]
+  },
+  "antiphonae_evangelicae": {
+    "magnificat": "Tu es pastor óvium, * Princeps Apostolórum, tibi tráditæ sunt claves regni cælórum.",
+    "benedictus": "Quodcúmque * ligáveris super terram, erit ligátum et in cælis; et quodcúmque sólveris super terram, erit solútum et in cælis: dicit Dóminus Simóni Petro.",
+    "benedictus_es": "Todo lo que ates en la tierra quedará atado en el cielo, y todo lo que desates en la tierra quedará desatado en el cielo: dice el Señor a Simón Pedro.",
+    "magnificat_es": "Tú eres el pastor de las ovejas, Príncipe de los Apóstoles; a ti te fueron entregadas las llaves del reino de los cielos."
+  },
+  "collecta": "Deus, qui beato Petro Apostolo tuo, collatis clavibus regni cælestis, ligandi atque solvendi pontificium tradidisti: concede; ut, intercessionis ejus auxilio, a peccatorum nostrorum nexibus liberemur.",
+  "breviarium_id": "chair_of_saint_peter_the_apostle"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "sts_pontian_hippolytus_08_13",
+  "titulus": "Sanctorum Pontiani, papæ, et Hippolyti, presbyteri, martyrum",
+  "dies": "08-13",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "RUBER",
+  "commune_subsidiarium": "COMMON_MARTYRS",
+  "officium_lectionis": {
+    "lectio_altera": {
+      "auctor": "Homilía sancti Gregórii Papæ",
+      "titulus": "Homil. 37 in Evangelia",
+      "textus": "Si considerémus fratres caríssimi, quæ et quanta sunt, quæ nobis promittúntur in cælis, viléscunt ánimo ómnia quæ habéntur in terris. Terréna namque substántia supérnæ felicitáti comparáta, pondus est, non subsídium. Temporális vita ætérnæ vitæ comparáta, mors est pótius dicénda quam vita. Ipse enim quotidiánus deféctus corruptiónis quid est áliud, quam quædam prolíxitas mortis? Quæ autem lingua dícere, vel quis intelléctus cápere súfficit, illa supérnæ civitátis quanta sint gáudia; Angelórum choris interésse, cum beatíssimis spirítibus glóriæ Conditóris assístere, præséntem Dei vultum cérnere, incircumscríptum lumen vidére, nullo mortis metu áffici, incorruptiónis perpétuæ múnere lætári? Sed ad hæc audíta inardéscit ánimus, jamque illic cupit assístere, ubi se sperat sine fine gaudére. Sed ad magna prǽmia perveníri non potest, nisi per magnos labóres. Unde et Paulus egrégius prædicátor dicit: Non coronábitur, nisi qui legítime certáverit. Deléctet ergo mentem magnitúdo præmiórum, sed non detérreat certámen labórum. Unde ad se veniéntibus Véritas dicit: Si quis venit ad me, et non odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres, adhuc autem et ánimam suam, non potest meus esse discípulus."
+    },
+    "responsorium_alterum": {
+      "textus": "℟. Hic est vere Martyr, qui pro Christi nómine sánguinem suum fudit: * Qui minas júdicum non tímuit, nec terrénæ dignitátis glóriam quæsívit, sed ad cæléstia regna pervénit. V. Justum dedúxit Dóminus per vias rectas, et osténdit illi regnum Dei.",
+      "versus_repetitus": "℣. Justum dedúxit Dóminus per vias rectas, et osténdit illi regnum Dei."
+    }
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Vestri capilli capitis omnes numerati sunt: nolite timere: multis passeribus meliores estis vos.",
+    "magnificat": "Iste sanctus pro lege Dei sui certavit usque ad mortem, et a verbis impiorum non timuit: fundatus enim erat supra firmam petram.",
+    "benedictus_es": "Hasta los cabellos de vuestra cabeza están todos contados: no temáis, vosotros valéis más que muchos pajarillos.",
+    "magnificat_es": "Este santo luchó hasta la muerte por la ley de su Dios, y no temió las palabras de los impíos, porque estaba cimentado sobre roca firme."
+  },
+  "propria": {
+    "capitulum_laudum": "Jac 1:12: Beátus vir, qui suffert tentatiónem: quóniam cum probátus fúerit, accípiet corónam vitæ, quam repromísit Deus diligéntibus se.",
+    "capitulum_vesperarum": "Jac 1:12: Beátus vir, qui suffert tentatiónem: quóniam cum probátus fúerit, accípiet corónam vitæ, quam repromísit Deus diligéntibus se."
+  },
+  "collecta": "Da, quǽsumus, omnípotens Deus: ut beatórum Mártyrum tuórum Hippolýti et Cassiáni veneránda sollémnitas, et devotiónem nobis áugeat et salútem."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "st_augustine_hippo_08_28",
+  "titulus": "Sancti Augustini, episcopi et Ecclesiæ doctoris",
+  "dies": "08-28",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_PASTORS_DOCTORS",
+  "collecta": "Innova, quǽsumus, Dómine, in Ecclésia tua spíritum quo beátum Augustínum, epíscopum, imbuísti, ut, eódem nos repléti, te solum veræ fontem sapiéntiæ sitiámus et supérni amóris quærámus auctórem. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+  "officium_lectionis": {
+    "lectio_altera": {
+      "auctor": "Homilía sancti Gregórii Papæ",
+      "titulus": "Homilia 9 in Evangelia",
+      "textus": "Léctio sancti Evangélii, fratres caríssimi, solícite consideráre nos ádmonet, ne nos, qui plus céteris in hoc mundo accepísse áliquid cérnimur, ab Auctóre mundi grávius inde judicémur. Cum enim augéntur dona, ratiónes étiam crescunt donórum. Tanto ergo esse humílior atque ad serviéndum Deo prómptior quisque debet ex múnere, quanto se obligatiórem esse cónspicit in reddénda ratióne. Ecce homo, qui péregre proficíscitur, servos suos vocat, eisque ad negótium talénta partítur. Post multum vero témporis positúrus ratiónem revértitur: bene operántes pro apportáto lucro remúnerat, servum vero a bono ópere torpéntem damnat. Quis ítaque iste homo est qui péregre proficíscitur, nisi Redémptor noster, qui, in ea carne quam assúmpserat, ábiit in cælum? Carnis enim locus próprius terra est; quæ quasi ad peregrína dúcitur, dum per Redemptórem nostrum in cælo collocátur. Sed homo iste, péregre proficíscens, servis suis bona sua trádidit; quia fidélibus suis spirituália dona concéssit. Et uni quidem quinque talénta, álii duo, álii vero commísit unum. Quinque étenim sunt córporis sensus, vidélicet: visus, audítus, gustus, odorátus et tactus. Quinque ergo taléntis, donum quinque sénsuum, id est, exteriórum sciéntia, exprímitur. Duóbus vero, intelléctus et operátio designátur. Uníus autem talénti nómine, intelléctus tantúmmodo designátur."
+    }
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Tu éxcitas, Dómine, ut laudáre te deléctet, quia fecísti nos ad te; et inquiétum est cor nostrum donec requiéscat in te.",
+    "benedictus_es": "Tú nos mueves, Señor, a que nos deleite alabarte, porque nos hiciste para ti, y nuestro corazón está inquieto hasta que descanse en ti.",
+    "magnificat": "Sero te amávi, pulchritúdo tam antíqua et tam nova, sero te amávi. Vocásti et clamásti et rupísti surditátem meam.",
+    "magnificat_es": "Tarde te amé, hermosura tan antigua y tan nueva, tarde te amé. Tú me llamaste, gritaste, y rompiste mi sordera."
+  },
+  "breviarium_id": "augustine_of_hippo_bishop",
+  "source_note": "Magnificat/Benedictus antiphons (both famous direct quotations from Augustine's own Confessions - 'sero te amavi' Bk X and 'fecisti nos ad te' Bk I) and the Latin collect were previously the wrong shared COMMON_PASTORS_DOCTORS placeholder / an old generic confessor-bishop formula respectively, neither proper to Augustine. Corrected via live comparison against universalis.com (2026-08-28 Latin edition) - collect now matches the already-correct Spanish oracion_final almost verbatim. Spanish antiphon translations are the standard, well-attested renderings of these two iconic quotations."
+}

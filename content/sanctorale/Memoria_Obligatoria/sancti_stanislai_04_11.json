@@ -1,0 +1,16 @@
+{
+  "id": "st_stanislaus_04_11",
+  "titulus": "Sancti Stanislai, episcopi et martyris",
+  "dies": "04-11",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "RUBER",
+  "commune_subsidiarium": "COMMON_MARTYRS",
+  "collecta": "Deus, pro cujus honóre beátus epíscopus Stanislaus gládiis persecutórum occúbuit: præsta, quǽsumus; ut fortes in fide usque ad mortem persevéráre valeámus.",
+  "antiphonae_evangelicae": {
+    "benedictus": "Gaudéte et exsultáte, omnes sancti, quóniam merces vestra copiósa est in cælis, allelúia.",
+    "benedictus_es": "Alegraos y regocijaos, todos los santos, porque vuestra recompensa es abundante en los cielos, aleluya.",
+    "magnificat": "Nisi granum fruménti cadens in terram mórtuum fúerit, ipsum solum manet; si autem mórtuum fúerit, multum fructum affert, allelúia.",
+    "magnificat_es": "Si el grano de trigo que cae en tierra no muere, queda solo; pero si muere, da mucho fruto, aleluya."
+  },
+  "breviarium_id": "stanislaus_of_szczepanow_bishop"
+}

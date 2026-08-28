@@ -1,0 +1,112 @@
+{
+  "_note": "Universal, invariant texts recited identically every day - low transcription risk since they are fixed formulas said continuously across the whole Church, unlike proper antiphons/collects.",
+  "deus_in_adiutorium": {
+    "la": "℣. Deus, in adiutorium meum intende.\n℟. Domine, ad adiuvandum me festina.\n℣. Gloria Patri, et Filio, et Spiritui Sancto.\n℟. Sicut erat in principio, et nunc, et semper, et in sæcula sæculorum.\nAmen. Alleluia.",
+    "es": "℣. Dios mío, ven en mi auxilio.\n℟. Señor, date prisa en socorrerme.\n℣. Gloria al Padre, y al Hijo, y al Espíritu Santo.\n℟. Como era en el principio, ahora y siempre, por los siglos de los siglos.\nAmén. Aleluya.",
+    "en": "℣. O God, come to my assistance.\n℟. O Lord, make haste to help me.\n℣. Glory to the Father, and to the Son, and to the Holy Spirit.\n℟. As it was in the beginning, is now, and ever shall be, unto the ages of ages.\nAmen. Alleluia."
+  },
+  "our_father": {
+    "la": [
+      "Pater noster, qui es in cælis:",
+      "sanctificetur nomen tuum;",
+      "adveniat regnum tuum;",
+      "fiat voluntas tua, sicut in cælo, et in terra.",
+      "Panem nostrum cotidianum da nobis hodie;",
+      "et dimitte nobis debita nostra,",
+      "sicut et nos dimittimus debitoribus nostris;",
+      "et ne nos inducas in tentationem;",
+      "sed libera nos a malo.",
+      "Amen."
+    ],
+    "es": [
+      "Padre nuestro, que estás en el cielo,",
+      "santificado sea tu Nombre;",
+      "venga a nosotros tu reino;",
+      "hágase tu voluntad en la tierra como en el cielo.",
+      "Danos hoy nuestro pan de cada día;",
+      "perdona nuestras ofensas,",
+      "como también nosotros perdonamos a los que nos ofenden;",
+      "no nos dejes caer en la tentación,",
+      "y líbranos del mal.",
+      "Amén."
+    ],
+    "en": [
+      "Our Father, who art in heaven,",
+      "hallowed be thy name;",
+      "thy kingdom come;",
+      "thy will be done on earth as it is in heaven.",
+      "Give us this day our daily bread;",
+      "and forgive us our trespasses,",
+      "as we forgive those who trespass against us;",
+      "and lead us not into temptation,",
+      "but deliver us from evil.",
+      "Amen."
+    ],
+    "_note": "Line index 4 (the 'daily bread' line) has two traditional Latin variants (cotidianum/supersubstantialem, Luke's vs. Matthew's Vulgate rendering of epiousios) - see our_father_bread_variants below, which the Settings tab's Pater Noster toggle swaps in client-side, in all three languages."
+  },
+  "our_father_bread_variants": {
+    "cotidianum": {
+      "la": "Panem nostrum cotidianum da nobis hodie;",
+      "es": "Danos hoy nuestro pan de cada día;",
+      "en": "Give us this day our daily bread;"
+    },
+    "supersubstantialem": {
+      "la": "Panem nostrum supersubstantialem da nobis hodie;",
+      "es": "Danos hoy nuestro pan supersustancial;",
+      "en": "Give us this day our supersubstantial bread;"
+    }
+  },
+  "dismissal_vespers_lauds": {
+    "la": "℣. Benedicamus Domino.\n℟. Deo gratias.",
+    "es": "℣. Bendigamos al Señor.\n℟. Demos gracias a Dios.",
+    "en": "℣. Let us bless the Lord.\n℟. Thanks be to God."
+  },
+  "compline_responsory": {
+    "la": "℣. In manus tuas, Domine, commendo spiritum meum.\n℟. In manus tuas, Domine, commendo spiritum meum.\n℣. Redemisti nos, Domine Deus veritatis.\n℟. Commendo spiritum meum.\n℣. Gloria Patri, et Filio, et Spiritui Sancto.\n℟. In manus tuas, Domine, commendo spiritum meum.",
+    "es": "℣. A tus manos, Señor, encomiendo mi espíritu.\n℟. A tus manos, Señor, encomiendo mi espíritu.\n℣. Tú, el Dios leal, nos librarás.\n℟. Encomiendo mi espíritu.\n℣. Gloria al Padre, y al Hijo, y al Espíritu Santo.\n℟. A tus manos, Señor, encomiendo mi espíritu.",
+    "en": "℣. Into your hands, Lord, I commend my spirit.\n℟. Into your hands, Lord, I commend my spirit.\n℣. You have redeemed us, Lord God of truth.\n℟. I commend my spirit.\n℣. Glory to the Father, and to the Son, and to the Holy Spirit.\n℟. Into your hands, Lord, I commend my spirit."
+  },
+  "compline_dismissal": {
+    "la": "℣. Noctem quietam et finem perfectum concedat nobis Dominus omnipotens.\n℟. Amen.",
+    "es": "℣. El Señor todopoderoso nos conceda una noche tranquila y una santa muerte.\n℟. Amén.",
+    "en": "℣. May the all-powerful Lord grant us a restful night and a peaceful death.\n℟. Amen."
+  },
+  "compline_concluding_prayer": {
+    "_note": "Sunday = post II Vesperas dominicae (regular Sunday night). Saturday = post I Vesperas dominicae (Saturday night, before Sunday) - a distinct text from Sunday's, not a duplicate.",
+    "sunday": {
+      "la": "Vox nostra te, Domine, humiliter deprecetur, ut, dominicæ resurrectionis hac die mysterio celebrato, in pace tua securi a malis omnibus quiescamus, et in tua resurgamus laude gaudentes. Per Christum Dominum nostrum.",
+      "es": "Humildemente te pedimos, Señor, que después de haber celebrado en este día los misterios de la resurrección de tu Hijo, sin temor alguno, descansemos en tu paz y mañana nos levantemos alegres para cantar nuevamente tus alabanzas. Por Jesucristo nuestro Señor.",
+      "en": "Lord, we have celebrated today the mystery of the rising of Christ to new life. May we now rest in peace, safe from all that could harm us, and rise again refreshed and joyful to praise you throughout another day. We ask this through Christ our Lord."
+    },
+    "monday": {
+      "la": "Quietem, Domine, corporibus nostris tribue salutarem, et quæ fudimus hodie semina per laborem, fac ut messem germinent sempiternam. Per Christum Dominum nostrum.",
+      "es": "Concede, Señor, a nuestros cuerpos fatigados el descanso necesario, y haz que la simiente del reino, que con nuestro trabajo hemos sembrado hoy, crezca y germine para la cosecha de la vida eterna. Por Jesucristo nuestro Señor.",
+      "en": "Lord, give our bodies restful sleep and let the work we have done today bear fruit in eternal life."
+    },
+    "tuesday": {
+      "la": "Noctem istam, quæsumus, Domine, benignus illumina, et ita fac in pace nos tuos famulos obdormire, ut læti ad novi diei claritatem in tuo nomine suscitemur. Per Christum Dominum nostrum.",
+      "es": "Ilumina, Señor, nuestra noche y concédenos un descanso tranquilo; que mañana nos levantemos en tu nombre y podamos contemplar, con salud y gozo, el clarear del nuevo día. Por Jesucristo nuestro Señor.",
+      "en": "Lord, fill this night with your radiance. May we sleep in peace and rise with joy to welcome the light of a new day in your name. We ask this through Christ our Lord."
+    },
+    "wednesday": {
+      "la": "Domine Iesu Christe, qui iugum suave te sequentibus onusque leve perhibes mitis et humilis, dignare huius diei vota et opera nostra suscipere, et quietem tribuere, qua tuo nos facias servitio promptiores. Qui vivis et regnas in sæcula sæculorum.",
+      "es": "Señor Jesucristo, que eres manso y humilde de corazón y ofreces a los que vienen a ti un yugo llevadero y una carga ligera, dígnate, pues, aceptar los deseos y las acciones del día que hemos terminado; que podamos descansar durante la noche para que así, renovado nuestro cuerpo y nuestro espíritu, perseveremos constantes en tu servicio. Tú que vives y reinas por los siglos de los siglos.",
+      "en": "Lord Jesus Christ, you have given your followers an example of gentleness and humility, a task that is easy, a burden that is light. Accept the prayers and work of this day, and give us the rest that will strengthen us to render more faithful service to you, who live and reign for ever and ever."
+    },
+    "thursday": {
+      "la": "Domine Deus noster, diurno labore fatigatos, quieto sopore nos refove, ut, tuo semper auxilio recreati, tibi corpore simus et mente devoti. Per Christum Dominum nostrum.",
+      "es": "Señor, Dios nuestro, concédenos un descanso tranquilo que restaure nuestras fuerzas, desgastadas ahora por el trabajo del día; así, fortalecidos con tu ayuda, te serviremos siempre con todo nuestro cuerpo y nuestro espíritu. Por Jesucristo nuestro Señor.",
+      "en": "Lord God, send peaceful sleep to refresh our tired bodies. May your help always renew us and keep us strong in your service. We ask this through Christ our Lord."
+    },
+    "friday": {
+      "la": "Concede nos, omnipotens Deus, ita sepulto Unigenito tuo fideliter inhærere, ut cum ipso in novitate vitæ resurgere mereamur. Qui vivit et regnat in sæcula sæculorum.",
+      "es": "Señor, Dios todopoderoso: ya que con nuestro descanso vamos a imitar a tu Hijo que reposó en el sepulcro, te pedimos que, al levantarnos mañana, le imitemos también resucitando a una vida nueva. Por Jesucristo nuestro Señor.",
+      "en": "All-powerful God, keep us united with your Son in his death and burial so that we may rise to new life with him, who lives and reigns for ever and ever."
+    },
+    "saturday": {
+      "la": "Visita nos, quæsumus, Domine, hac nocte præsenti, ut, diluculo tua virtute surgentes, de resurrectione Christi tui gaudere valeamus. Qui vivit et regnat in sæcula sæculorum.",
+      "es": "Guárdanos, Señor, durante esta noche y haz que mañana, ya al clarear el nuevo día, la celebración del domingo nos llene con la alegría de la resurrección de tu Hijo. Que vive y reina por los siglos de los siglos. Amén.",
+      "en": "Lord, be with us throughout this night. When day comes may we rise from sleep to rejoice in the resurrection of your Christ, who lives and reigns for ever and ever."
+    }
+  }
+}

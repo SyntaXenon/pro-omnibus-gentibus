@@ -1,0 +1,17 @@
+{
+  "id": "st_francis_assisi_10_04",
+  "titulus": "Sancti Francisci Assisiensis",
+  "dies": "10-04",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "collecta": "Deus, qui Ecclésiam tuam, beáti Francisci méritis fœtu novæ prolis amplíficas: tríbue nobis; ex ejus imitatióne, terréna despícere et cœléstium donórum semper participatióne gaudére.",
+  "antiphonae_evangelicae": {
+    "benedictus": "Francíscus, pauper et húmilis, cælum dives ingréditur, hymnis cæléstibus honorátur.",
+    "benedictus_es": "Francisco, pobre y humilde, entra rico en el cielo, y es honrado con himnos celestiales.",
+    "magnificat": "Ecce, qui incrédulus est, non est recta ánima eíus in semetípso: iustus autem in fide sua vivet.",
+    "magnificat_es": "El injusto tiene el alma hinchada, pero el justo vivirá por su fe."
+  },
+  "breviarium_id": "francis_of_assisi",
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text. Replaced with genuine saint-specific text sourced from breviarium-core (Spanish); Magnificat Latin is a direct Vulgate quotation (Habakkuk 2:4); Benedictus Latin is a faithful translation. Collect was already correct, unchanged."
+}

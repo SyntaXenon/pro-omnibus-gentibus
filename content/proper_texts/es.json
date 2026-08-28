@@ -1,0 +1,643 @@
+{
+  "_note": "Antiphons below (vespers_*/lauds_*/compline_*) are original Spanish translations of the Latin antiphons in la.json, produced for this project - NOT the official CEE/Liturgia de las Horas wording, which remains under copyright. Short readings, responsories, and concluding prayers (collects) are still not sourced - remaining placeholders are deliberately obvious, not invented text.",
+  "vespers_wk1_monday_ant1": {
+    "antiphon": "Que el Señor te escuche en el día de la tribulación."
+  },
+  "vespers_wk1_monday_ant2": {
+    "antiphon": "Cantaremos y salmodiaremos tus proezas, Señor."
+  },
+  "vespers_wk1_monday_magnificat_ant": {
+    "antiphon": "Mi espíritu se alegra en Dios, mi salvador."
+  },
+  "lauds_wk1_monday_ant1": {
+    "antiphon": "El de manos inocentes y corazón limpio subirá al monte del Señor."
+  },
+  "lauds_wk1_monday_ant3": {
+    "antiphon": "A los rectos les sienta bien la alabanza."
+  },
+  "lauds_wk1_monday_benedictus_ant": {
+    "antiphon": "El Señor nos alzó una fuerza de salvación en la casa de David, su siervo."
+  },
+  "vespers_wk1_wednesday_ant1": {
+    "antiphon": "El Señor es mi luz y mi salvación."
+  },
+  "vespers_wk1_wednesday_ant2": {
+    "antiphon": "Sé tú mi ayuda, oh Dios; no me abandones."
+  },
+  "vespers_wk1_wednesday_magnificat_ant": {
+    "antiphon": "Porque el Poderoso ha hecho en mí grandes cosas, y santo es su nombre."
+  },
+  "lauds_wk1_wednesday_ant1": {
+    "antiphon": "Señor, en el cielo está tu misericordia."
+  },
+  "lauds_wk1_wednesday_ant3": {
+    "antiphon": "Dios es el rey de toda la tierra: cantadle con maestría."
+  },
+  "lauds_wk1_wednesday_benedictus_ant": {
+    "antiphon": "Acuérdate, Señor, de tu santa alianza, y realiza en nosotros la redención."
+  },
+  "vespers_wk1_thursday_ant1": {
+    "antiphon": "Sana, Señor, mi alma, porque he pecado contra ti."
+  },
+  "vespers_wk1_thursday_ant2": {
+    "antiphon": "Ayuda en las tribulaciones."
+  },
+  "vespers_wk1_thursday_magnificat_ant": {
+    "antiphon": "Dios acogió a Israel su siervo, conforme lo había prometido a Abraham y a su descendencia: para exaltar a los humildes por siempre."
+  },
+  "lauds_wk1_thursday_ant1": {
+    "antiphon": "Despierta, arpa y cítara: yo despertaré al alba."
+  },
+  "lauds_wk1_thursday_ant3": {
+    "antiphon": "Aclamad a Dios, toda la tierra."
+  },
+  "lauds_wk1_thursday_benedictus_ant": {
+    "antiphon": "El Señor visitó y redimió a su pueblo."
+  },
+  "lauds_wk1_saturday_ant1": {
+    "antiphon": "Desde el alba te busco, oh Dios."
+  },
+  "lauds_wk1_saturday_ant3": {
+    "antiphon": "Alabad al Señor, todas las naciones."
+  },
+  "lauds_wk1_saturday_benedictus_ant": {
+    "antiphon": "Ilumina, Señor, a los que yacen en tinieblas, y guía nuestros pasos por el camino de la paz, Dios de Israel."
+  },
+  "vespers_wk2_monday_ant1": {
+    "antiphon": "Escuchad, los que habitáis el orbe."
+  },
+  "vespers_wk2_monday_ant2": {
+    "antiphon": "Libraste, Señor, mi alma de la muerte."
+  },
+  "vespers_wk2_monday_magnificat_ant": {
+    "antiphon": "El Señor miró la humildad de su esclava, y el Poderoso hizo en mí grandes cosas."
+  },
+  "lauds_wk2_monday_ant1": {
+    "antiphon": "Salvación de mi rostro, Dios mío."
+  },
+  "lauds_wk2_monday_ant3": {
+    "antiphon": "A ti conviene el himno, oh Dios, en Sion."
+  },
+  "lauds_wk2_monday_benedictus_ant": {
+    "antiphon": "De la mano de todos los que nos odian, líbranos, Señor."
+  },
+  "vespers_wk2_wednesday_ant1": {
+    "antiphon": "¿No estará mi alma sumisa a Dios?"
+  },
+  "vespers_wk2_wednesday_ant2": {
+    "antiphon": "Que Dios tenga piedad de nosotros y nos bendiga."
+  },
+  "vespers_wk2_wednesday_magnificat_ant": {
+    "antiphon": "Muestra, oh Dios, el poder de tu brazo, dispersa a los soberbios y exalta a los humildes."
+  },
+  "lauds_wk2_wednesday_ant1": {
+    "antiphon": "Oh Dios, santo es tu camino: ¿qué dios hay tan grande como nuestro Dios?"
+  },
+  "lauds_wk2_wednesday_ant3": {
+    "antiphon": "El Señor reina, alégrese la tierra."
+  },
+  "lauds_wk2_wednesday_benedictus_ant": {
+    "antiphon": "Libres, sirvamos al Señor nuestro Dios en santidad."
+  },
+  "vespers_wk2_thursday_ant1": {
+    "antiphon": "El Señor inclinó su oído hacia mí."
+  },
+  "vespers_wk2_thursday_ant2": {
+    "antiphon": "Mi auxilio viene del Señor, que hizo el cielo y la tierra."
+  },
+  "vespers_wk2_thursday_magnificat_ant": {
+    "antiphon": "Como lo prometiste a nuestros padres, Señor, acuérdate de tu misericordia."
+  },
+  "lauds_wk2_thursday_ant1": {
+    "antiphon": "Despierta, Señor, tu poder, y ven a salvarnos."
+  },
+  "lauds_wk2_thursday_ant3": {
+    "antiphon": "Alaba, Jerusalén, al Señor."
+  },
+  "lauds_wk2_thursday_benedictus_ant": {
+    "antiphon": "Por la entrañable misericordia de nuestro Dios, nos visitó el sol naciente de lo alto."
+  },
+  "lauds_wk2_saturday_ant1": {
+    "antiphon": "Cuán grandes son tus obras, Señor."
+  },
+  "lauds_wk2_saturday_ant3": {
+    "antiphon": "Cuán admirable es tu nombre, Señor, en toda la tierra."
+  },
+  "lauds_wk2_saturday_benedictus_ant": {
+    "antiphon": "Guíanos, Señor, por el camino de la paz."
+  },
+  "vespers_wk3_monday_ant1": {
+    "antiphon": "Y el Señor rodea a su pueblo."
+  },
+  "vespers_wk3_monday_ant2": {
+    "antiphon": "Señor, no se ha engreído mi corazón."
+  },
+  "vespers_wk3_monday_magnificat_ant": {
+    "antiphon": "Mi espíritu se alegra en Dios, mi salvador."
+  },
+  "lauds_wk3_monday_ant1": {
+    "antiphon": "Bendijiste, Señor, tu tierra."
+  },
+  "lauds_wk3_monday_ant3": {
+    "antiphon": "Dios mío, mi ayuda, en él esperaré. Mi refugio y mi libertador."
+  },
+  "lauds_wk3_monday_benedictus_ant": {
+    "antiphon": "El Señor nos alzó una fuerza de salvación en la casa de David, su siervo."
+  },
+  "vespers_wk3_wednesday_ant1": {
+    "antiphon": "Cambia, Señor, nuestra suerte, como los torrentes del Négueb."
+  },
+  "vespers_wk3_wednesday_ant2": {
+    "antiphon": "Si tú, Señor, no nos guardas, en vano vigilan nuestros ojos."
+  },
+  "vespers_wk3_wednesday_magnificat_ant": {
+    "antiphon": "Porque el Poderoso ha hecho en mí grandes cosas, y santo es su nombre."
+  },
+  "lauds_wk3_wednesday_ant1": {
+    "antiphon": "Inclina, Señor, tu oído y escúchame."
+  },
+  "lauds_wk3_wednesday_ant3": {
+    "antiphon": "Porque el Señor ha hecho maravillas."
+  },
+  "lauds_wk3_wednesday_benedictus_ant": {
+    "antiphon": "Acuérdate, Señor, de tu santa alianza, y realiza en nosotros la redención."
+  },
+  "vespers_wk3_thursday_ant1": {
+    "antiphon": "Todo cuanto quiso, lo hizo el Señor."
+  },
+  "vespers_wk3_thursday_ant2": {
+    "antiphon": "Y el Señor se compadecerá de sus siervos."
+  },
+  "vespers_wk3_thursday_magnificat_ant": {
+    "antiphon": "Dios acogió a Israel su siervo, conforme lo había prometido a Abraham y a su descendencia: para exaltar a los humildes por siempre."
+  },
+  "lauds_wk3_thursday_ant1": {
+    "antiphon": "De ti se dicen cosas gloriosas, ciudad de Dios."
+  },
+  "lauds_wk3_thursday_ant3": {
+    "antiphon": "Servid al Señor con alegría."
+  },
+  "lauds_wk3_thursday_benedictus_ant": {
+    "antiphon": "El Señor visitó y redimió a su pueblo."
+  },
+  "lauds_wk3_saturday_ant1": {
+    "antiphon": "Por la mañana, Señor, meditaré en ti."
+  },
+  "lauds_wk3_saturday_ant3": {
+    "antiphon": "La verdad del Señor permanece para siempre."
+  },
+  "lauds_wk3_saturday_benedictus_ant": {
+    "antiphon": "Ilumina, Señor, a los que yacen en tinieblas, y guía nuestros pasos por el camino de la paz, Dios de Israel."
+  },
+  "vespers_wk4_monday_ant1": {
+    "antiphon": "Cantadnos un himno de los cánticos de Sion."
+  },
+  "vespers_wk4_monday_ant2": {
+    "antiphon": "En presencia de los ángeles te cantaré salmos, Dios mío."
+  },
+  "vespers_wk4_monday_magnificat_ant": {
+    "antiphon": "Me llenarás de gozo con tu rostro, Señor. El Señor miró mi humildad, y el Poderoso hizo en mí grandes cosas."
+  },
+  "lauds_wk4_monday_ant1": {
+    "antiphon": "Cantaré y entonaré un salmo al Señor."
+  },
+  "lauds_wk4_monday_ant3": {
+    "antiphon": "A ti conviene el himno, oh Dios, en Sion."
+  },
+  "lauds_wk4_monday_benedictus_ant": {
+    "antiphon": "De la mano de todos los que nos odian, líbranos, Señor."
+  },
+  "vespers_wk4_wednesday_ant1": {
+    "antiphon": "Señor, tú me has sondeado y me conoces."
+  },
+  "vespers_wk4_wednesday_ant2": {
+    "antiphon": "Guíame por el camino eterno."
+  },
+  "vespers_wk4_wednesday_magnificat_ant": {
+    "antiphon": "Muestra, oh Dios, el poder de tu brazo, dispersa a los soberbios y exalta a los humildes."
+  },
+  "lauds_wk4_wednesday_ant1": {
+    "antiphon": "Mi corazón está firme, oh Dios, mi corazón está firme."
+  },
+  "lauds_wk4_wednesday_ant3": {
+    "antiphon": "Alabaré a mi Dios mientras viva."
+  },
+  "lauds_wk4_wednesday_benedictus_ant": {
+    "antiphon": "Libres, sirvamos al Señor nuestro Dios en santidad."
+  },
+  "vespers_wk4_thursday_ant1": {
+    "antiphon": "Cada día te bendeciré, Señor."
+  },
+  "vespers_wk4_thursday_ant2": {
+    "antiphon": "El Señor guarda a todos los que le aman."
+  },
+  "vespers_wk4_thursday_magnificat_ant": {
+    "antiphon": "Como lo prometiste a nuestros padres, Señor, acuérdate de tu misericordia."
+  },
+  "lauds_wk4_thursday_ant1": {
+    "antiphon": "Hazme sentir, Señor, tu misericordia por la mañana."
+  },
+  "lauds_wk4_thursday_ant3": {
+    "antiphon": "Bendijo a tus hijos dentro de ti."
+  },
+  "lauds_wk4_thursday_benedictus_ant": {
+    "antiphon": "Por la entrañable misericordia de nuestro Dios, nos visitó el sol naciente de lo alto."
+  },
+  "lauds_wk4_saturday_ant1": {
+    "antiphon": "Bueno es dar gracias al Señor."
+  },
+  "lauds_wk4_saturday_ant3": {
+    "antiphon": "De la boca de los niños y de los que maman hiciste brotar la alabanza perfecta, Señor Dios."
+  },
+  "lauds_wk4_saturday_benedictus_ant": {
+    "antiphon": "Guíanos, Señor, por el camino de la paz."
+  },
+  "compline_nunc_dimittis_ant": {
+    "antiphon": "Sálvanos, Señor, mientras velamos; guárdanos mientras dormimos, para que velemos con Cristo y descansemos en paz."
+  },
+  "compline_monday_ant1": {
+    "antiphon": "Atiende a la voz de mi oración."
+  },
+  "compline_tuesday_ant1": {
+    "antiphon": "No entres en juicio con tu siervo, Señor."
+  },
+  "compline_wednesday_ant1": {
+    "antiphon": "Sé para mí, Señor, un Dios protector."
+  },
+  "compline_wednesday_ant2": {
+    "antiphon": "Desde lo hondo a ti grito, Señor."
+  },
+  "compline_thursday_ant1": {
+    "antiphon": "Mi carne descansará en la esperanza."
+  },
+  "compline_friday_ant1": {
+    "antiphon": "Señor, Dios de mi salvación, de día y de noche clamo ante ti."
+  },
+  "vespers_i_wk1_ant1": {
+    "antiphon": "Señor, a ti clamé, escúchame."
+  },
+  "vespers_i_wk1_ant2": {
+    "antiphon": "Que mi porción, oh Señor, esté en la tierra de los vivientes."
+  },
+  "vespers_i_wk1_ant3": {
+    "antiphon": "El Señor Jesús se humilló a sí mismo, por lo que también Dios lo exaltó para siempre."
+  },
+  "vespers_i_wk1_magnificat_ant": {
+    "antiphon": "Cuán magnificadas son tus obras, Señor. Lo has hecho todo con sabiduría."
+  },
+  "vespers_ii_wk1_ant1": {
+    "antiphon": "El Señor enviará desde Sion la vara de tu fortaleza, para gobernar en medio de tus enemigos."
+  },
+  "vespers_ii_wk1_ant2": {
+    "antiphon": "Tú nos sacaste de Egipto, Señor."
+  },
+  "vespers_ii_wk1_magnificat_ant": {
+    "antiphon": "Bendito eres, Señor, en el firmamento de los cielos. Y digno de alabanza y gloria por siempre."
+  },
+  "lauds_sunday_wk1_ant1": {
+    "antiphon": "Te miro desde la luz, oh Dios, para ver tu poder."
+  },
+  "lauds_sunday_wk1_ant2": {
+    "antiphon": "Cantemos un himno al Señor nuestro Dios, aleluya."
+  },
+  "lauds_sunday_wk1_ant3": {
+    "antiphon": "Los hijos de Sión se alegrarán en su rey, aleluya."
+  },
+  "lauds_sunday_wk1_benedictus_ant": {
+    "antiphon": "Cristo, Hijo del Dios vivo, ten piedad de nosotros. El que está sentado a la diestra del Padre."
+  },
+  "vespers_i_wk2_ant1": {
+    "antiphon": "Ilumina mis ojos, Señor."
+  },
+  "vespers_i_wk2_ant2": {
+    "antiphon": "Guárdame, oh Señor, porque en ti he puesto mi confianza."
+  },
+  "vespers_i_wk2_ant3": {
+    "antiphon": "El Señor le dio brillo eterno y le heredó un nombre eterno."
+  },
+  "vespers_i_wk2_magnificat_ant": {
+    "antiphon": "Desde la salida del sol hasta su puesta, digno de alabanza es el nombre del Señor. Su gloria está por encima de los cielos."
+  },
+  "vespers_ii_wk2_ant1": {
+    "antiphon": "El Señor ha jurado y no se arrepentirá: Tú eres sacerdote para siempre."
+  },
+  "vespers_ii_wk2_ant2": {
+    "antiphon": "Los que vivimos bendecimos al Señor."
+  },
+  "vespers_ii_wk2_magnificat_ant": {
+    "antiphon": "Nuestro Señor es grande y grande es su poder. Y su sabiduría no tiene número."
+  },
+  "lauds_sunday_wk2_ant1": {
+    "antiphon": "El Señor es mi ayudador, no temeré lo que el hombre pueda hacerme."
+  },
+  "lauds_sunday_wk2_ant2": {
+    "antiphon": "Tres de una boca clamaron en el hogar del fuego y cantaron: Bendito sea Dios."
+  },
+  "lauds_sunday_wk2_ant3": {
+    "antiphon": "Alabad al Señor según la multitud de su grandeza."
+  },
+  "lauds_sunday_wk2_benedictus_ant": {
+    "antiphon": "Nos confesaremos ante ti, Dios, e invocaremos tu nombre. Contaremos de tus maravillas."
+  },
+  "vespers_i_wk3_ant1": {
+    "antiphon": "Que el nombre del Señor sea bendito por siempre."
+  },
+  "vespers_i_wk3_ant2": {
+    "antiphon": "Tomaré la copa de la salvación e invocaré el nombre del Señor."
+  },
+  "vespers_i_wk3_ant3": {
+    "antiphon": "El Señor Jesús se humilló a sí mismo, por lo que también Dios lo exaltó para siempre."
+  },
+  "vespers_i_wk3_magnificat_ant": {
+    "antiphon": "Cuán magnificadas son tus obras, Señor. Lo has hecho todo con sabiduría."
+  },
+  "vespers_ii_wk3_ant1": {
+    "antiphon": "El Señor dijo a mi Señor: Siéntate a mi derecha."
+  },
+  "vespers_ii_wk3_ant2": {
+    "antiphon": "Todos sus mandamientos son fieles, confirmados por los siglos de los siglos."
+  },
+  "vespers_ii_wk3_magnificat_ant": {
+    "antiphon": "Bendito eres, Señor, en el firmamento de los cielos. Y digno de alabanza y gloria por siempre."
+  },
+  "lauds_sunday_wk3_ant1": {
+    "antiphon": "El Señor reinó, se vistió de hermosura."
+  },
+  "lauds_sunday_wk3_ant2": {
+    "antiphon": "Bendice todas las obras del Señor, Señor, aleluya."
+  },
+  "lauds_sunday_wk3_ant3": {
+    "antiphon": "Alabado sea el Señor desde el cielo."
+  },
+  "lauds_sunday_wk3_benedictus_ant": {
+    "antiphon": "Cristo, Hijo del Dios vivo, ten piedad de nosotros. El que está sentado a la diestra del Padre."
+  },
+  "vespers_i_wk4_ant1": {
+    "antiphon": "Que haya paz en tu poder."
+  },
+  "vespers_i_wk4_ant2": {
+    "antiphon": "Mi alma descansó en la palabra del Señor, mi alma esperó en él."
+  },
+  "vespers_i_wk4_ant3": {
+    "antiphon": "El Señor le dio brillo eterno y le heredó un nombre eterno."
+  },
+  "vespers_i_wk4_magnificat_ant": {
+    "antiphon": "Desde la salida del sol hasta su puesta, digno de alabanza es el nombre del Señor. Su gloria está por encima de los cielos."
+  },
+  "vespers_ii_wk4_ant1": {
+    "antiphon": "Desde el vientre, antes de Lucifer, te di a luz."
+  },
+  "vespers_ii_wk4_ant2": {
+    "antiphon": "Quiere demasiado en sus mandamientos."
+  },
+  "vespers_ii_wk4_magnificat_ant": {
+    "antiphon": "Nuestro Señor es grande y grande es su poder. Y su sabiduría no tiene número."
+  },
+  "lauds_sunday_wk4_ant1": {
+    "antiphon": "Te confesaré, Señor, y te exaltaré, porque tú eres mi Dios."
+  },
+  "lauds_sunday_wk4_ant2": {
+    "antiphon": "Tres muchachos fueron arrojados al fuego por orden del rey, y no temiendo la llama del fuego, dijeron: Bendito sea Dios."
+  },
+  "lauds_sunday_wk4_ant3": {
+    "antiphon": "Todo espíritu alaba al Señor."
+  },
+  "lauds_sunday_wk4_benedictus_ant": {
+    "antiphon": "Nos confesaremos ante ti, Dios, e invocaremos tu nombre. Contaremos de tus maravillas."
+  },
+  "_note_sunday_mt": "The vespers_i_*/vespers_ii_*/lauds_sunday_* antiphons were translated with the machine-translation API (app/content/translate.py), not by hand like the ferial antiphons - flagged separately since MT quality hasn't been spot-checked the way the manual translations were.",
+  "compline_sunday_ant1": {
+    "antiphon": "Con sus alas te cubrirá; no temerás el terror de la noche."
+  },
+  "compline_saturday_ant1": {
+    "antiphon": "Ten piedad de mí, Señor, y escucha mi oración."
+  },
+  "lauds_wk1_monday_ant2": {
+    "antiphon": "Alabamos tu nombre glorioso, Dios nuestro."
+  },
+  "lauds_wk1_tuesday_ant1": {
+    "antiphon": "El de manos inocentes y corazón limpio subirá al monte del Señor."
+  },
+  "lauds_wk1_tuesday_ant2": {
+    "antiphon": "Exaltad con vuestras obras al Rey de los siglos."
+  },
+  "lauds_wk1_tuesday_ant3": {
+    "antiphon": "A los rectos les sienta bien la alabanza."
+  },
+  "lauds_wk1_tuesday_benedictus_ant": {
+    "antiphon": "El Señor nos ha suscitado una fuerza de salvación, como lo había anunciado por boca de sus santos profetas."
+  },
+  "vespers_wk1_tuesday_ant1": {
+    "antiphon": "El Señor ha dado la victoria a su Ungido."
+  },
+  "vespers_wk1_tuesday_ant2": {
+    "antiphon": "Cantaremos y salmodiaremos tus proezas."
+  },
+  "vespers_wk1_tuesday_magnificat_ant": {
+    "antiphon": "Mi espíritu se alegra en Dios, mi salvador."
+  },
+  "lauds_wk1_wednesday_ant2": {
+    "antiphon": "Grande eres tú, Señor, y glorioso en tu poder."
+  },
+  "lauds_wk1_thursday_ant2": {
+    "antiphon": "Mi pueblo, dice el Señor, se saciará de mis bienes."
+  },
+  "lauds_wk1_friday_ant1": {
+    "antiphon": "Aceptarás, Señor, el sacrificio de justicia sobre tu altar."
+  },
+  "lauds_wk1_friday_ant2": {
+    "antiphon": "En el Señor será justificada y alabada toda la descendencia de Israel."
+  },
+  "lauds_wk1_friday_ant3": {
+    "antiphon": "Entrad ante el Señor con alegría."
+  },
+  "lauds_wk1_friday_benedictus_ant": {
+    "antiphon": "El Señor ha visitado y redimido a su pueblo."
+  },
+  "vespers_wk1_friday_ant1": {
+    "antiphon": "Sana, Señor, mi alma, porque he pecado contra ti."
+  },
+  "vespers_wk1_friday_ant2": {
+    "antiphon": "El Señor de los ejércitos está con nosotros, nuestro refugio es el Dios de Jacob."
+  },
+  "vespers_wk1_friday_magnificat_ant": {
+    "antiphon": "El Señor ha acogido a Israel su siervo, acordándose de su misericordia."
+  },
+  "lauds_wk1_saturday_ant2": {
+    "antiphon": "Mi fuerza y mi alabanza es el Señor; él ha sido mi salvación."
+  },
+  "vespers_ii_wk2_ant3": {
+    "antiphon": "Alabad a nuestro Dios, todos sus siervos, pequeños y grandes, aleluya."
+  },
+  "lauds_wk2_monday_ant2": {
+    "antiphon": "Muéstranos, Señor, la luz de tu misericordia."
+  },
+  "lauds_wk2_tuesday_ant1": {
+    "antiphon": "Envía, Señor, tu luz y tu verdad."
+  },
+  "lauds_wk2_tuesday_ant2": {
+    "antiphon": "Sálvanos, Señor, todos los días de nuestra vida."
+  },
+  "lauds_wk2_tuesday_ant3": {
+    "antiphon": "A ti, oh Dios, se te debe un himno en Sión."
+  },
+  "lauds_wk2_tuesday_benedictus_ant": {
+    "antiphon": "De la mano de todos los que nos odian, sálvanos, Señor."
+  },
+  "vespers_wk2_tuesday_ant1": {
+    "antiphon": "No podéis servir a Dios y al dinero."
+  },
+  "vespers_wk2_tuesday_ant2": {
+    "antiphon": "Atesorad tesoros en el cielo, dice el Señor."
+  },
+  "vespers_wk2_tuesday_magnificat_ant": {
+    "antiphon": "Haz, Señor, grandes cosas por nosotros, porque eres poderoso y santo es tu nombre."
+  },
+  "lauds_wk2_wednesday_ant2": {
+    "antiphon": "Mi corazón se alegra en el Señor, que humilla y ensalza."
+  },
+  "lauds_wk2_thursday_ant2": {
+    "antiphon": "Grandes cosas ha hecho el Señor, anunciadlo por toda la tierra."
+  },
+  "lauds_wk2_friday_ant1": {
+    "antiphon": "Un corazón contrito y humillado, oh Dios, no lo despreciarás."
+  },
+  "lauds_wk2_friday_ant2": {
+    "antiphon": "Cuando te encolerices, Señor, te acordarás de tu misericordia."
+  },
+  "lauds_wk2_friday_ant3": {
+    "antiphon": "Alaba, Jerusalén, al Señor."
+  },
+  "lauds_wk2_friday_benedictus_ant": {
+    "antiphon": "Por las entrañas de misericordia de nuestro Dios, nos visitó el sol que nace de lo alto."
+  },
+  "vespers_wk2_friday_ant1": {
+    "antiphon": "Señor, libra mi alma de la muerte, y mis pies de la caída."
+  },
+  "vespers_wk2_friday_ant2": {
+    "antiphon": "Mi auxilio viene del Señor, que hizo el cielo y la tierra."
+  },
+  "vespers_wk2_friday_magnificat_ant": {
+    "antiphon": "Acuérdate, Señor, de tu misericordia, como lo prometiste a nuestros padres."
+  },
+  "lauds_wk2_saturday_ant2": {
+    "antiphon": "Dad grandeza a nuestro Dios."
+  },
+  "lauds_wk3_monday_ant2": {
+    "antiphon": "Venid, subamos al monte del Señor."
+  },
+  "lauds_wk3_tuesday_ant1": {
+    "antiphon": "Bendijiste, Señor, tu tierra; perdonaste la iniquidad de tu pueblo."
+  },
+  "lauds_wk3_tuesday_ant2": {
+    "antiphon": "Mi alma te desea en la noche, y desde el alba vela por ti."
+  },
+  "lauds_wk3_tuesday_ant3": {
+    "antiphon": "Haz brillar, Señor, tu rostro sobre nosotros."
+  },
+  "lauds_wk3_tuesday_benedictus_ant": {
+    "antiphon": "El Señor nos ha suscitado una fuerza de salvación, como lo había anunciado por boca de sus santos profetas."
+  },
+  "vespers_wk3_tuesday_ant1": {
+    "antiphon": "El Señor rodea a su pueblo."
+  },
+  "vespers_wk3_tuesday_ant2": {
+    "antiphon": "Si no os hacéis como niños, no entraréis en el reino de los cielos."
+  },
+  "vespers_wk3_tuesday_magnificat_ant": {
+    "antiphon": "Mi espíritu se alegra en Dios, mi salvador."
+  },
+  "lauds_wk3_wednesday_ant2": {
+    "antiphon": "Bienaventurado el hombre que camina en la justicia y habla la verdad."
+  },
+  "lauds_wk3_thursday_ant2": {
+    "antiphon": "El Señor viene con poder, y su recompensa le acompaña."
+  },
+  "lauds_wk3_friday_ant1": {
+    "antiphon": "Contra ti solo he pecado, Señor; ten piedad de mí."
+  },
+  "lauds_wk3_friday_ant2": {
+    "antiphon": "Reconocemos, Señor, nuestras iniquidades, porque hemos pecado contra ti."
+  },
+  "lauds_wk3_friday_ant3": {
+    "antiphon": "El Señor es Dios; nosotros somos su pueblo y ovejas de su rebaño."
+  },
+  "lauds_wk3_friday_benedictus_ant": {
+    "antiphon": "El Señor ha visitado y redimido a su pueblo."
+  },
+  "vespers_wk3_friday_ant1": {
+    "antiphon": "Grande es el Señor, y nuestro Dios está por encima de todos los dioses."
+  },
+  "vespers_wk3_friday_ant2": {
+    "antiphon": "Casa de Israel, bendecid al Señor; cantad a su nombre, porque es dulce."
+  },
+  "vespers_wk3_friday_magnificat_ant": {
+    "antiphon": "El Señor ha acogido a Israel su siervo, acordándose de su misericordia."
+  },
+  "lauds_wk3_saturday_ant2": {
+    "antiphon": "Que tu sabiduría, Señor, esté conmigo y trabaje conmigo."
+  },
+  "vespers_ii_wk4_ant3": {
+    "antiphon": "Alabad a nuestro Dios, todos sus siervos, pequeños y grandes, aleluya."
+  },
+  "lauds_wk4_tuesday_ant1": {
+    "antiphon": "A ti, Señor, cantaré, y meditaré en el camino intachable."
+  },
+  "lauds_wk4_tuesday_ant2": {
+    "antiphon": "No apartes de nosotros, Señor, tu misericordia."
+  },
+  "lauds_wk4_tuesday_ant3": {
+    "antiphon": "Oh Dios, te cantaré un cántico nuevo."
+  },
+  "lauds_wk4_tuesday_benedictus_ant": {
+    "antiphon": "De la mano de todos los que nos odian, sálvanos, Señor."
+  },
+  "vespers_wk4_tuesday_ant1": {
+    "antiphon": "Si me olvidare de ti, Jerusalén, que se olvide de mí mi diestra."
+  },
+  "vespers_wk4_tuesday_ant2": {
+    "antiphon": "Ante los ángeles te cantaré, Dios mío."
+  },
+  "vespers_wk4_tuesday_magnificat_ant": {
+    "antiphon": "Haz, Señor, grandes cosas por nosotros, porque eres poderoso y santo es tu nombre."
+  },
+  "lauds_wk4_wednesday_ant2": {
+    "antiphon": "El Señor me ha vestido con el manto de la salvación y de la justicia."
+  },
+  "lauds_wk4_thursday_ant2": {
+    "antiphon": "El Señor hará descender sobre Jerusalén un río de paz."
+  },
+  "lauds_wk4_friday_ant1": {
+    "antiphon": "Crea en mí, oh Dios, un corazón puro, y renueva un espíritu recto dentro de mí."
+  },
+  "lauds_wk4_friday_ant2": {
+    "antiphon": "Alégrate, Jerusalén, porque por ti todos serán congregados hacia el Señor."
+  },
+  "lauds_wk4_friday_ant3": {
+    "antiphon": "Alaba a tu Dios, Sión, que envía su palabra a la tierra."
+  },
+  "lauds_wk4_friday_benedictus_ant": {
+    "antiphon": "Por las entrañas de misericordia de nuestro Dios, nos visitó el sol que nace de lo alto."
+  },
+  "vespers_wk4_friday_ant1": {
+    "antiphon": "Cada día te bendeciré, Señor, y contaré tus maravillas."
+  },
+  "vespers_wk4_friday_ant2": {
+    "antiphon": "Los ojos de todos esperan en ti, Señor; tú estás cerca de todos los que te invocan."
+  },
+  "vespers_wk4_friday_magnificat_ant": {
+    "antiphon": "Acuérdate, Señor, de tu misericordia, como lo prometiste a nuestros padres."
+  },
+  "lauds_wk4_saturday_ant2": {
+    "antiphon": "Os daré un corazón nuevo y un espíritu nuevo dentro de vosotros."
+  },
+  "vespers_ii_wk1_ant3": {
+    "antiphon": "Reina el Señor, nuestro Dios todopoderoso, aleluya."
+  },
+  "lauds_wk4_monday_ant2": {
+    "antiphon": "La alabanza del Señor viene desde los confines de la tierra."
+  },
+  "vespers_ii_wk3_ant3": {
+    "antiphon": "Reina el Señor, nuestro Dios todopoderoso, aleluya."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "holy_innocents_12_28",
+  "titulus": "Sanctorum Innocentium, martyrum",
+  "dies": "12-28",
+  "gradus": "FESTUM",
+  "color": "RUBER",
+  "habet_primas_vesperas": false,
+  "collecta": "Deus, cujus hodierna die præcónium Innocéntes Mártyres non loquéndo, sed moriéndo conféssi sunt: ómnia in nobis vitiórum mala mortífica; ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur.",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Dicunt infantes Domino laudem; occisi prædicant quod vivi non poterant.",
+        "antiphona_es": "Los niños cantan alabanza al Señor; ya degollados, proclaman lo que vivos no podían.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 109:1-5,7",
+        "antiphona": "Tecum principium in die virtutis tuæ, in splendoribus sanctorum, ex utero ante luciferum genui te.",
+        "antiphona_es": "Contigo está el principado el día de tu poder, entre los esplendores de los santos; desde el seno, antes del lucero, te engendré."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 129",
+        "antiphona": "Apud Dominum misericordia, et copiosa apud eum redemptio.",
+        "antiphona_es": "En el Señor está la misericordia, y abundante redención en él."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "col 1:12-20",
+        "antiphona": "In principio et ante sæcula Deus erat Verbum: ipse natus est hodie Salvator mundi.",
+        "antiphona_es": "En el principio y antes de los siglos era Dios el Verbo: él ha nacido hoy como Salvador del mundo."
+      }
+    ],
+    "lectio_brevis_vesperarum": "2cor 8:9",
+    "lectio_brevis_laudum": "jer 31:15"
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Innocéntes pro Christo infántes occísi sunt, ab iníquo rege lacténtes interfécti sunt: ipsum sequúntur Agnum sine mácula, et dicunt semper: Glória tibi, Dómine.",
+    "benedictus_es": "Los inocentes fueron degollados por Cristo; siendo aún de pecho, fueron muertos por un rey inicuo: siguen al Cordero sin mancha, y dicen siempre: Gloria a ti, Señor.",
+    "magnificat": "Hi sunt, * qui cum muliéribus non sunt coinquináti: vírgines enim sunt, et sequúntur Agnum quocúmque íerit.",
+    "magnificat_es": "Estos son los que no se contaminaron con mujeres, pues son vírgenes, y siguen al Cordero adondequiera que va."
+  },
+  "breviarium_id": "holy_innocents_martyrs"
+}

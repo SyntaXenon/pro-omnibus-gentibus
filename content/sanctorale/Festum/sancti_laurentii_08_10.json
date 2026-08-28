@@ -1,0 +1,96 @@
+{
+  "id": "st_lawrence_deacon_08_10",
+  "titulus": "Sancti Laurentii, diaconi et martyris",
+  "dies": "08-10",
+  "gradus": "FESTUM",
+  "color": "ALBUS",
+  "habet_primas_vesperas": false,
+  "commune_subsidiarium": "COMMON_MARTYRS",
+  "collecta": "Da nobis, quǽsumus, omnípotens Deus: vitiórum nostrorum flammas exstínguere; qui beáto Lauréntio tribuísti tormentórum suórum incéndia superáre.",
+  "officium_lectionis": {
+    "lectio_altera": {
+      "auctor": "Homilía sancti Gregórii Papæ",
+      "titulus": "Homil. 37 in Evangelia",
+      "textus": "Si considerémus fratres caríssimi, quæ et quanta sunt, quæ nobis promittúntur in cælis, viléscunt ánimo ómnia quæ habéntur in terris. Terréna namque substántia supérnæ felicitáti comparáta, pondus est, non subsídium. Temporális vita ætérnæ vitæ comparáta, mors est pótius dicénda quam vita. Ipse enim quotidiánus deféctus corruptiónis quid est áliud, quam quædam prolíxitas mortis? Quæ autem lingua dícere, vel quis intelléctus cápere súfficit, illa supérnæ civitátis quanta sint gáudia; Angelórum choris interésse, cum beatíssimis spirítibus glóriæ Conditóris assístere, præséntem Dei vultum cérnere, incircumscríptum lumen vidére, nullo mortis metu áffici, incorruptiónis perpétuæ múnere lætári? Sed ad hæc audíta inardéscit ánimus, jamque illic cupit assístere, ubi se sperat sine fine gaudére. Sed ad magna prǽmia perveníri non potest, nisi per magnos labóres. Unde et Paulus egrégius prædicátor dicit: Non coronábitur, nisi qui legítime certáverit. Deléctet ergo mentem magnitúdo præmiórum, sed non detérreat certámen labórum. Unde ad se veniéntibus Véritas dicit: Si quis venit ad me, et non odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres, adhuc autem et ánimam suam, non potest meus esse discípulus."
+    },
+    "responsorium_alterum": {
+      "textus": "℟. Hic est vere Martyr, qui pro Christi nómine sánguinem suum fudit: * Qui minas júdicum non tímuit, nec terrénæ dignitátis glóriam quæsívit, sed ad cæléstia regna pervénit. V. Justum dedúxit Dóminus per vias rectas, et osténdit illi regnum Dei.",
+      "versus_repetitus": "℣. Justum dedúxit Dóminus per vias rectas, et osténdit illi regnum Dei."
+    },
+    "te_deum_requisitum": true
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Vestri capilli capitis omnes numerati sunt: nolite timere: multis passeribus meliores estis vos.",
+    "magnificat": "Iste sanctus pro lege Dei sui certavit usque ad mortem, et a verbis impiorum non timuit: fundatus enim erat supra firmam petram.",
+    "benedictus_es": "Todos los cabellos de vuestra cabeza están contados: no temáis; vosotros valéis más que muchos pajarillos.",
+    "magnificat_es": "Este santo luchó por la ley de su Dios hasta la muerte, y no temió las palabras de los impíos, porque estaba fundado sobre roca firme."
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Misit Dominus angelum suum et liberavit me de medio ignis, et non sum æstuatus.",
+        "antiphona_es": "El Señor envió a su ángel y me libró de en medio del fuego, y no sufrí quemadura alguna.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "lectio_brevis_vesperarum": "heb 13:20-21",
+    "lectio_brevis_laudum": "2cor 1:3-5",
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 114:1-9",
+        "antiphona": "Laurentius ingressus est martyr, et confessus est nomen Domini Iesu Christi.",
+        "antiphona_es": "Lorenzo entró como mártir y confesó el nombre del Señor Jesucristo."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 115",
+        "antiphona": "Beatus Laurentius clamavit dicens: Gaudeo plane, quia hostia Christi effici merui.",
+        "antiphona_es": "El bienaventurado Lorenzo exclamó diciendo: Me alegro grandemente, porque merecí convertirme en ofrenda de Cristo."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "rev 4:11;5:9,10,12",
+        "antiphona": "Gratias ago, Domine Iesu Christe, quia ianuas tuas ingredi merui.",
+        "antiphona_es": "Te doy gracias, Señor Jesucristo, porque merecí entrar por tus puertas."
+      }
+    ]
+  },
+  "breviarium_id": "lawrence_of_rome_deacon"
+}

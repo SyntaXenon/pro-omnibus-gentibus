@@ -1,0 +1,472 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Divine Office - 2026-12-01</title>
+<style>
+body { font-family: Georgia, serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+h1 { font-size: 1.5rem; }
+.controls { display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: flex-end; margin: 1rem 0 1.5rem;
+             font-family: sans-serif; }
+.control-group { display: flex; flex-direction: column; gap: 0.25rem; }
+.control-group label { font-size: 0.75rem; color: #666; text-transform: uppercase; letter-spacing: 0.03em; }
+select { font-size: 0.95rem; padding: 0.3rem 0.5rem; }
+.meta { color: #666; margin-bottom: 1.5rem; font-family: sans-serif; font-size: 0.95rem; }
+#tzNote { background: #fff3cd; color: #664d03; border: 1px solid #ffe69c; border-radius: 4px;
+           padding: 0.6rem 0.9rem; margin-bottom: 1rem; font-size: 0.85rem; }
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; background: #f0ece2; padding: 0.4rem 0.6rem; font-family: sans-serif;
+      font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.03em; color: #555; }
+td { width: 50%; vertical-align: top; padding: 0.6rem; border-bottom: 1px solid #eee; }
+td.single { width: 100%; }
+.col-left { border-right: 1px solid #ddd; }
+.unit-label { font-size: 0.7rem; color: #999; font-family: sans-serif; }
+.vn { font-size: 0.7rem; color: #999; font-family: sans-serif; vertical-align: super; }
+tr:last-child td { border-bottom: none; }
+</style></head>
+<body>
+<h1 id="dateHeading"></h1>
+<div class="controls">
+  <div class="control-group">
+    <label for="tzSelect" id="tzLabel">Timezone</label>
+    <select id="tzSelect"></select>
+  </div>
+  <div class="control-group">
+    <label for="dateSelect" id="dateLabel">Date</label>
+    <select id="dateSelect"></select>
+  </div>
+  <div class="control-group">
+    <label for="leftLang" id="leftLabel">Main</label>
+    <select id="leftLang"></select>
+  </div>
+  <div class="control-group">
+    <label for="rightLang" id="rightLabel">Vernacular</label>
+    <select id="rightLang"></select>
+  </div>
+  <div class="control-group">
+    <label for="hourSelect" id="hourLabel">Hour</label>
+    <select id="hourSelect"></select>
+  </div>
+</div>
+<div class="meta" id="tzNote" style="display:none;"></div>
+<div class="meta" id="metaLine"></div>
+<table id="mainTable"></table>
+
+<script id="dayData" type="application/json">{"languages": ["la", "es"], "hour_order": ["office_of_readings", "lauds", "terce", "sext", "none_hour", "vespers", "compline"], "implemented_hours": ["lauds", "vespers", "compline"], "default_hour": "vespers", "hour_labels": {"en": {"lauds": "Lauds", "vespers": "Vespers", "compline": "Compline", "office_of_readings": "Office of Readings", "terce": "Terce", "sext": "Sext", "none_hour": "None"}, "es": {"lauds": "Laudes", "vespers": "Vísperas", "compline": "Completas", "office_of_readings": "Oficio de Lectura", "terce": "Tercia", "sext": "Sexta", "none_hour": "Nona"}, "la": {"lauds": "Laudes", "vespers": "Vesperae", "compline": "Completorium", "office_of_readings": "Officium Lectionis", "terce": "Tertia", "sext": "Sexta", "none_hour": "Nona"}}, "unit_labels": {"en": {"deus": "Deus in Adiutorium", "hymn": "Hymn", "antiphon": "Antiphon", "psalm": "Psalm", "canticle": "Canticle", "reading": "Short Reading", "responsory": "Responsory", "gospel_canticle_magnificat": "Gospel Canticle (Magnificat)", "gospel_canticle_benedictus": "Gospel Canticle (Benedictus)", "nunc_dimittis": "Canticle (Nunc Dimittis)", "intercessions": "Intercessions", "our_father": "Our Father", "concluding_prayer": "Concluding Prayer", "dismissal": "Dismissal", "missing": "[not yet sourced]", "repeated": "(repeated)", "psalmody_gap": "Psalmody", "psalmody_gap_note": "This celebration's own proper psalmody for this hour has not been sourced yet (a known, tracked gap - not a display error)."}, "es": {"deus": "Deus in Adiutorium", "hymn": "Himno", "antiphon": "Antífona", "psalm": "Salmo", "canticle": "Cántico", "reading": "Lectura breve", "responsory": "Responsorio", "gospel_canticle_magnificat": "Cántico evangélico (Magníficat)", "gospel_canticle_benedictus": "Cántico evangélico (Benedictus)", "nunc_dimittis": "Cántico (Nunc dimittis)", "intercessions": "Preces", "our_father": "Padre Nuestro", "concluding_prayer": "Oración conclusiva", "dismissal": "Despedida", "missing": "[pendiente de origen]", "repeated": "(se repite)", "psalmody_gap": "Salmodia", "psalmody_gap_note": "La salmodia propia de esta celebración para esta hora todavía no ha sido recopilada (una carencia conocida y registrada, no un error de la página)."}, "la": {"deus": "Deus in Adiutorium", "hymn": "Hymnus", "antiphon": "Antiphona", "psalm": "Psalmus", "canticle": "Canticum", "reading": "Lectio brevis", "responsory": "Responsorium", "gospel_canticle_magnificat": "Canticum Evangelicum (Magnificat)", "gospel_canticle_benedictus": "Canticum Evangelicum (Benedictus)", "nunc_dimittis": "Canticum (Nunc dimittis)", "intercessions": "Preces", "our_father": "Pater Noster", "concluding_prayer": "Oratio", "dismissal": "Dimissio", "missing": "[nondum inventum]", "repeated": "(iteratur)", "psalmody_gap": "Psalmodia", "psalmody_gap_note": "Psalmodia propria huius celebrationis pro hac hora nondum inventa est (defectus cognitus et notatus, non error paginae)."}}, "chrome_labels": {"en": {"main": "Main", "vernacular": "Vernacular", "translation": "Translation", "timezone": "Timezone", "date": "Date", "hour": "Hour", "coming_soon": "(coming soon)"}, "es": {"main": "Principal", "vernacular": "Vernácula", "translation": "Traducción", "timezone": "Zona horaria", "date": "Fecha", "hour": "Hora", "coming_soon": "(próximamente)"}, "la": {"main": "Principalis", "vernacular": "Vernacula", "translation": "Translatio", "timezone": "Zona Temporis", "date": "Dies", "hour": "Hora", "coming_soon": "(nondum)"}}, "tz_region_names": {"en": {"Africa": "Africa", "America": "America", "Antarctica": "Antarctica", "Arctic": "Arctic", "Asia": "Asia", "Atlantic": "Atlantic", "Australia": "Australia", "Europe": "Europe", "Indian": "Indian", "Pacific": "Pacific", "Etc": "Etc"}, "es": {"Africa": "África", "America": "América", "Antarctica": "Antártida", "Arctic": "Ártico", "Asia": "Asia", "Atlantic": "Atlántico", "Australia": "Australia", "Europe": "Europa", "Indian": "Índico", "Pacific": "Pacífico", "Etc": "Etc"}, "la": {"Africa": "Africa", "America": "America", "Antarctica": "Antarctica", "Arctic": "Arcticus", "Asia": "Asia", "Atlantic": "Atlanticus", "Australia": "Australia", "Europe": "Europa", "Indian": "Indicus", "Pacific": "Pacificus", "Etc": "Etc"}}, "hymn_pools": {"vespers": [{"id": "ave_maris_stella", "title": "Ave Maris Stella", "original_language": "la", "lines": {"la": ["Ave, maris stella,", "Dei Mater alma,", "atque semper Virgo,", "felix caeli porta.", "", "Sumens illud Ave", "Gabrielis ore,", "funda nos in pace,", "mutans Evae nomen.", "", "Solve vincla reis,", "profer lumen caecis,", "mala nostra pelle,", "bona cuncta posce.", "", "Monstra te esse matrem,", "sumat per te preces", "qui pro nobis natus", "tulit esse tuus.", "", "Virgo singularis,", "inter omnes mitis,", "nos culpis solutos", "mites fac et castos.", "", "Vitam praesta puram,", "iter para tutum,", "ut videntes Iesum", "semper collaetemur.", "", "Sit laus Deo Patri,", "summo Christo decus,", "Spiritui Sancto,", "tribus honor unus. Amen."], "es": ["Salve, estrella del mar,", "Madre nutricia de Dios,", "y siempre Virgen,", "dichosa puerta del cielo.", "", "Tomando aquel Ave", "de labios de Gabriel,", "afiánzanos en paz,", "cambiando el nombre de Eva.", "", "Suelta las cadenas de los culpables,", "trae la luz a los ciegos,", "aleja nuestros males,", "pide para nosotros todos los bienes.", "", "Muéstrate ser madre,", "reciba por ti nuestras súplicas", "quien, nacido por nosotros,", "quiso ser hijo tuyo.", "", "Virgen sin igual,", "mansa entre todas,", "líbranos de nuestras culpas", "y haznos mansos y castos.", "", "Danos una vida pura,", "prepáranos un camino seguro,", "para que, viendo a Jesús,", "nos gocemos siempre juntos.", "", "Sea la alabanza a Dios Padre,", "la gloria al altísimo Cristo,", "al Espíritu Santo,", "un mismo honor a los tres. Amén."]}}, {"id": "vexilla_regis_prodeunt", "title": "Vexilla Regis Prodeunt", "original_language": "la", "lines": {"la": ["Vexilla Regis prodeunt:", "fulget Crucis mysterium,", "qua vita mortem pertulit,", "et morte vitam protulit.", "", "Quae vulnerata lanceae", "mucrone diro, criminum", "ut nos lavaret sordibus,", "manavit unda et sanguine.", "", "Impleta sunt quae concinit", "David fideli carmine,", "dicendo nationibus:", "regnavit a ligno Deus.", "", "O Crux ave, spes unica,", "hoc Passionis tempore", "piis adauge gratiam,", "reisque dele crimina.", "", "Te, fons salutis Trinitas,", "collaudet omnis spiritus:", "quibus Crucis victoriam", "largiris, adde praemium. Amen."], "es": ["Los estandartes del Rey avanzan:", "resplandece el misterio de la Cruz,", "por la cual la Vida sufrió la muerte,", "y con la muerte produjo la vida.", "", "La cual, herida por la punta", "cruel de la lanza, para lavarnos", "de la mancha de nuestros pecados,", "manó agua y sangre.", "", "Se cumplió lo que cantó", "David en su fiel poema,", "diciendo a las naciones:", "Dios reinó desde el madero.", "", "Salve, oh Cruz, única esperanza,", "en este tiempo de la Pasión", "aumenta la gracia a los piadosos,", "y borra los pecados de los culpables.", "", "A ti, Trinidad, fuente de salvación,", "te alabe todo espíritu:", "a quienes la victoria de la Cruz", "concedes, añade la recompensa. Amén."]}}, {"id": "conditor_alme_siderum", "title": "Conditor Alme Siderum", "original_language": "la", "lines": {"la": ["Conditor alme siderum,", "aeterna lux credentium,", "Christe, redemptor omnium,", "exaudi preces supplicum.", "", "Qui condolens interitu", "mortis perire saeculum,", "salvasti mundum languidum,", "donans reis remedium.", "", "Vergente mundi vespere,", "uti sponsus de thalamo,", "egressus honestissima", "Virginis matris clausula.", "", "Cuius forti potentiae", "genu curvantur omnia;", "caelestia, terrestria", "nutu fatentur subdita.", "", "Te, Sancte, fide quaesumus,", "venture iudex saeculi,", "conserva nos in tempore", "hostis a telo perfidi.", "", "Sit, Christe, rex piissime,", "tibi Patrique gloria", "cum Spiritu Paraclito,", "in sempiterna saecula. Amen."], "es": ["Creador bondadoso de los astros,", "luz eterna de los creyentes,", "Cristo, redentor de todos,", "escucha las súplicas de los que te imploran.", "", "Tú que, apiadado de que el mundo", "pereciera en la ruina de la muerte,", "salvaste al mundo enfermo,", "dando remedio a los culpables.", "", "Cuando declinaba la tarde del mundo,", "como esposo que sale del tálamo,", "saliste del honestísimo", "seno de tu Madre Virgen.", "", "Ante cuyo fuerte poder", "se doblan todas las rodillas;", "los seres celestes y terrestres", "confiesan someterse a tu mandato.", "", "A ti, Santo, con fe te suplicamos,", "que has de venir como juez del mundo,", "consérvanos a tiempo", "libres del dardo del enemigo pérfido.", "", "Sea, oh Cristo, rey piadosísimo,", "gloria a ti y al Padre", "con el Espíritu Paráclito,", "por los siglos sempiternos. Amén."]}}, {"id": "pange_lingua_gloriosi", "title": "Pange Lingua Gloriosi Corporis Mysterium", "original_language": "la", "lines": {"la": ["Pange, lingua, gloriosi", "Corporis mysterium,", "Sanguinisque pretiosi,", "quem in mundi pretium", "fructus ventris generosi", "Rex effudit gentium.", "", "Nobis datus, nobis natus", "ex intacta Virgine,", "et in mundo conversatus,", "sparso verbi semine,", "sui moras incolatus", "miro clausit ordine.", "", "In supremae nocte cenae", "recumbens cum fratribus,", "observata lege plene", "cibis in legalibus,", "cibum turbae duodenae", "se dat suis manibus.", "", "Verbum caro, panem verum", "verbo carnem efficit:", "fitque sanguis Christi merum,", "et si sensus deficit,", "ad firmandum cor sincerum", "sola fides sufficit.", "", "Tantum ergo Sacramentum", "veneremur cernui:", "et antiquum documentum", "novo cedat ritui:", "praestet fides supplementum", "sensuum defectui.", "", "Genitori, Genitoque", "laus et iubilatio,", "salus, honor, virtus quoque", "sit et benedictio:", "procedenti ab utroque", "compar sit laudatio. Amen."], "es": ["Canta, lengua, el misterio", "del glorioso Cuerpo,", "y de la preciosa Sangre,", "que como precio del mundo,", "fruto de un vientre generoso,", "derramó el Rey de las naciones.", "", "Dado a nosotros, nacido para nosotros", "de una Virgen intacta,", "y habiendo vivido en el mundo", "sembrando la semilla de la Palabra,", "concluyó el tiempo de su estancia", "con un orden admirable.", "", "En la noche de la última cena,", "reclinado con sus hermanos,", "habiendo cumplido plenamente la ley", "en cuanto a los alimentos rituales,", "se da como alimento a los doce", "con sus propias manos.", "", "El Verbo hecho carne, con su palabra", "convierte en carne el pan verdadero:", "y el vino se hace sangre de Cristo,", "y si los sentidos no alcanzan,", "para afirmar el corazón sincero", "basta sólo la fe.", "", "Un Sacramento tan grande", "veneremos, pues, inclinados:", "y ceda el antiguo precepto", "al nuevo rito:", "que la fe supla", "lo que falta a los sentidos.", "", "Al Engendrador y al Engendrado", "sea la alabanza y el júbilo,", "la salud, el honor y también el poder", "y la bendición:", "y al que procede de ambos", "sea dada igual alabanza. Amén."]}}, {"id": "deus_tuorum_militum", "title": "Deus Tuorum Militum", "original_language": "la", "lines": {"la": ["Deus tuorum militum", "sors, et corona, praemium,", "laudes canentes Martyris", "absolve nexu criminis.", "", "Hic nempe mundi gaudia", "et blandimenta noxia", "caduca rite deputans,", "pervenit ad caelestia.", "", "Poenas cucurrit fortiter", "et sustulit viriliter,", "fundensque pro te sanguinem,", "aeterna dona possidet.", "", "Ob hoc precatu supplici", "te poscimus, piissime;", "in hoc triumpho Martyris", "dimitte noxam servulis.", "", "Laus et perennis gloria", "Deo Patri et Filio,", "Sancto simul Paraclito,", "in sempiterna saecula. Amen."], "es": ["Dios, suerte, corona y premio", "de tus soldados,", "a nosotros, que cantamos las alabanzas del Mártir,", "líbranos del lazo del pecado.", "", "Éste, en verdad, teniendo por caducos", "los gozos del mundo", "y sus dañinas seducciones,", "llegó a los bienes celestiales.", "", "Corrió fuertemente hacia las penas", "y las soportó con valentía,", "y derramando su sangre por ti,", "posee ahora los dones eternos.", "", "Por esto, con súplica humilde", "te lo pedimos, piadosísimo;", "en este triunfo del Mártir,", "perdona la culpa a tus siervos.", "", "Alabanza y gloria perpetua", "a Dios Padre y al Hijo,", "juntamente al Espíritu Santo Paráclito,", "por los siglos sempiternos. Amén."]}}, {"id": "o_lux_beata_trinitas", "title": "O Lux Beata Trinitas", "original_language": "la", "lines": {"la": ["O lux beata Trinitas,", "et principalis Unitas,", "iam sol recedit igneus:", "infunde lumen cordibus.", "", "Te mane laudum carmine,", "te deprecemur vespere:", "te nostra supplex gloria", "per cuncta laudet saecula.", "", "Deo Patri sit gloria,", "eiusque soli Filio,", "cum Spiritu Paraclito,", "et nunc et in perpetuum. Amen."], "es": ["Oh luz bienaventurada, Trinidad,", "y Unidad primera,", "ya el sol ígneo se retira:", "infunde tu luz en los corazones.", "", "A ti te alabemos por la mañana con cánticos,", "a ti te supliquemos al atardecer:", "que nuestra súplica te glorifique", "por todos los siglos.", "", "Gloria sea a Dios Padre,", "y a su único Hijo,", "con el Espíritu Paráclito,", "ahora y para siempre. Amén."]}}, {"id": "exsultet_caelum_laudibus", "title": "Exsultet Caelum Laudibus", "original_language": "la", "lines": {"la": ["Exsultet caelum laudibus,", "resultet terra gaudiis,", "Apostolorum gloriam", "sacra canunt sollemnia.", "", "Vos, saecli iusti iudices", "et vera mundi lumina,", "votis precamur cordium:", "audite preces supplicum.", "", "Qui caelum verbo clauditis", "serasque eius solvitis,", "nos a peccatis omnibus", "solvite iussu, quaesumus.", "", "Quorum praecepto subditur", "salus et languor omnium,", "sanate mentes languidas,", "augete nos virtutibus.", "", "Ut, cum iudex advenerit", "Christus in fine saeculi,", "nos sempiterni gaudii", "faciat esse compotes.", "", "Deo Patri sit gloria,", "eiusque soli Filio,", "cum Spiritu Paraclito,", "nunc et per omne saeculum. Amen."], "es": ["Exulte el cielo con alabanzas,", "resuene la tierra con gozos,", "la sagrada solemnidad canta", "la gloria de los Apóstoles.", "", "A vosotros, justos jueces del mundo", "y verdaderas luces del orbe,", "os rogamos con los votos de nuestros corazones:", "escuchad las preces de los suplicantes.", "", "Vosotros que con la palabra cerráis el cielo", "y desatáis sus cerrojos,", "libradnos de todos los pecados,", "os lo rogamos, por vuestro mandato.", "", "A cuyo mandato está sometida", "la salud y la enfermedad de todos,", "sanad nuestras mentes enfermas,", "aumentadnos en virtudes.", "", "Para que, cuando venga como juez", "Cristo al final de los siglos,", "nos haga partícipes", "del gozo sempiterno.", "", "Gloria sea a Dios Padre,", "y a su único Hijo,", "con el Espíritu Paráclito,", "ahora y por todos los siglos. Amén."]}}, {"id": "iste_confessor", "title": "Iste Confessor", "original_language": "la", "lines": {"la": ["Iste confessor Domini, colentes", "quem pie laudant populi per orbem,", "hac die laetus meruit supremos", "laudis honores.", "", "Qui pius, prudens, humilis, pudicus,", "sobriam duxit sine labe vitam,", "donec humanos animavit aurae", "spiritus artus.", "", "Cuius ob praestans meritum, frequenter,", "aegra quae passim iacuere membra,", "viribus morbi domitis, saluti", "restituuntur.", "", "Noster hinc illi chorus obsequentem", "concinit laudem celebresque palmas,", "ut piis eius meritis iuvemur", "omne per aevum.", "", "Sit salus illi, decus atque virtus,", "qui, supra caeli residens cacumen,", "totius mundi seriem gubernat,", "trinus et unus. Amen."], "es": ["Este confesor del Señor, a quien", "los pueblos veneran piadosamente por todo el orbe,", "mereció alegre en este día los sumos", "honores de alabanza.", "", "El cual, piadoso, prudente, humilde y casto,", "llevó una vida sobria sin mancha,", "mientras el aliento de vida animó", "sus miembros humanos.", "", "Por cuyo excelente mérito, con frecuencia,", "los miembros enfermos que yacían por doquier,", "vencidas las fuerzas de la enfermedad, a la salud", "son restituidos.", "", "Por esto, nuestro coro le canta", "una alabanza obsequiosa y célebres palmas,", "para que por sus piadosos méritos seamos ayudados", "por toda la eternidad.", "", "Sea para él la salud, el honor y el poder,", "que, sentado sobre la cumbre del cielo,", "gobierna el curso de todo el mundo,", "trino y uno. Amén."]}}, {"id": "lucis_creator_optime", "title": "Lucis Creator Optime", "original_language": "la", "lines": {"la": ["Lucis Creator optime,", "lucem dierum proferens,", "primordiis lucis novae", "mundi parans originem;", "", "Qui mane iunctum vesperi", "diem vocari praecipis:", "taetrum chaos illabitur,", "audi preces cum fletibus.", "", "Ne mens gravata crimine", "vitae sit exsul munere,", "dum nil perenne cogitat", "seseque culpis illigat.", "", "Caeleste pulset ostium,", "vitale tollat praemium;", "vitemus omne noxium,", "purgemus omne pessimum.", "", "Praesta, Pater piissime,", "Patrique compar Unice,", "cum Spiritu Paraclito", "regnans per omne saeculum. Amen."], "es": ["Óptimo Creador de la luz,", "que produces la luz de los días,", "y en los primeros albores de la nueva luz", "preparaste el origen del mundo;", "", "Tú que mandas que se llame día", "a la mañana unida con la tarde:", "el horrible caos se desliza sobre nosotros,", "escucha nuestras preces con llanto.", "", "Que nuestra mente, cargada de pecado,", "no quede excluida del don de la vida,", "mientras no piensa en nada eterno", "y se enreda a sí misma en culpas.", "", "Que llame a la puerta celestial,", "que alcance el premio de la vida;", "evitemos todo lo dañino,", "purguemos todo lo pésimo.", "", "Concédelo, Padre piadosísimo,", "y también tú, Unigénito igual al Padre,", "que reinas con el Espíritu Paráclito", "por todos los siglos. Amén."]}}], "lauds": [{"id": "iste_confessor", "title": "Iste Confessor", "original_language": "la", "lines": {"la": ["Iste confessor Domini, colentes", "quem pie laudant populi per orbem,", "hac die laetus meruit supremos", "laudis honores.", "", "Qui pius, prudens, humilis, pudicus,", "sobriam duxit sine labe vitam,", "donec humanos animavit aurae", "spiritus artus.", "", "Cuius ob praestans meritum, frequenter,", "aegra quae passim iacuere membra,", "viribus morbi domitis, saluti", "restituuntur.", "", "Noster hinc illi chorus obsequentem", "concinit laudem celebresque palmas,", "ut piis eius meritis iuvemur", "omne per aevum.", "", "Sit salus illi, decus atque virtus,", "qui, supra caeli residens cacumen,", "totius mundi seriem gubernat,", "trinus et unus. Amen."], "es": ["Este confesor del Señor, a quien", "los pueblos veneran piadosamente por todo el orbe,", "mereció alegre en este día los sumos", "honores de alabanza.", "", "El cual, piadoso, prudente, humilde y casto,", "llevó una vida sobria sin mancha,", "mientras el aliento de vida animó", "sus miembros humanos.", "", "Por cuyo excelente mérito, con frecuencia,", "los miembros enfermos que yacían por doquier,", "vencidas las fuerzas de la enfermedad, a la salud", "son restituidos.", "", "Por esto, nuestro coro le canta", "una alabanza obsequiosa y célebres palmas,", "para que por sus piadosos méritos seamos ayudados", "por toda la eternidad.", "", "Sea para él la salud, el honor y el poder,", "que, sentado sobre la cumbre del cielo,", "gobierna el curso de todo el mundo,", "trino y uno. Amén."]}}, {"id": "ut_queant_laxis", "title": "Ut Queant Laxis", "original_language": "la", "lines": {"la": ["Ut queant laxis", "resonare fibris", "mira gestorum", "famuli tuorum,", "solve polluti", "labii reatum,", "Sancte Ioannes.", "", "Nuntius celso veniens Olympo,", "te patri magnum fore nasciturum,", "nomen, et vitae seriem gerendae", "ordine promit.", "", "Ille promissi dubius superni,", "perdidit promptae modulos loquelae:", "sed reformasti genitus peremptae", "organa vocis.", "", "Ventris obstruso positus cubili", "senseras Regem thalamo manentem:", "hinc parens nati meritis uterque", "abdita pandit.", "", "Sit decus Patri, genitaeque Proli,", "et tibi compar utriusque semper", "Spiritus alme, Deus unus, omni", "tempore saecli. Amen."], "es": ["Para que puedan", "resonar con voces desatadas", "las maravillas de las hazañas", "de tus siervos,", "libra de culpa", "nuestros labios manchados,", "san Juan.", "", "Un mensajero, viniendo del alto cielo,", "anuncia a tu padre que ibas a nacer grande,", "y revela en orden tu nombre", "y el curso de la vida que llevarías.", "", "Él, dudando de la promesa celestial,", "perdió el uso pronto de la palabra:", "pero tú, ya nacido, restauraste", "los órganos de su voz perdida.", "", "Colocado en el cerrado lecho del vientre,", "sentiste al Rey que permanecía en su tálamo:", "de ahí que ambos padres, por los méritos del hijo,", "revelan lo oculto.", "", "Sea la gloria al Padre, y al Hijo engendrado,", "y a ti, igual a ambos siempre,", "Espíritu bondadoso, Dios uno, por todo", "el tiempo del siglo. Amén."]}}, {"id": "veni_creator_spiritus", "title": "Veni Creator Spiritus", "original_language": "la", "lines": {"la": ["Veni, Creator Spiritus,", "mentes tuorum visita,", "imple superna gratia", "quae tu creasti pectora.", "", "Qui diceris Paraclitus,", "altissimi donum Dei,", "fons vivus, ignis, caritas,", "et spiritalis unctio.", "", "Tu septiformis munere,", "digitus paternae dexterae,", "tu rite promissum Patris,", "sermone ditans guttura.", "", "Accende lumen sensibus,", "infunde amorem cordibus,", "infirma nostri corporis", "virtute firmans perpeti.", "", "Hostem repellas longius,", "pacemque dones protinus;", "ductore sic te praevio", "vitemus omne noxium.", "", "Per te sciamus da Patrem,", "noscamus atque Filium;", "teque utriusque Spiritum", "credamus omni tempore.", "", "Deo Patri sit gloria,", "et Filio, qui a mortuis", "surrexit, ac Paraclito,", "in saeculorum saecula. Amen."], "es": ["Ven, Espíritu Creador,", "visita las mentes de los tuyos,", "llena de gracia celestial", "los pechos que Tú creaste.", "", "Tú, que eres llamado Paráclito,", "don del Dios altísimo,", "fuente viva, fuego, caridad,", "y unción espiritual.", "", "Tú, séptuple en tus dones,", "dedo de la diestra del Padre,", "tú, la promesa fielmente hecha por el Padre,", "que enriqueces las gargantas con la palabra.", "", "Enciende la luz en nuestros sentidos,", "infunde el amor en nuestros corazones,", "y las debilidades de nuestro cuerpo", "fortalécelas con virtud perpetua.", "", "Rechaza lejos al enemigo,", "y danos pronto la paz;", "así, contigo como guía,", "evitemos todo mal.", "", "Concédenos conocer por ti al Padre,", "y también conocer al Hijo;", "y a ti, Espíritu de ambos,", "creamos en todo tiempo.", "", "Gloria sea a Dios Padre,", "y al Hijo, que de entre los muertos", "resucitó, y al Paráclito,", "por los siglos de los siglos. Amén."]}}, {"id": "aeterne_rerum_conditor", "title": "Aeterne Rerum Conditor", "original_language": "la", "lines": {"la": ["Aeterne rerum Conditor,", "noctem diemque qui regis,", "et temporum das tempora,", "ut alleves fastidium;", "", "Praeco diei iam sonat,", "noctis profundae excubitor,", "nocturna lux viantibus", "a nocte noctem segregans.", "", "Hoc excitatus Lucifer", "solvit polum caligine;", "hoc omnis erronum cohors", "vias nocendi deserit.", "", "Iesu, labentes respice,", "et nos videndo corrige;", "si respicis, lapsus cadunt,", "fletuque culpa solvitur.", "", "Tu, lux, refulge sensibus,", "somnumque mentis discute;", "te nostra vox primum sonet,", "et vota solvamus tibi.", "", "Deo Patri sit gloria,", "eiusque soli Filio,", "cum Spiritu Paraclito,", "nunc et per omne saeculum. Amen."], "es": ["Eterno Creador de todas las cosas,", "que riges la noche y el día,", "y das los tiempos a los tiempos,", "para aliviar nuestro hastío;", "", "Ya suena el heraldo del día,", "centinela de la profunda noche,", "luz nocturna para los caminantes,", "que separa la noche de la noche.", "", "Al oírlo, el Lucero", "libra al cielo de su oscuridad;", "al oírlo, toda hueste de malhechores", "abandona sus caminos de hacer daño.", "", "Jesús, mira a los que caen,", "y corrígenos mirándonos;", "si tú miras, las caídas cesan,", "y la culpa se disuelve con el llanto.", "", "Tú, luz, resplandece en nuestros sentidos,", "y disipa el sueño de la mente;", "que nuestra voz te cante primero a ti,", "y cumplamos para ti nuestros votos.", "", "Gloria sea a Dios Padre,", "y a su único Hijo,", "con el Espíritu Paráclito,", "ahora y por todos los siglos. Amén."]}}, {"id": "ecce_iam_noctis", "title": "Ecce Jam Noctis", "original_language": "la", "lines": {"la": ["Ecce iam noctis tenuatur umbra,", "lucis aurora rutilans coruscat;", "nisibus totis rogitemus omnes", "Cunctipotentem,", "", "Ut Deus, nostri miseratus, omnem", "pellat languorem, tribuat salutem,", "donet et nobis pietate patris", "regna polorum.", "", "Praestet hoc nobis Deitas beata", "Patris ac Nati, pariterque Sancti", "Spiritus, cuius resonat per omnem", "gloria mundum. Amen."], "es": ["He aquí que ya se adelgaza la sombra de la noche,", "y brilla resplandeciente la aurora de la luz;", "roguemos todos con todo empeño", "al Todopoderoso,", "", "Para que Dios, apiadado de nosotros,", "aleje toda enfermedad y conceda la salud,", "y nos dé, con piedad de padre,", "los reinos celestiales.", "", "Concédanos esto la bienaventurada Deidad", "del Padre y del Hijo, y también del Santo", "Espíritu, cuya gloria resuena", "por todo el mundo. Amén."]}}], "compline": [{"id": "te_lucis_ante_terminum", "title": "Te Lucis Ante Terminum", "original_language": "la", "lines": {"la": ["Te lucis ante terminum,", "rerum creator, poscimus,", "ut pro tua clementia", "sis praesul et custodia.", "", "Procul recedant somnia", "et noctium phantasmata;", "hostemque nostrum comprime,", "ne polluantur corpora.", "", "Praesta, Pater omnipotens,", "per Iesum Christum Dominum,", "qui tecum in perpetuum", "regnat cum Sancto Spiritu. Amen."], "es": ["Antes de que acabe la luz,", "te pedimos, Creador de todas las cosas,", "que por tu clemencia", "seas nuestro guardián y custodia.", "", "Aléjense lejos los sueños", "y los fantasmas de la noche;", "reprime a nuestro enemigo,", "para que nuestros cuerpos no se manchen.", "", "Concédenos esto, Padre omnipotente,", "por Jesucristo el Señor,", "que contigo por siempre", "reina con el Espíritu Santo. Amén."]}}, {"id": "christe_qui_lux_es_et_dies", "title": "Christe, Qui Lux Es Et Dies", "original_language": "la", "lines": {"la": ["Christe, qui lux es et dies,", "noctis tenebras detegis,", "lucisque lumen crederis,", "lumen beatum praedicans.", "", "Precamur, sancte Domine,", "defende nos in hac nocte,", "sit nobis in te requies,", "quietam noctem tribue.", "", "Ne gravis somnus irruat,", "nec hostis nos surripiat,", "nec caro illi consentiens,", "nos tibi reos statuat.", "", "Oculi somnum capiant,", "cor semper ad te vigilet,", "dextera tua protegat", "famulos qui te diligunt.", "", "Defensor noster, aspice,", "insidiantes reprime,", "guberna tuos famulos,", "quos sanguine mercatus es.", "", "Deo Patri sit gloria,", "eiusque soli Filio,", "cum Spiritu Paraclito,", "et nunc et in perpetuum. Amen."], "es": ["Cristo, que eres luz y día,", "que descubres las tinieblas de la noche,", "y eres proclamado la luz de la luz,", "anunciando la luz bienaventurada.", "", "Te suplicamos, santo Señor,", "defiéndenos en esta noche,", "sea en ti nuestro descanso,", "concédenos una noche tranquila.", "", "Que no nos asalte un sueño pesado,", "ni el enemigo nos sorprenda,", "ni la carne, consintiendo con él,", "nos declare culpables ante ti.", "", "Que los ojos tomen el sueño,", "pero el corazón vele siempre hacia ti,", "que tu diestra proteja", "a los siervos que te aman.", "", "Defensor nuestro, mira,", "reprime a los que nos acechan,", "gobierna a tus siervos,", "a quienes compraste con tu sangre.", "", "Gloria sea a Dios Padre,", "y a su único Hijo,", "con el Espíritu Paráclito,", "ahora y por siempre. Amén."]}}, {"id": "o_lux_beata_trinitas", "title": "O Lux Beata Trinitas", "original_language": "la", "lines": {"la": ["O lux beata Trinitas,", "et principalis Unitas,", "iam sol recedit igneus:", "infunde lumen cordibus.", "", "Te mane laudum carmine,", "te deprecemur vespere:", "te nostra supplex gloria", "per cuncta laudet saecula.", "", "Deo Patri sit gloria,", "eiusque soli Filio,", "cum Spiritu Paraclito,", "et nunc et in perpetuum. Amen."], "es": ["Oh luz bienaventurada, Trinidad,", "y Unidad primera,", "ya el sol ígneo se retira:", "infunde tu luz en los corazones.", "", "A ti te alabemos por la mañana con cánticos,", "a ti te supliquemos al atardecer:", "que nuestra súplica te glorifique", "por todos los siglos.", "", "Gloria sea a Dios Padre,", "y a su único Hijo,", "con el Espíritu Paráclito,", "ahora y para siempre. Amén."]}}]}, "dates": {"2026-12-01": {"date_human": {"en": "Tuesday, December 1, 2026", "es": "Martes, 1 de diciembre de 2026", "la": "Feria III, die 1 Decembris, anno 2026"}, "day_description": {"en": "Tuesday of the 1<sup>st</sup> Week of Advent", "es": "Martes de la 1.<sup>a</sup> semana de Adviento", "la": "Feria III hebdomadae I Adventus"}, "hours": {"lauds": [{"kind": "static", "label": "deus", "content": {"la": "V. Deus, in adiutorium meum intende.\nR. Domine, ad adiuvandum me festina.\nGloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen. Alleluia.", "es": "V. Dios mío, ven en mi auxilio.\nR. Señor, date prisa en socorrerme.\nGloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén. Aleluya."}}, {"kind": "lines", "label": "hymn", "content": {"la": ["Vox clara ecce íntonat,", "obscúra quæque íncrepat:", "procul fugéntur sómnia;", "ab æthre Christus prómicat.", "", "Mens iam resúrgat tórpida", "quæ sorde exstat sáucia;", "sidus refúlget iam novum,", "ut tollat omne nóxium.", "", "E sursum Agnus míttitur", "laxáre gratis débitum;", "omnes pro indulgéntia", "vocem demus cum lácrimis.", "", "Secundo ut cum fúlserit", "mundúmque horror cínxerit,", "non pro reátu púniat,", "sed nos pius tunc prótegat.", "", "Summo Parénti glória", "Natóque sit victória,", "et Flámini laus débita", "per sæculórum saécula. Amen."], "es": ["De luz nueva se viste la tierra,", "porque el Sol que del cielo ha venido", "en el seno feliz de la Virgen", "de su carne se ha revestido.", "", "El amor hizo nuevas las cosas,", "el Espíritu ha descendido", "y la sombra del que todo puede", "en la Virgen su luz ha encendido.", "", "Ya la tierra reclama su fruto", "y de bodas se anuncia alegría,", "el Señor que en los cielos habita", "se hizo carne en la Virgen María.", "", "Gloria a Dios, el Señor poderoso,", "a su Hijo y Espíritu Santo,", "que en su gracia y su amor nos bendijo", "y a su reino nos ha destinado. Amén.", "", "$O bien:$ ", "", "Preparemos los caminos", "-ya se acerca el Salvador-", "y salgamos, peregrinos,", "al encuentro del Señor.", "", "Ven, Señor, a libertarnos,", "ven, tu pueblo a redimir;", "purifica nuestras vidas", "y no tardes en venir.", "", "El rocío de los cielos", "sobre el mundo va a caer,", "el Mesías prometido,", "hecho niño, va a nacer.", "", "De los montes la dulzura,", "de los ríos leche y miel,", "de la noche será aurora", "la venida de Emmanuel.", "", "Te esperamos anhelantes", "y sabemos que vendrás;", "deseamos ver tu rostro", "y que vengas a reinar.", "", "Consolaos y alegraos,", "desterrados de Sion,", "que ya viene, ya está cerca,", "él es nuestra salvación."]}}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_El hombre de manos inocentes y puro corazón subirá al monte del Señor._"}}, {"kind": "psalm", "label": "psalm", "ref": "Ps 23", "content": {"la": [["1", "Prima sabbati. Psalmus David. Domini est terra, et plenitudo ejus; orbis terrarum, et universi qui habitant in eo."], ["2", "Quia ipse super maria fundavit eum, et super flumina praeparavit eum."], ["3", "Quis ascendet in montem Domini? aut quis stabit in loco sancto ejus?"], ["4", "Innocens manibus et mundo corde, qui non accepit in vano animam suam, nec juravit in dolo proximo suo."], ["5", "Hic accipiet benedictionem a Domino, et misericordiam a Deo salutari suo."], ["6", "Haec est generatio quaerentium eum, quaerentium faciem Dei Jacob."], ["7", "Attollite portas, principes, vestras, et elevamini, portae aeternales, et introibit rex gloriae."], ["8", "Quis est iste rex gloriae? Dominus fortis et potens, Dominus potens in praelio."], ["9", "Attollite portas, principes, vestras, et elevamini, portae aeternales, et introibit rex gloriae."], ["10", "Quis est iste rex gloriae? Dominus virtutum ipse est rex gloriae."]], "es": [["1", "Del Señor es la tierra y cuanto ella contiene; el mundo y todos sus habitantes."], ["2", "Porque él la estableció superior a los mares, y la colocó más alta que los ríos."], ["3", "¿Quién subirá al monte del Señor? ¿O quién podrá estar en su santuario?"], ["4", "El que tiene puras las manos y limpio el corazón; el que no ha recibido en vano su alma, ni hecho juramentos engañosos a su prójimo."], ["5", "Este es el que obtendrá la bendición del Señor y la misericordia de Dios, su salvador ."], ["6", "Este es el linaje de los que la buscan, de los que anhelan por ver el rostro del Dios de Jacob ."], ["7", "Levantad, ¡oh, príncipes!, vuestras puertas, y elevaos vosotras, ¡oh puertas de la eternidad!, y entrará el rey de la gloria."], ["8", "¿Quién es ese rey de la gloria? Es el Señor fuerte y poderoso; el Señor poderoso en las batallas."], ["9", "Levantad, ¡oh príncipes!, vuestras puertas, y elevaos vosotras, ¡oh puertas de la eternidad! y entrará el rey de la gloria."], ["10", "¿Quién es ese rey de la gloria? El Señor de los ejércitos, ése es el rey de la gloria."]]}}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_El hombre de manos inocentes y puro corazón subirá al monte del Señor._"}, "repeated": true}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_Ensalzad con vuestras obras al Rey de los siglos._"}}, {"kind": "lines", "label": "canticle", "ref": "Tobías 13, 1-10a: Dios castiga y salva", "content": {"la": null, "es": ["Bendito sea Dios, que vive eternamente,", "y cuyo reino dura por los siglos:", "él azota y se compadece,", "hunde hasta el abismo y saca de él,", "y no hay quien escape de su mano.", "", "Dadle gracias, israelitas, ante los gentiles,", "porque él nos dispersó entre ellos.", "Proclamad allí su grandeza,", "ensalzadlo ante todos los vivientes:", "que él es nuestro Dios y Señor,", "nuestro padre por todos los siglos.", "", "Él nos azota por nuestros delitos,", "pero se compadecerá de nuevo,", "y os congregará de entre las naciones", "por donde estáis dispersados.", "", "Si volvéis a él de todo corazón", "y con toda el alma,", "siendo sinceros con él,", "él volverá a vosotros", "y no os ocultará su rostro.", "", "Veréis lo que hará con vosotros,", "le daréis gracias a boca llena,", "bendeciréis al Señor de la justicia", "y ensalzaréis al rey de los siglos.", "", "Yo le doy gracias en mi cautiverio,", "anuncio su grandeza y su poder", "a un pueblo pecador.", "", "Convertíos, pecadores, ", "obrad rectamente en su presencia:", "quizá os mostrará benevolencia", "y tendrá compasión.", "", "Ensalzaré a mi Dios, al rey del cielo,", "y me alegraré de su grandeza.", "Que todos alaben al Señor", "y le den gracias en Jerusalén.", "", "Gloria al Padre, y al Hijo, y al Espíritu Santo.", "Como era en el principio, ahora y siempre,", "por los siglos de los siglos. Amén."]}}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_Ensalzad con vuestras obras al Rey de los siglos._"}, "repeated": true}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_El Señor merece la alabanza de los buenos._"}}, {"kind": "psalm", "label": "psalm", "ref": "Ps 32", "content": {"la": [["1", "Psalmus David. Exsultate, justi, in Domino; rectos decet collaudatio."], ["2", "Confitemini Domino in cithara; in psalterio decem chordarum psallite illi."], ["3", "Cantate ei canticum novum; bene psallite ei in vociferatione."], ["4", "Quia rectum est verbum Domini, et omnia opera ejus in fide."], ["5", "Diligit misericordiam et judicium; misericordia Domini plena est terra."], ["6", "Verbo Domini caeli firmati sunt; et spiritu oris ejus omnis virtus eorum."], ["7", "Congregans sicut in utre aquas maris; ponens in thesauris abyssos."], ["8", "Timeat Dominum omnis terra; ab eo autem commoveantur omnes inhabitantes orbem."], ["9", "Quoniam ipse dixit, et facta sunt; ipse mandavit et creata sunt."], ["10", "Dominus dissipat consilia gentium; reprobat autem cogitationes populorum, et reprobat consilia principum."], ["11", "Consilium autem Domini in aeternum manet; cogitationes cordis ejus in generatione et generationem."], ["12", "Beata gens cujus est Dominus Deus ejus; populus quem elegit in haereditatem sibi."], ["13", "De caelo respexit Dominus; vidit omnes filios hominum."], ["14", "De praeparato habitaculo suo respexit super omnes qui habitant terram :"], ["15", "qui finxit sigillatim corda eorum; qui intelligit omnia opera eorum."], ["16", "Non salvatur rex per multam virtutem, et gigas non salvabitur in multitudine virtutis suae."], ["17", "Fallax equus ad salutem; in abundantia autem virtutis suae non salvabitur."], ["18", "Ecce oculi Domini super metuentes eum : et in eis qui sperant super misericordia ejus."], ["19", "Ut eruat a morte animas eorum : et alat eos in fame."], ["20", "Anima nostra sustinet Dominum, quoniam adjutor et protector noster est."], ["21", "Quia in eo laetabitur cor nostrum, et in nomine sancto ejus speravimus."], ["22", "Fiat misericordia tua, Domine, super nos, quemadmodum speravimus in te."]], "es": [["1", "Regocijaos, ¡oh justos!, en el Señor; a los rectos de corazón es a quienes les está bien alabarle."], ["2", "Alabad al Señor con la cítara, cantadle himnos tañendo el salterio."], ["3", "Entonad un cántico nuevo, cantadle a coro suaves himnos."], ["4", "Porque la palabra del Señor es recta, y su fidelidad brilla en todas sus obras."], ["5", "Ama la misericordia y la justicia; toda la tierra está llena de la misericordia del Señor."], ["6", "Por la palabra del Señor se fundaron los cielos, y por el espíritu de su boca se formó todo su concierto y belleza."], ["7", "El tiene recogidas las aguas del mar, como en un odre, y puestos en depósito los abismos."], ["8", "Tema al Señor la tierra toda; tiemblen en su presencia cuantos la tierra habitan."], ["9", "Porque él habló, y todo quedó hecho; lo mandó y todo fue creado."], ["10", "El Señor desbarata los proyectos de las naciones; deshace los designios de los pueblos, e inutiliza los planes de los príncipes."], ["11", "Mas los designios del Señor permanecen eternamente; las disposiciones de su voluntad subsisten por todas las generaciones."], ["12", "Feliz la nación cuyo Dios es el Señor, el pueblo a quien escogió por herencia propia suya."], ["13", "Observó desde el cielo el Señor; vio a todos los hijos de los hombres."], ["14", "Desde su firmísimo trono echó una mirada sobre todos los habitantes de la tierra."], ["15", "El es el que formó el corazón de cada uno; el que conoce todo lo que hacen."], ["16", "No por su gran poderío se salva el rey; ni se salvará el gigante por su valentía."], ["17", "El caballo no es seguro para salvarse en él; no por su mucho brío pondrá a salvo al jinete."], ["18", "He aquí los ojos del Señor puestos en los que le temen, y en los que confían en su misericordia;"], ["19", "para librar sus almas de la muerte, y sustentarlos en tiempo de hambre."], ["20", "Así nuestra alma espera con paciencia al Señor; porque él es nuestro amparo y protector."], ["21", "En él hallará nuestro corazón su alegría, y en su santo Nombre tenemos puesta la esperanza."], ["22", "Venga, ¡oh Señor!, tu misericordia sobre nosotros, conforme esperamos en ti."]]}}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_El Señor merece la alabanza de los buenos._"}, "repeated": true}, {"kind": "psalm", "label": "reading", "ref": "gen 49:10", "content": {"la": [["10", "Non auferetur sceptrum de Juda, et dux de femore ejus, donec veniat qui mittendus est, et ipse erit expectatio gentium."]], "es": [["10", "EL CETRO NO SERA QUITADO DE JUDA, ni de su posteridad el caudillo, hasta que venga el que ha de ser enviado, y éste será la esperanza de las naciones."]]}}, {"kind": "lines", "label": "responsory", "content": {"la": null, "es": ["$℣. $Sobre ti, Jerusalén, amanecerá el Señor.", "$℟. $Sobre ti, Jerusalén, amanecerá el Señor.", "$℣. $Su gloria aparecerá sobre ti.", "$℟. $Amanecerá el Señor.", "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.", "$℟. $Sobre ti, Jerusalén, amanecerá el Señor."]}}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_Brotará un renuevo del tronco de Jesé y la gloria del Señor llenará toda la tierra; y todos verán la salvación de Dios._"}}, {"kind": "psalm", "label": "gospel_canticle_benedictus", "ref": "Luke 1:68-79", "content": {"la": [["68", "Benedictus Dominus Deus Israel, quia visitavit, et fecit redemptionem plebis suae :"], ["69", "et erexit cornu salutis nobis in domo David pueri sui,"], ["70", "sicut locutum est per os sanctorum, qui a saeculo sunt, prophetarum ejus :"], ["71", "salutem ex inimicis nostris, et de manu omnium qui oderunt nos :"], ["72", "ad faciendam misericordiam cum patribus nostris : et memorari testamenti sui sancti :"], ["73", "jusjurandum, quod juravit ad Abraham patrem nostrum, daturum se nobis"], ["74", "ut sine timore, de manu inimicorum nostrorum liberati, serviamus illi"], ["75", "in sanctitate et justitia coram ipso, omnibus diebus nostris."], ["76", "Et tu puer, propheta Altissimi vocaberis : praeibis enim ante faciem Domini parare vias ejus,"], ["77", "ad dandam scientiam salutis plebi ejus in remissionem peccatorum eorum"], ["78", "per viscera misericordiae Dei nostri, in quibus visitavit nos, oriens ex alto :"], ["79", "illuminare his qui in tenebris et in umbra mortis sedent : ad dirigendos pedes nostros in viam pacis."]], "es": [["68", "Bendito sea el Señor Dios de Israel , porque ha \\isitado, y redimid® á su pueblo ; ^"], ["69", "y nos ha suscitado un poderoso Salvador en la casa de David su siervo :"], ["70", "según lo tenia anunciado por boca de sus santos Profetas , que han florecido en todos los siglos pa- sados ;"], ["71", "para librarnos de nuestros enemigos, y de las manos de todos aquellos que nos aborrecen :"], ["72", "ejerciendo su misericordia con nuestros padres, y teniendo presente su alianza santa ' ,"], ["74", "de que, libertados de las manos de nuestros ene- migos , le sirvamos sin temor ,"], ["75", "con verdadera santidad y justicia , ante su aca- tamiento, todos los dias de nuestra vida."], ["76", "Y tú ¡oh niño ! tú serás llamado el Profeta del Altísimo ; porque irás delante del Señor á preparar sus caminos,"], ["77", "enseñando la ciencia de la salvación á su pueblo, para que obtenga el perdón de sus pecados ,"], ["78", "por las entrañas misericordiosas de nuestro Dios , que ha hecho que ese Sol naciente ha venido á visitarnos de lo alto del cielo ' ,"], ["79", "para alumbrar á los que yacen en las tinieblas y en la sombra de la muerte ; para enderezar nuestros pasos por el camino de la paz ^."]]}}, {"kind": "ant", "label": "antiphon", "repeated": true, "content": {"la": null, "es": "_Brotará un renuevo del tronco de Jesé y la gloria del Señor llenará toda la tierra; y todos verán la salvación de Dios._"}}, {"kind": "lines", "label": "intercessions", "content": {"la": null, "es": ["El Señor, Padre todopoderoso, tenderá otra vez su mano, para rescatar al resto de su pueblo; supliquémosle, pues, confiados:", "- Concédenos, Señor, dar aquel fruto que pide la conversión, _para que podamos recibir tu reino que se acerca._ _Venga a nosotros tu Reino, Señor._", "- Prepara, Señor en nuestros corazones, un camino para tu Palabra que ha de venir: _así tu gloria se manifestará al mundo por medio de nosotros._ _Venga a nosotros tu Reino, Señor._", "- Abaja los montes y las colinas de nuestro orgullo _y levanta los valles de nuestros desánimos y de nuestras cobardías._ _Venga a nosotros tu Reino, Señor._", "- Destruye los muros del odio que divide a las naciones _y allana los caminos de la concordia entre los hombres._ _Venga a nosotros tu Reino, Señor._"]}}, {"kind": "lines", "label": "our_father", "content": {"la": ["Pater noster, qui es in caelis:", "sanctificetur nomen tuum;", "adveniat regnum tuum;", "fiat voluntas tua, sicut in caelo, et in terra.", "Panem nostrum cotidianum da nobis hodie;", "et dimitte nobis debita nostra,", "sicut et nos dimittimus debitoribus nostris;", "et ne nos inducas in tentationem;", "sed libera nos a malo.", "Amen."], "es": ["Padre nuestro, que estás en el cielo,", "santificado sea tu Nombre;", "venga a nosotros tu reino;", "hágase tu voluntad en la tierra como en el cielo.", "Danos hoy nuestro pan de cada día;", "perdona nuestras ofensas,", "como también nosotros perdonamos a los que nos ofenden;", "no nos dejes caer en la tentación,", "y líbranos del mal.", "Amén."]}}, {"kind": "plain", "label": "concluding_prayer", "content": {"la": null, "es": "Señor y Dios nuestro, acoge favorablemente nuestras súplicas y ayúdanos con tu amor en nuestro desvalimiento; que la presencia de tu Hijo, ya cercano, nos renueve y nos libre de volver a caer en la antigua servidumbre del pecado. Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo y es Dios por los siglos de los siglos."}}, {"kind": "static", "label": "dismissal", "content": {"la": "V. Benedicamus Domino.\nR. Deo gratias.", "es": "V. Bendigamos al Señor.\nR. Demos gracias a Dios."}}], "vespers": [{"kind": "static", "label": "deus", "content": {"la": "V. Deus, in adiutorium meum intende.\nR. Domine, ad adiuvandum me festina.\nGloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen. Alleluia.", "es": "V. Dios mío, ven en mi auxilio.\nR. Señor, date prisa en socorrerme.\nGloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén. Aleluya."}}, {"kind": "lines", "label": "hymn", "content": {"la": ["Cónditor alme síderum,", "ætérna lux credéntium,", "Christe, redémptor ómnium,", "exáudi preces súpplicum.", "", "Qui cóndolens intéritu", "mortis períre saéculum,", "salvásti mundum lánguidum,", "donans reis remédium,", "", "Vergénte mundi véspere,", "uti sponsus de thálamo,", "egréssus honestíssima", "Vírginis matris cláusula.", "", "Cuius forti poténtiæ", "genu curvántur ómnia;", "cæléstia, terréstria", "nutu faténtur súbdita.", "", "Te, Sancte, fide quaésumus,", "ventúre iudex saéculi,", "consérva nos in témpore", "hostis a telo pérfidi.", "", "Sit, Christe, rex piíssime,", "tibi Patríque glória", "cum Spíritu Paráclito,", "in sempitérna saécula. Amen."], "es": ["Jesucristo, Palabra del Padre,", "luz eterna de todo creyente:", "ven y escucha la súplica ardiente,", "ven, Señor, porque ya se hace tarde.", "", "Cuando el mundo dormía en tinieblas,", "en tu amor tú quisiste ayudarlo", "y trajiste, viniendo a la tierra,", "esa vida que puede salvarlo.", "", "Ya madura la historia en promesas,", "sólo anhela tu pronto regreso;", "si el silencio madura la espera,", "el amor no soporta el silencio.", "", "Con María, la Iglesia te aguarda", "con anhelos de esposa y de Madre,", "y reúne a sus hijos en vela,", "para juntos poder esperarte.", "", "Cuando vengas, Señor, en tu gloria,", "que podamos salir a tu encuentro", "y a tu lado vivamos por siempre,", "dando gracias al Padre en el reino. Amén.", "", "$O bien:$ ", "", "¡Marana tha!", "¡Ven, Señor Jesús!", "", "Yo soy la Raíz y el Hijo de David,", "la Estrella radiante de la mañana.", "", "El Espíritu y la Esposa dicen: \"¡Ven, Señor!\"", "Quien lo oiga, diga: \"¡Ven, Señor!\"", "", "Quien tenga sed, que venga; quien lo desee,", "que tome el don del agua de la vida.", "", "Sí, yo vengo pronto.", "¡Amén! ¡Ven, Señor Jesús!"]}}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_El Señor da la victoria a su Ungido._"}}, {"kind": "psalm", "label": "psalm", "ref": "Ps 19", "content": {"la": [["1", "In finem. Psalmus David."], ["2", "Exaudiat te Dominus in die tribulationis; protegat te nomen Dei Jacob."], ["3", "Mittat tibi auxilium de sancto, et de Sion tueatur te."], ["4", "Memor sit omnis sacrificii tui, et holocaustum tuum pingue fiat."], ["5", "Tribuat tibi secundum cor tuum, et omne consilium tuum confirmet."], ["6", "Laetabimur in salutari tuo; et in nomine Dei nostri magnificabimur."], ["7", "Impleat Dominus omnes petitiones tuas; nunc cognovi quoniam salvum fecit Dominus christum suum. Exaudiet illum de caelo sancto suo, in potentatibus salus dexterae ejus."], ["8", "Hi in curribus, et hi in equis; nos autem in nomine Domini Dei nostri invocabimus."], ["9", "Ipsi obligati sunt, et ceciderunt, nos autem surreximus, et erecti sumus. Domine, salvum fac regem, et exaudi nos in die qua invocaverimus te."]], "es": [["1", "Que te oiga, ¡oh rey!, el Señor el día de la tribulación; que te defienda el Nombre del Dios de Jacob ."], ["2", "Que te envíe socorro desde el santuario, y sea tu firme apoyo desde Sión."], ["3", "Tenga presente todos tus sacrificios, y le sea gratísimo tu holocausto."], ["4", "Que te conceda lo que desea tu corazón, y cumpla todos sus designios."], ["5", "Nosotros nos alegraremos por tu salud y nos gloriaremos en el Nombre de nuestro Dios."], ["6", "Otorgue el Señor todas tus peticiones. Ahora veo que el Señor ha puesto a salvo a su ungido. El le oirá desde el cielo, que es su santuario, en su poderosa diestra está la salvación."], ["7", "Unos confían en sus carros armados, otros en sus caballos; mas nosotros invocaremos el Nombre del Señor nuestro Dios."], ["8", "Ellos se hallaron envueltos en los lazos y cayeron; pero nosotros realzamos, y estamos llenos de vigor."], ["9", "¡Oh Señor!, salva al rey, y óyenos el día en que te invocaremos."]]}}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_El Señor da la victoria a su Ungido._"}, "repeated": true}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_Al son de instrumentos cantaremos tu poder._"}}, {"kind": "psalm", "label": "psalm", "ref": "Ps 20:2-8,14", "content": {"la": [["2", "Domine, in virtute tua laetabitur rex, et super salutare tuum exsultabit vehementer."], ["3", "Desiderium cordis ejus tribuisti ei, et voluntate labiorum ejus non fraudasti eum."], ["4", "Quoniam praevenisti eum in benedictionibus dulcedinis; posuisti in capite ejus coronam de lapide pretioso."], ["5", "Vitam petiit a te, et tribuisti ei longitudinem dierum in saeculum, et in saeculum saeculi."], ["6", "Magna est gloria ejus in salutari tuo; gloriam et magnum decorem impones super eum."], ["7", "Quoniam dabis eum in benedictionem in saeculum saeculi; laetificabis eum in gaudio cum vultu tuo."], ["8", "Quoniam rex sperat in Domino; et in misericordia Altissimi non commovebitur."], ["14", "Exaltare, Domine, in virtute tua; cantabimus et psallemus virtutes tuas."]], "es": [["2", "Oh, Señor, en tu gran poder hallará el rey su alegría, y saltará de extremado gozo por la salvación que le has enviado."], ["3", "Tú le has cumplido el deseo de su corazón, y no has frustrado los ruegos que formaron sus labios."], ["4", "Antes te has anticipado a él con bendiciones amorosas; le pusiste sobre la cabeza una corona de piedras preciosas."], ["5", "Te pidió vida, y tú le has concedido alargar sus días por los siglos de los siglos."], ["6", "Grande es su gloria por la salvación que le has dado. Aún le revistarás de una gloria y esplendor mucho más grande."], ["7", "Porque tú harás que él sea bendición eterna; lo colmarás de gozo con sólo mostrarle tu rostro."], ["8", "Por cuanto el rey tiene puesta su confianza en el Señor; por lo mismo descansará inmóvil en la misericordia del Altísimo."], ["14", "Ensálzate, Señor, con tu poder infinito; que nosotros celebraremos con cánticos e himnos tus maravillas."]]}}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_Al son de instrumentos cantaremos tu poder._"}, "repeated": true}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_Has hecho de nosotros, Señor, un reino de sacerdotes para nuestro Dios._"}}, {"kind": "psalm", "label": "canticle", "ref": "rev 4:11;5:9,10,12", "content": {"la": [["4:11", "Dignus es Domine Deus noster accipere gloriam, et honorem, et virtutem : quia tu creasti omnia, et propter voluntatem tuam erant, et creata sunt."], ["5:9", "et cantabant canticum novum, dicentes : Dignus es, Domine, accipere librum, et aperire signacula ejus : quoniam occisus es, et redemisti nos Deo in sanguine tuo ex omni tribu, et lingua, et populo, et natione :"], ["5:10", "et fecisti nos Deo nostro regnum, et sacerdotes : et regnabimus super terram."], ["5:12", "dicentium voce magna : Dignus est Agnus, qui occisus est, accipere virtutem, et divinitatem, et sapientiam, et fortitudinem, et honorem, et gloriam, et benedictionem."]], "es": [["5:9", "y cantaban un cántico nuevo ^ , diciendo : Digno eres, Señor, de recibir el libro, y de abrir sus sellos, porque tú has sido entregado á la muerte , y con tu sangre nos has rescatado para Dios, de todas las tri- bus, y lenguas, y pueblos, y naciones :"], ["5:10", "con que nos hiciste para nuestro Dios reyes y sacerdotes*; y reinaremos sobre la (ierra hasta que después reinemos contigo en el cielo."], ["5:12", "los cuales decian en alta voz : Digno es el Cor- dero que ha sido sacrificado, de recibir el poder, y la divinidad, y la sabiduría, y la fortaleza, y el honor, y la gloria , y la bendición '."]]}}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_Has hecho de nosotros, Señor, un reino de sacerdotes para nuestro Dios._"}, "repeated": true}, {"kind": "psalm", "label": "reading", "ref": "1cor 1:7-9", "content": {"la": [["7", "ita ut nihil vobis desit in ulla gratia, exspectantibus revelationem Domini nostri Jesu Christi,"], ["8", "qui et confirmabit vos usque in finem sine crimine, in die adventus Domini nostri Jesu Christi."], ["9", "Fidelis Deus : per quem vocati estis in societatem filii ejus Jesu Christi Domini nostri."]], "es": [["7", "de manera que nada os falte de gracia ninguna , á vosotros que estáis esperando la manifestación de Jesu-Christo nuestro Señor :"], ["8", "el cual"], ["9", "Porque Dios, por el cual habéis sido llamados á la compañía de su Hijo Jesu-Christo nuestro Señor , es fiel en sus promesas. ."]]}}, {"kind": "lines", "label": "responsory", "content": {"la": null, "es": ["$℣. $Despierta tu poder y ven a salvarnos, Señor Dios de los ejércitos.", "$℟. $Despierta tu poder y ven a salvarnos, Señor Dios de los ejércitos.", "$℣. $Que brille tu rostro y nos salve.", "$℟. $Señor Dios de los ejércitos.", "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.", "$℟. $Despierta tu poder y ven a salvarnos, Señor Dios de los ejércitos."]}}, {"kind": "ant", "label": "antiphon", "content": {"la": null, "es": "_Buscad al Señor mientras se le encuentra, invocadlo mientras está cerca. Aleluya._"}}, {"kind": "psalm", "label": "gospel_canticle_magnificat", "ref": "Luke 1:46-55", "content": {"la": [["46", "Et ait Maria : Magnificat anima mea Dominum :"], ["47", "et exsultavit spiritus meus in Deo salutari meo."], ["48", "Quia respexit humilitatem ancillae suae : ecce enim ex hoc beatam me dicent omnes generationes,"], ["49", "quia fecit mihi magna qui potens est : et sanctum nomen ejus,"], ["50", "et misericordia ejus a progenie in progenies timentibus eum."], ["51", "Fecit potentiam in brachio suo : dispersit superbos mente cordis sui."], ["52", "Deposuit potentes de sede, et exaltavit humiles."], ["53", "Esurientes implevit bonis : et divites dimisit inanes."], ["54", "Suscepit Israel puerum suum, recordatus misericordiae suae :"], ["55", "sicut locutus est ad patres nostros, Abraham et semini ejus in saecula."]], "es": [["46", "Entonces María dijo : Mi alma glorifica al Se- ñor;"], ["47", "y mi espíritu está trasportado de gozo en el Dios salvador mió."], ["48", "Porque ha puesto los ojos en la bajeza de su es- clava ^ : por tanto ya desde ahora me llamarán bien- aventurada todas las generaciones."], ["49", "Porque ha hecho en mí cosas grandes aquel que es fofZopoderoso , cuyo nombre es santo ;"], ["50", "y cuya misericordia se derrama de generación en generación sobre los que le temen."], ["51", "Hizo alarde del poder de su brazo: deshizo las miras del corazón de los soberbios."], ["52", "Derribó del solio á los poderosos , y ensalzó á los humildes."], ["53", "Colmó de bienes álos hambrientos , y á los ricos los despidió sin nada."], ["54", "Acordándose de su misericordia, acogió á Israel su siervo ;"], ["55", "según la promesa que hizo á nuestros padres, á Abraham y á su descendencia por los siglos délos siglos."]]}}, {"kind": "ant", "label": "antiphon", "repeated": true, "content": {"la": null, "es": "_Buscad al Señor mientras se le encuentra, invocadlo mientras está cerca. Aleluya._"}}, {"kind": "lines", "label": "intercessions", "content": {"la": null, "es": ["Cristo, Palabra eterna, ha inaugurado un camino nuevo y vivo, a través del velo de su propia carne, para entrar en el Santuario. Pidámosle, pues, con humildad:", "- Oh Dios, en quien vivimos, nos movemos y existimos, _ven a revelarnos que somos estirpe tuya._ _Ven, Señor, y sálvanos._", "- Tú que no estás lejos de ninguno de nosotros, _muéstrate en seguida a todos los que te buscan._ _Ven, Señor, y sálvanos._", "- Padre de los pobres y consuelo de los afligidos, _da la libertad a los cautivos y la alegría a los tristes._ _Ven, Señor, y sálvanos._", "- Tú que destruyes la muerte y haces brillar la vida, _líbranos a nosotros y a todos los difuntos de la muerte eterna._ _Ven, Señor, y sálvanos._"]}}, {"kind": "lines", "label": "our_father", "content": {"la": ["Pater noster, qui es in caelis:", "sanctificetur nomen tuum;", "adveniat regnum tuum;", "fiat voluntas tua, sicut in caelo, et in terra.", "Panem nostrum cotidianum da nobis hodie;", "et dimitte nobis debita nostra,", "sicut et nos dimittimus debitoribus nostris;", "et ne nos inducas in tentationem;", "sed libera nos a malo.", "Amen."], "es": ["Padre nuestro, que estás en el cielo,", "santificado sea tu Nombre;", "venga a nosotros tu reino;", "hágase tu voluntad en la tierra como en el cielo.", "Danos hoy nuestro pan de cada día;", "perdona nuestras ofensas,", "como también nosotros perdonamos a los que nos ofenden;", "no nos dejes caer en la tentación,", "y líbranos del mal.", "Amén."]}}, {"kind": "plain", "label": "concluding_prayer", "content": {"la": null, "es": "Señor y Dios nuestro, acoge favorablemente nuestras súplicas y ayúdanos con tu amor en nuestro desvalimiento; que la presencia de tu Hijo, ya cercano, nos renueve y nos libre de volver a caer en la antigua servidumbre del pecado. Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo y es Dios por los siglos de los siglos."}}, {"kind": "static", "label": "dismissal", "content": {"la": "V. Benedicamus Domino.\nR. Deo gratias.", "es": "V. Bendigamos al Señor.\nR. Demos gracias a Dios."}}], "compline": [{"kind": "static", "label": "deus", "content": {"la": "V. Deus, in adiutorium meum intende.\nR. Domine, ad adiuvandum me festina.\nGloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen. Alleluia.", "es": "V. Dios mío, ven en mi auxilio.\nR. Señor, date prisa en socorrerme.\nGloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén. Aleluya."}}, {"kind": "hymn_choice", "label": "hymn", "hour": "compline"}, {"kind": "ant", "label": "antiphon", "content": {"la": "Ne intres in iudicium cum servo tuo, Domine.", "es": "No entres en juicio con tu siervo, Señor."}}, {"kind": "psalm", "label": "psalm", "ref": "Ps 142:1-11", "content": {"la": [["1", "Psalmus David, quando persequebatur eum Absalom, filius ejus. Domine, exaudi orationem meam; auribus percipe obsecrationem meam in veritate tua; exaudi me in tua justitia."], ["2", "Et non intres in judicium cum servo tuo, quia non justificabitur in conspectu tuo omnis vivens."], ["3", "Quia persecutus est inimicus animam meam, humiliavit in terra vitam meam; collocavit me in obscuris, sicut mortuos saeculi."], ["4", "Et anxiatus est super me spiritus meus; in me turbatum est cor meum."], ["5", "Memor fui dierum antiquorum : meditatus sum in omnibus operibus tuis, in factis manuum tuarum meditabar."], ["6", "Expandi manus meas ad te; anima mea sicut terra sine aqua tibi."], ["7", "Velociter exaudi me, Domine; defecit spiritus meus. Non avertas faciem tuam a me, et similis ero descendentibus in lacum."], ["8", "Auditam fac mihi mane misericordiam tuam, quia in te speravi. Notam fac mihi viam in qua ambulem, quia ad te levavi animam meam."], ["9", "Eripe me de inimicis meis, Domine; ad te confugi."], ["10", "Doce me facere voluntatem tuam, quia Deus meus es tu. Spiritus tuus bonus deducet me in terram rectam."], ["11", "Propter nomen tuum, Domine, vivificabis me; in aequitate tua, educes de tribulatione animam meam;"]], "es": [["1", "¡Oh Señor!, escucha benigno mi oración; presta oídos a mi súplica, según la verdad de tus promesas; óyeme por tu misericordia."], ["2", "Mas no quieres entrar en juicio con tu siervo; porque ningún viviente puede aparecer justo en tu presencia."], ["3", "Ya ves cómo el enemigo ha perseguido mi alma; abatida tiene hasta el suelo la vida mía. Me ha confinado en lugares tenebrosos, como a los que murieron hace ya un siglo."], ["4", "Mi espíritu padece terribles angustias; está mi corazón en continua zozobra."], ["5", "Mas me acordé luego de los días antiguos; me puse a meditar todas tus obras; ponderaba los efectos maravillosos de tu poder."], ["6", "Levanté mis manos hacia ti como tierra falta de agua, así está por ti suspirando el alma mía."], ["7", "Oyeme luego, ¡oh Señor!, mi espíritu ha desfallecido. No retires de mí tu rostro; haz que no haya de contarme ya entre los muertos."], ["8", "Hazme sentir cuanto antes tu misericordia, pues en ti he puesto mi esperanza. Muéstrame el camino que debo seguir, ya que hacia ti he levantado mi corazón."], ["9", "Líbrame, ¡oh Señor!, de mis enemigos; a ti me acojo."], ["10", "Enséñame a cumplir tu voluntad, pues tú eres mi Dios. Entonces tu espíritu es infinitamente bueno, me conducirá a la tierra de la rectitud y santidad."], ["11", "Por amor de tu Nombre, ¡oh Señor!, me darás la vida, según la justicia de tus promesas. A mi alma la sacarás de la tribulación,"]]}}, {"kind": "ant", "label": "antiphon", "repeated": true, "content": {"la": "Ne intres in iudicium cum servo tuo, Domine.", "es": "No entres en juicio con tu siervo, Señor."}}, {"kind": "plain", "label": "reading", "content": {"la": null, "es": null}}, {"kind": "plain", "label": "responsory", "content": {"la": null, "es": null}}, {"kind": "ant", "label": "antiphon", "content": {"la": "Salva nos, Domine, vigilantes, custodi nos dormientes, ut vigilemus cum Christo et requiescamus in pace.", "es": "Sálvanos, Señor, mientras velamos; guárdanos mientras dormimos, para que velemos con Cristo y descansemos en paz."}}, {"kind": "psalm", "label": "nunc_dimittis", "ref": "Luke 2:29-32", "content": {"la": [["29", "Nunc dimittis servum tuum Domine, secundum verbum tuum in pace :"], ["30", "quia viderunt oculi mei salutare tuum,"], ["31", "quod parasti ante faciem omnium populorum :"], ["32", "lumen ad revelationem gentium, et gloriam plebis tuae Israel."]], "es": [["29", "Ahora , Señor , ahora sí que sacas en paz de este mundo á tu siervo , según tu promesa."], ["30", "Porque ya mis ojos han visto al Salvador que nosbas dado;"], ["31", "al cual tienes destinado para que, expuesto á la vista de todos los pueblos ,"], ["32", "sea luz brillante que ilumine á los gentiles, y la gloria de tu pueblo de Israel."]]}}, {"kind": "ant", "label": "antiphon", "repeated": true, "content": {"la": "Salva nos, Domine, vigilantes, custodi nos dormientes, ut vigilemus cum Christo et requiescamus in pace.", "es": "Sálvanos, Señor, mientras velamos; guárdanos mientras dormimos, para que velemos con Cristo y descansemos en paz."}}, {"kind": "plain", "label": "concluding_prayer", "content": {"la": null, "es": null}}, {"kind": "plain", "label": "dismissal", "content": {"la": null, "es": null}}]}}}, "date_order": ["2026-12-01"], "generated_date": "2026-12-01"}</script>
+<script>
+const DATA = JSON.parse(document.getElementById('dayData').textContent);
+const LANG_NAMES = { la: "Latin / Latina", es: "Español" };
+const leftSel = document.getElementById('leftLang');
+const rightSel = document.getElementById('rightLang');
+const hourSel = document.getElementById('hourSelect');
+const tzSel = document.getElementById('tzSelect');
+const dateSel = document.getElementById('dateSelect');
+const tzNote = document.getElementById('tzNote');
+
+// Which hymn id is currently picked per Hour context. Its language is always
+// that hymn's own original_language (see renderHymnChoiceRows) - the dropdown
+// only ever chooses WHICH hymn, never a language for it to be sung in.
+let hymnChoiceByHour = {};
+
+// DATA.hymn_pools starts as whatever was baked in when this page was
+// generated (so double-clicking the file still works with no server). If
+// this page is being served over HTTP (see .claude/launch.json's
+// "docs-server" config), it re-fetches content/proper_texts/hymns.json live
+// on every load - so editing that file and refreshing the browser picks up
+// the change with no need to re-run render_day.py. Under file:// this fetch
+// is normally blocked by the browser and silently falls back to the baked-in
+// copy, which is fine.
+function poolsFromRawHymns(raw) {
+  const pools = {};
+  for (const ctx of ['vespers', 'lauds', 'compline']) {
+    pools[ctx] = [];
+    for (const [hid, h] of Object.entries(raw)) {
+      if (hid === '_note') continue;
+      if ((h.applicability || []).includes(ctx)) {
+        const lines = {};
+        for (const lang of DATA.languages) lines[lang] = (h.lines && h.lines[lang]) || [];
+        pools[ctx].push({ id: hid, title: h.title, original_language: h.original_language, lines });
+      }
+    }
+  }
+  return pools;
+}
+fetch('../content/proper_texts/hymns.json')
+  .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
+  .then(raw => { DATA.hymn_pools = poolsFromRawHymns(raw); render(); })
+  .catch(() => { /* no server, or fetch blocked under file:// - keep the baked-in pool */ });
+
+// Same idea, but for a whole day's Hours: if dev_server.py is running (see
+// .claude/launch.json), /api/day?date=... reruns the actual Python
+// construction logic fresh from disk - covering edits to the psalter tables,
+// calendar cache, proper_texts, and content/sanctorale/, not just hymns.json.
+// Plain `python -m http.server` (or file://) doesn't have that route, so this
+// 404s harmlessly and the baked-in snapshot for that date stays in use.
+for (const iso of DATA.date_order) {
+  fetch('/api/day?date=' + encodeURIComponent(iso))
+    .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
+    .then(fresh => { DATA.dates[iso] = fresh; render(); })
+    .catch(() => { /* dev_server.py not running - keep the baked-in day */ });
+}
+
+// This page is a static snapshot: DATA.dates holds a pre-built window of days
+// (generated around DATA.generated_date) rather than just one. There's still
+// no live backend to build a day outside that window, but picking a timezone
+// now actually jumps to the right day within it instead of just warning.
+function populateDateOptions() {
+  const left = leftSel.value;
+  const prev = dateSel.value;
+  dateSel.innerHTML = '';
+  for (const iso of DATA.date_order) {
+    const o = document.createElement('option');
+    o.value = iso;
+    const dh = DATA.dates[iso].date_human;
+    o.textContent = (dh && (dh[left] || dh.en)) || iso;
+    dateSel.appendChild(o);
+  }
+  if (prev && DATA.dates[prev]) dateSel.value = prev;
+}
+
+const COMMON_TIMEZONES = [
+  'UTC', 'Europe/Rome', 'Europe/Madrid', 'Europe/London', 'Europe/Paris',
+  'America/New_York', 'America/Chicago', 'America/Denver', 'America/Los_Angeles',
+  'America/Mexico_City', 'America/Bogota', 'America/Sao_Paulo', 'America/Argentina/Buenos_Aires',
+  'Asia/Manila', 'Asia/Tokyo', 'Asia/Kolkata', 'Australia/Sydney', 'Pacific/Auckland',
+];
+let tzList = COMMON_TIMEZONES;
+try {
+  if (typeof Intl.supportedValuesOf === 'function') {
+    tzList = Intl.supportedValuesOf('timeZone');
+  }
+} catch (e) { /* fall back to the curated list above */ }
+
+const browserTz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+if (!tzList.includes(browserTz)) tzList = [browserTz, ...tzList];
+
+// Only the region prefix (e.g. "America", "Europe") has an established Latin/
+// Spanish name across the whole IANA list - the city/location part after the
+// slash is left as-is (see TZ_REGION_NAMES in i18n.py for why).
+function populateTimezoneOptions() {
+  const left = leftSel.value;
+  const regionNames = (DATA.tz_region_names && DATA.tz_region_names[left]) || {};
+  const prev = tzSel.value;
+  tzSel.innerHTML = '';
+  for (const tz of tzList) {
+    const o = document.createElement('option');
+    o.value = tz;
+    const slash = tz.indexOf('/');
+    if (slash === -1) {
+      o.textContent = tz.replace(/_/g, ' ');
+    } else {
+      const region = tz.slice(0, slash);
+      const rest = tz.slice(slash + 1).replace(/_/g, ' ');
+      o.textContent = (regionNames[region] || region) + ' / ' + rest;
+    }
+    tzSel.appendChild(o);
+  }
+  tzSel.value = prev && tzList.includes(prev) ? prev : browserTz;
+}
+
+function isoDateInTimeZone(tz) {
+  // en-CA locale formats as YYYY-MM-DD, convenient for direct comparison with DATA.dates keys
+  return new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit' })
+    .format(new Date());
+}
+
+// Picks "today" in the given timezone if that date was actually pre-built;
+// otherwise falls back to whichever generated date is closest to it, since
+// this is still a static page with a fixed, finite window of days baked in.
+function closestAvailableDate(isoTarget) {
+  if (DATA.dates[isoTarget]) return isoTarget;
+  const targetMs = new Date(isoTarget).getTime();
+  let best = DATA.date_order[0];
+  let bestDiff = Infinity;
+  for (const iso of DATA.date_order) {
+    const diff = Math.abs(new Date(iso).getTime() - targetMs);
+    if (diff < bestDiff) { bestDiff = diff; best = iso; }
+  }
+  return best;
+}
+
+const TZNOTE_TEXT = {
+  en: (today, tz, first, last) => `&#9888; Today is <strong>${today}</strong> in ${tz}, which is outside the ` +
+    `range of dates generated for this demo (<strong>${first}</strong> to <strong>${last}</strong>). ` +
+    `Showing the closest available date instead.`,
+  es: (today, tz, first, last) => `&#9888; Hoy es <strong>${today}</strong> en ${tz}, fecha fuera del ` +
+    `intervalo generado para esta demo (<strong>${first}</strong> a <strong>${last}</strong>). ` +
+    `Se muestra la fecha disponible más cercana.`,
+  la: (today, tz, first, last) => `&#9888; Hodie est <strong>${today}</strong> in ${tz}, dies extra ` +
+    `intervallum ad hanc demonstrationem generatum (<strong>${first}</strong> usque ad <strong>${last}</strong>). ` +
+    `Dies proxima disponibilis ostenditur.`,
+};
+
+function updateTzNote() {
+  const left = leftSel.value;
+  const tz = tzSel.value;
+  const todayInTz = isoDateInTimeZone(tz);
+  if (DATA.dates[todayInTz]) {
+    tzNote.style.display = 'none';
+  } else {
+    tzNote.style.display = '';
+    const first = DATA.date_order[0], last = DATA.date_order[DATA.date_order.length - 1];
+    const build = TZNOTE_TEXT[left] || TZNOTE_TEXT.en;
+    tzNote.innerHTML = build(todayInTz, tz.replace(/_/g, ' '), first, last);
+  }
+}
+
+function onTzChange() {
+  updateTzNote();
+  dateSel.value = closestAvailableDate(isoDateInTimeZone(tzSel.value));
+  render();
+}
+tzSel.addEventListener('change', onTzChange);
+
+for (const code of DATA.languages) {
+  for (const sel of [leftSel, rightSel]) {
+    const o = document.createElement('option');
+    o.value = code; o.textContent = LANG_NAMES[code] || code;
+    sel.appendChild(o);
+  }
+}
+leftSel.value = DATA.languages[0];
+rightSel.value = DATA.languages[1] || DATA.languages[0];
+
+function populateHourOptions() {
+  const left = leftSel.value;
+  const prev = hourSel.value;
+  const labels = (DATA.hour_labels && DATA.hour_labels[left]) || {};
+  const comingSoon = (DATA.chrome_labels[left] || DATA.chrome_labels.en).coming_soon;
+  hourSel.innerHTML = '';
+  for (const h of DATA.hour_order) {
+    const o = document.createElement('option');
+    o.value = h;
+    o.textContent = labels[h] || h;
+    if (!DATA.implemented_hours.includes(h)) {
+      o.disabled = true;
+      o.textContent += ' ' + comingSoon;
+    }
+    hourSel.appendChild(o);
+  }
+  hourSel.value = DATA.hour_order.includes(prev) ? prev : DATA.default_hour;
+}
+
+// Everything on the page - not just liturgical content - follows whichever
+// language is on the left ("main"): control labels, the Hour names, the Date
+// picker, the date heading. The right side is either "the vernacular" (when
+// the main language is Latin) or just "a translation" (when it's already a
+// vernacular language) - never a second thing to pick a hymn to sing in.
+function updateChromeLabels() {
+  const left = leftSel.value;
+  const cl = DATA.chrome_labels[left] || DATA.chrome_labels.en;
+  document.getElementById('tzLabel').textContent = cl.timezone;
+  document.getElementById('dateLabel').textContent = cl.date;
+  document.getElementById('hourLabel').textContent = cl.hour;
+  document.getElementById('leftLabel').textContent = cl.main;
+  document.getElementById('rightLabel').textContent = (left === 'la') ? cl.vernacular : cl.translation;
+}
+
+function applyChrome() {
+  updateChromeLabels();
+  populateHourOptions();
+  populateDateOptions();
+  populateTimezoneOptions();
+  updateTzNote();
+  render();
+}
+leftSel.addEventListener('change', applyChrome);
+
+// First run: builds every dropdown (so dateSel actually has options), then
+// picks "today" in the browser's own timezone now that there's something to
+// select - applyChrome() alone would leave dateSel on its first option.
+applyChrome();
+dateSel.value = closestAvailableDate(isoDateInTimeZone(browserTz));
+render();
+
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+// breviarium-core's own text fields (responsorios, preces) carry a light
+// markup convention meant for ITS renderer: '$X$' wraps a versicle/response
+// marker (e.g. '$V. $') that should stand out, '_X_' wraps a fixed refrain
+// that should be italic. Left alone, those literal $ and _ characters were
+// leaking straight into the page. Applied AFTER esc() so the <strong>/<em>
+// tags it introduces don't get escaped themselves.
+function mdLite(escaped) {
+  return escaped
+    .replace(/\$([^$]*)\$/g, '<strong>$1</strong>')
+    .replace(/_([^_]*)_/g, '<em>$1</em>');
+}
+
+function renderUnitContent(unit, lang) {
+  const val = unit.content ? unit.content[lang] : null;
+  if (val === null || val === undefined) return '<em>[not yet sourced]</em>';
+  return mdLite(esc(val)).replace(/\n/g, '<br>');
+}
+
+// Psalms and canticles are stored as [verseNumber, text] pairs; hymns and the
+// Our Father are stored as plain ordered line arrays. Both get aligned row by
+// row (verse-by-verse / line-by-line) rather than as two whole stacked blocks,
+// since the source data already keys them that way - a block-level pairing
+// was only ever an approximation of that finer alignment.
+function renderAlignedRows(unit, left, right, single) {
+  const isPsalm = (unit.kind === 'psalm');
+  const missingLabel = isPsalm ? '[missing]' : '[not yet sourced]';
+  const leftRaw = unit.content ? unit.content[left] : null;
+  const rightRaw = single ? leftRaw : (unit.content ? unit.content[right] : null);
+  const leftEmpty = !leftRaw || leftRaw.length === 0;
+  const rightEmpty = !rightRaw || rightRaw.length === 0;
+
+  if (leftEmpty && rightEmpty) {
+    return single
+      ? `<tr><td class="single"><em>${missingLabel}</em></td></tr>`
+      : `<tr><td class="col-left"><em>${missingLabel}</em></td><td class="col-right"><em>${missingLabel}</em></td></tr>`;
+  }
+
+  if (!single) {
+    var rows = `<tr><td class="col-left"><div class="unit-label">${left.toUpperCase()}</div></td>` +
+                `<td class="col-right"><div class="unit-label">${right.toUpperCase()}</div></td></tr>`;
+  } else {
+    var rows = '';
+  }
+
+  if (isPsalm) {
+    const leftMap = new Map((leftRaw || []).map(([n, t]) => [String(n), t]));
+    const rightMap = new Map((rightRaw || []).map(([n, t]) => [String(n), t]));
+    const nums = Array.from(new Set([...leftMap.keys(), ...rightMap.keys()]))
+      .sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+    for (const n of nums) {
+      const lt = leftMap.has(n) ? `<span class="vn">${esc(n)}</span> ${esc(leftMap.get(n))}` : '<em>&mdash;</em>';
+      if (single) {
+        rows += `<tr><td class="single">${lt}</td></tr>`;
+      } else {
+        const rt = rightMap.has(n) ? `<span class="vn">${esc(n)}</span> ${esc(rightMap.get(n))}` : '<em>&mdash;</em>';
+        rows += `<tr><td class="col-left">${lt}</td><td class="col-right">${rt}</td></tr>`;
+      }
+    }
+    return rows;
+  }
+
+  // 'lines' kind: aligned by position, not by any shared numbering.
+  const maxLen = Math.max(leftRaw ? leftRaw.length : 0, rightRaw ? rightRaw.length : 0);
+  for (let i = 0; i < maxLen; i++) {
+    const lt = (leftRaw && leftRaw[i] !== undefined) ? mdLite(esc(leftRaw[i])) : '<em>&mdash;</em>';
+    if (single) {
+      rows += `<tr><td class="single hymn-line">${lt}</td></tr>`;
+    } else {
+      const rt = (rightRaw && rightRaw[i] !== undefined) ? mdLite(esc(rightRaw[i])) : '<em>&mdash;</em>';
+      rows += `<tr><td class="col-left hymn-line">${lt}</td><td class="col-right hymn-line">${rt}</td></tr>`;
+    }
+  }
+  return rows;
+}
+
+// The hymn block picks WHICH HYMN to sing from that Hour's pool via its own
+// dropdown, independent of leftLang/rightLang - these are Latin compositions,
+// so the dropdown only ever offers a hymn's own original_language (there's no
+// such thing as "this Latin hymn, but sung in Spanish"; a translation is for
+// following along, not a second thing to pick). Its DEFAULT ordering favors
+// hymns whose original language matches leftLang. rightLang always drives a
+// translation of that same hymn, same as everywhere else on the page.
+function renderHymnChoiceRows(unit, left, right) {
+  const ctx = unit.hour;
+  const pool = (DATA.hymn_pools && DATA.hymn_pools[ctx]) || [];
+  const opts = pool
+    .filter(h => h.lines[h.original_language] && h.lines[h.original_language].length)
+    .map(h => ({ id: h.id, lang: h.original_language, title: h.title }));
+  if (opts.length === 0) {
+    return `<tr><td colspan="2"><em>[not yet sourced]</em></td></tr>`;
+  }
+  opts.sort((a, b) => (a.lang === left ? 0 : 1) - (b.lang === left ? 0 : 1));
+
+  let choiceId = hymnChoiceByHour[ctx];
+  if (!choiceId || !opts.some(o => o.id === choiceId)) {
+    choiceId = opts[0].id;
+    hymnChoiceByHour[ctx] = choiceId;
+  }
+
+  let selectHtml = `<select class="hymn-select" data-hour="${esc(ctx)}">`;
+  for (const o of opts) {
+    const picked = (o.id === choiceId) ? ' selected' : '';
+    selectHtml += `<option value="${esc(o.id)}"${picked}>` +
+      `${esc(o.title)} (${esc(LANG_NAMES[o.lang] || o.lang)})</option>`;
+  }
+  selectHtml += `</select>`;
+  let rows = `<tr><td colspan="2" class="hymn-picker">${selectHtml}</td></tr>`;
+
+  const hymn = pool.find(h => h.id === choiceId);
+  const sungLines = hymn.lines[hymn.original_language] || [];
+  const translatedLines = hymn.lines[right] || [];
+  const single = (hymn.original_language === right);
+
+  if (single) {
+    for (const line of sungLines) {
+      rows += `<tr><td class="single hymn-line">${esc(line)}</td></tr>`;
+    }
+  } else if (translatedLines.length === 0) {
+    sungLines.forEach((line, i) => {
+      const rt = (i === 0) ? '<em>[not yet sourced]</em>' : '';
+      rows += `<tr><td class="col-left hymn-line">${esc(line)}</td><td class="col-right hymn-line">${rt}</td></tr>`;
+    });
+  } else {
+    const maxLen = Math.max(sungLines.length, translatedLines.length);
+    for (let i = 0; i < maxLen; i++) {
+      const lt = sungLines[i] !== undefined ? esc(sungLines[i]) : '';
+      const rt = translatedLines[i] !== undefined ? esc(translatedLines[i]) : '';
+      rows += `<tr><td class="col-left hymn-line">${lt}</td><td class="col-right hymn-line">${rt}</td></tr>`;
+    }
+  }
+  return rows;
+}
+
+function onHymnSelectChange(e) {
+  const sel = e.target;
+  hymnChoiceByHour[sel.dataset.hour] = sel.value;
+  render();
+}
+
+function render() {
+  const dayData = DATA.dates[dateSel.value];
+  const left = leftSel.value, right = rightSel.value;
+  const hour = hourSel.value;
+  const single = (left === right);
+
+  // The heading leads with what's actually being celebrated (a feast/solemnity
+  // name, or the full ferial description) - never the bare weekday label alone,
+  // since "Feria V" on a major feast day would misleadingly read as "just an
+  // ordinary Thursday." The raw calendar date is secondary, shown underneath.
+  document.getElementById('dateHeading').innerHTML = dayData.day_description[left] || dayData.day_description.en;
+  document.getElementById('metaLine').textContent = (dayData.date_human[left] || dayData.date_human.en);
+
+  const units = dayData.hours[hour] || [];
+  const labels = DATA.unit_labels[left] || DATA.unit_labels.en;
+  const table = document.getElementById('mainTable');
+  let html = '';
+  for (const unit of units) {
+    let labelText = labels[unit.label] || unit.label;
+    if (unit.repeated) labelText += ' ' + (labels.repeated || '');
+    if (unit.ref) labelText += ` (${esc(unit.ref)})`;
+    html += `<tr><th colspan="2">${esc(labelText)}</th></tr>`;
+    if (unit.label === 'psalmody_gap') {
+      html += `<tr><td colspan="2"><em>${esc(labels.psalmody_gap_note || labels.missing)}</em></td></tr>`;
+    } else if (unit.kind === 'psalm' || unit.kind === 'lines') {
+      html += renderAlignedRows(unit, left, right, single);
+    } else if (unit.kind === 'hymn_choice') {
+      html += renderHymnChoiceRows(unit, left, right);
+    } else if (single) {
+      html += `<tr><td class="single">${renderUnitContent(unit, left)}</td></tr>`;
+    } else {
+      html += `<tr><td class="col-left"><div class="unit-label">${left.toUpperCase()}</div>${renderUnitContent(unit, left)}</td>` +
+              `<td class="col-right"><div class="unit-label">${right.toUpperCase()}</div>${renderUnitContent(unit, right)}</td></tr>`;
+    }
+  }
+  table.innerHTML = html;
+  table.querySelectorAll('.hymn-select').forEach(sel => sel.addEventListener('change', onHymnSelectChange));
+}
+
+leftSel.addEventListener('change', render);
+rightSel.addEventListener('change', render);
+hourSel.addEventListener('change', render);
+dateSel.addEventListener('change', render);
+render();
+</script>
+</body></html>

@@ -1,0 +1,17 @@
+{
+  "id": "st_benedict_07_11",
+  "titulus": "Sancti Benedicti, abbatis",
+  "dies": "07-11",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "antiphonae_evangelicae": {
+    "benedictus": "Fuit vir vitæ venerábilis, Benedíctus grátia et nómine.",
+    "benedictus_es": "Hubo un hombre venerable por su vida, san Benito; él, como indica su nombre, fue bendecido por la gracia divina.",
+    "magnificat": "Hic accípiet benedictiónem a Dómino, et misericórdiam a Deo, salutári suo: hæc est generátio quæréntium eum.",
+    "magnificat_es": "Ése recibió la bendición del Señor, le hizo justicia el Dios de salvación, porque ése es el grupo que busca al Señor."
+  },
+  "breviarium_id": "benedict_of_nursia_abbot",
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text. Replaced with genuine saint-specific text sourced from breviarium-core (Spanish); Benedictus Latin is the well-known opening line of St. Gregory the Great's Life of St. Benedict (Dialogues Bk. II); Magnificat Latin is a direct translation echoing Ps 24:5-6 (the wordplay on 'Benedictus'/blessed). Collect was already correct, unchanged.",
+  "collecta": "Deus, qui beatum Benedictum abbatem in schola divini servitii præclarum constituisti magistrum, tribue, quæsumus, ut, amori tuo nihil præponentes, viam mandatorum tuorum dilatato corde curramus. Per Dominum."
+}

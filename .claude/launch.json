@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "loth-dev-server",
+      "runtimeExecutable": "py",
+      "runtimeArgs": ["app/renderer/dev_server.py", "8899"],
+      "port": 8899
+    }
+  ]
+}

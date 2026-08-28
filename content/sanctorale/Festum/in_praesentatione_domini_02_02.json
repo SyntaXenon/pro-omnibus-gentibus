@@ -1,0 +1,86 @@
+{
+  "id": "presentation_02_02",
+  "titulus": "In Præsentatione Domini",
+  "dies": "02-02",
+  "gradus": "FESTUM",
+  "color": "ALBUS",
+  "habet_primas_vesperas": false,
+  "collecta": "Omnípotens sempitérne Deus, majestátem tuam súpplices exorámus: ut, sicut unigénitus Fílius tuus hodiérna die cum nostræ carnis substántia in templo est præsentátus; ita nos fácias purificátis tibi méntibus præsentári. $Per eundem",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Accípiens Símeon púerum in mánibus, grátias agens benedíxit Dóminum.",
+        "antiphona_es": "Tomando Simeón al Niño en sus manos, dando gracias bendijo al Señor.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "lectio_brevis_vesperarum": "heb 4:15-16",
+    "lectio_brevis_laudum": "mal 3:1",
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 109:1-5,7",
+        "antiphona": "Respónsum accépit Símeon a Spíritu Sancto non visúrum se mortem, nisi vidéret Dóminum.",
+        "antiphona_es": "Simeón recibió respuesta del Espíritu Santo de que no vería la muerte antes de ver al Señor."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 129",
+        "antiphona": "Obtulérunt pro eo Dómino par túrturum aut duos pullos columbárum.",
+        "antiphona_es": "Ofrecieron por él al Señor un par de tórtolas o dos pichones de paloma."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "col 1:12-20",
+        "antiphona": "Vidérunt óculi mei salutáre tuum, quod parásti ante fáciem ómnium populórum.",
+        "antiphona_es": "Han visto mis ojos tu salvación, que preparaste ante la faz de todos los pueblos."
+      }
+    ]
+  },
+  "antiphonae_evangelicae": {
+    "magnificat": "Senex * Púerum portábat, Puer autem senem regébat: quem virgo péperit, et post partum virgo permánsit: ipsum quem génuit, adorávit.",
+    "benedictus": "Cum indúcerent * púerum Jesum paréntes ejus, accépit eum Símeon in ulnas suas, et benedíxit Deum, dicens: Nunc dimíttis servum tuum in pace.",
+    "benedictus_es": "Cuando sus padres llevaban al niño Jesús, lo tomó Simeón en sus brazos y bendijo a Dios, diciendo: Ahora, Señor, despides a tu siervo en paz.",
+    "magnificat_es": "El anciano llevaba al Niño, mas el Niño gobernaba al anciano; a quien la Virgen dio a luz, y después del parto permaneció virgen, a ese mismo que engendró, adoró."
+  },
+  "breviarium_id": "presentation_of_the_lord"
+}

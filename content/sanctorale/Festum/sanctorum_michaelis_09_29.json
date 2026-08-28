@@ -1,0 +1,86 @@
+{
+  "id": "sts_archangels_09_29",
+  "titulus": "Sanctorum Michælis, Gabrielis et Raphælis, archangelorum",
+  "dies": "09-29",
+  "gradus": "FESTUM",
+  "color": "ALBUS",
+  "habet_primas_vesperas": false,
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Angeli Domini, Dominum benedicite in æternum.",
+        "antiphona_es": "Ángeles del Señor, bendecid al Señor eternamente.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "lectio_brevis_vesperarum": "rev 1:4-5",
+    "lectio_brevis_laudum": "gen 28:12-13",
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 8",
+        "antiphona": "Elevata est magnificentia tua super cælos, Deus, alleluia.",
+        "antiphona_es": "Elevada está tu magnificencia sobre los cielos, oh Dios, aleluya."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 137",
+        "antiphona": "In conspectu angelorum psallam tibi, Deus meus.",
+        "antiphona_es": "En presencia de los ángeles te cantaré salmos, Dios mío."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "col 1:12-20",
+        "antiphona": "Vidi in medio throni Agnum stantem tamquam occisum, et audivi vocem angelorum multorum in circuitu throni.",
+        "antiphona_es": "Vi en medio del trono un Cordero de pie, como degollado, y oí la voz de muchos ángeles en torno al trono."
+      }
+    ]
+  },
+  "collecta": "Deus, qui, miro ordine, Angelorum ministeria hominumque dispensas: concede propitius; ut, a quibus tibi ministrantibus in cælo semper assistitur, ab his in terra vita nostra muniatur.",
+  "antiphonae_evangelicae": {
+    "magnificat": "Dum sacrum mysterium cerneret Joannes, Archangelus Michael tuba cecinit: Ignosce, Domine, Deus noster, qui aperis librum, et solvis signacula ejus.",
+    "benedictus": "Factum est silentium in cælo, dum draco committeret bellum; et Michael pugnavit cum eo, et fecit victoriam, alleluja.",
+    "benedictus_es": "Se hizo silencio en el cielo, mientras el dragón entablaba batalla; y Miguel luchó contra él, y logró la victoria, aleluya.",
+    "magnificat_es": "Mientras Juan contemplaba el sagrado misterio, el Arcángel Miguel tocó la trompeta: Perdona, Señor, Dios nuestro, tú que abres el libro y desatas sus sellos."
+  },
+  "breviarium_id": "michael_gabriel_and_raphael_archangels"
+}

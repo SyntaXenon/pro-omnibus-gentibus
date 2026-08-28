@@ -1,0 +1,107 @@
+{
+  "id": "immaculate_conception_12_08",
+  "titulus": "In Conceptione Immaculata Beatæ Mariæ Virginis",
+  "dies": "12-08",
+  "gradus": "SOLLEMNITAS",
+  "color": "ALBUS",
+  "habet_primas_vesperas": true,
+  "collecta": "Deus, qui per immaculátam Vírginis Conceptiónem dignum Fílio tuo habitáculum præparásti: quǽsumus; ut, qui ex morte ejúsdem Filii tui prævísa eam ab omni labe præservásti, nos quoque mundos ejus intercessióne ad te perveníre concédas. $Per eundem",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Benedícta es tu, Virgo María, a Dómino Deo excélso, præ ómnibus muliéribus super terram.",
+        "antiphona_es": "Bendita eres tú, Virgen María, por el Señor Dios altísimo, sobre todas las mujeres de la tierra.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_primarum_vesperarum": [
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 112",
+        "antiphona": "Inimicítias ponam inter te et mulíerem, et semen tuum et semen illíus.",
+        "antiphona_es": "Pondré enemistad entre ti y la mujer, entre tu linaje y su linaje."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 147",
+        "antiphona": "Índuit me Dóminus vestiméntis salútis, et induménto iustítiae circúmdedit me.",
+        "antiphona_es": "El Señor me reviste con vestiduras de salvación, y me envuelve en manto de justicia."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "eph 1:3-10",
+        "antiphona": "Ave, María, grátia plena, Dóminus tecum.",
+        "antiphona_es": "Alégrate, María, llena de gracia: el Señor está contigo."
+      }
+    ],
+    "psalmodia_secundarum_vesperarum": [
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 121",
+        "antiphona": "Tota pulchra es María, et mácula originális non est in te.",
+        "antiphona_es": "Toda hermosa eres, María, y no hay en ti mancha original."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 126",
+        "antiphona": "Tu glória Ierúsalem, tu lætítia Israel, tu honorificéntia pópuli nostri.",
+        "antiphona_es": "Tú eres la gloria de Jerusalén, tú la alegría de Israel, tú el honor de nuestro pueblo."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "eph 1:3-10",
+        "antiphona": "Vestiméntum tuum cándidum quasi nix, et fácies tua sicut sol.",
+        "antiphona_es": "Tu vestidura es blanca como la nieve, y tu rostro como el sol."
+      }
+    ],
+    "lectio_brevis_vesperarum": "rom 5:20-21",
+    "lectio_brevis_laudum": "isa 43:1"
+  },
+  "antiphonae_evangelicae": {
+    "magnificat": "Beátam me dicent * omnes generatiónes, quia fecit mihi magna, qui potens est, allelúja.",
+    "magnificat_es": "Me llamarán bienaventurada todas las generaciones, porque el que es poderoso ha hecho en mí grandes cosas, aleluya.",
+    "benedictus": "Ait Dóminus Deus * ad serpéntem: Inimicítias ponam inter te et mulíerem, et semen tuum et semen illíus: ipsa cónteret caput tuum, allelúja.",
+    "benedictus_es": "Dijo el Señor Dios a la serpiente: Pondré enemistad entre ti y la mujer, entre tu linaje y su linaje: ella te aplastará la cabeza, aleluya."
+  },
+  "breviarium_id": "immaculate_conception_of_the_blessed_virgin_mary",
+  "commune_subsidiarium": "COMMON_BVM"
+}

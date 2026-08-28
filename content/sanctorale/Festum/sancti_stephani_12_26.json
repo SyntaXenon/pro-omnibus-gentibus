@@ -1,0 +1,96 @@
+{
+  "id": "st_stephen_protomartyr_12_26",
+  "titulus": "Sancti Stephani, protomartyris",
+  "dies": "12-26",
+  "gradus": "FESTUM",
+  "color": "RUBER",
+  "habet_primas_vesperas": false,
+  "commune_subsidiarium": "COMMON_MARTYRS",
+  "collecta": "Da nobis, quǽsumus, Dómine, imitári quod cólimus: ut discámus et inimícos dilígere; quia ejus natalícia celebrámus, qui novit étiam pro persecutóribus exoráre Dóminum nostrum Jesum Christum Fílium tuum:",
+  "officium_lectionis": {
+    "lectio_altera": {
+      "auctor": "Homilía sancti Gregórii Papæ",
+      "titulus": "Homil. 37 in Evangelia",
+      "textus": "Si considerémus fratres caríssimi, quæ et quanta sunt, quæ nobis promittúntur in cælis, viléscunt ánimo ómnia quæ habéntur in terris. Terréna namque substántia supérnæ felicitáti comparáta, pondus est, non subsídium. Temporális vita ætérnæ vitæ comparáta, mors est pótius dicénda quam vita. Ipse enim quotidiánus deféctus corruptiónis quid est áliud, quam quædam prolíxitas mortis? Quæ autem lingua dícere, vel quis intelléctus cápere súfficit, illa supérnæ civitátis quanta sint gáudia; Angelórum choris interésse, cum beatíssimis spirítibus glóriæ Conditóris assístere, præséntem Dei vultum cérnere, incircumscríptum lumen vidére, nullo mortis metu áffici, incorruptiónis perpétuæ múnere lætári? Sed ad hæc audíta inardéscit ánimus, jamque illic cupit assístere, ubi se sperat sine fine gaudére. Sed ad magna prǽmia perveníri non potest, nisi per magnos labóres. Unde et Paulus egrégius prædicátor dicit: Non coronábitur, nisi qui legítime certáverit. Deléctet ergo mentem magnitúdo præmiórum, sed non detérreat certámen labórum. Unde ad se veniéntibus Véritas dicit: Si quis venit ad me, et non odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres, adhuc autem et ánimam suam, non potest meus esse discípulus."
+    },
+    "responsorium_alterum": {
+      "textus": "℟. Hic est vere Martyr, qui pro Christi nómine sánguinem suum fudit: * Qui minas júdicum non tímuit, nec terrénæ dignitátis glóriam quæsívit, sed ad cæléstia regna pervénit. V. Justum dedúxit Dóminus per vias rectas, et osténdit illi regnum Dei.",
+      "versus_repetitus": "℣. Justum dedúxit Dóminus per vias rectas, et osténdit illi regnum Dei."
+    },
+    "te_deum_requisitum": true
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Vestri capilli capitis omnes numerati sunt: nolite timere: multis passeribus meliores estis vos.",
+    "magnificat": "Iste sanctus pro lege Dei sui certavit usque ad mortem, et a verbis impiorum non timuit: fundatus enim erat supra firmam petram.",
+    "benedictus_es": "Todos los cabellos de vuestra cabeza están contados: no temáis; vosotros valéis más que muchos pajarillos.",
+    "magnificat_es": "Este santo luchó por la ley de su Dios hasta la muerte, y no temió las palabras de los impíos, porque estaba fundado sobre roca firme."
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Stephanus vidit cælos apertos, vidit et introivit: beatus homo, cui cæli patebant.",
+        "antiphona_es": "Esteban vio los cielos abiertos, los vio y entró: dichoso el hombre a quien los cielos se abrieron.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "lectio_brevis_vesperarum": "1john 1:5-7",
+    "lectio_brevis_laudum": "acts 6:2-5",
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 109:1-5,7",
+        "antiphona": "Tecum principium in die virtutis tuæ, in splendoribus sanctorum, ex utero ante luciferum genui te.",
+        "antiphona_es": "Contigo está el principado el día de tu poder, entre los esplendores de los santos; desde el seno, antes del lucero, te engendré."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 129",
+        "antiphona": "Apud Dominum misericordia, et copiosa apud eum redemptio.",
+        "antiphona_es": "En el Señor está la misericordia, y abundante redención en él."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "col 1:12-20",
+        "antiphona": "In principio et ante sæcula Deus erat Verbum: ipse natus est hodie Salvator mundi.",
+        "antiphona_es": "En el principio y antes de los siglos era Dios el Verbo: él ha nacido hoy como Salvador del mundo."
+      }
+    ]
+  },
+  "breviarium_id": "stephen_the_first_martyr"
+}

@@ -1,0 +1,642 @@
+{
+  "_source": "Transcribed by the project owner and collaborators from a licensed copy of the current Liturgia Horarum (per their attestation); Latin only, all four psalter weeks, ferial (Mon-Sat) Vespers, Lauds, and Compline.",
+  "vespers_wk1_monday_ant1": {
+    "antiphon": "Exaudiat te Dominus in die tribulationis."
+  },
+  "vespers_wk1_monday_ant2": {
+    "antiphon": "Cantabimus et psallemus virtutes tuas, Domine."
+  },
+  "vespers_wk1_monday_magnificat_ant": {
+    "antiphon": "Exsultet spiritus meus in Domino Deo, salutari meo."
+  },
+  "lauds_wk1_monday_ant1": {
+    "antiphon": "Ad te orabo, Domine, mane exaudies vocem meam."
+  },
+  "lauds_wk1_monday_ant3": {
+    "antiphon": "Adorate Dominum in aula sancta eius."
+  },
+  "lauds_wk1_monday_benedictus_ant": {
+    "antiphon": "Erexit Dominus nobis cornu salutis, in domo David pueri sui."
+  },
+  "vespers_wk1_wednesday_ant1": {
+    "antiphon": "Illuminatio mea et salus mea Dominus."
+  },
+  "vespers_wk1_wednesday_ant2": {
+    "antiphon": "Adiutor meus esto, Deus, ne derelinquas me."
+  },
+  "vespers_wk1_wednesday_magnificat_ant": {
+    "antiphon": "Quia fecit mihi Dominus magna, qui potens est, et sanctum nomen eius."
+  },
+  "lauds_wk1_wednesday_ant1": {
+    "antiphon": "Domine, in caelo misericordia tua."
+  },
+  "lauds_wk1_wednesday_ant3": {
+    "antiphon": "Rex omnis terrae Deus: psallite sapienter."
+  },
+  "lauds_wk1_wednesday_benedictus_ant": {
+    "antiphon": "Memorare, Domine, testamenti sancti tui, et fac nobiscum redemptionem."
+  },
+  "vespers_wk1_thursday_ant1": {
+    "antiphon": "Sana, Domine, animam meam, quia peccavi tibi."
+  },
+  "vespers_wk1_thursday_ant2": {
+    "antiphon": "Adiutor in tribulationibus."
+  },
+  "vespers_wk1_thursday_magnificat_ant": {
+    "antiphon": "Suscepit Deus Israel puerum suum, sicut locutus est ad Abraham et semen eius: exaltare humiles usque in saeculum."
+  },
+  "lauds_wk1_thursday_ant1": {
+    "antiphon": "Exsurge, psalterium et cithara: excitabo auroram."
+  },
+  "lauds_wk1_thursday_ant3": {
+    "antiphon": "Iubilate Deo, omnis terra."
+  },
+  "lauds_wk1_thursday_benedictus_ant": {
+    "antiphon": "Visitavit et fecit redemptionem Dominus plebi suo."
+  },
+  "lauds_wk1_saturday_ant1": {
+    "antiphon": "Ad te de luce vigilo, Deus."
+  },
+  "lauds_wk1_saturday_ant3": {
+    "antiphon": "Laudate Dominum, omnes gentes."
+  },
+  "lauds_wk1_saturday_benedictus_ant": {
+    "antiphon": "Illuminare, Domine, his qui in tenebris sedent, et dirige pedes nostros in viam pacis, Deus Israel."
+  },
+  "vespers_wk2_monday_ant1": {
+    "antiphon": "Auribus percipite, qui habitatis orbem."
+  },
+  "vespers_wk2_monday_ant2": {
+    "antiphon": "Eruisti, Domine, animam meam ne periret."
+  },
+  "vespers_wk2_monday_magnificat_ant": {
+    "antiphon": "Respexit Dominus humilitatem meam, et fecit in me magna, qui potens est."
+  },
+  "lauds_wk2_monday_ant1": {
+    "antiphon": "Quando veniam et apparebo ante faciem Domini?"
+  },
+  "lauds_wk2_monday_ant3": {
+    "antiphon": "Benedictus es, Domine, in firmamento caeli."
+  },
+  "lauds_wk2_monday_benedictus_ant": {
+    "antiphon": "De manu omnium qui oderunt nos, libera nos, Domine."
+  },
+  "vespers_wk2_wednesday_ant1": {
+    "antiphon": "Nonne Deo subdita erit anima mea?"
+  },
+  "vespers_wk2_wednesday_ant2": {
+    "antiphon": "Deus misereatur, et benedicat nos."
+  },
+  "vespers_wk2_wednesday_magnificat_ant": {
+    "antiphon": "Fac, Deus, potentiam in brachio tuo, disperde superbos et exalta humiles."
+  },
+  "lauds_wk2_wednesday_ant1": {
+    "antiphon": "Deus, in sancto via tua: quis deus magnus sicut Deus noster?"
+  },
+  "lauds_wk2_wednesday_ant3": {
+    "antiphon": "Dominus regnavit, exsultet terra."
+  },
+  "lauds_wk2_wednesday_benedictus_ant": {
+    "antiphon": "Liberati serviamus Domino Deo nostro in sanctitate."
+  },
+  "vespers_wk2_thursday_ant1": {
+    "antiphon": "Inclinavit Dominus aurem suam mihi."
+  },
+  "vespers_wk2_thursday_ant2": {
+    "antiphon": "Auxilium meum a Domino, qui fecit caelum et terram."
+  },
+  "vespers_wk2_thursday_magnificat_ant": {
+    "antiphon": "Sicut locutus es ad patres nostros, Domine, recordare misericordiae tuae."
+  },
+  "lauds_wk2_thursday_ant1": {
+    "antiphon": "Excita, Domine, potentiam tuam, ut salvos facias nos."
+  },
+  "lauds_wk2_thursday_ant3": {
+    "antiphon": "Lauda, Ierusalem, Dominum."
+  },
+  "lauds_wk2_thursday_benedictus_ant": {
+    "antiphon": "Per viscera misericordiae Dei nostri, visitavit nos oriens ex alto."
+  },
+  "lauds_wk2_saturday_ant1": {
+    "antiphon": "Quam magnificata sunt opera tua, Domine."
+  },
+  "lauds_wk2_saturday_ant3": {
+    "antiphon": "Quam admirabile est nomen tuum, Domine, in universa terra."
+  },
+  "lauds_wk2_saturday_benedictus_ant": {
+    "antiphon": "In viam pacis dirige nos, Domine."
+  },
+  "vespers_wk3_monday_ant1": {
+    "antiphon": "Et Dominus in circuitu populi sui."
+  },
+  "vespers_wk3_monday_ant2": {
+    "antiphon": "Domine, non est exaltatum cor meum."
+  },
+  "vespers_wk3_monday_magnificat_ant": {
+    "antiphon": "Exsultet spiritus meus in Domino Deo, salutari meo."
+  },
+  "lauds_wk3_monday_ant1": {
+    "antiphon": "Beati qui habitant in domo tua, Domine."
+  },
+  "lauds_wk3_monday_ant3": {
+    "antiphon": "Cantate Domino, benedicite nomini eius."
+  },
+  "lauds_wk3_monday_benedictus_ant": {
+    "antiphon": "Erexit Dominus nobis cornu salutis, in domo David pueri sui."
+  },
+  "vespers_wk3_wednesday_ant1": {
+    "antiphon": "Convertere, iam Domine, captivitatem nostram sicut torrens in austro."
+  },
+  "vespers_wk3_wednesday_ant2": {
+    "antiphon": "Nisi tu, Domine, servabis nos, in vanum vigilant oculi nostri."
+  },
+  "vespers_wk3_wednesday_magnificat_ant": {
+    "antiphon": "Quia fecit mihi Dominus magna, qui potens est, et sanctum nomen eius."
+  },
+  "lauds_wk3_wednesday_ant1": {
+    "antiphon": "Inclina, Domine, aurem tuam et exaudi me."
+  },
+  "lauds_wk3_wednesday_ant3": {
+    "antiphon": "Quia mirabilia fecit Dominus."
+  },
+  "lauds_wk3_wednesday_benedictus_ant": {
+    "antiphon": "Memorare, Domine, testamenti sancti tui, et fac nobiscum redemptionem."
+  },
+  "vespers_wk3_thursday_ant1": {
+    "antiphon": "Omnia, quaecumque voluit, Dominus fecit."
+  },
+  "vespers_wk3_thursday_ant2": {
+    "antiphon": "Et in servis suis Dominus miserebitur."
+  },
+  "vespers_wk3_thursday_magnificat_ant": {
+    "antiphon": "Suscepit Deus Israel puerum suum, sicut locutus est ad Abraham et semen eius: exaltare humiles usque in saeculum."
+  },
+  "lauds_wk3_thursday_ant1": {
+    "antiphon": "Gloriosa dicta sunt de te, civitas Dei."
+  },
+  "lauds_wk3_thursday_ant3": {
+    "antiphon": "Servite Domino in laetitia."
+  },
+  "lauds_wk3_thursday_benedictus_ant": {
+    "antiphon": "Visitavit et fecit redemptionem Dominus plebi suo."
+  },
+  "lauds_wk3_saturday_ant1": {
+    "antiphon": "In matutinis, Domine, meditabor in te."
+  },
+  "lauds_wk3_saturday_ant3": {
+    "antiphon": "Veritas Domini manet in aeternum."
+  },
+  "lauds_wk3_saturday_benedictus_ant": {
+    "antiphon": "Illuminare, Domine, his qui in tenebris sedent, et dirige pedes nostros in viam pacis, Deus Israel."
+  },
+  "vespers_wk4_monday_ant1": {
+    "antiphon": "Hymnum cantate nobis de canticis Sion."
+  },
+  "vespers_wk4_monday_ant2": {
+    "antiphon": "In conspectu angelorum psallam tibi, Deus meus."
+  },
+  "vespers_wk4_monday_magnificat_ant": {
+    "antiphon": "Adimplebis me laetitia cum vultu tuo, Domine. Respexit Dominus humilitatem meam, et fecit in me magna, qui potens est."
+  },
+  "lauds_wk4_monday_ant1": {
+    "antiphon": "Repleti sumus mane misericordia tua, Domine."
+  },
+  "lauds_wk4_monday_ant3": {
+    "antiphon": "Laudate nomen Domini, qui statis in domo Domini."
+  },
+  "lauds_wk4_monday_benedictus_ant": {
+    "antiphon": "De manu omnium qui oderunt nos, libera nos, Domine."
+  },
+  "vespers_wk4_wednesday_ant1": {
+    "antiphon": "Domine, probasti me et cognovisti me."
+  },
+  "vespers_wk4_wednesday_ant2": {
+    "antiphon": "Deduc me in via aeterna."
+  },
+  "vespers_wk4_wednesday_magnificat_ant": {
+    "antiphon": "Fac, Deus, potentiam in brachio tuo, disperde superbos et exalta humiles."
+  },
+  "lauds_wk4_wednesday_ant1": {
+    "antiphon": "Paratum cor meum, Deus, paratum cor meum."
+  },
+  "lauds_wk4_wednesday_ant3": {
+    "antiphon": "Laudabo Deum meum in vita mea."
+  },
+  "lauds_wk4_wednesday_benedictus_ant": {
+    "antiphon": "Liberati serviamus Domino Deo nostro in sanctitate."
+  },
+  "vespers_wk4_thursday_ant1": {
+    "antiphon": "Per singulos dies benedicam te, Domine."
+  },
+  "vespers_wk4_thursday_ant2": {
+    "antiphon": "Custodit Dominus omnes diligentes se."
+  },
+  "vespers_wk4_thursday_magnificat_ant": {
+    "antiphon": "Sicut locutus es ad patres nostros, Domine, recordare misericordiae tuae."
+  },
+  "lauds_wk4_thursday_ant1": {
+    "antiphon": "Auditam fac mihi mane misericordiam tuam, Domine."
+  },
+  "lauds_wk4_thursday_ant3": {
+    "antiphon": "Benedixit filiis tuis in te."
+  },
+  "lauds_wk4_thursday_benedictus_ant": {
+    "antiphon": "Per viscera misericordiae Dei nostri, visitavit nos oriens ex alto."
+  },
+  "lauds_wk4_saturday_ant1": {
+    "antiphon": "Bonum est confiteri Domino."
+  },
+  "lauds_wk4_saturday_ant3": {
+    "antiphon": "Ex ore infantium et lactantium perfecisti laudem, Domine Deus."
+  },
+  "lauds_wk4_saturday_benedictus_ant": {
+    "antiphon": "In viam pacis dirige nos, Domine."
+  },
+  "compline_nunc_dimittis_ant": {
+    "antiphon": "Salva nos, Domine, vigilantes, custodi nos dormientes, ut vigilemus cum Christo et requiescamus in pace."
+  },
+  "compline_monday_ant1": {
+    "antiphon": "Intende voci orationis meae."
+  },
+  "compline_tuesday_ant1": {
+    "antiphon": "Ne intres in iudicium cum servo tuo, Domine."
+  },
+  "compline_wednesday_ant1": {
+    "antiphon": "Esto mihi, Domine, in Deum protectorem."
+  },
+  "compline_wednesday_ant2": {
+    "antiphon": "De profundis clamavi ad te, Domine."
+  },
+  "compline_thursday_ant1": {
+    "antiphon": "Caro mea requiescet in spe."
+  },
+  "compline_friday_ant1": {
+    "antiphon": "Domine, Deus salutis meae, in die clamavi et nocte coram te."
+  },
+  "vespers_i_wk1_ant1": {
+    "antiphon": "Domine, clamavi ad te, exaudi me."
+  },
+  "vespers_i_wk1_ant2": {
+    "antiphon": "Portio mea, Domine, sit in terra viventium."
+  },
+  "vespers_i_wk1_ant3": {
+    "antiphon": "Humiliavit semetipsum Dominus Iesus, propter quod et Deus exaltavit illum in saecula."
+  },
+  "vespers_i_wk1_magnificat_ant": {
+    "antiphon": "Quam magnificata sunt opera tua, Domine. Omnia in sapientia fecisti."
+  },
+  "vespers_ii_wk1_ant1": {
+    "antiphon": "Virgam virtutis tuae emittet Dominus ex Sion: dominare in medio inimicorum tuorum."
+  },
+  "vespers_ii_wk1_ant2": {
+    "antiphon": "Ex Aegypto eduxisti nos, Domine."
+  },
+  "vespers_ii_wk1_magnificat_ant": {
+    "antiphon": "Benedictus es, Domine, in firmamento caeli. Et laudabilis et gloriosus in saecula."
+  },
+  "lauds_sunday_wk1_ant1": {
+    "antiphon": "Ad te de luce vigilo, Deus, ut videam virtutem tuam."
+  },
+  "lauds_sunday_wk1_ant2": {
+    "antiphon": "Hymnum dicamus Domino Deo nostro, alleluia."
+  },
+  "lauds_sunday_wk1_ant3": {
+    "antiphon": "Filii Sion exsultent in rege suo, alleluia."
+  },
+  "lauds_sunday_wk1_benedictus_ant": {
+    "antiphon": "Christe, Fili Dei vivi, miserere nobis. Qui sedes ad dexteram Patris."
+  },
+  "vespers_i_wk2_ant1": {
+    "antiphon": "Illumina oculos meos, Domine."
+  },
+  "vespers_i_wk2_ant2": {
+    "antiphon": "Conserva me, Domine, quoniam in te speravi."
+  },
+  "vespers_i_wk2_ant3": {
+    "antiphon": "Dedit illi Dominus claritatem aeternam, et nomine aeterno hereditavit illum."
+  },
+  "vespers_i_wk2_magnificat_ant": {
+    "antiphon": "A solis ortu usque ad occasum, laudabile nomen Domini. Super caelos gloria eius."
+  },
+  "vespers_ii_wk2_ant1": {
+    "antiphon": "Iuravit Dominus et non paenitebit eum: Tu es sacerdos in aeternum."
+  },
+  "vespers_ii_wk2_ant2": {
+    "antiphon": "Nos qui vivimus, benedicimus Domino."
+  },
+  "vespers_ii_wk2_magnificat_ant": {
+    "antiphon": "Magnus Dominus noster, et magna virtus eius. Et sapientiae eius non est numerus."
+  },
+  "lauds_sunday_wk2_ant1": {
+    "antiphon": "Dominus mihi adiutor est, non timebo quid faciat mihi homo."
+  },
+  "lauds_sunday_wk2_ant2": {
+    "antiphon": "Tres ex uno ore clamabant in camino ignis et psallebant: Benedictus Deus."
+  },
+  "lauds_sunday_wk2_ant3": {
+    "antiphon": "Laudate Dominum secundum multitudinem magnitudinis eius."
+  },
+  "lauds_sunday_wk2_benedictus_ant": {
+    "antiphon": "Confitebimur tibi, Deus, et invocabimus nomen tuum. Narrabimus mirabilia tua."
+  },
+  "vespers_i_wk3_ant1": {
+    "antiphon": "Sit nomen Domini benedictum in saecula."
+  },
+  "vespers_i_wk3_ant2": {
+    "antiphon": "Calicem salutaris accipiam, et nomen Domini invocabo."
+  },
+  "vespers_i_wk3_ant3": {
+    "antiphon": "Humiliavit semetipsum Dominus Iesus, propter quod et Deus exaltavit illum in saecula."
+  },
+  "vespers_i_wk3_magnificat_ant": {
+    "antiphon": "Quam magnificata sunt opera tua, Domine. Omnia in sapientia fecisti."
+  },
+  "vespers_ii_wk3_ant1": {
+    "antiphon": "Dixit Dominus Domino meo: Sede a dextris meis."
+  },
+  "vespers_ii_wk3_ant2": {
+    "antiphon": "Fidelia omnia mandata eius, confirmata in saeculum saeculi."
+  },
+  "vespers_ii_wk3_ant3": {
+    "antiphon": "Regnavit Dominus Deus noster omnipotens, alleluia."
+  },
+  "vespers_ii_wk3_magnificat_ant": {
+    "antiphon": "Benedictus es, Domine, in firmamento caeli. Et laudabilis et gloriosus in saecula."
+  },
+  "lauds_sunday_wk3_ant1": {
+    "antiphon": "Regnavit Dominus, decorem indutus est."
+  },
+  "lauds_sunday_wk3_ant2": {
+    "antiphon": "Benedicite, omnia opera Domini, Domino, alleluia."
+  },
+  "lauds_sunday_wk3_ant3": {
+    "antiphon": "Laudate Dominum de caelis."
+  },
+  "lauds_sunday_wk3_benedictus_ant": {
+    "antiphon": "Christe, Fili Dei vivi, miserere nobis. Qui sedes ad dexteram Patris."
+  },
+  "vespers_i_wk4_ant1": {
+    "antiphon": "Fiat pax in virtute tua."
+  },
+  "vespers_i_wk4_ant2": {
+    "antiphon": "Sustinuit anima mea in verbo Domini, speravit anima mea in ipso."
+  },
+  "vespers_i_wk4_ant3": {
+    "antiphon": "Dedit illi Dominus claritatem aeternam, et nomine aeterno hereditavit illum."
+  },
+  "vespers_i_wk4_magnificat_ant": {
+    "antiphon": "A solis ortu usque ad occasum, laudabile nomen Domini. Super caelos gloria eius."
+  },
+  "vespers_ii_wk4_ant1": {
+    "antiphon": "Ex utero, ante luciferum genui te."
+  },
+  "vespers_ii_wk4_ant2": {
+    "antiphon": "In mandatis eius cupit nimis."
+  },
+  "vespers_ii_wk4_magnificat_ant": {
+    "antiphon": "Magnus Dominus noster, et magna virtus eius. Et sapientiae eius non est numerus."
+  },
+  "lauds_sunday_wk4_ant1": {
+    "antiphon": "Confitebor tibi, Domine, et exaltabo te, quia Deus meus es tu."
+  },
+  "lauds_sunday_wk4_ant2": {
+    "antiphon": "Tres pueri iussu regis in caminum missi sunt, non timentes flammam ignis dicebant: Benedictus Deus."
+  },
+  "lauds_sunday_wk4_ant3": {
+    "antiphon": "Omnis spiritus laudet Dominum."
+  },
+  "lauds_sunday_wk4_benedictus_ant": {
+    "antiphon": "Confitebimur tibi, Deus, et invocabimus nomen tuum. Narrabimus mirabilia tua."
+  },
+  "compline_sunday_ant1": {
+    "antiphon": "Alis suis obumbrabit tibi; non timebis a timore nocturno."
+  },
+  "compline_saturday_ant1": {
+    "antiphon": "Miserere mei, Domine, et exaudi orationem meam."
+  },
+  "lauds_wk1_monday_ant2": {
+    "antiphon": "Laudamus nomen tuum inclitum, Deus noster."
+  },
+  "lauds_wk1_tuesday_ant1": {
+    "antiphon": "Innocens manibus et mundo corde ascendet in montem Domini."
+  },
+  "lauds_wk1_tuesday_ant2": {
+    "antiphon": "Exaltate Regem saeculorum in operibus vestris."
+  },
+  "lauds_wk1_tuesday_ant3": {
+    "antiphon": "Rectos decet collaudatio."
+  },
+  "lauds_wk1_tuesday_benedictus_ant": {
+    "antiphon": "Erexit nobis Dominus cornu salutis, sicut locutus est per os prophetarum suorum."
+  },
+  "vespers_wk1_tuesday_ant1": {
+    "antiphon": "Tribuit Dominus victoriam Christo suo."
+  },
+  "vespers_wk1_tuesday_ant2": {
+    "antiphon": "Cantabimus et psallemus virtutes tuas."
+  },
+  "vespers_wk1_tuesday_magnificat_ant": {
+    "antiphon": "Exsultet spiritus meus in Domino Deo, salutari meo."
+  },
+  "lauds_wk1_wednesday_ant2": {
+    "antiphon": "Domine, magnus es tu, et praeclarus in virtute tua."
+  },
+  "lauds_wk1_thursday_ant2": {
+    "antiphon": "Populus meus, ait Dominus, bonis meis adimplebitur."
+  },
+  "lauds_wk1_friday_ant1": {
+    "antiphon": "Acceptabis sacrificium iustitiae super altare tuum, Domine."
+  },
+  "lauds_wk1_friday_ant2": {
+    "antiphon": "In Domino iustificabitur et laudabitur omne semen Israel."
+  },
+  "lauds_wk1_friday_ant3": {
+    "antiphon": "Introite in conspectu Domini in exsultatione."
+  },
+  "lauds_wk1_friday_benedictus_ant": {
+    "antiphon": "Visitavit et fecit redemptionem Dominus plebis suae."
+  },
+  "vespers_wk1_friday_ant1": {
+    "antiphon": "Sana, Domine, animam meam, quia peccavi tibi."
+  },
+  "vespers_wk1_friday_ant2": {
+    "antiphon": "Dominus virtutum nobiscum, refugium nobis Deus Iacob."
+  },
+  "vespers_wk1_friday_magnificat_ant": {
+    "antiphon": "Suscepit nos Dominus pueros suos, recordatus misericordiae suae."
+  },
+  "lauds_wk1_saturday_ant2": {
+    "antiphon": "Fortitudo mea et laus mea Dominus, et factus est mihi in salutem."
+  },
+  "vespers_ii_wk2_ant3": {
+    "antiphon": "Laudem dicite Deo nostro, omnes servi eius, pusilli et magni, alleluia."
+  },
+  "lauds_wk2_monday_ant2": {
+    "antiphon": "Ostende nobis, Domine, lucem miserationum tuarum."
+  },
+  "lauds_wk2_tuesday_ant1": {
+    "antiphon": "Emitte lucem tuam et veritatem tuam, Domine."
+  },
+  "lauds_wk2_tuesday_ant2": {
+    "antiphon": "Cunctis diebus vitae nostrae, salvos nos fac, Domine."
+  },
+  "lauds_wk2_tuesday_ant3": {
+    "antiphon": "Te decet hymnus, Deus, in Sion."
+  },
+  "lauds_wk2_tuesday_benedictus_ant": {
+    "antiphon": "De manu omnium qui oderunt nos, salva nos, Domine."
+  },
+  "vespers_wk2_tuesday_ant1": {
+    "antiphon": "Non potestis Deo servire et mammonae."
+  },
+  "vespers_wk2_tuesday_ant2": {
+    "antiphon": "Thesaurizate vobis thesauros in caelo, dicit Dominus."
+  },
+  "vespers_wk2_tuesday_magnificat_ant": {
+    "antiphon": "Fac nobiscum, Domine, magna, quia potens es, et sanctum nomen tuum."
+  },
+  "lauds_wk2_wednesday_ant2": {
+    "antiphon": "Exsultavit cor meum in Domino, qui humiliat et sublevat."
+  },
+  "lauds_wk2_thursday_ant2": {
+    "antiphon": "Magnifice fecit Dominus, annuntiate hoc in universa terra."
+  },
+  "lauds_wk2_friday_ant1": {
+    "antiphon": "Cor contritum et humiliatum, Deus, non despicies."
+  },
+  "lauds_wk2_friday_ant2": {
+    "antiphon": "Cum iratus fueris, Domine, misericordiae recordaberis."
+  },
+  "lauds_wk2_friday_ant3": {
+    "antiphon": "Lauda, Ierusalem, Dominum."
+  },
+  "lauds_wk2_friday_benedictus_ant": {
+    "antiphon": "Per viscera misericordiae Dei nostri, visitavit nos Oriens ex alto."
+  },
+  "vespers_wk2_friday_ant1": {
+    "antiphon": "Domine, libera animam meam de morte, pedes meos a lapsu."
+  },
+  "vespers_wk2_friday_ant2": {
+    "antiphon": "Auxilium meum a Domino, qui fecit caelum et terram."
+  },
+  "vespers_wk2_friday_magnificat_ant": {
+    "antiphon": "Recordare, Domine, misericordiae tuae, sicut locutus es ad patres nostros."
+  },
+  "lauds_wk2_saturday_ant2": {
+    "antiphon": "Date magnificentiam Deo nostro."
+  },
+  "lauds_wk3_monday_ant2": {
+    "antiphon": "Venite, et ascendamus ad montem Domini."
+  },
+  "lauds_wk3_tuesday_ant1": {
+    "antiphon": "Benedixisti, Domine, terram tuam; remisisti iniquitatem plebis tuae."
+  },
+  "lauds_wk3_tuesday_ant2": {
+    "antiphon": "Anima mea desideravit te in nocte, de mane vigilans ad te."
+  },
+  "lauds_wk3_tuesday_ant3": {
+    "antiphon": "Illumina, Domine, vultum tuum super nos."
+  },
+  "lauds_wk3_tuesday_benedictus_ant": {
+    "antiphon": "Erexit nobis Dominus cornu salutis, sicut locutus est per os prophetarum suorum."
+  },
+  "vespers_wk3_tuesday_ant1": {
+    "antiphon": "Dominus in circuitu populi sui."
+  },
+  "vespers_wk3_tuesday_ant2": {
+    "antiphon": "Nisi efficiamini sicut parvuli, non intrabitis in regnum caelorum."
+  },
+  "vespers_wk3_tuesday_magnificat_ant": {
+    "antiphon": "Exsultet spiritus meus in Domino Deo, salutari meo."
+  },
+  "lauds_wk3_wednesday_ant2": {
+    "antiphon": "Beatus vir, qui ambulat in iustitia et loquitur veritatem."
+  },
+  "lauds_wk3_thursday_ant2": {
+    "antiphon": "Dominus in fortitudine veniet, et merces eius cum eo."
+  },
+  "lauds_wk3_friday_ant1": {
+    "antiphon": "Tibi soli peccavi, Domine, miserere mei."
+  },
+  "lauds_wk3_friday_ant2": {
+    "antiphon": "Cognovimus, Domine, iniquitates nostras, quia peccavimus tibi."
+  },
+  "lauds_wk3_friday_ant3": {
+    "antiphon": "Dominus ipse est Deus; nos populus eius et oves pascuae eius."
+  },
+  "lauds_wk3_friday_benedictus_ant": {
+    "antiphon": "Visitavit et fecit redemptionem Dominus plebis suae."
+  },
+  "vespers_wk3_friday_ant1": {
+    "antiphon": "Magnus est Dominus, et Deus noster prae omnibus diis."
+  },
+  "vespers_wk3_friday_ant2": {
+    "antiphon": "Domus Israel, benedicite Domino; psallite nomini eius, quoniam suave."
+  },
+  "vespers_wk3_friday_magnificat_ant": {
+    "antiphon": "Suscepit nos Dominus pueros suos, recordatus misericordiae suae."
+  },
+  "lauds_wk3_saturday_ant2": {
+    "antiphon": "Mecum sit, Domine, sapientia tua et mecum laboret."
+  },
+  "vespers_ii_wk4_ant3": {
+    "antiphon": "Laudem dicite Deo nostro, omnes servi eius, pusilli et magni, alleluia."
+  },
+  "lauds_wk4_tuesday_ant1": {
+    "antiphon": "Tibi, Domine, psallam, et intellegam in via immaculata."
+  },
+  "lauds_wk4_tuesday_ant2": {
+    "antiphon": "Ne auferas, Domine, misericordiam tuam a nobis."
+  },
+  "lauds_wk4_tuesday_ant3": {
+    "antiphon": "Deus, canticum novum cantabo tibi."
+  },
+  "lauds_wk4_tuesday_benedictus_ant": {
+    "antiphon": "De manu omnium qui oderunt nos, salva nos, Domine."
+  },
+  "vespers_wk4_tuesday_ant1": {
+    "antiphon": "Si oblitus fuero tui, Ierusalem, oblivioni detur dextera mea."
+  },
+  "vespers_wk4_tuesday_ant2": {
+    "antiphon": "In conspectu angelorum psallam tibi, Deus meus."
+  },
+  "vespers_wk4_tuesday_magnificat_ant": {
+    "antiphon": "Fac nobiscum, Domine, magna, quia potens es, et sanctum nomen tuum."
+  },
+  "lauds_wk4_wednesday_ant2": {
+    "antiphon": "Induit me Dominus indumento salutis et iustitiae."
+  },
+  "lauds_wk4_thursday_ant2": {
+    "antiphon": "Declinabit Dominus super Ierusalem fluvium pacis."
+  },
+  "lauds_wk4_friday_ant1": {
+    "antiphon": "Cor mundum crea in me, Deus, et spiritum rectum innova in visceribus meis."
+  },
+  "lauds_wk4_friday_ant2": {
+    "antiphon": "Laetare, Ierusalem, quia per te omnes congregabuntur ad Dominum."
+  },
+  "lauds_wk4_friday_ant3": {
+    "antiphon": "Lauda Deum tuum, Sion, qui emittit eloquium suum terrae."
+  },
+  "lauds_wk4_friday_benedictus_ant": {
+    "antiphon": "Per viscera misericordiae Dei nostri, visitavit nos Oriens ex alto."
+  },
+  "vespers_wk4_friday_ant1": {
+    "antiphon": "Per singulos dies benedicam tibi, Domine, et mirabilia tua narrabo."
+  },
+  "vespers_wk4_friday_ant2": {
+    "antiphon": "Oculi omnium in te sperant, Domine; prope es omnibus invocantibus te."
+  },
+  "vespers_wk4_friday_magnificat_ant": {
+    "antiphon": "Recordare, Domine, misericordiae tuae, sicut locutus es ad patres nostros."
+  },
+  "lauds_wk4_saturday_ant2": {
+    "antiphon": "Dabo vobis cor novum et spiritum novum in medio vestri."
+  },
+  "vespers_ii_wk1_ant3": {
+    "antiphon": "Regnavit Dominus Deus noster omnipotens, alleluia."
+  },
+  "lauds_wk4_monday_ant2": {
+    "antiphon": "Laus Domini ab extremis terrae."
+  }
+}

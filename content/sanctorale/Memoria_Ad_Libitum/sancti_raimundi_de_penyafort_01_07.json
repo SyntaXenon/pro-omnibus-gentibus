@@ -1,0 +1,30 @@
+{
+  "id": "st_ray_penyafort_01_07",
+  "titulus": "Sancti Raimundi de Penyafort, presbyteri",
+  "dies": "01-07",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_PASTORS",
+  "officium_lectionis": {
+    "lectio_altera": {
+      "auctor": "Homilía sancti Gregórii Papæ",
+      "titulus": "Homilia 9 in Evangelia",
+      "textus": "Léctio sancti Evangélii, fratres caríssimi, solícite consideráre nos ádmonet, ne nos, qui plus céteris in hoc mundo accepísse áliquid cérnimur, ab Auctóre mundi grávius inde judicémur. Cum enim augéntur dona, ratiónes étiam crescunt donórum. Tanto ergo esse humílior atque ad serviéndum Deo prómptior quisque debet ex múnere, quanto se obligatiórem esse cónspicit in reddénda ratióne. Ecce homo, qui péregre proficíscitur, servos suos vocat, eisque ad negótium talénta partítur. Post multum vero témporis positúrus ratiónem revértitur: bene operántes pro apportáto lucro remúnerat, servum vero a bono ópere torpéntem damnat. Quis ítaque iste homo est qui péregre proficíscitur, nisi Redémptor noster, qui, in ea carne quam assúmpserat, ábiit in cælum? Carnis enim locus próprius terra est; quæ quasi ad peregrína dúcitur, dum per Redemptórem nostrum in cælo collocátur. Sed homo iste, péregre proficíscens, servis suis bona sua trádidit; quia fidélibus suis spirituália dona concéssit. Et uni quidem quinque talénta, álii duo, álii vero commísit unum. Quinque étenim sunt córporis sensus, vidélicet: visus, audítus, gustus, odorátus et tactus. Quinque ergo taléntis, donum quinque sénsuum, id est, exteriórum sciéntia, exprímitur. Duóbus vero, intelléctus et operátio designátur. Uníus autem talénti nómine, intelléctus tantúmmodo designátur."
+    },
+    "responsorium_alterum": {
+      "textus": "℟. Sint lumbi vestri præcíncti, et lucérnæ ardéntes in mánibus vestris: * Et vos símiles homínibus exspectántibus dóminum suum, quando revertátur a núptiis. V. Vigiláte ergo, quia nescítis qua hora Dóminus vester ventúrus sit.",
+      "versus_repetitus": "℣. Vigiláte ergo, quia nescítis qua hora Dóminus vester ventúrus sit."
+    }
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Euge serve bone et fidelis, quia in pauca fuisti fidelis, supra multa te constituam, intra in gaudium Domini tui.",
+    "magnificat": "Similabo eum viro sapienti, qui ædificavit domum suam supra petram.",
+    "benedictus_es": "Bien, siervo bueno y fiel; ya que has sido fiel en lo poco, te pondré al frente de lo mucho: entra en el gozo de tu Señor.",
+    "magnificat_es": "Le compararé a un hombre prudente, que edificó su casa sobre roca."
+  },
+  "propria": {
+    "capitulum_laudum": "Sir 44:16-17: Ecce sacérdos magnus, qui in diébus suis plácuit Deo, et invéntus est justus: et in témpore iracúndiæ factus est reconciliátio.",
+    "capitulum_vesperarum": "Sir 44:16-17: Ecce sacérdos magnus, qui in diébus suis plácuit Deo, et invéntus est justus: et in témpore iracúndiæ factus est reconciliátio."
+  },
+  "collecta": "Deus, qui beatum Raimundum presbyterum insignis in peccatores et in captivos misericordiæ virtute decorasti, eius nobis intercessione concede, ut, a peccati servitute soluti, quæ tibi sunt placita liberis mentibus exsequamur. Per Dominum."
+}

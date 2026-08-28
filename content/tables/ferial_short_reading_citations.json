@@ -1,0 +1,67 @@
+{
+  "lauds": {
+    "week1": {
+      "monday": "2thess 3:10-13",
+      "tuesday": "rom 13:11,12-13",
+      "wednesday": "tob 4:16-17,19-20",
+      "thursday": "isa 66:1-2",
+      "friday": "eph 4:29-32",
+      "saturday": "2pet 1:10-11"
+    },
+    "week2": {
+      "monday": "jer 15:16",
+      "tuesday": "1thess 5:4-5",
+      "wednesday": "rom 8:35,37",
+      "thursday": "rom 14:17-19",
+      "friday": "eph 2:13-16",
+      "saturday": "rom 12:14-16"
+    },
+    "week3": {
+      "monday": "jas 2:12-13",
+      "tuesday": "1john 4:14-15",
+      "wednesday": "job 1:21;2:10",
+      "thursday": "1pet 4:10-11",
+      "friday": "2cor 12:9-10",
+      "saturday": "phil 2:14-15"
+    },
+    "week4": {
+      "monday": "jdt 8:21-23",
+      "tuesday": "isa 55:1",
+      "wednesday": "deut 4:39-40",
+      "thursday": "rom 8:18-21",
+      "friday": "gal 2:19-20",
+      "saturday": "2pet 3:13-15"
+    }
+  },
+  "vespers": {
+    "week1": {
+      "monday": "col 1:9-11",
+      "tuesday": "1john 3:1-2",
+      "wednesday": "jas 1:22,25",
+      "thursday": "1pet 1:6-9",
+      "friday": "rom 15:1-3"
+    },
+    "week2": {
+      "monday": "1thess 2:13",
+      "tuesday": "rom 3:23-25",
+      "wednesday": "1pet 5:5-7",
+      "thursday": "1pet 1:22-23",
+      "friday": "1cor 2:7-10"
+    },
+    "week3": {
+      "monday": "jas 4:11-12",
+      "tuesday": "rom 12:9-12",
+      "wednesday": "eph 3:20-21",
+      "thursday": "1pet 3:8-9",
+      "friday": "jas 1:2-4"
+    },
+    "week4": {
+      "monday": "1thess 3:12-13",
+      "tuesday": "col 3:16",
+      "wednesday": "1john 2:3-6",
+      "thursday": "col 1:23",
+      "friday": "rom 8:1-2"
+    }
+  },
+  "_note": "Short reading (Lectio Brevis) citations for ferial Lauds/Vespers across the 4-week Ordinary Time psalter. Citation strings only (a Bible reference is a fact, not copyrightable expression) sourced from breviarium-core's lectura_breve_citas.json lookup table (github.com/Breviarium-app/breviarium--core), cross-verified against this project's independently-sourced psalm table (100% match on all 44 psalm1 citations) before being trusted. The actual verse text is resolved at render time from this project's own Nova Vulgata / CEE Spanish corpus - the copyrighted Spanish prose bundled in that repo was never read."
+}

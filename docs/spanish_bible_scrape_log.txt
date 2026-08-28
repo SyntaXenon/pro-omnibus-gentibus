@@ -1,0 +1,148 @@
+=== Spanish Bible (Torres Amat) scrape started 2026-08-09 23:21:01 ===
+Ps: SKIP - already recovered (with all boundary-psalm fixes applied)
+Gen: 50 chapters attempted, 1533 verses -> gen.json
+Exod: 40 chapters attempted, 1213 verses -> exod.json
+Lev: 27 chapters attempted, 859 verses -> lev.json
+Num: 36 chapters attempted, 1288 verses -> num.json
+Deut: 34 chapters attempted, 959 verses -> deut.json
+Jos: 24 chapters attempted, 658 verses -> jos.json
+Judg: 21 chapters attempted, 618 verses -> judg.json
+Ruth: 4 chapters attempted, 85 verses -> ruth.json
+1Sam: 31 chapters attempted, 810 verses -> 1sam.json
+2Sam: 24 chapters attempted, 695 verses -> 2sam.json
+1Kgs: 22 chapters attempted, 816 verses -> 1kgs.json
+2Kgs: 25 chapters attempted, 719 verses -> 2kgs.json
+1Chr: 29 chapters attempted, 942 verses -> 1chr.json
+2Chr: 36 chapters attempted, 822 verses -> 2chr.json
+Ezra: 10 chapters attempted, 280 verses -> ezra.json
+Neh: 13 chapters attempted, 406 verses -> neh.json
+Tob: 14 chapters attempted, 0 verses -> tob.json
+Jdt: 16 chapters attempted, 0 verses -> jdt.json
+Esth: 10 chapters attempted, 167 verses -> esth.json
+Job: 42 chapters attempted, 1070 verses -> job.json
+Prov: 31 chapters attempted, 915 verses -> prov.json
+Eccl: 12 chapters attempted, 222 verses -> eccl.json
+Song: 8 chapters attempted, 117 verses -> song.json
+Wis: 19 chapters attempted, 0 verses -> wis.json
+Sir: 51 chapters attempted, 0 verses -> sir.json
+Isa: 66 chapters attempted, 1292 verses -> isa.json
+Jer: 52 chapters attempted, 1364 verses -> jer.json
+Lam: 5 chapters attempted, 154 verses -> lam.json
+Bar: 6 chapters attempted, 0 verses -> bar.json
+Ezek: 48 chapters attempted, 1273 verses -> ezek.json
+Dan: 14 chapters attempted, 357 verses -> dan.json
+Hos: 14 chapters attempted, 197 verses -> hos.json
+Joel: 3 chapters attempted, 73 verses -> joel.json
+Amos: 9 chapters attempted, 146 verses -> amos.json
+Obad: 1 chapters attempted, 21 verses -> obad.json
+Jon: 4 chapters attempted, 48 verses -> jon.json
+Mic: 7 chapters attempted, 105 verses -> mic.json
+Nah: 3 chapters attempted, 47 verses -> nah.json
+Hab: 3 chapters attempted, 56 verses -> hab.json
+Zeph: 3 chapters attempted, 53 verses -> zeph.json
+Hag: 2 chapters attempted, 38 verses -> hag.json
+Zech: 14 chapters attempted, 211 verses -> zech.json
+Mal: 4 chapters attempted, 55 verses -> mal.json
+Matt: 28 chapters attempted, 1071 verses -> matt.json
+Mark: 16 chapters attempted, 678 verses -> mark.json
+Luke: 24 chapters attempted, 1151 verses -> luke.json
+John: 21 chapters attempted, 879 verses -> john.json
+Acts: 28 chapters attempted, 1007 verses -> acts.json
+Rom: 16 chapters attempted, 433 verses -> rom.json
+1Cor: 16 chapters attempted, 437 verses -> 1cor.json
+2Cor: 13 chapters attempted, 257 verses -> 2cor.json
+Gal: 6 chapters attempted, 149 verses -> gal.json
+Eph: 6 chapters attempted, 155 verses -> eph.json
+Phil: 4 chapters attempted, 104 verses -> phil.json
+Col: 4 chapters attempted, 95 verses -> col.json
+1Thess: 5 chapters attempted, 89 verses -> 1thess.json
+2Thess: 3 chapters attempted, 47 verses -> 2thess.json
+1Tim: 6 chapters attempted, 113 verses -> 1tim.json
+2Tim: 4 chapters attempted, 83 verses -> 2tim.json
+Titus: 3 chapters attempted, 46 verses -> titus.json
+Phlm: 1 chapters attempted, 25 verses -> phlm.json
+Heb: 13 chapters attempted, 303 verses -> heb.json
+Jas: 5 chapters attempted, 108 verses -> jas.json
+1Pet: 5 chapters attempted, 105 verses -> 1pet.json
+2Pet: 3 chapters attempted, 61 verses -> 2pet.json
+1John: 5 chapters attempted, 105 verses -> 1john.json
+2John: 1 chapters attempted, 13 verses -> 2john.json
+3John: 1 chapters attempted, 14 verses -> 3john.json
+Jude: 1 chapters attempted, 24 verses -> jude.json
+Rev: 22 chapters attempted, 404 verses -> rev.json
+=== Spanish Bible scrape finished 2026-08-09 23:55:12 ===
+NOTE: 1 and 2 Maccabees are not available on this source - not scraped, flagged as a known gap.
+=== Spanish Bible (Torres Amat) scrape started 2026-08-10 03:29:05 ===
+Ps: 2358 verses -> ps.json (skipped Hebrew chapters [9, 10, 114, 115, 116, 147], boundary cases)
+Gen: SKIP - already recovered
+Exod: SKIP - already recovered
+Lev: SKIP - already recovered
+Num: SKIP - already recovered
+Deut: SKIP - already recovered
+Jos: SKIP - already recovered
+Judg: SKIP - already recovered
+Ruth: SKIP - already recovered
+1Sam: SKIP - already recovered
+2Sam: SKIP - already recovered
+1Kgs: SKIP - already recovered
+2Kgs: SKIP - already recovered
+1Chr: SKIP - already recovered
+2Chr: SKIP - already recovered
+Ezra: SKIP - already recovered
+Neh: SKIP - already recovered
+Tob: SKIP - already recovered
+Jdt: SKIP - already recovered
+Esth: SKIP - already recovered
+Job: SKIP - already recovered
+Prov: SKIP - already recovered
+Eccl: SKIP - already recovered
+Song: SKIP - already recovered
+Wis: SKIP - already recovered
+Sir: SKIP - already recovered
+Isa: SKIP - already recovered
+Jer: SKIP - already recovered
+Lam: SKIP - already recovered
+Bar: SKIP - already recovered
+Ezek: SKIP - already recovered
+Dan: SKIP - already recovered
+Hos: SKIP - already recovered
+Joel: SKIP - already recovered
+Amos: SKIP - already recovered
+Obad: SKIP - already recovered
+Jon: SKIP - already recovered
+Mic: SKIP - already recovered
+Nah: SKIP - already recovered
+Hab: SKIP - already recovered
+Zeph: SKIP - already recovered
+Hag: SKIP - already recovered
+Zech: SKIP - already recovered
+Mal: SKIP - already recovered
+Matt: SKIP - already recovered
+Mark: SKIP - already recovered
+Luke: SKIP - already recovered
+John: SKIP - already recovered
+Acts: SKIP - already recovered
+Rom: SKIP - already recovered
+1Cor: SKIP - already recovered
+2Cor: SKIP - already recovered
+Gal: SKIP - already recovered
+Eph: SKIP - already recovered
+Phil: SKIP - already recovered
+Col: SKIP - already recovered
+1Thess: SKIP - already recovered
+2Thess: SKIP - already recovered
+1Tim: SKIP - already recovered
+2Tim: SKIP - already recovered
+Titus: SKIP - already recovered
+Phlm: SKIP - already recovered
+Heb: SKIP - already recovered
+Jas: SKIP - already recovered
+1Pet: SKIP - already recovered
+2Pet: SKIP - already recovered
+1John: SKIP - already recovered
+2John: SKIP - already recovered
+3John: SKIP - already recovered
+Jude: SKIP - already recovered
+Rev: SKIP - already recovered
+=== Spanish Bible scrape finished 2026-08-10 03:33:22 ===
+NOTE: 1 and 2 Maccabees are not available on this source - not scraped, flagged as a known gap.

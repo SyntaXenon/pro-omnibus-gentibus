@@ -1,0 +1,21 @@
+{
+  "_notes": "Sunday psalm/canticle assignments for Vespers I (Saturday evening), Vespers II (Sunday evening), and Lauds, across the 4-week psalter. Sourced from catholic-resources.org/LoH/Psalter-Hours.html (Hebrew numbering) and converted to Vulgate numbering. Includes the Ps113/114/115/116 Hebrew-Vulgate split/merge boundary cases (Vulgate 113 = Hebrew 114+115 merged; Vulgate 114-115 = Hebrew 116 split) - see docs/psalm_numbering_notes.md. Lenten alternate NT canticle (1 Pet 2:21-24 in place of Rev 19:1-7) not yet included - deferred with the rest of the Proper of Seasons. NOT yet spot-checked verse-by-verse against a printed Liturgia Horarum.",
+  "vespers_i": {
+    "week1": {"psalm1": "Ps 140", "psalm2": "Ps 141", "canticle": "Phil 2:6-11"},
+    "week2": {"psalm1": "Ps 118:105-112", "psalm2": "Ps 15", "canticle": "Phil 2:6-11"},
+    "week3": {"psalm1": "Ps 112", "psalm2": "Ps 115", "canticle": "Phil 2:6-11"},
+    "week4": {"psalm1": "Ps 121", "psalm2": "Ps 129", "canticle": "Phil 2:6-11"}
+  },
+  "vespers_ii": {
+    "week1": {"psalm1": "Ps 109:1-5,7", "psalm2": "Ps 113:1-8", "canticle": "Rev 19:1-7"},
+    "week2": {"psalm1": "Ps 109:1-5,7", "psalm2": "Ps 113:9-26", "canticle": "Rev 19:1-7"},
+    "week3": {"psalm1": "Ps 109:1-5,7", "psalm2": "Ps 110", "canticle": "Rev 19:1-7"},
+    "week4": {"psalm1": "Ps 109:1-5,7", "psalm2": "Ps 111", "canticle": "Rev 19:1-7"}
+  },
+  "lauds": {
+    "week1": {"psalm1": "Ps 62:2-9", "canticle": "Dan 3:57-88,56", "psalm3": "Ps 149"},
+    "week2": {"psalm1": "Ps 117", "canticle": "Dan 3:52-57", "psalm3": "Ps 150"},
+    "week3": {"psalm1": "Ps 92", "canticle": "Dan 3:57-88,56", "psalm3": "Ps 148"},
+    "week4": {"psalm1": "Ps 117", "canticle": "Dan 3:52-57", "psalm3": "Ps 150"}
+  }
+}

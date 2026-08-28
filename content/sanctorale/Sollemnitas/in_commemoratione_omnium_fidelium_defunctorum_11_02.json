@@ -1,0 +1,63 @@
+{
+  "id": "all_souls_11_02",
+  "titulus": "In Commemoratione Omnium Fidelium Defunctorum",
+  "dies": "11-02",
+  "gradus": "SOLLEMNITAS",
+  "color": "PURPUREUS",
+  "habet_primas_vesperas": false,
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Isa 38:10-14,17-20",
+        "antiphona": "A porta ínferi érue, Dómine, ánimam meam.",
+        "antiphona_es": "Señor, libra mi alma de las puertas del infierno.",
+        "versus": [
+          "Ego dixi: In dimídio diérum meórum † vadam ad portas ínferi; quæsívi resíduum annórum meórum.",
+          "Dixi: Non vidébo Dóminum Deum in terra vivéntium, † non aspíciam hóminem ultra inter habitatóres orbis.",
+          "Habitáculum meum ablátum est et abdúctum longe a me quasi tabernáculum pastórum; convólvit sicut textor vitam meam; de stámine succídit me.",
+          "De mane usque ad vésperam confecísti me.",
+          "Prostrátus sum usque ad mane, quasi leo sic cónterit ómnia ossa mea; de mane usque ad vésperam confecísti me.",
+          "Sicut pullus hirúndinis, sic mussitábo, meditábor ut colúmba; attenuáti sunt óculi mei suspiciéntes in excélsum.",
+          "Tu autem eruísti ánimam meam a fóvea consumptiónis, proiecísti enim post tergum tuum ómnia peccáta mea.",
+          "Quia non inférnus confitébitur tibi, neque mors laudábit te; non exspectábunt, qui descéndunt in lacum, veritátem tuam.",
+          "Vivens, vivens ipse confitébitur tibi, sicut et ego hódie; pater fíliis notam fáciet veritátem tuam.",
+          "Dómine, salvum me fac, † et ad sonum cítharæ cantábimus cunctis diébus vitæ nostræ in domo Dómini."
+        ]
+      }
+    ],
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 120",
+        "antiphona": "Dóminus custódit te ab omni malo: custódiat ánimam tuam Dóminus.",
+        "antiphona_es": "El Señor te guarda de todo mal: el Señor guarde tu alma."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 129",
+        "antiphona": "Si iniquitátes observáveris, Dómine; Dómine, quis sustinébit?",
+        "antiphona_es": "Si tuvieras en cuenta las iniquidades, Señor, ¿quién podrá resistir?"
+      },
+      {
+        "hora": "vespers",
+        "citatio": "phil 2:6-11",
+        "antiphona": "Sicut Pater súscitat mórtuos et vivíficat, sic et Fílius quos vult vivíficat.",
+        "antiphona_es": "Como el Padre resucita a los muertos y les da vida, así también el Hijo da vida a quienes él quiere."
+      }
+    ],
+    "lectio_brevis_vesperarum": "1pet 1:3-5",
+    "lectio_brevis_laudum": "ezek 37:12-14"
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Ego sum resurréctio et vita. Qui credit in me, etsi mórtuus fúerit, vivet; et omnis qui credit in me, non moriétur in ætérnum.",
+    "benedictus_es": "Yo soy la resurrección y la vida. El que cree en mí, aunque haya muerto, vivirá; y todo el que vive y cree en mí, no morirá para siempre.",
+    "magnificat": "Omne quod dat mihi Pater, ad me véniet; et eum qui venit ad me, non eíciam foras.",
+    "magnificat_es": "Todo lo que el Padre me da vendrá a mí; y al que viene a mí, no lo echaré fuera."
+  },
+  "collecta": "Fidelium, Deus, omnium Conditor et Redemptor: animabus famulorum famularumque tuarum remissionem cunctorum tribue peccatorum; ut indulgentiam, quam semper optaverunt, piis supplicationibus consequantur.",
+  "breviarium_id": "commemoration_of_all_the_faithful_departed"
+}

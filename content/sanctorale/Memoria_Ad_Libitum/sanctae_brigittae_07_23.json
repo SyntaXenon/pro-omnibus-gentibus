@@ -1,0 +1,17 @@
+{
+  "id": "st_bridget_07_23",
+  "titulus": "Sanctæ Brigittæ, religiosæ",
+  "dies": "07-23",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "antiphonae_evangelicae": {
+    "benedictus": "Qui fácit voluntátem Patris mei, qui in cælis est, ipse meus frater, et soror, et mater est, dicit Dóminus.",
+    "magnificat": "Vos qui reliquístis ómnia, et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis.",
+    "benedictus_es": "«El que cumple la voluntad de mi Padre, ése es mi hermano y mi hermana y mi madre», dice el Señor.",
+    "magnificat_es": "Vosotros, los que lo habéis dejado todo y me habéis seguido, recibiréis cien veces más, y heredaréis la vida eterna."
+  },
+  "breviarium_id": "bridget_of_sweden_religious",
+  "collecta": "Dómine, Deus noster, qui beátæ Birgíttæ, Fílii tui passiónem meditánti, cæléstia arcána reveláre dignátus es, concéde nobis fámulis tuis, ut in tuæ glóriæ manifestatióne semper lætémur. Per Dóminum nostrum Iesum Christum, Fílium tuum, qui tecum vivit et regnat in unitáte Spíritus Sancti, Deus, per ómnia sǽcula sæculórum.",
+  "source_note": "Magnificat/Benedictus antiphons and collect were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text (collect wrongly named St. Apollinaris). Antiphons are genuine text sourced from breviarium-core (Spanish), Latin is a direct faithful translation. Collect is a faithful Latin translation of breviarium-core's genuine Spanish collect for Bridget, not verified against a live original Latin liturgical text."
+}

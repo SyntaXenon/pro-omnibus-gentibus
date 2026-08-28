@@ -1,0 +1,16 @@
+{
+  "id": "seven_holy_founders_02_17",
+  "titulus": "Sanctorum Septem Fundatorum Ordinis Servorum B. M. V.",
+  "dies": "02-17",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "antiphonae_evangelicae": {
+    "benedictus": "Septem sancti Patres se glóriosæ Vírgini servítio consecravérunt, et nomen sibi impónere voluérunt: «Servi sanctæ Maríæ».",
+    "magnificat": "Rex immortális Patres nostros vocávit: regni sui partícipes fecit, et choro sanctórum sociávit, quia beatíssimæ Vírgini fidéliter serviérunt.",
+    "benedictus_es": "Los siete santos Padres se consagraron al servicio de la gloriosa Virgen y quisieron que su nombre fuera: «Siervos de santa María».",
+    "magnificat_es": "El Rey inmortal llamó a nuestros Padres: los hizo partícipes de su Reino y los unió al coro de los santos porque sirvieron fielmente a la santísima Virgen."
+  },
+  "collecta": "Beatorum fratrum, Domine, pietatem nobis benignus infunde, qua et Dei Genetricem sunt devotissime venerati, et tuum ad te populum provexerunt. Per Dominum.",
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text. Replaced with genuine proper text sourced in Spanish from the Servite Order's own official liturgical books (servidimaria.net), explicitly naming 'nuestros Padres'/the Seven Founders; Latin is a direct faithful translation. Collect was already correct, unchanged."
+}

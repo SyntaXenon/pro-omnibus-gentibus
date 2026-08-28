@@ -1,0 +1,17 @@
+{
+  "id": "sts_joachim_anne_07_26",
+  "titulus": "Sanctorum Ioachim et Annæ, parentum beatæ Mariæ Virginis",
+  "dies": "07-26",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "collecta": "Dómine, Deus patrum nostrórum, qui beátis Ioachim et Annæ hanc grátiam contulísti ut ex eis incarnáti Fílii tui Mater nascerétur: utríusque précibus concéde; ut salútem tuo promíssam pópulo consequámur.",
+  "antiphonae_evangelicae": {
+    "benedictus": "Qui fácit voluntátem Patris mei, qui in cælis est, ipse meus frater, et soror, et mater est, dicit Dóminus.",
+    "benedictus_es": "«El que cumple la voluntad de mi Padre, ése es mi hermano y mi hermana y mi madre», dice el Señor.",
+    "magnificat": "Vos qui reliquístis ómnia, et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis.",
+    "magnificat_es": "Vosotros, los que lo habéis dejado todo y me habéis seguido, recibiréis cien veces más, y heredaréis la vida eterna."
+  },
+  "breviarium_id": "joachim_and_anne_parents_of_mary",
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text. Replaced with the genuine Common of Holy Men and Women pairing (see commons.json). NOTE: breviarium-core's own 'cantico_evangelico_antifona' field for this saint looked suspect on inspection (the Magnificat value was an unrelated Luke 11:1 verse about the Our Father, and the Benedictus value was just the opening line of the Benedictus canticle itself, Luke 1:68-69 — both look like an upstream data error in breviarium-core for this specific entry, not usable). Collect verified correct (names Joachim and Anne, not swapped with anyone else)."
+}

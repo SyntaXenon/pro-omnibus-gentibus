@@ -1,0 +1,16 @@
+{
+  "id": "our_lady_of_the_rosary_10_07",
+  "titulus": "Beatæ Mariæ Virginis a Rosario",
+  "dies": "10-07",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "collecta": "Deus, cujus Unigénitus per vitam, mortem et resurrectiónem suam nobis salútis ætérnæ præmia comparávit: concéde, quǽsumus; ut, hæc mystéria sacratíssimo beátæ Maríæ Vírginis Rosário recoléntes, et imitémur, quod cóntinent, et quod promíttunt, assequámur. $Per eundem",
+  "antiphonae_evangelicae": {
+    "magnificat": "Beata es, Virgo Maria, Dei Genetrix, quæ credidisti Domino; perfecta sunt in te quæ dicta sunt tibi, intercede pro nobis ad Dominum, Deum nostrum.",
+    "benedictus": "Solemnitatem hodiernam sacratissimi Rosarii Genetricis Dei Mariæ devote celebremus, ut ipsa pro nobis intercedat ad Dominum Jesum Christum.",
+    "benedictus_es": "Celebremos devotamente la solemnidad de hoy del santísimo Rosario de María, Madre de Dios, para que ella interceda por nosotros ante el Señor Jesucristo.",
+    "magnificat_es": "Bienaventurada eres, Virgen María, Madre de Dios, que creíste al Señor; se cumplió en ti lo que se te había dicho: intercede por nosotros ante el Señor, Dios nuestro."
+  },
+  "breviarium_id": "our_lady_of_the_rosary",
+  "commune_subsidiarium": "COMMON_BVM"
+}

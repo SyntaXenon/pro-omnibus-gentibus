@@ -1,0 +1,161 @@
+{
+  "_source": "Latin collects from Divinum Officium's traditional-calendar Missal Sancti files (github.com/DivinumOfficium/divinum-officium), ancient/traditional Latin liturgical text (public domain regardless of digital source). Each entry individually verified by comparing the fetched [Officium] title (or, where unavailable, the collect's own recognizable content) against the actual expected saint before being trusted - naive date-matching alone produces wrong-saint results because the traditional pre-1970 calendar often places a saint on a different date than the modern General Roman Calendar. Collects behind an unresolved Divinum Officium macro reference (@:Oratio X / @Tempora/... / @Sancti/...) were left out rather than guessed.",
+  "collects": {
+    "MaryMotherOfGod": {
+      "la": "Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fecúnda, humáno generi præmia præstitísti: tríbue, quǽsumus; ut ipsam pro nobis intercédere sentiámus, per quam merúimus auctórem vitæ suscípere, Dóminum nostrum Jesum Christum, Fílium tuum:"
+    },
+    "Epiphany": {
+      "la": "Deus, qui hodiérna die Unigénitum tuum géntibus stella duce revelásti: concéde propítius; ut, qui jam te ex fide cognóvimus, usque ad contemplándam spéciem tuæ celsitúdinis perducámur. $Per eumdem"
+    },
+    "StAgnes": {
+      "la": "Omnípotens sempitérne Deus, qui infírma mundi éligis, ut fórtia quæque confúndas: concéde propítius; ut, qui beátæ Agnétis Vírginis et Mártyris tuæ sollémnia cólimus, ejus apud te patrocínia sentiámus."
+    },
+    "Presentation": {
+      "la": "Omnípotens sempitérne Deus, majestátem tuam súpplices exorámus: ut, sicut unigénitus Fílius tuus hodiérna die cum nostræ carnis substántia in templo est præsentátus; ita nos fácias purificátis tibi méntibus præsentári. $Per eundem"
+    },
+    "StJoseph": {
+      "la": "Sanctíssimæ Genetrícis tuæ Sponsi, quǽsumus, Dómine, méritis adjuvémur: ut, quod possibílitas nostra non óbtinet, ejus nobis intercessióne donétur: $Qui vivis"
+    },
+    "Annunciation": {
+      "la": "Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam Genetrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur. $Per eundem"
+    },
+    "StCatherineSiena": {
+      "la": "Da, quǽsumus, omnípotens Deus: ut, qui beátæ Catharínæ Vírginis tuæ natalítia cólimus; et ánnua solemnitáte lætámur, et tantæ virtútis proficiámus exémplo."
+    },
+    "StPhilipNeri": {
+      "la": "Deus, qui beátum Philíppum Confessórem tuum Sanctórum tuórum glória sublimásti: concéde propítius; ut, cujus sollemnitáte lætámur, ejus virtútum proficiámus exémplo."
+    },
+    "StJustinMartyr": {
+      "la": "Deus, qui per stultítiam Crucis eminéntem Jesu Christi sciéntiam beátum Justínum Mártyrem mirabíliter docuísti: ejus nobis intercessióne concéde; ut, errórum circumventióne depúlsa, fídei firmitátem consequámur. $Per eundem"
+    },
+    "StBoniface": {
+      "la": "Deus, qui multitúdinem populórum, beáti Bonifátii Mártyris tui atque Pontíficis zelo, ad agnitiónem tui nóminis vocáre dignátus es: concéde propítius; ut, cujus sollémnia cólimus, étiam patrocínia sentiámus."
+    },
+    "NativityJohnBaptist": {
+      "la": "Deus, qui præséntem diem honorábilem nobis in beáti Joánnis nativitáte fecísti: da pópulis tuis spirituálium grátiam gaudiórum; et ómnium fidélium mentes dirige in viam salútis ætérnæ."
+    },
+    "StsPeterPaulAp": {
+      "la": "Deus, qui hodiérnam diem Apostolórum tuórum Petri et Pauli martýrio consecrásti: da Ecclésiæ tuæ, eórum in ómnibus sequi præcéptum; per quos religiónis sumpsit exórdium."
+    },
+    "StMaryMagdalene": {
+      "la": "Beátæ Maríæ Magdalénæ, quǽsumus, Dómine, suffrágiis adjuvémur: cujus précibus exorátus, quatriduánum fratrem Lázarum vivum ab ínferis resuscitásti: $Qui vivis"
+    },
+    "StIgnatiusLoyola": {
+      "la": "Deus, qui ad majórem tui nóminis glóriam propagándam, novo per beátum Ignátium subsídio militántem Ecclésiam roborásti: concéde; ut, ejus auxílio et imitatióne certántes in terris, coronári cum ipso mereámur in cœlis."
+    },
+    "Transfiguration": {
+      "la": "Deus, qui fídei sacraménta in Unigéniti tui gloriósa Transfiguratióne patrum testimónio roborásti, et adoptiónem filiórum perféctam, voce delápsa in nube lúcida, mirabíliter præsignásti: concéde propítius; ut ipsíus Regis glóriæ nos coherédes effícias, et ejúsdem glóriæ tríbuas esse consórtes. $Per eundem"
+    },
+    "StLawrenceDeacon": {
+      "la": "Da nobis, quǽsumus, omnípotens Deus: vitiórum nostrorum flammas exstínguere; qui beáto Lauréntio tribuísti tormentórum suórum incéndia superáre."
+    },
+    "Assumption": {
+      "la": "Omnípotens sempitérne Deus, qui Immaculátam Vírginem Maríam, Fílii tui Genetrícem, córpore et ánima ad cœléstem glóriam assumpsísti: concéde, quǽsumus; ut, ad superna semper inténti, ipsíus glóriæ mereámur esse consórtes. $Per eundem"
+    },
+    "StPiusX": {
+      "la": "Deus, qui ad tuéndam cathólicam fidem, et univérsa in Christo instauránda sanctum Pium, Summum Pontíficem, cælésti sapiéntia et apostólica fortitúdine replevísti: concéde propítius; ut, ejus institúta et exémpla sectántes, præmia consequámur ætérna. $Per eundem"
+    },
+    "StBartholomewAp": {
+      "la": "Omnípotens sempitérne Deus, qui hujus diei venerándam sanctámque lætítiam in beáti Apóstoli tui Bartholomǽi festivitáte tribuísti: da Ecclésiæ tuæ, quǽsumus; et amáre quod crédidit, et prædicáre quod dócuit."
+    },
+    "StAugustineHippo": {
+      "la": "Adésto supplicatiónibus nostris, omnípotens Deus: et, quibus fidúciam sperándæ pietátis indúlges, intercedénte beáto Augustíno Confessóre tuo atque Pontífice, consuétæ misericórdiæ tríbue benígnus efféctum."
+    },
+    "StGregoryGreat": {
+      "la": "Deus, qui ánimæ fámuli tui Gregórii ætérnæ beatitúdinis prǽmia contulísti: concéde propítius; ut, qui peccatórum nostrórum póndere prémimur, ejus apud te précibus sublevémur."
+    },
+    "NativityVirginMary": {
+      "la": "Fámulis tuis, quǽsumus, Dómine, cœléstis grátiæ munus impertíre: ut, quibus beátæ Vírginis partus éxstitit salútis exórdium; Nativitátis ejus votíva sollémnitas pacis tríbuat increméntum."
+    },
+    "ExaltationCross": {
+      "la": "Deus, qui nos hodiérna die Exaltatiónis sanctæ Crucis ánnua sollemnitáte lætíficas: præsta, quǽsumus; ut, cujus mystérium in terra cognóvimus, ejus redemptiónis præmia in cœlo mereámur. $Per eundem"
+    },
+    "StMatthewEvangelist": {
+      "la": "Beáti Apóstoli et Evangelístæ Matthǽi, Dómine, précibus adjuvémur: ut, quod possibílitas nostra non óbtinet, ejus nobis intercessióne donétur."
+    },
+    "StJerome": {
+      "la": "Deus, qui Ecclésiæ tuæ in exponéndis sacris Scriptúris beátum Hierónymum, Confessórem tuum, Doctórem máximum providére dignátus es: præsta, quǽsumus; ut, ejus suffragántibus méritis, quod ore simul et ópere dócuit, te adjuvánte, exercére valeámus."
+    },
+    "GuardianAngels": {
+      "la": "Deus, qui ineffábili providéntia sanctos Angelos tuos ad nostram custódiam míttere dignáris: largíre supplícibus tuis; et eórum semper protectióne deféndi, et ætérna societáte gaudére."
+    },
+    "OurLadyOfTheRosary": {
+      "la": "Deus, cujus Unigénitus per vitam, mortem et resurrectiónem suam nobis salútis ætérnæ præmia comparávit: concéde, quǽsumus; ut, hæc mystéria sacratíssimo beátæ Maríæ Vírginis Rosário recoléntes, et imitémur, quod cóntinent, et quod promíttunt, assequámur. $Per eundem"
+    },
+    "StSimonStJudeAp": {
+      "la": "Deus, qui nos per beátos Apóstolos tuos Simónem et Judam ad agnitiónem tui nóminis veníre tribuísti: da nobis eórum glóriam sempitérnam et proficiéndo celebráre, et celebrándo profícere."
+    },
+    "AllSaints": {
+      "la": "Omnípotens sempitérne Deus, qui nos ómnium Sanctórum tuórum mérita sub una tribuísti celebritáte venerári: quǽsumus; ut desiderátam nobis tuæ propitiatiónis abundántiam, multiplicátis intercessóribus, largiáris."
+    },
+    "StCharlesBorromeo": {
+      "la": "Ecclésiam tuam, Dómine, sancti Caróli Confessóris tui atque Pontíficis contínua protectióne custódi: ut, sicut illum pastorális sollicitúdo gloriósum réddidit; ita nos ejus intercéssio in tuo semper fáciat amóre fervéntes."
+    },
+    "StMartinTours": {
+      "la": "Deus, qui cónspicis, quia ex nulla nostra virtúte subsístimus: concéde propítius; ut, intercessióne beáti Martíni Confessóris tui atque Pontíficis, contra ómnia advérsa muniámur."
+    },
+    "StAndrewAp": {
+      "la": "Majestátem tuam, Dómine, supplíciter exorámus: ut, sicut Ecclésiæ tuæ beátus Andréas Apóstolus éxstitit prædicátor et rector; ita apud te sit pro nobis perpétuus intercéssor."
+    },
+    "StFrancisXavier": {
+      "la": "Deus, qui Indiárum gentes beáti Francísci prædicatióne et miráculis Ecclésiæ tuæ aggregáre voluísti: concéde propítius; ut, cujus gloriósa mérita venerámur, virtútum quoque imitémur exémpla."
+    },
+    "ImmaculateConception": {
+      "la": "Deus, qui per immaculátam Vírginis Conceptiónem dignum Fílio tuo habitáculum præparásti: quǽsumus; ut, qui ex morte ejúsdem Filii tui prævísa eam ab omni labe præservásti, nos quoque mundos ejus intercessióne ad te perveníre concédas. $Per eundem"
+    },
+    "HolyInnocents": {
+      "la": "Deus, cujus hodierna die præcónium Innocéntes Mártyres non loquéndo, sed moriéndo conféssi sunt: ómnia in nobis vitiórum mala mortífica; ut fidem tuam, quam lingua nostra lóquitur, étiam móribus vita fateátur."
+    },
+    "StThomasAp": {
+      "la": "Da nobis, quǽsumus, Dómine, beáti Apóstoli tui Thomæ sollemnitátibus gloriári: ut ejus semper et patrocíniis sublevémur; et fidem cóngrua devotióne sectémur."
+    },
+    "StThereseChildJesus": {
+      "la": "Dómine, qui dixísti: Nisi efficiámini sicut párvuli, non intrábitis in regnum cœlórum: da nobis, quǽsumus: ita sanctæ Teresiæ Vírginis in humilitáte et simplicitáte cordis vestígia sectári, ut præmia consequámur ætérna. $Qui vivis"
+    },
+    "StMarkEvangelist": {
+      "la": "Deus, qui beátum Marcum Evangelístam tuum evangélicæ prædicatiónis grátia sublimásti: tríbue, quǽsumus; ejus nos semper et eruditióne profícere et oratióne deféndi."
+    },
+    "Visitation": {
+      "la": "Concéde nobis, quǽsumus, Dómine: ut, qui solemnitátem beátæ Maríæ Vírginis Regínæ nostræ celebrámus; eius muníti præsídio, pacem in præsénti et glóriam in futúro cónsequi mereámur."
+    },
+    "StJamesAp": {
+      "la": "Esto, Dómine, plebi tuæ sanctificátor et custos: ut, Apóstoli tui Jacóbi muníta præsídiis, et conversatióne tibi pláceat, et secúra mente desérviat."
+    },
+    "StLukeEvangelist": {
+      "la": "Intervéniat pro nobis, quǽsumus, Dómine, sanctus tuus Lucas Evangélista: qui crucis mortificatiónem júgiter in suo córpore, pro tui nóminis honóre, portávit."
+    },
+    "StStephenProtomartyr": {
+      "la": "Da nobis, quǽsumus, Dómine, imitári quod cólimus: ut discámus et inimícos dilígere; quia ejus natalícia celebrámus, qui novit étiam pro persecutóribus exoráre Dóminum nostrum Jesum Christum Fílium tuum:"
+    },
+    "StJohnEvangelist": {
+      "la": "Ecclésiam tuam, Dómine, benígnus illústra: ut, beáti Joánnis Apóstoli tui et Evangelístæ illumináta doctrínis, ad dona pervéniat sempitérna."
+    },
+    "StJohnBosco": {
+      "la": "Deus, qui sanctum Joánnem Confessórem tuum adolescentium patrem et magístrum excitásti, ac per eum, auxiliatríce Vírgine María, novas in Ecclésia tua famílias floréscere voluísti: concéde, quǽsumus; ut eódem caritátis igne succénsi, ánimas quærere, tibíque soli servíre valeámus."
+    },
+    "StBarnabasAp": {
+      "la": "Deus, qui nos beáti Bárnabæ Apóstoli tui méritis et intercessióne lætíficas: concéde propítius; ut, qui tua per eum benefícia póscimus, dono tuæ grátiæ consequámur."
+    },
+    "StAloysiusGonzaga": {
+      "la": "Cœléstium donórum distribútor, Deus, qui in angélico júvene Aloísio miram vitæ innocéntiam pari cum pœniténtia sociásti: ejus méritis et précibus concéde; ut, innocéntem non secúti, pœniténtem imitémur."
+    },
+    "StsJoachimAnne": {
+      "la": "Deus, qui beátæ Annæ grátiam conférre dignatus es, ut Genetrícis unigéniti Fílii tui mater effici mererétur: concéde propítius; ut, cujus sollémnia celebrámus, ejus apud te patrocíniis adjuvémur."
+    },
+    "QueenshipMary": {
+      "la": "Omnípotens sempitérne Deus, qui in Corde beátæ Maríæ Vírginis dignum Spíritus Sancti habitáculum præparásti: concéde propítius; ut ejúsdem immaculáti Cordis festivitátem devóta mente recoléntes, secúndum cor tuum vívere valeámus."
+    },
+    "BeheadingJohnBaptist": {
+      "la": "Sancti Joánnis Baptístæ Præcursóris et Martyris tui, quǽsumus, Dómine, veneránda festívitas: salutáris auxílii nobis præstet efféctum:"
+    },
+    "StFrancisAssisi": {
+      "la": "Deus, qui Ecclésiam tuam, beáti Francisci méritis fœtu novæ prolis amplíficas: tríbue nobis; ex ejus imitatióne, terréna despícere et cœléstium donórum semper participatióne gaudére."
+    },
+    "PresentationMary": {
+      "la": "Deus, qui beátam Maríam semper Vírginem, Spíritus Sancti habitáculum, hodiérna die in templo præsentári voluísti: præsta, quǽsumus; ut, ejus intercessióne, in templo glóriæ tuæ præsentári mereámur."
+    },
+    "StCecilia": {
+      "la": "Deus, qui nos ánnua beátæ Cæcíliæ Vírginis et Mártyris tuæ sollemnitáte lætíficas: da, ut, quam venerámur offício, étiam piæ conversatiónis sequámur exémplo."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "st_monica_08_27",
+  "titulus": "Sanctæ Monicæ",
+  "dies": "08-27",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "antiphonae_evangelicae": {
+    "magnificat": "Mónica in Christo vivificáta, étiam nondum a carne resolúta, sic vixit, ut laudarétur nomen Dei in fide moribúsque eius.",
+    "magnificat_es": "Mónica, vivificada en Cristo, aun sin haberse desprendido todavía de la carne, vivió de tal modo que el nombre de Dios fuera alabado en su fe y en sus costumbres.",
+    "benedictus": "Exaudísti eam, Dómine, et lácrimas eius abundántes non despexísti, quæ terram irrigábant, cum oráret.",
+    "benedictus_es": "La escuchaste, Señor, y no despreciaste sus lágrimas abundantes, que regaron la tierra cuando oraba."
+  },
+  "breviarium_id": "monica_of_hippo",
+  "collecta": "Deus, mæréntium consolátor, qui beátæ Mónicæ pias lácrimas in conversióne fílii sui Augustíni misericórditer suscepísti, da nobis, utriúsque intervéntu, peccáta nostra deploráre et grátiæ tuæ indulgéntiam inveníre."
+}

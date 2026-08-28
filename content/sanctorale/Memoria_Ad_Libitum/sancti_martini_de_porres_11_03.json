@@ -1,0 +1,16 @@
+{
+  "id": "st_martin_porres_11_03",
+  "titulus": "Sancti Martini de Porres, religiosi",
+  "dies": "11-03",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "antiphonae_evangelicae": {
+    "benedictus": "Benedíctus Dóminus, qui ómnes pópulos redémit, et eos de ténebris in admirábile lumen suum vocávit.",
+    "magnificat": "Magnificémus Dóminum, qui húmilem servum suum Martínum donis cæléstibus exaltávit.",
+    "benedictus_es": "Bendito sea el Señor, porque ha redimido a todos los pueblos, y los ha llamado a salir de la tiniebla y a entrar en su luz maravillosa.",
+    "magnificat_es": "Proclamemos la grandeza del Señor, que ha enaltecido con dones celestiales a su humilde siervo Martín."
+  },
+  "collecta": "Deus, qui beatum Martinum per humilitatis iter ad cælestem gloriam perduxisti, tribue nobis eius ita nunc persequi exempla præclara, ut exaltari cum ipso mereamur in cælis. Per Dominum.",
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text. Replaced with text for Martin de Porres's own office, sourced in Spanish from eltestigofiel.org; Latin is a direct faithful translation. The Magnificat antiphon explicitly names Martín and is clearly proper; the Benedictus antiphon is more generic in theme and may itself be a Común text, flagged for a possible future second look. Collect was already correct, unchanged."
+}

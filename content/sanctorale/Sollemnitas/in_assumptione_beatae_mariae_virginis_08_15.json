@@ -1,0 +1,109 @@
+{
+  "id": "assumption_08_15",
+  "titulus": "In Assumptione Beatæ Mariæ Virginis",
+  "dies": "08-15",
+  "gradus": "SOLLEMNITAS",
+  "color": "ALBUS",
+  "habet_primas_vesperas": true,
+  "collecta": "Omnípotens sempitérne Deus, qui Immaculátam Vírginem Maríam, Fílii tui Genetrícem, córpore et ánima ad cœléstem glóriam assumpsísti: concéde, quǽsumus; ut, ad superna semper inténti, ipsíus glóriæ mereámur esse consórtes. $Per eundem",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Exaltáta est Virgo María super choros angelórum, et in cápite eius corona stellárum duódecim.",
+        "antiphona_es": "La Virgen María fue exaltada sobre los coros de los ángeles, y en su cabeza brilla una corona de doce estrellas.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_primarum_vesperarum": [
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 112",
+        "antiphona": "Ascéndit Christus super cælos, et præparávit suæ castíssimæ Matri immortalitátis locum, allelúia.",
+        "antiphona_es": "Cristo subió sobre los cielos y preparó para su castísima Madre un lugar de inmortalidad, aleluya."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 147",
+        "antiphona": "Paradísi porta per Evam cunctis clausa est et per Maríam Vírginem íterum patefácta est, allelúia.",
+        "antiphona_es": "La puerta del paraíso, cerrada para todos por Eva, ha sido abierta de nuevo por la Virgen María, aleluya."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "eph 1:3-10",
+        "antiphona": "Exaltáta est Virgo María super choros angelórum, et in cápite eius coróna stellárum duódecim.",
+        "antiphona_es": "La Virgen María ha sido exaltada sobre los coros de los ángeles, y lleva en su cabeza una corona de doce estrellas."
+      }
+    ],
+    "psalmodia_secundarum_vesperarum": [
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 121",
+        "antiphona": "Assúmpta est María in cælum, gaudent ángeli, laudántes benedícunt Dóminum.",
+        "antiphona_es": "María ha sido asunta al cielo; se alegran los ángeles, y alabando bendicen al Señor."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 126",
+        "antiphona": "María Virgo assúmpta est ad æthéreum thálamum, in quo Rex regum stelláto sedet sólio.",
+        "antiphona_es": "La Virgen María ha sido llevada al tálamo celestial, donde el Rey de los reyes está sentado en un trono estrellado."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "eph 1:3-10",
+        "antiphona": "Benedícta fília tu a Dómino, quia per te fructum vitæ communicávimus.",
+        "antiphona_es": "Bendita eres tú, hija, por el Señor, porque por ti hemos recibido el fruto de la vida."
+      }
+    ],
+    "lectio_brevis_vesperarum": "1cor 15:22-23",
+    "lectio_brevis_laudum": "isa 61:10"
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Pulchra est et decóra fília Ierúsalem, quæ ascéndit sicut auróra consúrgens.",
+    "benedictus_es": "Hermosa y espléndida eres, hija de Jerusalén, tú que subes como la aurora naciente.",
+    "magnificat_i": "Beátam me dicent omnes generatiónes, quia fecit mihi magna qui potens est, allelúia.",
+    "magnificat_i_es": "Me llamarán bienaventurada todas las generaciones, porque el Poderoso ha hecho en mí grandes cosas, aleluya.",
+    "magnificat_ii": "Hódie María Virgo cælos ascéndit; gaudéte, quia cum Christo regnat in ætérnum.",
+    "magnificat_ii_es": "Hoy la Virgen María ha subido a los cielos; alegraos, porque reina con Cristo eternamente."
+  },
+  "breviarium_id": "assumption_of_the_blessed_virgin_mary",
+  "commune_subsidiarium": "COMMON_BVM"
+}

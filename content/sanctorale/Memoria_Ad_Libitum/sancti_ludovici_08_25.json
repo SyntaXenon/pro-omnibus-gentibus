@@ -1,0 +1,16 @@
+{
+  "id": "st_louis_08_25",
+  "titulus": "Sancti Ludovici",
+  "dies": "08-25",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "antiphonae_evangelicae": {
+    "benedictus": "Qui fácit voluntátem Patris mei, qui in cælis est, ipse meus frater, et soror, et mater est, dicit Dóminus.",
+    "magnificat": "Vos qui reliquístis ómnia, et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis.",
+    "benedictus_es": "«El que cumple la voluntad de mi Padre, ése es mi hermano y mi hermana y mi madre», dice el Señor.",
+    "magnificat_es": "Vosotros, los que lo habéis dejado todo y me habéis seguido, recibiréis cien veces más, y heredaréis la vida eterna."
+  },
+  "collecta": "Deus, qui beátum Ludovícum Confessórem tuum de terréno regno ad cœléstis regni glóriam transtulísti: ejus, quǽsumus, méritis et intercessióne; Regis regum Jesu Christi, Fílii tui, fácias nos esse consórtes:",
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text ('pearl merchant'/'faithful servant' parables, per the shared commons.json file's own admission that this text was an uncertain reused placeholder). No individually-sourceable genuine proper antiphon could be found for this saint via live sourcing (this optional-memorial tier canonically may use the Common when no unique proper exists, confirmed by cross-check: Universalis.com itself uses this same Common-of-a-Male-Saint text for St. Louis). Replaced with a genuine, correctly-sourced Common of Holy Men and Women antiphon pair (Matt 19:29 / Matt 12:50), matching breviarium-core's own actual Common-fallback text (independently confirmed identical across Bridget, Anthony, Aloysius entries)."
+}

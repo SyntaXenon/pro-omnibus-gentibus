@@ -1,0 +1,17 @@
+{
+  "id": "st_anthony_egypt_01_17",
+  "titulus": "Sancti Antonii, abbatis",
+  "dies": "01-17",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "antiphonae_evangelicae": {
+    "benedictus": "Qui fácit voluntátem Patris mei, qui in cælis est, ipse meus frater, et soror, et mater est, dicit Dóminus.",
+    "benedictus_es": "«El que cumple la voluntad de mi Padre, ése es mi hermano y mi hermana y mi madre», dice el Señor.",
+    "magnificat": "Vos qui reliquístis ómnia, et secúti estis me, céntuplum accipiétis, et vitam ætérnam possidébitis.",
+    "magnificat_es": "Vosotros, los que lo habéis dejado todo y me habéis seguido, recibiréis cien veces más, y heredaréis la vida eterna."
+  },
+  "breviarium_id": "anthony_of_egypt_abbot",
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text. Replaced with genuine text sourced from breviarium-core (Spanish, Common-of-religious antiphons fitting Anthony's monastic vocation), Latin is a direct faithful translation. Collect was already correct, unchanged.",
+  "collecta": "Deus, qui beato Antonio abbati tribuisti mira tibi in deserto conversatione servire, eius nobis interventione concede, ut, abnegantes nosmetipsos, te iugiter super omnia diligamus. Per Dominum."
+}

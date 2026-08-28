@@ -1,0 +1,17 @@
+{
+  "id": "st_martha_07_29",
+  "titulus": "Sanctæ Marthæ",
+  "dies": "07-29",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "antiphonae_evangelicae": {
+    "benedictus": "Sústulit Iesus óculos, et clamávit voce magna: Lázare, veni foras.",
+    "magnificat": "Diligébat autem Iesus Martham, et sorórem eius, et Lázarum.",
+    "benedictus_es": "Jesús, levantando los ojos a lo alto, gritó con voz potente: «¡Lázaro, sal fuera!»",
+    "magnificat_es": "Jesús amaba a Marta, a su hermana y a su hermano Lázaro."
+  },
+  "breviarium_id": "martha_of_bethany_mary_of_bethany_and_lazarus_of_bethany",
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text. Replaced with genuine saint-specific text sourced from breviarium-core (Spanish), Latin is a direct faithful translation from the Vulgate underlying the quoted Gospel verses (John 11:5, John 11:41/43). Collect was already correct, unchanged.",
+  "collecta": "Omnipotens sempiterne Deus, cuius Filius in domo beatæ Marthæ dignatus est hospitari, da, quæsumus, ut, eiusdem intercessione, Christo in fratribus nostris fideliter ministrantes, in æde cælesti a te recipi mereamur. Per Dominum."
+}

@@ -1,0 +1,554 @@
+{
+  "_note": "Common of Saints (Commune Sanctorum) antiphons, Latin only for now, per GILH SS225-240: on a Memorial these supply ONLY the hymn slot and the Magnificat/Benedictus antiphons (the psalms and their antiphons stay ferial) when the individual saint has no proper antiphon of their own; on a Feast/Solemnity the psalms come from elsewhere (Sunday I of the Psalter for Lauds, the Laudate series for Vespers I - see render_day.py) but these same Magnificat/Benedictus antiphons are still used as a default for the gospel canticles. Extracted from a public-domain 1898 Breviarium Romanum (archive.org identifier breviariumro031898cath, Massachusetts Bible Society copy) and adapted: several are near-verbatim Gospel quotations (cross-checked against content/bible/la/*.json) so their persistence into the modern books is very likely, but this has NOT been verified against a current Liturgia Horarum - treat as a historically-grounded best effort, not a guaranteed match. Spanish not yet translated (deliberately left out rather than machine-translating unverified Latin).",
+  "apostles": {
+    "magnificat_ant": "Hoc est praeceptum meum, ut diligatis invicem, sicut dilexi vos.",
+    "magnificat_ant_es": "Este es mi mandamiento: que os améis unos a otros, como yo os he amado.",
+    "benedictus_ant": "Vos qui reliquistis omnia, et secuti estis me, centuplum accipietis, et vitam aeternam possidebitis.",
+    "benedictus_ant_es": "Vosotros que lo dejasteis todo y me seguisteis, recibiréis el céntuplo y poseeréis la vida eterna.",
+    "source_note": "Commune Apostolorum et Evangelistarum, In I. Vesperis / Ad Laudes.",
+    "second_reading": {
+      "author": "Homilía sancti Hierónymi Presbýteri.",
+      "source": "!Lib. 3. in Matth. cap. 19.",
+      "text": "Grandis fidúcia! Petrus piscátor erat, dives non fúerat, cibos manu et arte quærébat: et tamen lóquitur confidénter: Relíquimus ómnia. Et quia non súfficit tantum relínquere, jungit quod perféctum est: Et secúti sumus te. Fécimus quod jussísti: quid ígitur nobis dabis prǽmii? Jesus autem dixit illis: Amen dico vobis, quod vos qui secúti estis me, in regeneratióne, cum séderit Fílius hóminis in sede majestátis suæ, sedébitis et vos super sedes duódecim, judicántes duódecim tribus Ísraël. Non dixit: Qui reliquístis ómnia; hoc enim et Crates fecit philósophus, et multi álii divítias contempsérunt: sed, Qui secúti estis me: quod próprie Apostolórum est, atque credéntium. In regeneratióne, cum séderit Fílius hóminis in sede majestátis suæ (quando et mórtui de corruptióne resúrgent incorrúpti) sedébitis et vos in sóliis judicántium, condemnántes duódecim tribus Ísraël: quia vobis credéntibus, illi crédere noluérunt. Et omnis qui relíquerit domum, vel fratres, aut soróres, aut patrem, aut matrem, aut uxórem, aut fílios, aut agros propter nomen meum, céntuplum accípiet, et vitam ætérnam possidébit. Locus iste cum illa senténtia cóngruit, in qua Salvátor lóquitur: Non veni pacem míttere, sed gládium. Veni enim separáre hóminem a patre suo, et matrem a fília, et nurum a socru: et inimíci hóminis doméstici ejus. Qui ergo propter fidem Christi, et prædicatiónem Evangélii, omnes afféctus contémpserint, atque divítias et sǽculi voluptátes: isti céntuplum recípient, et vitam ætérnam possidébunt."
+    },
+    "second_responsory": {
+      "text": "℟. Isti sunt viri sancti, quos elégit Dóminus in caritáte non ficta, et dedit illis glóriam sempitérnam: * Quorum doctrína fulget Ecclésia, ut sole luna. V. Sancti per fidem vicérunt regna: operáti sunt justítiam.",
+      "repeat_verse": "℣. Sancti per fidem vicérunt regna: operáti sunt justítiam."
+    },
+    "short_reading": {
+      "citation": "Eph 2:19-20",
+      "text": "Fratres: Jam non estis hóspites et ádvenæ: sed estis cives Sanctórum et doméstici Dei: superædificáti super fundaméntum Apostolórum, et Prophetárum, ipso summo angulári lápide Christo Jesu."
+    },
+    "short_reading_es": "Así que, ya no sois extraños, ni advenedizos; sino conciudadanos de los santos, y domésticos ó familiares de la casa de Dios: pues estáis edificados sobre el fundamento de los Apóstoles y Profetas, y unidos en Jesu-Cristo, el cual es la principal piedra angular de la nueva Jerusalén.",
+    "responsory": {
+      "lauds": {
+        "la": [
+          "℣. Constítues eos príncipes, Super omnem terram.",
+          "℟. Constítues eos príncipes, Super omnem terram.",
+          "℣. Mémores erunt nóminis tui, Dómine.",
+          "℟. Super omnem terram.",
+          "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+          "℟. Constítues eos príncipes, Super omnem terram."
+        ],
+        "es": [
+          "$℣. $Los nombrarás príncipes sobre toda la tierra.",
+          "$℟. $Los nombrarás príncipes sobre toda la tierra.",
+          "$℣. $Harán memorable tu nombre, Señor.",
+          "$℟. $Sobre toda la tierra.",
+          "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+          "$℟. $Los nombrarás príncipes sobre toda la tierra."
+        ]
+      }
+    },
+    "intercessions": {
+      "lauds": {
+        "la": [
+          "Fratres caríssimi, hereditátem cæléstem ab Apóstolis habéntes, grátias agámus Patri nostro pro ómnibus donis eius, clamántes: Te laudat Apostolórum chorus, Dómine.",
+          "Laus tibi, Dómine, pro mensa córporis et sánguinis, nobis ab Apóstolis trádita, qua refícimur et vívimus. Te laudat Apostolórum chorus, Dómine.",
+          "Pro mensa verbi tui, nobis ab Apóstolis paráta, qua lumen et gáudium nobis dantur. Te laudat Apostolórum chorus, Dómine.",
+          "Pro Ecclésia tua sancta, super Apóstolos ædificáta, qua in unum concorporámur. Te laudat Apostolórum chorus, Dómine.",
+          "Pro lavácro baptísmi et pæniténtiæ, Apóstolis concrédito, quo ab ómnibus peccátis ablúimur. Te laudat Apostolórum chorus, Dómine."
+        ],
+        "es": [
+          "Queridos hermanos, habiendo recibido de los apóstoles la herencia de los elegidos, demos gracias a nuestro Padre por todos sus dones, diciendo: El coro de los apóstoles te ensalza, Señor.",
+          "Por la mesa de tu cuerpo y de tu sangre, que nos transmitieron los apóstoles, con la cual nos alimentamos y vivimos. El coro de los apóstoles te ensalza, Señor.",
+          "Por la mesa de tu Palabra, que nos transmitieron los apóstoles, con la cual se nos comunica la luz y el gozo. El coro de los apóstoles te ensalza, Señor.",
+          "Por tu Iglesia santa, edificada sobre el fundamento de los apóstoles, por la cual nos integramos en la unidad. El coro de los apóstoles te ensalza, Señor.",
+          "Por la purificación del bautismo y de la penitencia, confiada a los apóstoles, con la cual quedamos limpios de todos los pecados. El coro de los apóstoles te ensalza, Señor."
+        ]
+      }
+    }
+  },
+  "martyrs": {
+    "magnificat_ant": "Iste sanctus pro lege Dei sui certavit usque ad mortem, et a verbis impiorum non timuit: fundatus enim erat supra firmam petram.",
+    "magnificat_ant_es": "Este santo luchó por la ley de su Dios hasta la muerte, y no temió las palabras de los impíos, porque estaba fundado sobre roca firme.",
+    "benedictus_ant": "Vestri capilli capitis omnes numerati sunt: nolite timere: multis passeribus meliores estis vos.",
+    "benedictus_ant_es": "Hasta los cabellos de vuestra cabeza están todos contados: no temáis; vosotros valéis más que muchos pajarillos.",
+    "source_note": "Commune Unius Martyris (Magnificat ant.) and Commune Plurimorum Martyrum (Benedictus ant., Luke 12:7). | Collect (Oratio) sourced from Divinum Officium horas/Latin/Commune/C2.txt (public domain, traditional Latin liturgical text), as a generic fallback for entries whose own proper collect has not been individually sourced.",
+    "second_reading": {
+      "author": "Homilía sancti Gregórii Papæ",
+      "source": "!Homil. 37 in Evangelia",
+      "text": "Si considerémus fratres caríssimi, quæ et quanta sunt, quæ nobis promittúntur in cælis, viléscunt ánimo ómnia quæ habéntur in terris. Terréna namque substántia supérnæ felicitáti comparáta, pondus est, non subsídium. Temporális vita ætérnæ vitæ comparáta, mors est pótius dicénda quam vita. Ipse enim quotidiánus deféctus corruptiónis quid est áliud, quam quædam prolíxitas mortis? Quæ autem lingua dícere, vel quis intelléctus cápere súfficit, illa supérnæ civitátis quanta sint gáudia; Angelórum choris interésse, cum beatíssimis spirítibus glóriæ Conditóris assístere, præséntem Dei vultum cérnere, incircumscríptum lumen vidére, nullo mortis metu áffici, incorruptiónis perpétuæ múnere lætári? Sed ad hæc audíta inardéscit ánimus, jamque illic cupit assístere, ubi se sperat sine fine gaudére. Sed ad magna prǽmia perveníri non potest, nisi per magnos labóres. Unde et Paulus egrégius prædicátor dicit: Non coronábitur, nisi qui legítime certáverit. Deléctet ergo mentem magnitúdo præmiórum, sed non detérreat certámen labórum. Unde ad se veniéntibus Véritas dicit: Si quis venit ad me, et non odit patrem suum, et matrem, et uxórem, et fílios, et fratres, et soróres, adhuc autem et ánimam suam, non potest meus esse discípulus."
+    },
+    "second_responsory": {
+      "text": "℟. Hic est vere Martyr, qui pro Christi nómine sánguinem suum fudit: * Qui minas júdicum non tímuit, nec terrénæ dignitátis glóriam quæsívit, sed ad cæléstia regna pervénit. V. Justum dedúxit Dóminus per vias rectas, et osténdit illi regnum Dei.",
+      "repeat_verse": "℣. Justum dedúxit Dóminus per vias rectas, et osténdit illi regnum Dei."
+    },
+    "short_reading": {
+      "citation": "Jac 1:12",
+      "text": "Beátus vir, qui suffert tentatiónem: quóniam cum probátus fúerit, accípiet corónam vitæ, quam repromísit Deus diligéntibus se."
+    },
+    "collecta": "Infirmitátem nostram réspice, omnípotens Deus: et, quia pondus própriæ actiónis gravat, beáti N. Mártyris tui atque Pontíficis intercéssio gloriósa nos prótegat.",
+    "collecta_es": "Mira, Dios todopoderoso, nuestra debilidad; y ya que el peso de nuestras propias acciones nos abruma, que la gloriosa intercesión de tu bienaventurado mártir y pontífice N. nos proteja.",
+    "short_reading_es": "Bienaventurado pues aquel hombre que sufre con paciencia la tentación ó tribulación, porque después que fuere así probado, recibirá la corona de vida, que Dios ha prometido á los que le aman.",
+    "responsory": {
+      "lauds": {
+        "la": [
+          "℣. Iusti autem, In perpétuum vivent.",
+          "℟. Iusti autem, In perpétuum vivent.",
+          "℣. Et apud Dóminum est merces eórum.",
+          "℟. In perpétuum vivent.",
+          "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+          "℟. Iusti autem, In perpétuum vivent."
+        ],
+        "es": [
+          "$℣. $Los justos viven eternamente.",
+          "$℟. $Los justos viven eternamente.",
+          "$℣. $Reciben de Dios su recompensa.",
+          "$℟. $Viven eternamente.",
+          "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+          "$℟. $Los justos viven eternamente."
+        ]
+      },
+      "vespers": {
+        "la": [
+          "℣. Iustórum ánimæ in manu Dei sunt.",
+          "℟. Iustórum ánimæ in manu Dei sunt.",
+          "℣. Et non tanget illos torméntum mortis.",
+          "℟. Iustórum ánimæ in manu Dei sunt.",
+          "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+          "℟. Iustórum ánimæ in manu Dei sunt."
+        ],
+        "es": [
+          "$℣. $Las almas de los justos están en las manos de Dios.",
+          "$℟. $Las almas de los justos están en las manos de Dios.",
+          "$℣. $Y no los alcanzará tormento alguno.",
+          "$℟. $Las almas de los justos están en las manos de Dios.",
+          "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+          "$℟. $Las almas de los justos están en las manos de Dios."
+        ]
+      }
+    },
+    "intercessions": {
+      "lauds": {
+        "la": [
+          "Fratres, Salvatórem nostrum, testem fidélem, per mártyres interféctos propter verbum Dei, celebrémus, clamántes: Redemísti nos Deo in sánguine tuo.",
+          "Per mártyres tuos, qui líbere mortem in testimónium fídei sunt ampléxi, da nobis, Dómine, veram spíritus libertátem. Redemísti nos Deo in sánguine tuo.",
+          "Per mártyres tuos, qui fidem usque ad sánguinem sunt conféssi, da nobis, Dómine, puritátem fideíque constántiam. Redemísti nos Deo in sánguine tuo.",
+          "Per mártyres tuos, qui, sustinéntes crucem, tua vestígia sunt secúti, da nobis, Dómine, ærúmnas vitæ fórtiter sustinére. Redemísti nos Deo in sánguine tuo.",
+          "Per mártyres tuos, qui stolas suas lavérunt in sánguine Agni, da nobis, Dómine, omnes insídias carnis mundíque devíncere. Redemísti nos Deo in sánguine tuo."
+        ],
+        "es": [
+          "Celebremos, amados hermanos, a nuestro Salvador, el testigo fiel, y, al recordar hoy a los santos mártires que murieron a causa de la palabra de Dios, aclamémoslo, diciendo: Nos has comprado, Señor, con tu sangre.",
+          "Por la intercesión de los santos mártires, que entregaron libremente su vida como testimonio de la fe, concédenos, Señor, la verdadera libertad de espíritu. Nos has comprado, Señor, con tu sangre.",
+          "Por la intercesión de los santos mártires, que proclamaron la fe hasta derramar su sangre, concédenos, Señor, la integridad y la constancia de la fe. Nos has comprado, Señor, con tu sangre.",
+          "Por la intercesión de los santos mártires, que, soportando la cruz, siguieron tus pasos, concédenos, Señor, soportar con generosidad las contrariedades de la vida. Nos has comprado, Señor, con tu sangre.",
+          "Por la intercesión de los santos mártires, que lavaron su manto en la sangre del Cordero, concédenos, Señor, vencer las obras del mundo y de la carne. Nos has comprado, Señor, con tu sangre."
+        ]
+      },
+      "vespers": {
+        "la": [
+          "Hac hora, qua Rex mártyrum vitam suam in cena óbtulit et in cruce depósuit, grátias agámus illi, dicéntes: Te, Dómine, celebrámus.",
+          "Quia in finem dilexísti nos, salvátor noster, omnis martýrii fons et exémplum. Te, Dómine, celebrámus.",
+          "Quia omnes peccatóres pæniténtes in prǽmium vitæ vocásti. Te, Dómine, celebrámus.",
+          "Quia sánguinem novi et ætérni testaménti, in remissiónem peccatórum effúsum, hódie obtúlimus. Te, Dómine, celebrámus.",
+          "Quia hac die per grátiam tuam in fide perseverávimus. Te, Dómine, celebrámus.",
+          "Quia tuæ morti multos fratres hódie sociásti. Te, Dómine, celebrámus."
+        ],
+        "es": [
+          "En esta hora en la que el Señor, cenando con sus discípulos, presentó al Padre su propia vida que luego entregó en la cruz, aclamemos al Rey de los mártires, diciendo: Te glorificamos, Señor.",
+          "Te damos gracias, Señor, principio, ejemplo y rey de los mártires, porque nos amaste hasta el extremo. Te glorificamos, Señor.",
+          "Te damos gracias, Señor, porque no cesas de llamar a los pecadores arrepentidos y les das parte en los premios de tu reino. Te glorificamos, Señor.",
+          "Te damos gracias, Señor, porque hoy hemos ofrecido, como sacrificio para el perdón de los pecados, la sangre de la alianza nueva y eterna. Te glorificamos, Señor.",
+          "Te damos gracias, Señor, porque con tu gracia nos has dado perseverar en la fe durante el día que ahora termina. Te glorificamos, Señor.",
+          "Te damos gracias, Señor, porque has asociado a nuestros hermanos difuntos a tu muerte. Te glorificamos, Señor."
+        ]
+      }
+    }
+  },
+  "pastors": {
+    "magnificat_ant": "Similabo eum viro sapienti, qui aedificavit domum suam supra petram.",
+    "magnificat_ant_es": "Le compararé a un hombre prudente, que edificó su casa sobre roca.",
+    "benedictus_ant": "Euge serve bone et fidelis, quia in pauca fuisti fidelis, supra multa te constituam, intra in gaudium Domini tui.",
+    "benedictus_ant_es": "Bien, siervo bueno y fiel; ya que has sido fiel en lo poco, te pondré al frente de lo mucho, entra en el gozo de tu Señor.",
+    "source_note": "Commune Confessoris non Pontificis (for priests/founders who were not bishops), both Matt 7:24 and Matt 25:21. | Collect (Oratio) sourced from Divinum Officium horas/Latin/Commune/C4.txt (public domain, traditional Latin liturgical text), as a generic fallback for entries whose own proper collect has not been individually sourced.",
+    "second_reading": {
+      "author": "Homilía sancti Gregórii Papæ",
+      "source": "!Homilia 9 in Evangelia",
+      "text": "Léctio sancti Evangélii, fratres caríssimi, solícite consideráre nos ádmonet, ne nos, qui plus céteris in hoc mundo accepísse áliquid cérnimur, ab Auctóre mundi grávius inde judicémur. Cum enim augéntur dona, ratiónes étiam crescunt donórum. Tanto ergo esse humílior atque ad serviéndum Deo prómptior quisque debet ex múnere, quanto se obligatiórem esse cónspicit in reddénda ratióne. Ecce homo, qui péregre proficíscitur, servos suos vocat, eisque ad negótium talénta partítur. Post multum vero témporis positúrus ratiónem revértitur: bene operántes pro apportáto lucro remúnerat, servum vero a bono ópere torpéntem damnat. Quis ítaque iste homo est qui péregre proficíscitur, nisi Redémptor noster, qui, in ea carne quam assúmpserat, ábiit in cælum? Carnis enim locus próprius terra est; quæ quasi ad peregrína dúcitur, dum per Redemptórem nostrum in cælo collocátur. Sed homo iste, péregre proficíscens, servis suis bona sua trádidit; quia fidélibus suis spirituália dona concéssit. Et uni quidem quinque talénta, álii duo, álii vero commísit unum. Quinque étenim sunt córporis sensus, vidélicet: visus, audítus, gustus, odorátus et tactus. Quinque ergo taléntis, donum quinque sénsuum, id est, exteriórum sciéntia, exprímitur. Duóbus vero, intelléctus et operátio designátur. Uníus autem talénti nómine, intelléctus tantúmmodo designátur."
+    },
+    "second_responsory": {
+      "text": "℟. Sint lumbi vestri præcíncti, et lucérnæ ardéntes in mánibus vestris: * Et vos símiles homínibus exspectántibus dóminum suum, quando revertátur a núptiis. V. Vigiláte ergo, quia nescítis qua hora Dóminus vester ventúrus sit.",
+      "repeat_verse": "℣. Vigiláte ergo, quia nescítis qua hora Dóminus vester ventúrus sit."
+    },
+    "short_reading": {
+      "citation": "Heb 13:7-9a",
+      "text": "Mementóte præpositórum vestrórum, qui vobis locúti sunt verbum Dei, quorum intuéntes éxitum conversatiónis imitámini fidem. Iesus Christus heri et hódie idem, et in sǽcula! Doctrínis váriis et peregrínis nolíte abdúci."
+    },
+    "collecta": "Da, quǽsumus, omnípotens Deus: ut beáti N. Confessóris tui atque Pontíficis veneránda solémnitas, et devotiónem nobis áugeat et salútem.",
+    "collecta_es": "Concédenos, Dios todopoderoso, que la veneranda solemnidad de tu bienaventurado confesor y pontífice N. aumente en nosotros la devoción y nos alcance la salvación.",
+    "short_reading_es": "Acordaos de vuestros dirigentes, que os anunciaron la palabra de Dios; fijaos en el desenlace de su vida e imitad su fe. Jesucristo es el mismo ayer y hoy y siempre. No os dejéis arrastrar por doctrinas complicadas y extrañas.",
+    "responsory": {
+      "lauds": {
+        "la": [
+          "℣. Super te, Ierúsalem, Constítui custódes.",
+          "℟. Super te, Ierúsalem, Constítui custódes.",
+          "℣. Die ac nocte non tacébunt prædicáre nomen Dómini.",
+          "℟. Constítui custódes.",
+          "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+          "℟. Super te, Ierúsalem, Constítui custódes."
+        ],
+        "es": [
+          "$℣. $Sobre tus murallas, Jerusalén, he colocado centinelas.",
+          "$℟. $Sobre tus murallas, Jerusalén, he colocado centinelas.",
+          "$℣. $Ni de día ni de noche dejarán de anunciar el nombre del Señor.",
+          "$℟. $He colocado centinelas.",
+          "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+          "$℟. $Sobre tus murallas, Jerusalén, he colocado centinelas."
+        ]
+      }
+    },
+    "intercessions": {
+      "lauds": {
+        "la": [
+          "Christo, bono pastóri, qui pro suis óvibus ánimam pósuit, laudes grati exsolvámus et supplicémus, dicéntes:",
+          "Christe, qui in sanctis pastóribus misericórdiam et dilectiónem tuam dignátus es osténdere, numquam désinas per eos nobíscum misericórditer ágere. Pasce pópulum tuum, Dómine.",
+          "Qui múnere pastóris animárum fungi per tuos vicários pergis, ne destíteris nos ipse per rectóres nostros dirígere. Pasce pópulum tuum, Dómine.",
+          "Qui in sanctis tuis, populórum dúcibus, córporum animarúmque médicus exstitísti, numquam cesses ministérium in nos vitæ et sanctitátis perágere. Pasce pópulum tuum, Dómine.",
+          "Qui, prudéntia et caritáte sanctórum, tuum gregem erudísti, nos in sanctitáte iúgiter per pastóres nostros ædífica. Pasce pópulum tuum, Dómine."
+        ],
+        "es": [
+          "Demos gracias a Cristo, el buen Pastor que entregó la vida por sus ovejas, y supliquémosle, diciendo: Apacienta a tu pueblo, Señor.",
+          "Señor Jesucristo, que en los santos pastores nos has revelado tu misericordia y tu amor, haz que por ellos continúe llegando a nosotros tu acción misericordiosa. Apacienta a tu pueblo, Señor.",
+          "Señor Jesucristo, que a través de los santos pastores sigues siendo el único pastor de tu pueblo, no dejes de guiarnos siempre por medio de ellos. Apacienta a tu pueblo, Señor.",
+          "Señor Jesucristo, que por medio de los santos pastores eres el médico de los cuerpos y de las almas, haz que nunca falten a tu Iglesia los ministros que nos guíen por las sendas de una vida santa. Apacienta a tu pueblo, Señor.",
+          "Señor Jesucristo que has adoctrinado a la Iglesia con la prudencia y el amor de los santos, haz que, guiados por nuestros pastores, progresemos en la santidad. Apacienta a tu pueblo, Señor."
+        ]
+      }
+    }
+  },
+  "pastors_doctors": {
+    "magnificat_ant": "Sacerdos et Pontifex, et virtutum opifex, pastor bone in populo, ora pro nobis Dominum.",
+    "magnificat_ant_es": "Sacerdote y Pontífice, artífice de las virtudes, buen pastor del pueblo, ruega por nosotros al Señor.",
+    "benedictus_ant": "Euge serve bone et fidelis, quia in pauca fuisti fidelis, supra multa te constituam, dicit Dominus.",
+    "benedictus_ant_es": "Bien, siervo bueno y fiel; ya que has sido fiel en lo poco, te pondré al frente de lo mucho, dice el Señor.",
+    "source_note": "Commune Confessoris Pontificis (for bishop-saints, including bishop Doctors of the Church), Matt 25:21. | Collect (Oratio) sourced from Divinum Officium horas/Latin/Commune/C4a.txt (public domain, traditional Latin liturgical text), as a generic fallback for entries whose own proper collect has not been individually sourced.",
+    "second_reading": {
+      "author": "Homilía sancti Gregórii Papæ",
+      "source": "!Homilia 9 in Evangelia",
+      "text": "Léctio sancti Evangélii, fratres caríssimi, solícite consideráre nos ádmonet, ne nos, qui plus céteris in hoc mundo accepísse áliquid cérnimur, ab Auctóre mundi grávius inde judicémur. Cum enim augéntur dona, ratiónes étiam crescunt donórum. Tanto ergo esse humílior atque ad serviéndum Deo prómptior quisque debet ex múnere, quanto se obligatiórem esse cónspicit in reddénda ratióne. Ecce homo, qui péregre proficíscitur, servos suos vocat, eisque ad negótium talénta partítur. Post multum vero témporis positúrus ratiónem revértitur: bene operántes pro apportáto lucro remúnerat, servum vero a bono ópere torpéntem damnat. Quis ítaque iste homo est qui péregre proficíscitur, nisi Redémptor noster, qui, in ea carne quam assúmpserat, ábiit in cælum? Carnis enim locus próprius terra est; quæ quasi ad peregrína dúcitur, dum per Redemptórem nostrum in cælo collocátur. Sed homo iste, péregre proficíscens, servis suis bona sua trádidit; quia fidélibus suis spirituália dona concéssit. Et uni quidem quinque talénta, álii duo, álii vero commísit unum. Quinque étenim sunt córporis sensus, vidélicet: visus, audítus, gustus, odorátus et tactus. Quinque ergo taléntis, donum quinque sénsuum, id est, exteriórum sciéntia, exprímitur. Duóbus vero, intelléctus et operátio designátur. Uníus autem talénti nómine, intelléctus tantúmmodo designátur."
+    },
+    "collecta": "Deus, qui pópulo tuo ætérnæ salútis beátum N. minístrum tribuísti: præsta, quǽsumus; ut, quem Doctórem vitæ habúimus in terris, intercessórem habére mereámur in cœlis.",
+    "collecta_es": "Oh Dios, que diste a tu pueblo a tu bienaventurado N. como ministro de la salvación eterna: concédenos que, a quien tuvimos como maestro de vida en la tierra, merezcamos tenerlo como intercesor en el cielo.",
+    "short_reading": {
+      "citation": "Heb 13:7-9a",
+      "text": "Mementóte præpositórum vestrórum, qui vobis locúti sunt verbum Dei, quorum intuéntes éxitum conversatiónis imitámini fidem. Iesus Christus heri et hódie idem, et in sǽcula! Doctrínis váriis et peregrínis nolíte abdúci."
+    },
+    "short_reading_es": "Acordaos de vuestros dirigentes, que os anunciaron la palabra de Dios; fijaos en el desenlace de su vida e imitad su fe. Jesucristo es el mismo ayer y hoy y siempre. No os dejéis arrastrar por doctrinas complicadas y extrañas.",
+    "responsory": {
+      "lauds": {
+        "la": [
+          "℣. Super te, Ierúsalem, Constítui custódes.",
+          "℟. Super te, Ierúsalem, Constítui custódes.",
+          "℣. Die ac nocte non tacébunt prædicáre nomen Dómini.",
+          "℟. Constítui custódes.",
+          "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+          "℟. Super te, Ierúsalem, Constítui custódes."
+        ],
+        "es": [
+          "$℣. $Sobre tus murallas, Jerusalén, he colocado centinelas.",
+          "$℟. $Sobre tus murallas, Jerusalén, he colocado centinelas.",
+          "$℣. $Ni de día ni de noche dejarán de anunciar el nombre del Señor.",
+          "$℟. $He colocado centinelas.",
+          "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+          "$℟. $Sobre tus murallas, Jerusalén, he colocado centinelas."
+        ]
+      },
+      "vespers": {
+        "la": [
+          "℣. Hic est fratrum amátor, et pópuli Israël.",
+          "℟. Hic est fratrum amátor, et pópuli Israël.",
+          "℣. Hic est qui multum orat pro pópulo.",
+          "℟. Hic est fratrum amátor, et pópuli Israël.",
+          "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+          "℟. Hic est fratrum amátor, et pópuli Israël."
+        ],
+        "es": [
+          "$℣. $Éste es el que ama a sus hermanos, el que ora mucho por su pueblo.",
+          "$℟. $Éste es el que ama a sus hermanos, el que ora mucho por su pueblo.",
+          "$℣. $El que entregó su vida por sus hermanos.",
+          "$℟. $El que ora mucho por su pueblo.",
+          "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+          "$℟. $Éste es el que ama a sus hermanos, el que ora mucho por su pueblo."
+        ]
+      }
+    },
+    "intercessions": {
+      "lauds": {
+        "la": [
+          "Christo, bono pastóri, qui pro suis óvibus ánimam pósuit, laudes grati exsolvámus et supplicémus, dicéntes:",
+          "Christe, qui in sanctis pastóribus misericórdiam et dilectiónem tuam dignátus es osténdere, numquam désinas per eos nobíscum misericórditer ágere. Pasce pópulum tuum, Dómine.",
+          "Qui múnere pastóris animárum fungi per tuos vicários pergis, ne destíteris nos ipse per rectóres nostros dirígere. Pasce pópulum tuum, Dómine.",
+          "Qui in sanctis tuis, populórum dúcibus, córporum animarúmque médicus exstitísti, numquam cesses ministérium in nos vitæ et sanctitátis perágere. Pasce pópulum tuum, Dómine.",
+          "Qui, prudéntia et caritáte sanctórum, tuum gregem erudísti, nos in sanctitáte iúgiter per pastóres nostros ædífica. Pasce pópulum tuum, Dómine."
+        ],
+        "es": [
+          "Demos gracias a Cristo, el buen Pastor que entregó la vida por sus ovejas, y supliquémosle, diciendo: Apacienta a tu pueblo, Señor.",
+          "Señor Jesucristo, que en los santos pastores nos has revelado tu misericordia y tu amor, haz que por ellos continúe llegando a nosotros tu acción misericordiosa. Apacienta a tu pueblo, Señor.",
+          "Señor Jesucristo, que a través de los santos pastores sigues siendo el único pastor de tu pueblo, no dejes de guiarnos siempre por medio de ellos. Apacienta a tu pueblo, Señor.",
+          "Señor Jesucristo, que por medio de los santos pastores eres el médico de los cuerpos y de las almas, haz que nunca falten a tu Iglesia los ministros que nos guíen por las sendas de una vida santa. Apacienta a tu pueblo, Señor.",
+          "Señor Jesucristo que has adoctrinado a la Iglesia con la prudencia y el amor de los santos, haz que, guiados por nuestros pastores, progresemos en la santidad. Apacienta a tu pueblo, Señor."
+        ]
+      },
+      "vespers": {
+        "la": [
+          "Christum, pro homínibus pontíficem constitútum in iis quæ sunt ad Deum, dignis láudibus celebrémus, humíliter deprecántes: Salvum fac pópulum tuum, Dómine.",
+          "Qui Ecclésiam tuam per sanctos et exímios rectóres mirabíliter illustrásti, fac ut christiáni eódem semper lætificéntur splendóre. Salvum fac pópulum tuum, Dómine.",
+          "Qui, cum sancti te pastóres sicut Móyses orárent pópuli peccáta dimisísti, per intercessiónem eórum Ecclésiam tuam contínua purificatióne sanctífica. Salvum fac pópulum tuum, Dómine.",
+          "Qui sanctos tuos unxísti in médio fratrum et Spíritum tuum in illos direxísti, reple Spíritu Sancto omnes pópuli tui rectóres. Salvum fac pópulum tuum, Dómine.",
+          "Qui pastórum sanctórum ipse posséssio exstitísti, tríbue nullum ex iis, quos sánguine acquisísti, sine te manére. Salvum fac pópulum tuum, Dómine.",
+          "Qui, per Ecclésiæ pastóres, vitam ætérnam óvibus tuis præstas, ne rápiat eas quisquam de manu tua, salva defúnctos, pro quibus ánimam tuam posuísti. Salvum fac pópulum tuum, Dómine."
+        ],
+        "es": [
+          "Glorifiquemos a Cristo, constituido pontífice en favor de los hombres en lo que se refiere a Dios, y supliquémosle humildemente diciendo: Salva a tu pueblo, Señor.",
+          "Tú que por medio de pastores santos y eximios has glorificado a tu Iglesia, haz que todos los cristianos resplandezcan por su virtud. Salva a tu pueblo, Señor.",
+          "Tú que por la oración de los santos pastores, que a semejanza de Moisés oraban por el pueblo, perdonaste los pecados de tus fieles, purifica y santifica también ahora a la santa Iglesia por la intercesión de los santos. Salva a tu pueblo, Señor.",
+          "Tú que de entre los fieles elegiste a los santos pastores y, por tu Espíritu, los consagraste como ministros en bien de sus hermanos, llena también de tu Espíritu a todos los pastores del pueblo de Dios. Salva a tu pueblo, Señor.",
+          "Tú que fuiste la heredad de los santos pastores, no permitas que ninguno de los que fueron adquiridos por tu sangre viva alejado de ti. Salva a tu pueblo, Señor.",
+          "Tú que por medio de los pastores de la Iglesia das la vida eterna a tus ovejas para que nadie las arrebate de tu mano, salva a los difuntos, por quienes entregaste tu vida. Salva a tu pueblo, Señor."
+        ]
+      }
+    }
+  },
+  "virgins": {
+    "magnificat_ant": "Veni sponsa Christi: accipe coronam, quam tibi Dominus praeparavit in aeternum.",
+    "magnificat_ant_es": "Ven, esposa de Cristo: recibe la corona que el Señor te ha preparado para siempre.",
+    "benedictus_ant": "Simile est regnum caelorum homini negotiatori, quaerenti bonas margaritas: inventa una pretiosa, dedit omnia sua, et comparavit eam.",
+    "benedictus_ant_es": "El reino de los cielos es semejante a un mercader que busca perlas finas: hallada una de gran valor, dio todo lo que tenía y la compró.",
+    "source_note": "Commune Virginum, Magnificat and Benedictus antiphons (the latter is the Pearl of Great Price, Matt 13:45-46). | Collect (Oratio) sourced from Divinum Officium horas/Latin/Commune/C6.txt (public domain, traditional Latin liturgical text), as a generic fallback for entries whose own proper collect has not been individually sourced.",
+    "second_reading": {
+      "author": "Homilía sancti Gregórii Papæ",
+      "source": "!Homilía 12 in Evangelia",
+      "text": "Sæpe vos, fratres caríssimi, admóneo prava ópera fúgere, mundi hujus inquinaménta devitáre, sed hodiérna sancti Evangélii lectióne compéllor dícere, ut, et bona, quæ ágitis, cum magna cautéla teneátis;  ne per hoc, quod a vobis rectum géritur, favor aut grátia humána requirátur;  ne appetítus laudis subrépat, et, quod foris osténditur, intus a mercéde vacuétur. Ecce enim Redemptóris voce decem vírgines, et omnes dicúntur vírgines, et tamen intra beatitúdinis jánuam non omnes sunt recéptæ;  quia eárum quædam, dum de virginitáte sua glóriam foris éxpetunt, in vasis suis óleum habére noluérunt. Sed prius quæréndum nobis est quid sit regnum cælórum, aut cur decem virgínibus comparétur, quæ étiam vírgines prudéntes et fátuæ dicántur. Dum enim cælórum regnum constat quia reprobórum nullus ingréditur, étiam fátuis virgínibus cur símile esse perhibétur? Sed sciéndum nobis est quod sæpe in sacro elóquio regnum cælórum præséntis témporis Ecclésia dícitur. De quo álio in loco Dóminus dicit: Mittet Fílius hóminis Ángelos suos, et cólligent de regno ejus ómnia scándala. Neque enim in illo regno beatitúdinis, in quo pax summa est, inveníri scándala póterunt, quæ colligántur."
+    },
+    "second_responsory": {
+      "text": "℟. Média nocte clamor factus est: * Ecce sponsus venit, exíte óbviam ei. V. Prudéntes vírgines, aptáte vestras lámpades.",
+      "repeat_verse": "℣. Prudéntes vírgines, aptáte vestras lámpades."
+    },
+    "short_reading": {
+      "citation": "2 Cor 10:17-18",
+      "text": "Fratres: Qui gloriátur, in Dómino gloriétur. Non enim qui seípsum comméndat, ille probátus est; sed quem Deus comméndat."
+    },
+    "collecta": "Deus, qui inter cétera poténtiæ tuæ mirácula étiam in sexu frágili victóriam martýrii contulísti: concéde propítius; ut, qui beátæ N. Vírginis et Mártyris tuæ natalícia cólimus, per ejus ad te exémpla gradiámur.",
+    "collecta_es": "Oh Dios, que entre los demás milagros de tu poder concediste también al sexo débil la victoria del martirio: concédenos propicio que, celebrando el nacimiento al cielo de tu bienaventurada virgen y mártir N., caminemos hacia ti siguiendo su ejemplo.",
+    "short_reading_es": "Por lo demás el que se gloría, gloríese en el Señor. Pues no es aprobado quien se abona á sí mismo, sino aquel á quien Dios abona.",
+    "responsory": {
+      "lauds": {
+        "la": [
+          "℣. Tibi dixit cor meum:, Quæsívi vultum tuum.",
+          "℟. Tibi dixit cor meum:, Quæsívi vultum tuum.",
+          "℣. Vultum tuum, Dómine, requíram.",
+          "℟. Quæsívi vultum tuum.",
+          "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+          "℟. Tibi dixit cor meum:, Quæsívi vultum tuum."
+        ],
+        "es": [
+          "$℣. $Oigo en mi corazón: buscad mi rostro.",
+          "$℟. $Oigo en mi corazón: buscad mi rostro.",
+          "$℣. $Tu rostro buscaré, Señor.",
+          "$℟. $Buscad mi rostro.",
+          "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+          "$℟. $Oigo en mi corazón: buscad mi rostro."
+        ]
+      },
+      "vespers": {
+        "la": [
+          "℣. Afferéntur Regi vírgines, In exsultatióne.",
+          "℟. Afferéntur Regi vírgines, In exsultatióne.",
+          "℣. Adducéntur in templum Regis.",
+          "℟. In exsultatióne.",
+          "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+          "℟. Afferéntur Regi vírgines, In exsultatióne."
+        ],
+        "es": [
+          "$℣. $Llevan ante el Rey al séquito de vírgenes, las traen entre alegría.",
+          "$℟. $Llevan ante el Rey al séquito de vírgenes, las traen entre alegría.",
+          "$℣. $Van entrando en el palacio real.",
+          "$℟. $Las traen entre alegría.",
+          "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+          "$℟. $Llevan ante el Rey al séquito de vírgenes, las traen entre alegría."
+        ]
+      }
+    },
+    "intercessions": {
+      "lauds": {
+        "la": [
+          "Christo, vírginum sponso et corónæ, lætis vócibus iubilémus et devóte eum exorémus, dicéntes:",
+          "Christe, quem sanctæ vírgines ut únicum sponsum dilexérunt, concéde ut nihil a tua caritáte nos séparet. Iesu, coróna vírginum, audi nos.",
+          "Qui Maríam, matrem tuam, regínam vírginum coronásti, da nos, eius intercessióne, cordis puritáte tibi iúgiter famulári. Iesu, coróna vírginum, audi nos.",
+          "Per intercessiónem ancillárum tuárum, quæ íntegro et indivíso corde semper de te sollícitæ fuérunt, ut essent sanctæ córpore et spíritu, præsta ut figúra huius mundi, quæ prǽterit, nos a te numquam ábstrahat. Iesu, coróna vírginum, audi nos.",
+          "Dómine Iesu, sponse, quem vírgines sapiéntes adventúrum exspectábant, concéde nobis, ut in spe vigilántes te præstolémur. Iesu, coróna vírginum, audi nos.",
+          "Per intercessiónem sanctæ N., quæ virgo fuit sápiens et de número prudéntum, præsta nobis innocéntiam vitæ et sapiéntiam. Iesu, coróna vírginum, audi nos."
+        ],
+        "es": [
+          "Glorifiquemos a Cristo, esposo y corona de las vírgenes, y supliquémosle diciendo: Jesús, corona de las vírgenes, escúchanos.",
+          "Señor Jesucristo, a quien las vírgenes amaron como a su único esposo, concédenos que nada nos aparte de tu amor. Jesús, corona de las vírgenes, escúchanos.",
+          "Tú que coronaste a María como reina de las vírgenes, por su intercesión concédenos recibirte siempre con pureza de corazón. Jesús, corona de las vírgenes, escúchanos.",
+          "Por intercesión de las santas vírgenes que te sirvieron siempre con fidelidad, consagradas a ti en cuerpo y alma, ayúdanos, Señor, a que los bienes de este mundo que pasa no nos separen de tu amor eterno. Jesús, corona de las vírgenes, escúchanos.",
+          "Señor Jesús, esposo que has de venir y a quien las vírgenes prudentes esperaban, concédenos que aguardemos tu retorno glorioso con una esperanza activa. Jesús, corona de las vírgenes, escúchanos.",
+          "Por intercesión de santa N, que fue virgen sensata y una de las prudentes, concédenos, Señor, la verdadera sabiduría y la pureza de costumbres. Jesús, corona de las vírgenes, escúchanos."
+        ]
+      },
+      "vespers": {
+        "la": [
+          "Christum, qui virginitátem propter regnum cælórum coléntes laudávit, festíve celebrémus et exorémus, dicéntes: Iesu, rex vírginum, audi nos.",
+          "Christe, qui Ecclésiam vírginem castam tibi uni Sponso exhibuísti, immaculátam eam redde et sanctam. Iesu, rex vírginum, audi nos.",
+          "Christe, cui óbviam vírgines sanctæ cum lampádibus exiérunt, ne permíttas umquam fidelitátis óleum in lampádibus tibi devotárum ancillárum defícere. Iesu, rex vírginum, audi nos.",
+          "Dómine, cui Ecclésia virgo fidem tibi datam íntegram et puram iúgiter custodívit, concéde christiánis ómnibus fídei integritátem et puritátem. Iesu, rex vírginum, audi nos.",
+          "Qui tríbuis pópulo tuo de sanctæ vírginis N. festivitáte gaudére, præsta, ut de eius étiam semper intercessióne lætétur. Iesu, rex vírginum, audi nos.",
+          "Qui ad cenam nuptiárum tuárum sanctas vírgines recepísti, defúnctos in aulam cæléstis convívii benígnus admítte. Iesu, rex vírginum, audi nos."
+        ],
+        "es": [
+          "Alabemos con gozo a Cristo, que elogió a los que permanecen vírgenes, a causa del reino de Dios, y supliquémosle diciendo: Jesús, rey de las vírgenes, escúchanos.",
+          "Señor Jesucristo, tú que como esposo amante colocaste junto a ti a la Iglesia sin mancha ni arruga, haz que sea siempre santa e inmaculada. Jesús, rey de las vírgenes, escúchanos.",
+          "Señor Jesucristo, a cuyo encuentro salieron las vírgenes santas con sus lámparas encendidas, no permitas que falte nunca el óleo de la fidelidad en las lámparas de las vírgenes que se han consagrado a ti. Jesús, rey de las vírgenes, escúchanos.",
+          "Señor Jesucristo, a quien la Iglesia virgen guardó siempre fidelidad intacta, concede a todos los cristianos la integridad y la pureza de la fe. Jesús, rey de las vírgenes, escúchanos.",
+          "Tú que concedes hoy a tu pueblo alegrarse por la fiesta de santa N., virgen, concédele también gozar siempre de su valiosa intercesión. Jesús, rey de las vírgenes, escúchanos.",
+          "Tú que recibiste en el banquete de tus bodas a las vírgenes santas, admite también a nuestros hermanos difuntos en el convite festivo de tu reino. Jesús, rey de las vírgenes, escúchanos."
+        ]
+      }
+    }
+  },
+  "holy_men_women": {
+    "magnificat_ant": "Vos qui reliquistis omnia, et secuti estis me, centuplum accipietis, et vitam aeternam possidebitis.",
+    "magnificat_ant_es": "Vosotros, los que lo habéis dejado todo y me habéis seguido, recibiréis cien veces más, y heredaréis la vida eterna.",
+    "benedictus_ant": "Qui facit voluntatem Patris mei, qui in caelis est, ipse meus frater, et soror, et mater est, dicit Dominus.",
+    "benedictus_ant_es": "El que cumple la voluntad de mi Padre, ése es mi hermano y mi hermana y mi madre, dice el Señor.",
+    "source_note": "CORRECTED 2026-08: the previous version of this entry (pearl-merchant Magnificat / faithful-servant Benedictus) was itself an admitted mismatched reuse of the Commune Virginum and Commune Confessoris non Pontificis antiphons above, not genuine holy-men-and-women text, and had been copy-pasted directly into ~26 individual sanctorale records causing wrong saint-specific antiphons across the calendar. Replaced with a genuine gender-neutral Common of Holy Men and Women pairing (Matt 19:29 / Matt 12:50), cross-verified as authentic via two independent sources: this same file's own 'apostles' entry (which uses the Matt 19:29 text as its Benedictus antiphon) and breviarium-core's third-party database (which uses this exact pairing as its own Common-fallback for saints without individual propers, confirmed identical across three unrelated saints' entries). | Collect (Oratio) sourced from Divinum Officium horas/Latin/Commune/C5.txt (public domain, traditional Latin liturgical text), as a generic fallback for entries whose own proper collect has not been individually sourced.",
+    "collecta": "Deus, qui nos beáti N. Confessóris tui ánnua solemnitáte lætíficas: concéde propítius; ut cujus natalítia cólimus, étiam actiónes imitémur.",
+    "collecta_es": "Oh Dios, que nos alegras cada año con la solemnidad de tu bienaventurado confesor N.: concédenos propicio que, celebrando su nacimiento al cielo, imitemos también sus obras.",
+    "short_reading": {
+      "citation": "Rom 12:1-2",
+      "text": "Obsecro vos, fratres, per misericórdiam Dei, ut exhibeátis córpora vestra hóstiam vivéntem, sanctam, Deo placéntem, rationábile obséquium vestrum; et nolíte conformári huic sǽculo, sed transformámini renovatióne mentis, ut probétis quid sit volúntas Dei, quid bonum et bene placens et perféctum."
+    },
+    "short_reading_es": "Os exhorto, hermanos, por la misericordia de Dios, a presentar vuestros cuerpos como hostia viva, santa, agradable a Dios; éste es vuestro culto razonable. Y no os ajustéis a este mundo, sino transformaos por la renovación de la mente, para que sepáis discernir lo que es voluntad de Dios, lo bueno, lo que le agrada, lo perfecto.",
+    "responsory": {
+      "lauds": {
+        "la": [
+          "℣. Lex Dei eius, In corde ipsíus.",
+          "℟. Lex Dei eius, In corde ipsíus.",
+          "℣. Et non supplantabúntur gressus eius.",
+          "℟. In corde ipsíus.",
+          "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+          "℟. Lex Dei eius, In corde ipsíus."
+        ],
+        "es": [
+          "$℣. $Lleva en el corazón la ley de su Dios.",
+          "$℟. $Lleva en el corazón la ley de su Dios.",
+          "$℣. $Y sus pasos no vacilan.",
+          "$℟. $Lleva en el corazón la ley de su Dios.",
+          "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+          "$℟. $Lleva en el corazón la ley de su Dios."
+        ]
+      },
+      "vespers": {
+        "la": [
+          "℣. Amávit eum Dóminus, et ornávit eum.",
+          "℟. Amávit eum Dóminus, et ornávit eum.",
+          "℣. Stolam glóriæ índuit eum.",
+          "℟. Amávit eum Dóminus, et ornávit eum.",
+          "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+          "℟. Amávit eum Dóminus, et ornávit eum."
+        ],
+        "es": [
+          "$℣. $El Señor lo amó y lo enalteció.",
+          "$℟. $El Señor lo amó y lo enalteció.",
+          "$℣. $Lo revistió con vestidura de gloria.",
+          "$℟. $El Señor lo amó y lo enalteció.",
+          "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+          "$℟. $El Señor lo amó y lo enalteció."
+        ]
+      }
+    },
+    "intercessions": {
+      "lauds": {
+        "la": [
+          "Christum Deum sanctum, fratres, exaltémus, orántes ut serviámus illi in sanctitáte et iustítia coram ipso ómnibus diébus nostris, et acclamémus: Tu solus sanctus, Dómine.",
+          "Qui tentári voluísti per ómnia pro similitúdine nostra absque peccáto, miserére nostri, Dómine Iesu. Tu solus sanctus, Dómine.",
+          "Qui nos omnes ad perfectiónem caritátis vocásti, sanctífica nos, Dómine Iesu. Tu solus sanctus, Dómine.",
+          "Qui nos iussísti esse salem terræ et lucem mundi, illúmina nos, Dómine Iesu. Tu solus sanctus, Dómine.",
+          "Qui voluísti ministráre, non ministrári, fac nos tibi et frátribus humíliter servíre, Dómine Iesu. Tu solus sanctus, Dómine.",
+          "Tu, splendor glóriæ Patris et figúra substántiæ eius, fac ut in glória vultum tuum respiciámus, Dómine Iesu. Tu solus sanctus, Dómine."
+        ],
+        "es": [
+          "Adoremos, hermanos, a Cristo, el Dios santo, y, pidiéndole que nos enseñe a servirle con santidad y justicia en su presencia todos nuestros días, aclamémosle, diciendo: Tú solo eres santo, Señor.",
+          "Señor Jesús, probado en todo exactamente como nosotros, menos en el pecado, compadécete de nuestras debilidades. Tú solo eres santo, Señor.",
+          "Señor Jesús, que a todos nos llamas a la perfección del amor, danos el progresar por caminos de santidad. Tú solo eres santo, Señor.",
+          "Señor Jesús, que nos quieres sal de la tierra y la luz del mundo, ilumina nuestras vidas con tu propia luz. Tú solo eres santo, Señor.",
+          "Señor Jesús, que viniste al mundo no para que te sirvieran, sino para servir, haz que sepamos servir con humildad a ti y a nuestros hermanos. Tú solo eres santo, Señor.",
+          "Señor Jesús, reflejo de la gloria del Padre e impronta de su ser, haz que un día podamos contemplar la claridad de tu gloria. Tú solo eres santo, Señor."
+        ]
+      },
+      "vespers": {
+        "la": [
+          "Implorémus Patrem, fontem omnis sanctitátis, ut, per sanctórum exémpla et intercessiónem, ad vitam sanctam nos perdúcat, et dicámus: Sancti simus, quia tu sanctus es.",
+          "Pater sancte, qui voluísti ut fílii tui nominémur et simus, fac ut te per orbem terrárum sancta confiteátur Ecclésia. Sancti simus, quia tu sanctus es.",
+          "Pater sancte, qui voluísti ut ambulémus digne tibi per ómnia placéntes, da, ut in ópere bono fructificémus. Sancti simus, quia tu sanctus es.",
+          "Pater sancte, qui nos tibi reconciliásti per Christum, serva nos in nómine tuo, ut omnes unum simus. Sancti simus, quia tu sanctus es.",
+          "Pater sancte, qui nos ad cæléste vocásti convívium, per panem, qui de cælo descéndit, præsta nobis, ut caritátem pleniórem cónsequi valeámus. Sancti simus, quia tu sanctus es.",
+          "Pater sancte, ómnibus peccatóribus dimítte delícta, et súscipe defúnctos ad lumen vultus tui. Sancti simus, quia tu sanctus es."
+        ],
+        "es": [
+          "Pidamos a Dios Padre, fuente de toda santidad, que con la intercesión y el ejemplo de los santos nos ayude, y digamos: Haz que seamos santos, porque tú, Señor, eres santo.",
+          "Padre santo, que has querido que nos llamemos y seamos hijos tuyos, haz que la Iglesia santa, extendida por los confines de la tierra, cante tus grandezas. Haz que seamos santos, porque tú, Señor, eres santo.",
+          "Padre santo, que deseas que vivamos de una manera digna, buscando siempre tu beneplácito, ayúdanos a dar fruto de buenas obras. Haz que seamos santos, porque tú, Señor, eres santo.",
+          "Padre santo, que nos reconciliaste contigo por medio de Cristo, guárdanos en tu nombre para que todos seamos uno. Haz que seamos santos, porque tú, Señor, eres santo.",
+          "Padre santo, que nos convocas al banquete de tu reino, haz que comiendo el pan que ha bajado del cielo alcancemos la perfección del amor. Haz que seamos santos, porque tú, Señor, eres santo.",
+          "Padre santo, perdona a los pecadores sus delitos y admite a los difuntos en tu reino para que puedan contemplar tu rostro. Haz que seamos santos, porque tú, Señor, eres santo."
+        ]
+      }
+    }
+  },
+  "bvm": {
+    "magnificat_ant": "Sancta Maria, succurre miseris, iuva pusillanimes, refove flebiles, ora pro populo, interveni pro clero, intercede pro devoto femineo sexu: sentiant omnes tuum iuvamen, quicumque celebrant tuam sanctam festivitatem.",
+    "magnificat_ant_es": "Santa María, socorre a los desdichados, ayuda a los pusilánimes, consuela a los afligidos, ruega por el pueblo, intercede por el clero, aboga por las mujeres consagradas a Dios: que sientan tu ayuda todos los que celebran tu santa festividad.",
+    "benedictus_ant": "Beata es, Maria, quae credidisti: perficientur in te, quae dicta sunt tibi a Domino, alleluia.",
+    "benedictus_ant_es": "Bienaventurada tú, María, que has creído: se cumplirá en ti lo que te fue dicho de parte del Señor, aleluya.",
+    "collecta": "Concede nos famulos tuos, quaesumus, Domine Deus, perpetua mentis et corporis sanitate gaudere: et, gloriosa beatae Mariae semper Virginis intercessione, a praesenti liberari tristitia, et aeterna perfrui laetitia.",
+    "collecta_es": "Concede, Señor Dios, a tus siervos gozar de perpetua salud de alma y cuerpo; y, por la gloriosa intercesión de la bienaventurada siempre Virgen María, vernos libres de la tristeza presente y gozar de la alegría eterna.",
+    "source_note": "Antiphons and collect for the Saturday Memorial of the Blessed Virgin Mary, sourced from Divinum Officium horas/Latin/Commune/C11.txt (public domain, traditional Latin liturgical text) - the ancient \"Concede nos famulos\" collect and generic Marian antiphons traditionally used for this votive commemoration.",
+    "responsory": {
+      "lauds": {
+        "la": [
+          "℣. Post partum, Virgo, invioláta permansísti.",
+          "℟. Post partum, Virgo, invioláta permansísti.",
+          "℣. Dei Génetrix, intercéde pro nobis.",
+          "℟. Invioláta permansísti.",
+          "℣. Glória Patri, et Fílio, et Spirítui Sancto.",
+          "℟. Post partum, Virgo, invioláta permansísti."
+        ],
+        "es": [
+          "$℣. $Después del parto, ¡oh Virgen!, has permanecido intacta.",
+          "$℟. $Después del parto, ¡oh Virgen!, has permanecido intacta.",
+          "$℣. $Madre de Dios, intercede por nosotros.",
+          "$℟. $Después del parto, ¡oh Virgen!, has permanecido intacta.",
+          "$℣. $Gloria al Padre, y al Hijo, y al Espíritu Santo.",
+          "$℟. $Después del parto, ¡oh Virgen!, has permanecido intacta."
+        ]
+      }
+    },
+    "intercessions": {
+      "lauds": {
+        "la": [
+          "Salvatórem nostrum celebrántes, qui ex María Vírgine nasci dignátus est, exorémus dicéntes: Intercédat pro nobis mater tua, Dómine.",
+          "O sol iustítiæ, quem immaculáta Virgo ut lucens auróra præcéssit, tríbue ut in lúmine visitatiónis tuæ semper ambulémus. Intercédat pro nobis mater tua, Dómine.",
+          "Verbum ætérnum, quod Maríam habitatiónis tuæ arcam incorruptíbilem elegísti, líbera nos a corruptióne peccáti. Intercédat pro nobis mater tua, Dómine.",
+          "Salvátor noster, qui iuxta crucem matrem tuam habuísti, præsta ut, ipsa intercedénte, communicántes tuis passiónibus gaudeámus. Intercédat pro nobis mater tua, Dómine.",
+          "Benigníssime Iesu, qui pendens in cruce, Maríam Ioánni matrem dedísti, da nobis ita vívere ut eius fílii agnoscámur. Intercédat pro nobis mater tua, Dómine."
+        ],
+        "es": [
+          "Elevemos nuestras súplicas al Salvador, que quiso nacer de María Virgen, y digámosle: Que tu santa Madre, Señor, interceda por nosotros.",
+          "Sol de justicia, a quien María Virgen precedía cual aurora luciente, haz que vivamos siempre iluminados por la claridad de tu presencia. Que tu santa Madre, Señor, interceda por nosotros.",
+          "Palabra eterna del Padre, tú que elegiste a María como arca de tu morada, líbranos de toda ocasión de pecado. Que tu santa Madre, Señor, interceda por nosotros.",
+          "Salvador del mundo, que quisiste que tu Madre estuviera junto a tu cruz, por su intercesión concédenos compartir con alegría tus padecimientos. Que tu santa Madre, Señor, interceda por nosotros.",
+          "Señor Jesús, que colgado en la cruz entregaste María a Juan como madre, haz que nosotros vivamos también como hijos suyos. Que tu santa Madre, Señor, interceda por nosotros."
+        ]
+      }
+    },
+    "short_reading": {
+      "citation": "Gal 4:4-5",
+      "text": "Ubi venit plenitúdo témporis, misit Deus Fílium suum, factum ex mulíere, factum sub lege, ut eos, qui sub lege erant, redímeret, ut adoptiónem filiórum reciperémus."
+    },
+    "short_reading_es": "Cuando se cumplió el tiempo, envió Dios a su Hijo, nacido de una mujer, nacido bajo la ley, para rescatar a los que estaban bajo la ley, para que recibiéramos el ser hijos por adopción."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "nativity_virgin_mary_09_08",
+  "titulus": "In Nativitate Beatæ Mariæ Virginis",
+  "dies": "09-08",
+  "gradus": "FESTUM",
+  "color": "ALBUS",
+  "habet_primas_vesperas": false,
+  "collecta": "Fámulis tuis, quǽsumus, Dómine, cœléstis grátiæ munus impertíre: ut, quibus beátæ Vírginis partus éxstitit salútis exórdium; Nativitátis ejus votíva sollémnitas pacis tríbuat increméntum.",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Quando nata est Virgo sacratíssima, tunc illuminátus est mundus; stirps beáta, radix sancta et benedíctus fructus eius.",
+        "antiphona_es": "Cuando nació la santísima Virgen, entonces se iluminó el mundo; estirpe bienaventurada, raíz santa y bendito su fruto.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 121",
+        "antiphona": "De Iesse progénie procéssit Virgo María, in cuius thálamum introívit Spíritus Altíssimi.",
+        "antiphona_es": "De la estirpe de Jesé procedió la Virgen María, en cuyo tálamo entró el Espíritu del Altísimo."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 126",
+        "antiphona": "Natívitas est hódie sanctæ Maríæ Vírginis, cuius pulchritúdinem respéxit Deus et visitávit humilitátem.",
+        "antiphona_es": "Hoy es la natividad de santa María Virgen, cuya hermosura miró Dios y cuya humildad visitó."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "eph 1:3-10",
+        "antiphona": "Benedícta et venerábilis sancta María, Virgo Dei Génetrix, cuius Nativitátem celebrámus, ut intercéssio ipsíus sit pro nobis ad Dóminum.",
+        "antiphona_es": "Bendita y venerable santa María, Virgen Madre de Dios, cuya Natividad celebramos, para que su intercesión nos alcance ante el Señor."
+      }
+    ],
+    "lectio_brevis_vesperarum": "rom 9:4-5",
+    "lectio_brevis_laudum": "isa 11:1-3"
+  },
+  "antiphonae_evangelicae": {
+    "magnificat": "Gloriósæ * Vírginis Maríæ ortum digníssimum recolámus, quæ et Genitrícis dignitátem obtínuit, et virginálem pudicítiam non amísit.",
+    "benedictus": "Nativitátem hodiérnam * perpétuæ Vírginis Genetrícis Dei Maríæ solémniter celebrémus, qua celsitúdo throni procéssit, allelúja.",
+    "benedictus_es": "Celebremos solemnemente el nacimiento de hoy de la siempre Virgen María, Madre de Dios, de la cual procedió la grandeza del trono, aleluya.",
+    "magnificat_es": "Recordemos el dignísimo nacimiento de la gloriosa Virgen María, que obtuvo la dignidad de Madre y no perdió el pudor virginal."
+  },
+  "breviarium_id": "nativity_of_the_blessed_virgin_mary",
+  "commune_subsidiarium": "COMMON_BVM"
+}

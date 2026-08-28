@@ -1,0 +1,14 @@
+{
+  "id": "st_irenaeus_lyon_06_28",
+  "titulus": "Sancti Irenæi, episcopi et martyris",
+  "dies": "06-28",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "RUBER",
+  "commune_subsidiarium": "COMMON_MARTYRS",
+  "collecta": "Deus, qui beáto Irenǽo epíscopo tribuísti, ut veritátem doctrínæ pacémque Ecclésiæ felíciter confirmáret: concéde, quǽsumus, ejus intercessióne; ut nos, fide et caritáte renováti, ad unitátem concordiámque fovéndam semper simus inténti.",
+  "antiphonae_evangelicae": {
+    "benedictus": "Irenæus, nómini suo vere respóndens, vitæ institúto ac propósito pacíficus, pro Ecclesiárum pace strénue certávit.",
+    "benedictus_es": "Ireneo, respondiendo verdaderamente a su nombre, pacífico en el propósito y designio de su vida, luchó denodadamente por la paz de las Iglesias."
+  },
+  "breviarium_id": "irenaeus_of_lyon_bishop"
+}

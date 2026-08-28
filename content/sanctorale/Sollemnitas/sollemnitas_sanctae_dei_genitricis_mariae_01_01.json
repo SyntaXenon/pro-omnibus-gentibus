@@ -1,0 +1,106 @@
+{
+  "id": "mary_mother_of_god_01_01",
+  "titulus": "SOLLEMNITAS SANCTÆ DEI GENITRICIS MARIÆ",
+  "dies": "01-01",
+  "gradus": "SOLLEMNITAS",
+  "color": "ALBUS",
+  "habet_primas_vesperas": true,
+  "collecta": "Deus, qui salútis ætérnæ, beátæ Maríæ virginitáte fecúnda, humáno generi præmia præstitísti: tríbue, quǽsumus; ut ipsam pro nobis intercédere sentiámus, per quam merúimus auctórem vitæ suscípere, Dóminum nostrum Jesum Christum, Fílium tuum:",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Ecce María génuit nobis Salvatórem, quem Ioánnes videns exclamávit dicens: Ecce Agnus Dei, ecce qui tollit peccáta mundi, allelúia.",
+        "antiphona_es": "He aquí que María nos dio a luz al Salvador; al verlo, Juan exclamó diciendo: He aquí el Cordero de Dios, he aquí el que quita los pecados del mundo, aleluya.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_primarum_vesperarum": [
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 112",
+        "antiphona": "O admirábile commércium! Creátor géneris humáni, animátum corpus sumens, de Vírgine nasci dignátus est; et procédens homo sine sémine, largítus est nobis suam deitátem.",
+        "antiphona_es": "¡Oh admirable intercambio! El Creador del género humano, tomando un cuerpo animado, se dignó nacer de una Virgen; y, hecho hombre sin obra de varón, nos ha otorgado generosamente su divinidad."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 147",
+        "antiphona": "Quando natus es ineffabíliter ex Vírgine, tunc implétæ sunt Scriptúræ: sicut plúvia in vellus descendísti, ut salvum fáceres genus humánum. Te laudámus, Deus noster.",
+        "antiphona_es": "Cuando naciste inefablemente de la Virgen, entonces se cumplieron las Escrituras: descendiste como lluvia sobre el vellón, para salvar al género humano. Te alabamos, Dios nuestro."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "eph 1:3-10",
+        "antiphona": "Rubum, quem víderat Móyses incombústum, conservátam agnóvimus tuam laudábilem virginitátem. Dei Génetrix, intercéde pro nobis.",
+        "antiphona_es": "En la zarza que Moisés vio arder sin consumirse, reconocemos tu loable virginidad conservada intacta. Madre de Dios, intercede por nosotros."
+      }
+    ],
+    "psalmodia_secundarum_vesperarum": [
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 121",
+        "antiphona": "O admirábile commércium! Creátor géneris humáni, animátum corpus sumens, de Vírgine nasci dignátus est; et procédens homo sine sémine, largítus est nobis suam deitátem.",
+        "antiphona_es": "¡Oh admirable intercambio! El Creador del género humano, tomando un cuerpo animado, se dignó nacer de una Virgen; y, hecho hombre sin obra de varón, nos ha otorgado generosamente su divinidad."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 126",
+        "antiphona": "Quando natus es ineffabíliter ex Vírgine, tunc implétæ sunt Scriptúræ: sicut plúvia in vellus descendísti, ut salvum fáceres genus humánum. Te laudámus, Deus noster.",
+        "antiphona_es": "Cuando naciste inefablemente de la Virgen, entonces se cumplieron las Escrituras: descendiste como lluvia sobre el vellón, para salvar al género humano. Te alabamos, Dios nuestro."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "eph 1:3-10",
+        "antiphona": "Rubum, quem víderat Móyses incombústum, conservátam agnóvimus tuam laudábilem virginitátem. Dei Génetrix, intercéde pro nobis.",
+        "antiphona_es": "En la zarza que Moisés vio arder sin consumirse, reconocemos tu loable virginidad conservada intacta. Madre de Dios, intercede por nosotros."
+      }
+    ],
+    "lectio_brevis_vesperarum": "gal 4:4-5",
+    "lectio_brevis_laudum": "mic 5:2-3,3"
+  },
+  "antiphonae_evangelicae": {
+    "magnificat": "Propter nímiam * caritátem suam, qua diléxit nos Deus, Fílium suum misit in similitúdinem carnis peccáti, allelúja.",
+    "magnificat_es": "Por el gran amor con que Dios nos amó, envió a su Hijo en semejanza de carne de pecado, aleluya.",
+    "benedictus": "Mirábile mystérium * declarátur hódie: innovántur natúræ, Deus homo factus est: id quod fuit permánsit, et quod non erat assúmpsit; non commixtiónem passus, neque divisiónem.",
+    "benedictus_es": "Hoy se nos revela un misterio admirable: las naturalezas se renuevan, Dios se ha hecho hombre; permaneció lo que era, y asumió lo que no era, sin sufrir confusión ni división."
+  },
+  "breviarium_id": "mary_mother_of_god"
+}

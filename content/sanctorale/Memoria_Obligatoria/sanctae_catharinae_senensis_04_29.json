@@ -1,0 +1,31 @@
+{
+  "id": "st_catherine_siena_04_29",
+  "titulus": "Sanctæ Catharinæ Senensis, virginis",
+  "dies": "04-29",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_VIRGINS",
+  "collecta": "Da, quǽsumus, omnípotens Deus: ut, qui beátæ Catharínæ Vírginis tuæ natalítia cólimus; et ánnua solemnitáte lætámur, et tantæ virtútis proficiámus exémplo.",
+  "officium_lectionis": {
+    "lectio_altera": {
+      "auctor": "Homilía sancti Gregórii Papæ",
+      "titulus": "Homilía 12 in Evangelia",
+      "textus": "Sæpe vos, fratres caríssimi, admóneo prava ópera fúgere, mundi hujus inquinaménta devitáre, sed hodiérna sancti Evangélii lectióne compéllor dícere, ut, et bona, quæ ágitis, cum magna cautéla teneátis;  ne per hoc, quod a vobis rectum géritur, favor aut grátia humána requirátur;  ne appetítus laudis subrépat, et, quod foris osténditur, intus a mercéde vacuétur. Ecce enim Redemptóris voce decem vírgines, et omnes dicúntur vírgines, et tamen intra beatitúdinis jánuam non omnes sunt recéptæ;  quia eárum quædam, dum de virginitáte sua glóriam foris éxpetunt, in vasis suis óleum habére noluérunt. Sed prius quæréndum nobis est quid sit regnum cælórum, aut cur decem virgínibus comparétur, quæ étiam vírgines prudéntes et fátuæ dicántur. Dum enim cælórum regnum constat quia reprobórum nullus ingréditur, étiam fátuis virgínibus cur símile esse perhibétur? Sed sciéndum nobis est quod sæpe in sacro elóquio regnum cælórum præséntis témporis Ecclésia dícitur. De quo álio in loco Dóminus dicit: Mittet Fílius hóminis Ángelos suos, et cólligent de regno ejus ómnia scándala. Neque enim in illo regno beatitúdinis, in quo pax summa est, inveníri scándala póterunt, quæ colligántur."
+    },
+    "responsorium_alterum": {
+      "textus": "℟. Média nocte clamor factus est: * Ecce sponsus venit, exíte óbviam ei. V. Prudéntes vírgines, aptáte vestras lámpades.",
+      "versus_repetitus": "℣. Prudéntes vírgines, aptáte vestras lámpades."
+    }
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Simile est regnum cælorum homini negotiatori, quærenti bonas margaritas: inventa una pretiosa, dedit omnia sua, et comparavit eam.",
+    "magnificat": "Veni sponsa Christi: accipe coronam, quam tibi Dominus præparavit in æternum.",
+    "benedictus_es": "El reino de los cielos es semejante a un comerciante que busca perlas finas; y al hallar una de gran precio, vendió todo lo que tenía y la compró.",
+    "magnificat_es": "Ven, esposa de Cristo: recibe la corona que el Señor te ha preparado para siempre."
+  },
+  "propria": {
+    "capitulum_laudum": "2 Cor 10:17-18: Fratres: Qui gloriátur, in Dómino gloriétur. Non enim qui seípsum comméndat, ille probátus est; sed quem Deus comméndat.",
+    "capitulum_vesperarum": "2 Cor 10:17-18: Fratres: Qui gloriátur, in Dómino gloriétur. Non enim qui seípsum comméndat, ille probátus est; sed quem Deus comméndat."
+  },
+  "breviarium_id": "catherine_of_siena_virgin"
+}

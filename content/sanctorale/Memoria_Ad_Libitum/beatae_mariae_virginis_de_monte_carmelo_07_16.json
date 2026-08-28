@@ -1,0 +1,16 @@
+{
+  "id": "our_lady_of_mount_carmel_07_16",
+  "titulus": "Beatæ Mariæ Virginis de Monte Carmelo",
+  "dies": "07-16",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "ALBUS",
+  "collecta": "Deus, qui beatissimæ semper Virginis et Genetricis tuæ Mariæ singulari titulo Carmeli ordinem decorasti: concede propitius; ut, cujus hodie Commemorationem sollemni celebramus officio, ejus muniti præsidiis, ad gaudia sempiterna pervenire mereamur.",
+  "antiphonae_evangelicae": {
+    "magnificat": "Sancta Maria, succurre miseris, iuva pusillanimes, refove flebiles, ora pro populo, interveni pro clero, intercede pro devoto femineo sexu: sentiant omnes tuum iuvamen, quicumque celebrant tuam sanctam festivitatem.",
+    "benedictus": "Caput tuum ut Carmelus, et comæ capitis tui sicut purpura Regis vincta canalibus, alleluja.",
+    "benedictus_es": "Tu cabeza es como el Carmelo, y los cabellos de tu cabeza como la púrpura real, recogida en trenzas, aleluya.",
+    "magnificat_es": "Santa María, socorre a los desdichados, ayuda a los pusilánimes, conforta a los afligidos, ruega por el pueblo, intercede por el clero, intercede por el piadoso sexo femenino: que sientan todos tu ayuda cuantos celebran tu santa festividad."
+  },
+  "breviarium_id": "our_lady_of_mount_carmel",
+  "commune_subsidiarium": "COMMON_BVM"
+}

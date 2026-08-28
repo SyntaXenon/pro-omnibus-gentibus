@@ -1,0 +1,17 @@
+{
+  "id": "st_elizabeth_hungary_11_17",
+  "titulus": "Sanctæ Elisabeth Hungariæ",
+  "dies": "11-17",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "antiphonae_evangelicae": {
+    "benedictus": "In hoc cognóscent omnes quia discípuli mei estis, si dilectiónem habuéritis ad ínvicem.",
+    "magnificat": "Amen dico vobis: quod uni ex his frátribus meis mínimis fecístis, mihi fecístis. Veníte, benedícti Patris mei, possidéte parátum vobis regnum a constitutióne mundi.",
+    "benedictus_es": "La señal por la que conocerán que sois discípulos míos será que os amáis unos a otros.",
+    "magnificat_es": "Os aseguro que lo que hicisteis con uno de estos, mis humildes hermanos, conmigo lo hicisteis. Venid, benditos de mi Padre, heredad el reino preparado para vosotros desde la creación del mundo."
+  },
+  "breviarium_id": "elizabeth_of_hungary_religious",
+  "collecta": "Deus, qui beatæ Elisabeth tribuisti in pauperibus Christum cognoscere ac venerari, da nobis, eius intercessione, egenis et tribulatis iugi caritate servire. Per Dominum.",
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text. Replaced with genuine saint-specific text sourced from breviarium-core (Spanish), Latin is a direct faithful translation from the Vulgate underlying the quoted Gospel verses (Matt 25:40/34, John 13:35). Collect was already correct, unchanged."
+}

@@ -1,0 +1,1990 @@
+{
+  "_note": "In-house Latin sourcing for breviarium-core-driven days (Advent, Christmas, Lent, Triduum, Easter), which breviarium-core itself supplies only in Spanish. Keyed by breviarium_id -> hour ('lauds'/'vespers') -> slot ('primer'/'segundo'/'tercer'/'gospel') -> Latin antiphon text, verified against ibreviary.com/societaslaudis.org and cross-checked against the existing Spanish antiphon already in breviarium-core. A handful of slots remain unsourced after genuine research effort (site data bugs, calendar-suppressed days, ambiguous Year A/B/C variants) - see _recovered_scripts/bugfixing_pass_notes.md.",
+  "christmas_time_january_3": {
+    "lauds": {
+      "primer": "Acceptabis sacrificium, oblationes et holocausta, super altare tuum, Domine.",
+      "segundo": "In Domino iustificabitur et laudabitur omne semen Israel.",
+      "tercer": "Introite in conspectu Domini in exsultatione.",
+      "gospel": "Verbum caro factum est, et habitavit in nobis, plenum gratiae et veritatis; de cuius plenitudine omnes nos accepimus, et gratiam pro gratia, alleluia."
+    },
+    "vespers": {
+      "primer": "Sana, Domine, animam meam, quia peccavi tibi.",
+      "segundo": "Dominus virtutum nobiscum, refugium nobis Deus Iacob.",
+      "tercer": "Omnes gentes venient, et adorabunt in conspectu tuo, Domine.",
+      "gospel": "Exsultémus in Dómino, spiritáli iucunditáte lætémur, quia salus ætérna in mundo appáruit, allelúia."
+    }
+  },
+  "second_sunday_after_christmas": {
+    "lauds": {
+      "segundo": "Hymnum dicamus Domino Deo nostro, alleluia.",
+      "tercer": "Pópulus géntium, qui sedébat in ténebris, vidit lucem magnam.",
+      "gospel": "Virgo semper fidelis, et si Verbum genuit incarnatum, virgo mansit et post partum, quam laudantes omnes dicimus: Benedicta tu in mulieribus.",
+      "primer": "Lux orta est iusto, quia ómnium natus est Salvátor, allelúia."
+    },
+    "vespers": {
+      "primer": "Virgo verbo concepit, virgo permansit, virgo peperit Salvatorem.",
+      "segundo": "Laetamini cum Ierusalem, et exsultate in ea, omnes qui diligitis eam, in aeternum.",
+      "tercer": "Natus est nobis Deus de Deo, lumen de lumine, quod erat in principio.",
+      "gospel": "Castæ Paréntis viscéra cæléstis intrat grátia: venter puéllæ báiulat secréta, quæ non nóverat."
+    }
+  },
+  "christmas_time_january_5": {
+    "lauds": {
+      "primer": "Cor contritum et humiliatum, Deus, non despicies.",
+      "segundo": "Cum iratus fueris, misericordiae recordaberis.",
+      "tercer": "Lauda, Ierusalem, Dominum.",
+      "gospel": "Visitavit et fecit redemptionem Dominus plebis suae."
+    },
+    "vespers": {
+      "primer": "Ante luciferum genitus et ante saecula, Dominus, salvator noster, hodie mundo apparuit.",
+      "segundo": "Magnus est Dominus, et Deus noster prae omnibus diis.",
+      "tercer": "Stella ista sicut flamma coruscat, et Regem regum Deum demonstrat: magi eam viderunt, et magno Regi munera obtulerunt.",
+      "gospel": "Magi, videntes stellam, dixerunt ad invicem: Hoc signum magni Regis est; eamus et inquiramus eum, et offeramus ei munera, aurum, tus et myrrham."
+    }
+  },
+  "wednesday_after_epiphany": {
+    "lauds": {
+      "primer": "Deus, in sancto via tua; quis deus magnus sicut Deus noster?",
+      "segundo": "Exsultavit cor meum in Domino, qui humiliat et sublevat.",
+      "tercer": "Dominus regnavit, exsultet terra.",
+      "gospel": "Vidimus stellam eius in Oriente, et venimus adorare eum."
+    },
+    "vespers": {
+      "primer": "Exspectémus beátam spem et advéntum glóriæ Salvatóris nostri.",
+      "segundo": "Illúminet vultum suum super nos Deus, et benedícat nobis.",
+      "tercer": "In ipso cóndita sunt univérsa, et ómnia in ipso constant.",
+      "gospel": "Interrogábat magos Heródes: Quod signum vidístis super natum Regem? Stellam vídimus fulgéntem, cuius splendor illúminat mundum."
+    }
+  },
+  "thursday_after_epiphany": {
+    "lauds": {
+      "primer": "Excita, Dómine, poténtiam tuam, ut salvos fácias nos.",
+      "segundo": "Magnífice fecit Dóminus, annuntiáte hoc in univérsa terra.",
+      "tercer": "Exsultate Deo adiutori nostro.",
+      "gospel": "Omnes natiónes vénient a longe, portántes múnera sua, allelúia."
+    },
+    "vespers": {
+      "primer": "Posui te in lucem gentium, ut sis salus mea usque ad extremum terrae.",
+      "segundo": "Salvos fáciet Dóminus fílios páuperum; ex oppressióne redímet ánimas eórum.",
+      "tercer": "Nunc facta est salus et regnum Dei nostri.",
+      "gospel": "Omnes de Saba vénient, aurum et tus deférentes, allelúia."
+    }
+  },
+  "friday_after_epiphany": {
+    "lauds": {
+      "primer": "Cor contritum et humiliatum, Deus, non despicies.",
+      "segundo": "Cum irátus fúeris, Dómine, misericórdiæ recordáberis.",
+      "tercer": "Lauda, Ierusalem, Dominum.",
+      "gospel": "Veníent ad te qui detrahébant tibi, et adorábunt vestígia pedum tuórum."
+    },
+    "vespers": {
+      "primer": "Domine, libera animam meam de morte, pedes meos a lapsu.",
+      "segundo": "Auxilium meum a Domino, qui fecit caelum et terram.",
+      "tercer": "Iustae et verae sunt viae tuae, Rex saeculorum.",
+      "gospel": "Admóniti magi in somnis ab Ángelo, per áliam viam revérsi sunt in regiónem suam."
+    }
+  },
+  "saturday_after_epiphany": {
+    "lauds": {
+      "primer": "Annuntiamus mane misericordiam tuam, Domine, et veritatem tuam per noctem.",
+      "segundo": "Date magnificentiam Deo nostro.",
+      "tercer": "Quam admirabile est nomen tuum, Domine, in universa terra.",
+      "gospel": "Hoc fecit inítium signórum Iesus in Cana Galilǽæ, et manifestávit glóriam suam."
+    },
+    "vespers": {
+      "primer": "Fuit Ioánnes in desérto, baptízans et prǽdicans baptísmum pæniténtiæ in remissiónem peccatórum.",
+      "segundo": "Ego quidem aqua baptízo vos; ipse vos baptizábit Spíritu Sancto et igne.",
+      "tercer": "Baptizátus Iesus conféstim ascéndit de aqua, et ecce apérti sunt ei cæli.",
+      "gospel": "Véterem hóminem rénovans, Salvátor venit ad baptísmum, ut natúram, quæ corrúpta est, per aquam recuperáret, incorruptíbili veste circumíciens nos."
+    }
+  },
+  "christmas_octave_day_2": {
+    "vespers": {
+      "primer": "Tecum princípium in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui te.",
+      "segundo": "Apud Dominum misericordia, et copiosa apud eum redemptio.",
+      "tercer": "In principio et ante saecula Deus erat Verbum: ipse natus est hodie Salvator mundi.",
+      "gospel": "Dum medium silentium tenerent omnia, et nox in suo cursu medium iter haberet, omnipotens sermo tuus, Domine, a regalibus sedibus venit."
+    }
+  },
+  "holy_family_of_jesus_mary_and_joseph": {
+    "lauds": {
+      "primer": "Ibant parentes Iesu per omnes annos in Ierusalem, in die sollemni Paschae.",
+      "segundo": "Puer crescebat, et confortabatur, plenus sapientia; et gratia Dei erat in illo.",
+      "tercer": "Erant pater eius et mater mirantes super his quae dicebantur de illo.",
+      "gospel": "Illúmina nos, Dómine, exémplis Famíliæ tuæ, et dírige pedes nostros in viam pacis."
+    },
+    "vespers": {
+      "primer": "Post tríduum invenérunt Iesum in templo, sedéntem in médio doctórum, audiéntem et interrogántem eos.",
+      "segundo": "Descendit Iesus cum eis, et venit Nazareth, et erat subditus illis.",
+      "tercer": "Iesus proficiebat sapientia, et aetate, et gratia, apud Deum et homines.",
+      "gospel": "Fili, quid fecisti nobis sic? Ecce pater tuus et ego dolentes quaerebamus te. Quid est quod me quaerebatis? Nesciebatis quia in his quae Patris mei sunt, oportet me esse?"
+    }
+  },
+  "christmas_octave_day_4": {
+    "vespers": {
+      "primer": "Iacob autem génuit Ioseph, virum Maríæ, de qua natus est Iésus, qui vocátur Christus.",
+      "segundo": "Ioseph, fili David, noli timére accípere Maríam coniúgem tuam: quod enim in ea natum est, de Spíritu Sancto est.",
+      "tercer": "Pastóres venérunt festinántes, et invenérunt Maríam et Ioseph, et infántem pósitum in præsépio.",
+      "gospel": "Remánsit puer Iésus in Ierúsalem, et non cognovérunt paréntes eius: existimántes autem illum esse in comitátu, quærébant eum inter cognátos et notos."
+    }
+  },
+  "christmas_octave_day_5": {
+    "lauds": {
+      "primer": "Quem vidístis, pastóres? dícite, annuntiáte nobis: in terris quis appáruit? Natum vídimus, et choros Angelórum collaudántes Dóminum, allelúia.",
+      "segundo": "Angelus ad pastóres ait: Annúntio vobis gáudium magnum, quia natus est vobis hódie Salvátor mundi, allelúia.",
+      "tercer": "Párvulus fílius hódie natus est nobis, et vocábitur Deus fortis, allelúia.",
+      "gospel": "Pastóres loquebántur ad ínvicem: Transeámus usque Béthlehem, et videámus hoc verbum quod Dóminus osténdit nobis."
+    },
+    "vespers": {
+      "primer": "Tecum princípium in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui te.",
+      "segundo": "Apud Dóminum misericórdia, et copiósa apud eum redémptio.",
+      "tercer": "In princípio et ante sǽcula Deus erat Verbum: ipse natus est hódie Salvátor mundi.",
+      "gospel": "Cælórum Rex de Vírgine nasci dignátus est, ut hóminem pérditum ad cæléstia regna revocáret."
+    }
+  },
+  "christmas_octave_day_6": {
+    "lauds": {
+      "primer": "Quem vidístis, pastóres? dícite, annuntiáte nobis: in terris quis appáruit? Natum vídimus, et choros Angelórum collaudántes Dóminum, allelúia.",
+      "segundo": "Angelus ad pastóres ait: Annúntio vobis gáudium magnum, quia natus est vobis hódie Salvátor mundi, allelúia.",
+      "tercer": "Párvulus fílius hódie natus est nobis, et vocábitur Deus fortis, allelúia.",
+      "gospel": "Nato Dómino, angelórum chorus canébat, dicéntes: Salus Deo nostro, sedénti super thronum, et Agno."
+    },
+    "vespers": {
+      "primer": "Tecum princípium in die virtútis tuæ, in splendóribus sanctórum, ex útero ante lucíferum génui te.",
+      "segundo": "Apud Dóminum misericórdia, et copiósa apud eum redémptio.",
+      "tercer": "In princípio et ante sǽcula Deus erat Verbum: ipse natus est hódie Salvátor mundi.",
+      "gospel": "Glorificámus te, Dei Génetrix, quia ex te natus est Christus; salva omnes qui te gloríficant."
+    }
+  },
+  "christmas_octave_day_7": {
+    "lauds": {
+      "primer": "Quem vidístis, pastóres? dícite, annuntiáte nobis: in terris quis appáruit? Natum vídimus, et choros Angelórum collaudántes Dóminum, allelúia.",
+      "segundo": "Angelus ad pastóres ait: Annúntio vobis gáudium magnum, quia natus est vobis hódie Salvátor mundi, allelúia.",
+      "tercer": "Párvulus fílius hódie natus est nobis, et vocábitur Deus fortis, allelúia.",
+      "gospel": "Facta est cum Angelo multitúdo cæléstis exércitus laudántium Deum et dicéntium: Glória in excélsis Deo, et in terra pax homínibus bonæ voluntátis, allelúia."
+    },
+    "vespers": {
+      "primer": "O admirábile commércium! Creátor géneris humáni, animátum corpus sumens, de Vírgine nasci dignátus est; et, procédens homo sine sémine, largítus est nobis suam deitátem.",
+      "segundo": "Quando natus es ineffabíliter ex Vírgine, tunc implétæ sunt Scriptúræ: sicut plúvia in vellus descendísti, ut salvum fáceres genus humánum. Te laudámus, Deus noster.",
+      "tercer": "Rubum, quem víderat Móyses incombústum, conservátam agnóvimus tuam laudábilem virginitátem. Dei Génetrix, intercéde pro nobis."
+    }
+  },
+  "ash_wednesday": {
+    "lauds": {
+      "primer": "Tibi soli peccávi, Dómine, miserére mei.",
+      "segundo": "Cognóvimus, Dómine, iniquitátes nostras, quia peccávimus tibi.",
+      "tercer": "Dóminus ipse est Deus; nos pópulus eius et oves páscuæ eius.",
+      "gospel": "Cum ieiunátis, nolíte fíeri, sicut hypócritæ, tristes."
+    },
+    "vespers": {
+      "gospel": "Cum facis eleemósynam, nésciat sinístra tua quid fáciat déxtera tua.",
+      "primer": "Magnus est Dóminus, et Deus noster præ ómnibus diis.",
+      "segundo": "Domus Israel, benedícite Dómino; psállite nómini eius, quóniam suáve.",
+      "tercer": "Omnes gentes vénient et adorábunt coram te, Dómine."
+    }
+  },
+  "thursday_after_ash_wednesday": {
+    "lauds": {
+      "primer": "Audítam fac mihi mane misericórdiam tuam, Dómine.",
+      "segundo": "Declinábit Dóminus super Ierúsalem flúvium pacis.",
+      "tercer": "Deo nostro iucúnda sit laudátio.",
+      "gospel": "Qui vult veníre post me, dicit Dóminus, ábneget semetípsum, et tollat crucem suam, et sequátur me."
+    },
+    "vespers": {
+      "primer": "Misericórdia mea et refúgium meum Dóminus: in ipso sperávi.",
+      "segundo": "Beátus pópulus cuius Dóminus Deus eius.",
+      "tercer": "Nunc facta est salus et regnum Dei nostri.",
+      "gospel": "Qui perdíderit ánimam suam propter me, dicit Dóminus, invéniet eam in ætérnum."
+    }
+  },
+  "friday_after_ash_wednesday": {
+    "lauds": {
+      "primer": "Cor mundum crea in me, Deus, et spíritum rectum ínnova in viscéribus meis.",
+      "segundo": "Lætáre, Ierúsalem, quia per te omnes congregabúntur ad Dóminum.",
+      "tercer": "Lauda Deum tuum, Sion, qui emíttit elóquium suum terræ.",
+      "gospel": "Cum víderis nudum, óperi eum, et carnem tuam ne despéxeris; tunc erúmpet quasi mane lumen tuum, et anteíbit fáciem tuam iustítia tua."
+    },
+    "vespers": {
+      "primer": "Per síngulos dies benedícam tibi, Dómine, et mirabília tua narrábo.",
+      "segundo": "Oculi ómnium in te sperant, Dómine; prope es ómnibus invocántibus te.",
+      "tercer": "Iustæ et veræ sunt viæ tuæ, Rex sæculórum.",
+      "gospel": "Cum auferétur ab eis sponsus, convívæ nuptiárum ieiunábunt in diébus illis."
+    }
+  },
+  "saturday_after_ash_wednesday": {
+    "lauds": {
+      "primer": "Bonum est psállere nómini tuo, Altíssime, annuntiáre mane misericórdiam tuam.",
+      "segundo": "Dabo vobis cor novum et spíritum novum in médio vestri.",
+      "tercer": "Ex ore infántium et lacténtium, Dómine, perfecísti laudem.",
+      "gospel": "Thesaurizáte vobis thesáuros in cælo, ubi nec ærúgo nec tínea demolítur."
+    },
+    "vespers": {
+      "primer": "In spíritu humilitátis et in ánimo contríto suscipiámur, Dómine, a te; et sic fiat sacrifícium nostrum, ut suscipiátur a te hódie et pláceat tibi, Dómine Deus.",
+      "segundo": "Tunc invocábis, et Dóminus exáudiet; clamábis, et dicet: Ecce adsum.",
+      "tercer": "Christus pro peccátis nostris mórtuus est, iustus pro iniústis, ut nos offérret Deo, mortificátus quidem carne, vivificátus autem Spíritu."
+    }
+  },
+  "lent_1_sunday": {
+    "lauds": {
+      "primer": "Benedícam te in vita mea, Dómine, et in nómine tuo levábo manus meas.",
+      "segundo": "Hymnum dícite, et superexaltáte Deum in sǽcula.",
+      "tercer": "Beneplácitum est Dómino in pópulo suo, et honorábit mansuétos in salútem.",
+      "gospel": "Ductus est Iesus in desértum a Spíritu, ut tentarétur a diábolo; et cum ieiunásset quadragínta diébus et quadragínta nóctibus, póstea esúriit."
+    },
+    "vespers": {
+      "primer": "Dóminum Deum tuum adorábis et illi soli sérvies.",
+      "segundo": "Ecce nunc tempus acceptábile, ecce nunc dies salútis.",
+      "tercer": "Ecce ascéndimus Ierosólymam, et consummabúntur ómnia quæ scripta sunt de Fílio hóminis."
+    }
+  },
+  "lent_1_monday": {
+    "lauds": {
+      "primer": "Ad te orábo, Dómine, mane exáudies vocem meam.",
+      "segundo": "Laudámus nomen tuum ínclitum, Deus noster.",
+      "tercer": "Adoráte Dóminum in aula sancta eius.",
+      "gospel": "Veníte, benedícti Patris mei, percípite regnum, quod vobis parátum est ab orígine mundi."
+    },
+    "vespers": {
+      "primer": "Oculi Dómini in páuperem respíciunt.",
+      "segundo": "Beáti mundo corde, quóniam ipsi Deum vidébunt.",
+      "tercer": "In Fílio suo elégit nos Deus in adoptiónem filiórum.",
+      "gospel": "Quod uni ex mínimis meis fecístis, mihi fecístis, dicit Dóminus."
+    }
+  },
+  "lent_1_tuesday": {
+    "lauds": {
+      "primer": "Innocens mánibus et mundo corde ascéndet in montem Dómini.",
+      "segundo": "Exaltáte Regem sæculórum in opéribus vestris.",
+      "tercer": "Rectos decet collaudátio.",
+      "gospel": "Dómine, doce nos oráre, sicut dócuit Ioánnes discípulos suos."
+    },
+    "vespers": {
+      "primer": "Tríbuit Dóminus victóriam Christo suo.",
+      "segundo": "Cantábimus et psallémus virtútes tuas.",
+      "tercer": "Fecísti nos, Dómine, regnum et sacerdótes Deo nostro.",
+      "gospel": "Tu autem, cum oráveris, intra in cubículum tuum, et, clauso óstio, ora Patrem tuum."
+    }
+  },
+  "lent_1_wednesday": {
+    "lauds": {
+      "primer": "Deus, in lúmine tuo vidébimus lumen.",
+      "segundo": "Dómine, magnus es tu, et præclárus in virtúte tua.",
+      "tercer": "Iubiláte Deo in voce exsultatiónis.",
+      "gospel": "Generátio hæc prava et pervérsa signum quærit, et signum non dábitur ei, nisi signum Ionæ prophétæ."
+    },
+    "vespers": {
+      "primer": "Dóminus illuminátio mea et salus mea, quem timébo?",
+      "segundo": "Vultum tuum, Dómine, requíram: ne avértas fáciem tuam a me.",
+      "tercer": "Ipse primogénitus omnis creatúræ, in ómnibus primátum tenens.",
+      "gospel": "Sicut fuit Ionas in ventre ceti tribus diébus et tribus nóctibus, ita erit Fílius hóminis in corde terræ."
+    }
+  },
+  "lent_1_thursday": {
+    "lauds": {
+      "primer": "Exsúrge, psaltérium et cíthara: excitábo auróram.",
+      "segundo": "Pópulus meus, ait Dóminus, bonis meis adimplébitur.",
+      "tercer": "Magnus Dóminus et laudábilis nimis, in civitáte Dei nostri.",
+      "gospel": "Si vos, cum sitis mali, nostis bona data dare fíliis vestris, quanto magis Pater vester de cælo dabit bona peténtibus se!"
+    },
+    "vespers": {
+      "primer": "Clamávi ad te, et sanásti me, Dómine; in ætérnum confitébor tibi.",
+      "segundo": "Beátus vir, cui non imputávit Dóminus peccátum.",
+      "tercer": "Dedit ei Dóminus potestátem et honórem et regnum, et omnes pópuli ipsi sérvient.",
+      "gospel": "Pétite, et dábitur vobis; quærite, et inveniétis; pulsáte, et aperiétur vobis."
+    }
+  },
+  "lent_1_friday": {
+    "lauds": {
+      "primer": "Acceptábis sacrifícium iustítiæ super altáre tuum, Dómine.",
+      "segundo": "In Dómino iustificábitur et laudábitur omne semen Israel.",
+      "tercer": "Introíte in conspéctu Dómini in exsultatióne.",
+      "gospel": "Nisi abundáverit iustítia vestra plus quam scribárum et pharisæórum, non intrábitis in regnum cælórum."
+    },
+    "vespers": {
+      "primer": "Sana, Dómine, ánimam meam, quia peccávi tibi.",
+      "segundo": "Dóminus virtútum nobíscum, refúgium nobis Deus Iacob.",
+      "tercer": "Omnes gentes vénient et adorábunt coram te, Dómine.",
+      "gospel": "Si offers munus tuum ante altáre et recordátus fúeris quia frater tuus habet áliquid advérsum te, relínque ibi munus tuum ante altáre, et vade prius reconciliári fratri tuo, et tunc véniens ófferes munus tuum."
+    }
+  },
+  "lent_1_saturday": {
+    "lauds": {
+      "primer": "Prævenérunt óculi mei ad te dilúculo.",
+      "segundo": "Fortitúdo mea et laus mea Dóminus, et factus est mihi in salútem.",
+      "tercer": "Laudáte Dóminum, omnes gentes.",
+      "gospel": "Oráte pro persequéntibus et calumniántibus vos, ut sitis fílii Patris vestri, qui in cælis est, dicit Dóminus."
+    },
+    "vespers": {
+      "primer": "Assúmpsit Iesus Petrum et Iacóbum et Ioánnem fratrem eius, et duxit eos in montem excélsum seórsum, et transfigurátus est ante eos.",
+      "segundo": "Resplénduit fácies eius sicut sol, vestiménta autem eius facta sunt alba sicut nix.",
+      "tercer": "Móyses et Elías dicébant excéssum eius, quem completúrus erat in Ierúsalem.",
+      "gospel": "Ecce vox de nube dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui: ipsum audíte."
+    }
+  },
+  "lent_2_sunday": {
+    "lauds": {
+      "primer": "Déxtera Dómini fecit virtútem, déxtera Dómini exaltávit me.",
+      "segundo": "Trium puerórum cantémus hymnum, quem cantábant in camíno ignis, benedicéntes Dóminum.",
+      "tercer": "Laudáte Dóminum in magnálibus eius.",
+      "gospel": "Salvátor noster Iesus Christus destrúxit mortem, et illuminávit vitam per Evangélium."
+    },
+    "vespers": {
+      "primer": "Virgam virtútis tuæ emíttet Dóminus in splendóribus sanctórum.",
+      "segundo": "Deus unus est, quem cólimus, qui fecit cælum et terram.",
+      "tercer": "Próprio Fílio suo non pepércit Deus, sed pro nobis ómnibus trádidit illum.",
+      "gospel": "Visiónem, quam vidístis, némini dixéritis, donec a mórtuis resúrgat Fílius hóminis."
+    }
+  },
+  "lent_2_monday": {
+    "lauds": {
+      "primer": "Quando véniam et apparébo ante fáciem Dómini?",
+      "segundo": "Osténde nobis, Dómine, lucem miseratiónum tuárum.",
+      "tercer": "Benedíctus es, Dómine, in firmaménto cæli.",
+      "gospel": "Estóte misericórdes, sicut et Pater vester miséricors est, dicit Dóminus."
+    },
+    "vespers": {
+      "primer": "Speciósus forma præ fíliis hóminum, diffúsa est grátia in lábiis tuis.",
+      "segundo": "Ecce Sponsus venit: exíte óbviam ei.",
+      "tercer": "Propósuit Deus in plenitúdine témporum instauráre ómnia in Christo.",
+      "gospel": "Nolíte iudicáre, et non iudicabímini; in quo enim iudício iudicavéritis, iudicabímini, dicit Dóminus."
+    }
+  },
+  "lent_2_tuesday": {
+    "lauds": {
+      "primer": "Emítte lucem tuam et veritátem tuam, Dómine.",
+      "segundo": "Cunctis diébus vitæ nostræ, salvos nos fac, Dómine.",
+      "tercer": "Te decet hymnus, Deus, in Sion.",
+      "gospel": "Unus est magíster vester, qui in cælis est, Christus Dóminus."
+    },
+    "vespers": {
+      "primer": "_Non potéstis Deo servíre et mammónæ._",
+      "segundo": "_Thesaurizáte vobis thesáuros in cælo, dicit Dóminus._",
+      "tercer": "_Dignus est Agnus, qui occísus est, accípere glóriam et honórem._",
+      "gospel": "Omnes autem vos fratres estis: et patrem nolíte vocáre vobis super terram, unus enim est Pater vester, qui in cælis est: nec vocémini magístri, quia Magíster vester unus est, Christus."
+    }
+  },
+  "lent_2_wednesday": {
+    "lauds": {
+      "primer": "Deus, in sancto via tua: quis Deus magnus sicut Deus noster?",
+      "segundo": "Exsultávit cor meum in Dómino, qui humíliat et súblevat.",
+      "tercer": "Dóminus regnávit, exsúltet terra.",
+      "gospel": "Fílius hóminis non venit ministrári, sed ministráre et dare ánimam suam redemptiónem pro multis."
+    },
+    "vespers": {
+      "primer": "Exspectémus beátam spem et advéntum glóriæ Salvatóris nostri.",
+      "segundo": "Illúminet vultum suum super nos Deus, et benedícat nobis.",
+      "tercer": "In ipso cóndita sunt univérsa, et ómnia in ipso constant.",
+      "gospel": "Fílius hóminis tradétur géntibus ad illudéndum et flagellándum et crucifigéndum, et tértia die resúrget."
+    }
+  },
+  "lent_2_thursday": {
+    "lauds": {
+      "primer": "Excita, Dómine, poténtiam tuam, ut salvos fácias nos.",
+      "segundo": "Magnífice fecit Dóminus, annuntiáte hoc in univérsa terra.",
+      "tercer": "Exsultáte Deo adiutóri nostro.",
+      "gospel": "Fili, recordáre quia recepísti bona in vita tua, et Lázarus simíliter mala."
+    },
+    "vespers": {
+      "primer": "Pósui te in lucem géntium, ut sis salus mea usque ad extrémum terræ.",
+      "segundo": "Salvos fáciet Dóminus fílios páuperum; ex oppressióne rédimet ánimas eórum.",
+      "tercer": "Nunc facta est salus et regnum Dei nostri.",
+      "gospel": "Dives ille guttam aquæ pétiit, qui micas panis Lázaro negávit."
+    }
+  },
+  "lent_2_friday": {
+    "lauds": {
+      "primer": "Cor contrítum et humiliátum, Deus, non despícies.",
+      "segundo": "Cum irátus fúeris, Dómine, misericórdiæ recordáberis.",
+      "tercer": "Lauda, Ierúsalem, Dóminum.",
+      "gospel": "Malos male perdet, et víneam suam locábit áliis agrícolis, qui reddant ei fructum tempóribus suis."
+    },
+    "vespers": {
+      "primer": "Dómine, líbera ánimam meam de morte, pedes meos a lapsu.",
+      "segundo": "Auxílium meum a Dómino, qui fecit cælum et terram.",
+      "tercer": "Iustæ et veræ sunt viæ tuæ, Rex sæculórum.",
+      "gospel": "Quæréntes Iesum tenére, timuérunt turbam, quia sicut prophétam eum habébant."
+    }
+  },
+  "lent_2_saturday": {
+    "lauds": {
+      "primer": "Annuntiámus mane misericórdiam tuam, Dómine, et veritátem tuam per noctem.",
+      "segundo": "Date magnificéntiam Deo nostro.",
+      "tercer": "Quam admirábile est nomen tuum, Dómine, in univérsa terra.",
+      "gospel": "Pater, peccávi in cælum et coram te, iam non sum dignus vocári fílius tuus, fac me sicut unum ex mercenáriis tuis."
+    },
+    "vespers": {
+      "primer": "Pænitémini et crédite Evangélio, dicit Dóminus.",
+      "segundo": "Sacrificábo hóstiam laudis, et nomen Dómini invocábo.",
+      "tercer": "Nemo tollit a me ánimam meam, sed ego pono eam et íterum sumo eam."
+    }
+  },
+  "lent_4_tuesday": {
+    "lauds": {
+      "primer": "Tibi, Domine, psallam, et intellegam in via immaculata.",
+      "segundo": "Ne auferas, Domine, misericordiam tuam a nobis.",
+      "tercer": "Deus, canticum novum cantabo tibi.",
+      "gospel": "Qui me sanum fecit, ille mihi praecepit: Tolle grabatum tuum et ambula in pace."
+    },
+    "vespers": {
+      "primer": "Si oblitus fuero tui, Ierusalem, oblivioni detur dextera mea.",
+      "segundo": "In conspectu angelorum psallam tibi, Deus meus.",
+      "tercer": "Dignus est Agnus, qui occisus est, accipere gloriam et honorem.",
+      "gospel": "Ecce sanus factus es; iam noli peccare, ne deterius tibi aliquid contingat."
+    }
+  },
+  "lent_4_wednesday": {
+    "lauds": {
+      "primer": "Paratum cor meum, Deus, paratum cor meum.",
+      "segundo": "Induit me Dominus indumento salutis et iustitiae.",
+      "tercer": "Laudabo Deum meum in vita mea.",
+      "gospel": "Qui verbum meum audit, et credit ei qui misit me, habet vitam aeternam, dicit Dominus."
+    },
+    "vespers": {
+      "primer": "Mirabilis facta est scientia tua super me, Domine.",
+      "segundo": "Ego Dominus scrutans cor et probans renes, qui do unicuique secundum viam suam.",
+      "tercer": "In ipso condita sunt universa, et omnia in ipso constant.",
+      "gospel": "Non possum ego a meipso facere quidquam, sed sicut audio et iudico; et iudicium meum iustum est, dicit Dominus."
+    }
+  },
+  "lent_4_thursday": {
+    "lauds": {
+      "primer": "Auditam fac mihi mane misericordiam tuam, Domine.",
+      "segundo": "Declinabit Dominus super Ierusalem flumen pacis.",
+      "tercer": "Deo nostro iucunda sit laudatio.",
+      "gospel": "Ego non ab homine testimonium accipio; sed haec dico, ut vos salvi sitis, dicit Dominus."
+    },
+    "vespers": {
+      "primer": "Misericordia mea et refugium meum Dominus: in ipso speravi.",
+      "segundo": "Beatus populus cuius Dominus Deus eius.",
+      "tercer": "Nunc facta est salus et regnum Dei nostri.",
+      "gospel": "Opera quae ego facio testimonium perhibent de me, quia Pater me misit, dicit Dominus."
+    }
+  },
+  "lent_4_friday": {
+    "lauds": {
+      "primer": "Cor mundum crea in me, Deus, et spiritum firmum innova in visceribus meis.",
+      "segundo": "Laetare, Ierusalem, quia per te omnes congregabuntur ad Dominum.",
+      "tercer": "Lauda Deum tuum, Sion, qui emittit eloquium suum terrae.",
+      "gospel": "Et me scitis, et unde sim, scitis; et a meipso non veni, sed Pater meus misit me, dicit Dominus."
+    },
+    "vespers": {
+      "primer": "Per singulos dies benedicam tibi, Domine, et mirabilia tua narrabo.",
+      "segundo": "Oculi omnium in te sperant, Domine, prope es omnibus invocantibus te.",
+      "tercer": "Iustae et verae sunt viae tuae, Rex saeculorum.",
+      "gospel": "Nemo in Iesum misit manum, quia nondum venerat hora eius."
+    }
+  },
+  "lent_4_saturday": {
+    "lauds": {
+      "primer": "Bonum est psallere nomini tuo, Altissime, annuntiare mane misericordiam tuam.",
+      "segundo": "Dabo vobis cor novum et spiritum novum in medio vestri.",
+      "tercer": "Ex ore infantium et lactentium, Domine, perfecisti laudem.",
+      "gospel": "Numquam sic locutus est homo, sicut hic homo."
+    },
+    "vespers": {
+      "primer": "Dabo legem meam in corde eorum, et ego ero eis in Deum, et ipsi erunt mihi in populum.",
+      "segundo": "Existimo omnia detrimentum esse, propter eminentem scientiam Iesu Christi Domini mei.",
+      "tercer": "Cum esset Filius Dei, didicit ex iis quae passus est oboedientiam.",
+      "gospel": "$ Año A: $Lázarus, amícus noster, dormit; eámus, et a somno excitémus eum. (Io 11:11 — I Vespers own antiphon, independently re-confirmed live via breviarium.info)\n$Año B: $Nisi granum fruménti cadens in terram mórtuum fúerit, ipsum solum manet; si autem mórtuum fúerit, multum fructum áffert. (Io 12:24 — verbatim match to existing Spanish Año B)\n$Año C: $Iesus inclínans se deórsum dígito scribébat in terra. Qui sine peccáto est vestrum, primus in illam lápidem mittat. (Io 8:6-7)"
+    }
+  },
+  "lent_5_sunday": {
+    "lauds": {
+      "primer": "Factus es adiutor meus, Deus meus.",
+      "segundo": "Erue nos in mirabilibus tuis, et salvos nos fac de manu mortis.",
+      "tercer": "Venit hora ut clarificetur Filius hominis.",
+      "gospel": "$ Año A: $Ego sum resurréctio et vita. Qui credit in me, etsi mórtuus fúerit, vivet; et omnis qui vivit et credit in me, non moriétur in ætérnum. (Io 11:25-26 — Lauds' own antiphon, live-confirmed via breviarium.info 2026-03-22 'AD LAUDES MATUTINAS'; corrects a prior mislabeling that had this paired with I-Vespers' text instead)\n$Año B: $Si quis mihi minístrat, me sequátur, et ubi sum ego, illic et miníster meus erit. (Io 12:26)\n$Año C: $Audiéntes unus post unum exíbant, incipiéntes a senióribus, et remánsit solus, et múlier in médio stans. (Io 8:9)"
+    },
+    "vespers": {
+      "primer": "Sicut exaltatus est serpens in eremo, ita exaltari oportet Filium hominis.",
+      "segundo": "Dominus exercituum, protegens et liberans, transiens et salvans.",
+      "tercer": "Ipse vulneratus est propter iniquitates nostras, attritus est propter scelera nostra, et livore eius sanati sumus.",
+      "gospel": "$ Año A: $Ego crédidi quia tu es Christus Fílius Dei, qui in mundum venísti. (Io 11:27, Martha's confession — II Vespers' own antiphon, live-confirmed via breviarium.info 2026-03-22 'AD VESPERAS'; corrects a prior mislabeling that had this paired with Lauds' text instead)\n$Año B: $Ego, si exaltátus fúero a terra, ómnia traham ad meípsum. (Io 12:32 — verbatim match to existing Spanish Año B)\n$Año C: $Múlier, ubi sunt? Nemo te condemnávit? Nemo, Dómine. Dixit autem Iesus: Nec ego te condémno. Vade, et iam noli peccáre. (Io 8:10-11)"
+    }
+  },
+  "lent_5_monday": {
+    "lauds": {
+      "primer": "Ad te orabo, Domine, mane exaudies vocem meam.",
+      "segundo": "Laudamus nomen tuum inclitum, Deus noster.",
+      "tercer": "Adorate Dominum in aula sancta eius.",
+      "gospel": "Qui sequitur me, non ambulat in tenebris, sed habebit lumen vitae, dicit Dominus."
+    },
+    "vespers": {
+      "primer": "Oculi Domini in pauperem respiciunt.",
+      "segundo": "Beati mundo corde, quoniam ipsi Deum videbunt.",
+      "tercer": "In Filio suo elegit nos Deus in adoptionem filiorum.",
+      "gospel": "Ego sum qui testimonium perhibeo de meipso, dicit Dominus; et testimonium perhibet de me, qui misit me, Pater."
+    }
+  },
+  "lent_5_tuesday": {
+    "lauds": {
+      "primer": "Innocens manibus et mundo corde ascendet in montem Domini.",
+      "segundo": "Exaltate Regem saeculorum in operibus vestris.",
+      "tercer": "Rectos decet collaudatio.",
+      "gospel": "Cum exaltaveritis Filium hominis, tunc cognoscetis quia ego sum, dicit Dominus."
+    },
+    "vespers": {
+      "primer": "Tribuit Dominus victoriam Christo suo.",
+      "segundo": "Cantabimus et psallemus virtutes tuas.",
+      "tercer": "Fecisti nos, Domine, regnum et sacerdotes Deo nostro.",
+      "gospel": "Qui me misit, mecum est, et non reliquit me solum; quia quae placita sunt ei facio semper."
+    }
+  },
+  "lent_5_wednesday": {
+    "lauds": {
+      "primer": "Deus, in lumine tuo videbimus lumen.",
+      "segundo": "Domine, magnus es tu, et praeclarus in virtute tua.",
+      "tercer": "Iubilate Deo in voce exsultationis.",
+      "gospel": "Si vos manseritis in sermone meo, vere discipuli mei eritis, dicit Dominus, et cognoscetis veritatem, et veritas liberabit vos."
+    },
+    "vespers": {
+      "primer": "Dominus illuminatio mea et salus mea, quem timebo?",
+      "segundo": "Vultum tuum, Domine, requiram: ne avertas faciem tuam a me.",
+      "tercer": "Ipse primogenitus omnis creaturae, in omnibus primatum tenens.",
+      "gospel": "Quid me quaeritis interficere, hominem qui vera locutus sum vobis?"
+    }
+  },
+  "lent_5_thursday": {
+    "lauds": {
+      "primer": "Exsúrge, psaltérium et cíthara: excitábo auróram.",
+      "segundo": "Pópulus meus, ait Dóminus, bonis meis adimplébitur.",
+      "tercer": "Magnus Dóminus et laudábilis nimis, in civitáte Dei nostri.",
+      "gospel": "Dicébat Iesus turbis Iudæórum, et princípibus sacerdótum: Qui ex Deo est, verba Dei audit; proptérea vos non audítis, quia ex Deo non estis."
+    },
+    "vespers": {
+      "primer": "Clamávi ad te, et sanásti me, Dómine; in ætérnum confitébor tibi.",
+      "segundo": "Beátus vir, cui non imputávit Dóminus peccátum.",
+      "tercer": "Dedit ei Dóminus potestátem et honórem et regnum, et omnes pópuli ipsi sérvient.",
+      "gospel": "Quinquagínta annos nondum habes et Abraham vidísti? Amen dico vobis, ántequam Abraham fíeret, ego sum."
+    }
+  },
+  "lent_5_friday": {
+    "lauds": {
+      "primer": "Acceptábis sacrifícium iustítiæ super altáre tuum, Dómine.",
+      "segundo": "In Dómino iustificábitur et laudábitur omne semen Israel.",
+      "tercer": "Introíte in conspéctu Dómini in exsultatióne.",
+      "gospel": "Multa bona ópera operátus sum vobis, dicit Dóminus; propter quod opus vultis me occídere?"
+    },
+    "vespers": {
+      "primer": "Sana, Dómine, ánimam meam, quia peccávi tibi.",
+      "segundo": "Dóminus virtútum nobíscum, refúgium nobis Deus Iacob.",
+      "tercer": "Omnes gentes vénient et adorábunt coram te, Dómine.",
+      "gospel": "Si mihi non créditis, opéribus crédite, quæ ego fácio in nómine Dei."
+    }
+  },
+  "lent_5_saturday": {
+    "lauds": {
+      "primer": "Prævenérunt óculi mei ad te dilúculo.",
+      "segundo": "Fortitúdo mea et laus mea Dóminus, et factus est mihi in salútem.",
+      "tercer": "Laudáte Dóminum, omnes gentes.",
+      "gospel": "Iesus mórtuus est, ut fílios Dei qui erant dispérsi congregáret in unum."
+    },
+    "vespers": {
+      "primer": "Tanto témpore vobíscum eram, docens vos in templo, et non me tenuístis; modo flagellátum dúcitis ad crucifigéndum.",
+      "segundo": "Dóminus Deus auxiliátor meus, et ídeo non sum confúsus.",
+      "tercer": "Humiliávit semetípsum Dóminus Iesus, factus obœ́diens usque ad mortem, mortem autem crucis.",
+      "gospel": "Ave, Rex noster, Fili David, Redemptor mundi, quem prophétæ prædixérunt Salvatórem dómui Israel esse ventúrum."
+    }
+  },
+  "palm_sunday_of_the_passion_of_the_lord": {
+    "lauds": {
+      "primer": "Turba multa, quæ convénerat ad diem festum, clamábat Dómino: Benedíctus qui venit in nómine Dómini, hosánna in excélsis.",
+      "segundo": "Cum ángelis et púeris fidéles inveniámur, triumphatóri mortis clamántes: Hosánna in excélsis.",
+      "tercer": "Benedíctus qui venit in nómine Dómini; pax in cælo et glória in excélsis.",
+      "gospel": "Fulgéntibus palmis prostérnimur adveniénti Dómino; huic omnes occurrámus cum hymnis et cánticis, glorificántes et dicéntes: Benedíctus Dóminus."
+    },
+    "vespers": {
+      "primer": "Percússum et humiliátum exaltávit Deus déxtera sua.",
+      "segundo": "Sanguis Christi emúndat nos ad serviéndum Deo vivénti.",
+      "tercer": "Peccáta nostra ipse pértulit in córpore suo super lignum, ut, peccátis mórtui, iustítiæ vivámus.",
+      "gospel": "Scriptum est: Percútiam pastórem, et dispergéntur oves gregis; postquam autem resurréxero, præcédam vos in Galilǽam; ibi me vidébitis, dicit Dóminus."
+    }
+  },
+  "holy_monday": {
+    "lauds": {
+      "primer": "Ait Iesus: Tristis est ánima mea usque ad mortem; sustinéte hic et vigiláte mecum.",
+      "segundo": "Nunc iudícium est mundi, nunc princeps huius mundi eiciétur foras.",
+      "tercer": "Auctor fídei nostræ et consummátor Iesus sustínuit crucem, confusióne contémpta, atque in déxtera Dei sedet.",
+      "gospel": "Pater iuste, mundus te non cognóvit; ego autem novi te, quia tu me misísti."
+    },
+    "vespers": {
+      "primer": "Non est ei spécies neque decor; et vídimus eum, et non erat aspéctus.",
+      "segundo": "Dispértiam ei plúrimos, pro eo quod trádidit in mortem ánimam suam.",
+      "tercer": "Gratificávit nos Deus in dilécto Fílio suo, in quo habémus redemptiónem per sánguinem eius.",
+      "gospel": "Sicut Móyses exaltávit serpéntem in desérto, ita exaltári opórtet Fílium hóminis, ut omnis qui credit in ipsum non péreat, sed hábeat vitam ætérnam."
+    }
+  },
+  "holy_tuesday": {
+    "lauds": {
+      "primer": "Discérne causam meam, Dómine; ab hómine iníquo et dolóso érue me.",
+      "segundo": "Iudicásti, Dómine, causam ánimæ meæ, defénsor vitæ meæ, Dómine Deus meus.",
+      "tercer": "Iustificábit iustus servus meus multos, et iniquitátes eórum ipse portábit.",
+      "gospel": "Clarífica me, Pater, apud temetípsum, claritáte quam hábui, priúsquam mundus fíeret."
+    },
+    "vespers": {
+      "primer": "Contumélias et terróres passus sum ab eis, et Dóminus mecum est tamquam bellátor fortis.",
+      "segundo": "Líbera me, Dómine, et pone me iuxta te, et cuiúsvis manus pugnet contra me.",
+      "tercer": "Occísus es, Dómine, et redemísti nos Deo in sánguine tuo.",
+      "gospel": "Potestátem hábeo ponéndi ánimam meam, et íterum suméndi eam."
+    }
+  },
+  "holy_wednesday": {
+    "lauds": {
+      "primer": "In die tribulatiónis meæ Deum exquisívi mánibus meis.",
+      "segundo": "Si mórtui sumus cum Christo, crédimus quia simul étiam vivémus cum Christo.",
+      "tercer": "Christus Iesus factus est nobis sapiéntia a Deo, et iustítia et sanctificátio et redémptio.",
+      "gospel": "Sanguis Christi, qui per Spíritum Sanctum óbtulit semetípsum immaculátum Deo, emúndat consciéntiam nostram ab opéribus mórtuis ad serviéndum Deo vivénti."
+    },
+    "vespers": {
+      "primer": "Dixérunt ímpii: Opprimámus virum iustum, quóniam contrárius est opéribus nostris.",
+      "segundo": "Ipse peccáta multórum tulit, et pro transgressóribus rogávit.",
+      "tercer": "In Christo habémus redemptiónem per sánguinem eius, remissiónem peccatórum.",
+      "gospel": "Magíster dicit: Tempus meum prope est; apud te fácio Pascha cum discípulis meis."
+    }
+  },
+  "holy_thursday": {
+    "lauds": {
+      "primer": "Víde, Dómine, et consídera quóniam tríbulor; velóciter exáudi me.",
+      "segundo": "Ecce Deus salvátor meus; fiduciáliter agam, et non timébo.",
+      "tercer": "Cibávit nos Dóminus ex ádipe fruménti, et de petra melle saturávit nos.",
+      "gospel": "Desidério desiderávi hoc Pascha manducáre vobíscum, ántequam pátiar."
+    },
+    "vespers": {
+      "primer": "Fecit nos Deo et Patri suo regnum, primogénitus mortuórum et princeps regum terræ.",
+      "segundo": "Liberábit Dóminus páuperem a poténte, et ínopem cui non erat adiútor.",
+      "tercer": "Sancti vicérunt propter sánguinem Agni et propter verbum testimónii sui.",
+      "gospel": "Cenántibus illis, accépit Iesus panem, et benedíxit, ac fregit, dedítque discípulis suis."
+    }
+  },
+  "friday_of_the_passion_of_the_lord": {
+    "lauds": {
+      "primer": "Próprio Fílio suo non pepércit Deus, sed pro nobis ómnibus trádidit illum.",
+      "segundo": "Iesus Christus diléxit nos, et lavit nos a peccátis nostris in sánguine suo.",
+      "tercer": "Crucem tuam adorámus, Dómine, et sanctam resurrectiónem tuam laudámus et glorificámus: ecce enim propter lignum venit gáudium in universo mundo.",
+      "gospel": "Posuérunt super caput eius causam ipsíus scriptam: Iesus Nazarénus, rex Iudæórum."
+    },
+    "vespers": {
+      "primer": "Attendite, univérsi pópuli, et vidéte dolórem meum.",
+      "segundo": "Anxiátus est in me spíritus meus; in me turbátum est cor meum.",
+      "tercer": "Cum accepísset Iesus acétum, dixit: Consummátum est; et inclináto cápite trádidit spíritum.",
+      "gospel": "Cum inimíci essémus, reconciliáti sumus Deo per mortem Fílii eius."
+    }
+  },
+  "holy_saturday": {
+    "lauds": {
+      "primer": "Plangent eum quasi unigénitum, quia ínnocens Dóminus occísus est.",
+      "segundo": "A porta ínferi érue, Dómine, ánimam meam.",
+      "tercer": "Ego fui mórtuus, et ecce sum vivens in sæcula sæculórum, et hábeo claves mortis et inférni.",
+      "gospel": "Salvátor mundi, salva nos, qui per crucem et sánguinem redemísti nos; auxiliáre nobis, te deprecámur, Deus noster."
+    },
+    "vespers": {
+      "primer": "O mors, ero mors tua; morsus tuus ero, inférne.",
+      "segundo": "Sicut fuit Ionas in ventre ceti tribus diébus et tribus nóctibus, ita erit Fílius hóminis in corde terræ.",
+      "tercer": "Sólvite templum hoc, dicit Dóminus, et post tríduum reædificábo illud. Hoc autem dicébat de templo córporis sui.",
+      "gospel": "Nunc clarificátus est Fílius hóminis, et Deus clarificátus est in eo, et contínuo clarificábit illum."
+    }
+  },
+  "easter_sunday": {
+    "lauds": {
+      "primer": "Surréxit Christus et illúxit pópulo suo, quem redémit sánguine suo, allelúia.",
+      "segundo": "Redémptor noster surréxit de sepúlcro: hymnum dicámus Dómino Deo nostro, allelúia.",
+      "tercer": "Allelúia, resurréxit Dóminus sicut dixit vobis, allelúia.",
+      "gospel": "Et valde mane, una sabbatórum, véniunt ad monuméntum, orto iam sole, allelúia."
+    },
+    "vespers": {
+      "primer": "Venérunt ad monuméntum María Magdaléne et áltera María vidére sepúlcrum, allelúia.",
+      "segundo": "Veníte, et vidéte locum ubi pósitus erat Dóminus, allelúia.",
+      "tercer": "Ait Iesus: Nolíte timére; ite, nuntiáte frátribus meis ut eant in Galilæam; ibi me vidébitis, allelúia.",
+      "gospel": "Cum esset sero die illo una sabbatórum, et fores essent clausæ ubi erant discípuli congregáti, stetit Iesus in médio et dixit eis: Pax vobis, allelúia."
+    }
+  },
+  "easter_monday": {
+    "lauds": {
+      "primer": "Surréxit Christus et illúxit pópulo suo, quem redémit sánguine suo, allelúia.",
+      "segundo": "Redémptor noster surréxit de sepúlcro: hymnum dicámus Dómino Deo nostro, allelúia.",
+      "tercer": "Allelúia, resurréxit Dóminus sicut dixit vobis, allelúia.",
+      "gospel": "Cito eúntes, dícite discípulis quia surréxit Dóminus, allelúia."
+    },
+    "vespers": {
+      "primer": "Venérunt ad monuméntum María Magdaléne et áltera María vidére sepúlcrum, allelúia.",
+      "segundo": "Veníte, et vidéte locum ubi pósitus erat Dóminus, allelúia.",
+      "tercer": "Ait Iesus: Nolíte timére; ite, nuntiáte frátribus meis ut eant in Galilæam; ibi me vidébitis, allelúia.",
+      "gospel": "Iesus occúrrit muliéribus, dicens: Avéte. Illæ autem accessérunt et tenuérunt pedes eius, allelúia."
+    }
+  },
+  "easter_tuesday": {
+    "lauds": {
+      "primer": "Surréxit Christus et illúxit pópulo suo, quem redémit sánguine suo, allelúia.",
+      "segundo": "Redémptor noster surréxit de sepúlcro: hymnum dicámus Dómino Deo nostro, allelúia.",
+      "tercer": "Allelúia, resurréxit Dóminus sicut dixit vobis, allelúia.",
+      "gospel": "Dixit Iesus: María. Convérsa illa dicit ei: Rabbóni. Et dicit ei: Noli me tángere; nondum enim ascéndi ad Patrem meum, allelúia."
+    },
+    "vespers": {
+      "primer": "Venérunt ad monuméntum María Magdaléne et áltera María vidére sepúlcrum, allelúia.",
+      "segundo": "Veníte, et vidéte locum ubi pósitus erat Dóminus, allelúia.",
+      "tercer": "Ait Iesus: Nolíte timére; ite, nuntiáte frátribus meis ut eant in Galilæam; ibi me vidébitis, allelúia.",
+      "gospel": "Dum flerem ad monuméntum, vidi Dóminum meum, allelúia."
+    }
+  },
+  "easter_wednesday": {
+    "lauds": {
+      "primer": "Surréxit Christus et illúxit pópulo suo, quem redémit sánguine suo, allelúia.",
+      "segundo": "Redémptor noster surréxit de sepúlcro: hymnum dicámus Dómino Deo nostro, allelúia.",
+      "tercer": "Allelúia, resurréxit Dóminus sicut dixit vobis, allelúia.",
+      "gospel": "Incípiens Iesus a Móyse et ómnibus prophétis, interpretabátur illis Scriptúras quæ de ipso erant, allelúia."
+    },
+    "vespers": {
+      "primer": "Venérunt ad monuméntum María Magdaléne et áltera María vidére sepúlcrum, allelúia.",
+      "segundo": "Veníte, et vidéte locum ubi pósitus erat Dóminus, allelúia.",
+      "tercer": "Ait Iesus: Nolíte timére; ite, nuntiáte frátribus meis ut eant in Galilæam; ibi me vidébitis, allelúia.",
+      "gospel": "Intrávit Iesus cum illis; et factum est, dum recúmberet, accépit panem, benedíxit ac fregit, et porrigébat illis, allelúia."
+    }
+  },
+  "easter_thursday": {
+    "lauds": {
+      "primer": "Surréxit Christus et illúxit pópulo suo, quem redémit sánguine suo, allelúia.",
+      "segundo": "Redémptor noster surréxit de sepúlcro: hymnum dicámus Dómino Deo nostro, allelúia.",
+      "tercer": "Allelúia, resurréxit Dóminus sicut dixit vobis, allelúia.",
+      "gospel": "Stetit Iesus in médio discipulórum suórum, et dixit eis: Pax vobis, allelúia."
+    },
+    "vespers": {
+      "primer": "Venérunt ad monuméntum María Magdaléne et áltera María vidére sepúlcrum, allelúia.",
+      "segundo": "Veníte, et vidéte locum ubi pósitus erat Dóminus, allelúia.",
+      "tercer": "Ait Iesus: Nolíte timére; ite, nuntiáte frátribus meis ut eant in Galilæam; ibi me vidébitis, allelúia.",
+      "gospel": "Vidéte manus meas et pedes meos, quia ego ipse sum, allelúia."
+    }
+  },
+  "easter_friday": {
+    "lauds": {
+      "primer": "Surréxit Christus et illúxit pópulo suo, quem redémit sánguine suo, allelúia.",
+      "segundo": "Redémptor noster surréxit de sepúlcro: hymnum dicámus Dómino Deo nostro, allelúia.",
+      "tercer": "Allelúia, resurréxit Dóminus sicut dixit vobis, allelúia.",
+      "gospel": "Hoc iam tértio manifestávit se Iesus discípulis suis, postquam resurréxit a mórtuis, allelúia."
+    },
+    "vespers": {
+      "primer": "Venérunt ad monuméntum María Magdaléne et áltera María vidére sepúlcrum, allelúia.",
+      "segundo": "Veníte, et vidéte locum ubi pósitus erat Dóminus, allelúia.",
+      "tercer": "Ait Iesus: Nolíte timére; ite, nuntiáte frátribus meis ut eant in Galilæam; ibi me vidébitis, allelúia.",
+      "gospel": "Dixit discípulus ille, quem diligébat Iesus: Dóminus est, allelúia."
+    }
+  },
+  "easter_saturday": {
+    "lauds": {
+      "primer": "Surréxit Christus et illúxit pópulo suo, quem redémit sánguine suo, allelúia.",
+      "segundo": "Redémptor noster surréxit de sepúlcro: hymnum dicámus Dómino Deo nostro, allelúia.",
+      "tercer": "Allelúia, resurréxit Dóminus sicut dixit vobis, allelúia.",
+      "gospel": "Surgens Iesus mane prima sábbati, appáruit primo Maríæ Magdalénæ, de qua eiécerat septem dæmónia, allelúia."
+    },
+    "vespers": {
+      "primer": "Venérunt ad monuméntum María Magdaléne et áltera María vidére sepúlcrum, allelúia.",
+      "segundo": "Veníte, et vidéte locum ubi pósitus erat Dóminus, allelúia.",
+      "tercer": "Ait Iesus: Nolíte timére; ite, nuntiáte frátribus meis ut eant in Galilæam; ibi me vidébitis, allelúia.",
+      "gospel": "Post dies octo, iánuis clausis, ingréssus Dóminus dixit eis: Pax vobis, allelúia."
+    }
+  },
+  "divine_mercy_sunday": {
+    "lauds": {
+      "primer": "Surréxit Christus et illúxit pópulo suo, quem redémit sánguine suo, allelúia.",
+      "segundo": "Redémptor noster surréxit de sepúlcro: hymnum dicámus Dómino Deo nostro, allelúia.",
+      "tercer": "Allelúia, resurréxit Dóminus sicut dixit vobis, allelúia.",
+      "gospel": "Mitte manum tuam et cognósce loca clavórum, et noli esse incrédulus sed fidélis, allelúia."
+    },
+    "vespers": {
+      "primer": "Venérunt ad monuméntum María Magdaléne et áltera María vidére sepúlcrum, allelúia.",
+      "segundo": "Veníte, et vidéte locum ubi pósitus erat Dóminus, allelúia.",
+      "tercer": "Ait Iesus: Nolíte timére; ite, nuntiáte frátribus meis ut eant in Galilæam; ibi me vidébitis, allelúia.",
+      "gospel": "Quia vidísti me, Thoma, credidísti; beáti qui non vidérunt et credidérunt, allelúia."
+    }
+  },
+  "easter_time_2_monday": {
+    "lauds": {
+      "primer": "Sicut cervus ad fontes aquárum, desíderat ánima mea ad te, Deus, allelúia.",
+      "segundo": "Reple Sion, Dómine, verbis tuis, ut narréntur magnália tua, allelúia.",
+      "tercer": "Cláritas Dei illúminat civitátem, et lucérna eius est Agnus, allelúia."
+    },
+    "vespers": {
+      "primer": "Benedíctus qui venit in nómine Dómini, allelúia.",
+      "segundo": "Beáti qui ad cenam nuptiárum Agni vocáti sunt, allelúia.",
+      "tercer": "De plenitúdine eius omnes nos accépimus, et grátiam pro grátia, allelúia.",
+      "gospel": "Quod natum est ex carne, caro est; et quod natum est ex Spíritu, Spíritus est, allelúia."
+    }
+  },
+  "easter_time_2_tuesday": {
+    "lauds": {
+      "primer": "Accessístis ad Sion montem et civitátem Dei vivéntis, allelúia.",
+      "segundo": "Tu, Dómine, eruísti ánimam meam, ut non períret, allelúia.",
+      "tercer": "Visitásti terram et inebriásti eam, allelúia.",
+      "gospel": "Ego sum alpha et omega, primus et novíssimus; ego sum radix et genus David, stella spléndida et matutína, allelúia."
+    },
+    "vespers": {
+      "primer": "Quæ sursum sunt quærite, non quæ super terram, allelúia.",
+      "segundo": "Redémit Dóminus ánimam meam de manu ínferi, allelúia.",
+      "tercer": "Tua est, Dómine, magnificéntia et poténtia et glória atque victória, allelúia.",
+      "gospel": "Nonne cor nostrum ardens erat in nobis, dum Iesus loquerétur nobis in via? Allelúia."
+    }
+  },
+  "easter_time_2_wednesday": {
+    "lauds": {
+      "primer": "Vidérunt te aquæ, Deus; per mare deduxísti pópulum tuum, allelúia.",
+      "segundo": "Dóminus mortíficat et vivíficat, allelúia.",
+      "tercer": "Lux orta est iusto, et rectis corde lætítia, allelúia.",
+      "gospel": "Sic Deus diléxit mundum, ut Fílium suum unigénitum daret; ut omnis, qui credit in ipsum, non péreat, sed hábeat vitam ætérnam, allelúia."
+    },
+    "vespers": {
+      "primer": "Non turbétur cor vestrum; tantum in me crédite, allelúia.",
+      "segundo": "Confiteántur tibi pópuli, Deus, exsúltent in salutári tuo, allelúia.",
+      "tercer": "Opéruit cælos glória eius, et laudis eius plena est terra, allelúia.",
+      "gospel": "Qui facit veritátem, venit ad lucem, allelúia."
+    }
+  },
+  "easter_time_2_thursday": {
+    "lauds": {
+      "primer": "Ego sum vitis vera, allelúia, et vos pálmites mei, allelúia.",
+      "segundo": "Hauriétis aquas in gáudio de fóntibus Salvatóris, allelúia.",
+      "tercer": "Cibávit nos Dóminus ex ádipe fruménti, et de petra melle saturávit nos.",
+      "gospel": "Pater díligit Fílium, et ómnia dedit in manu eius, allelúia."
+    },
+    "vespers": {
+      "primer": "Ipse constitútus est a Deo iudex vivórum et mortuórum, allelúia.",
+      "segundo": "Benedicéntur in ipso omnes tribus terræ, allelúia.",
+      "tercer": "Iesus Christus heri et hódie, ipse et in sæcula, allelúia.",
+      "gospel": "Qui credit in Fílium habet vitam ætérnam, allelúia."
+    }
+  },
+  "easter_time_2_friday": {
+    "lauds": {
+      "primer": "Confíde, fili, remittúntur tibi peccáta tua, allelúia.",
+      "segundo": "Egréssus es, Dómine, in salútem pópuli tui, cum Christo tuo, allelúia.",
+      "tercer": "Lauda Deum tuum, Sion, qui pósuit fines tuos pacem, allelúia.",
+      "gospel": "Accépit Iesus panes et, cum grátias egísset, distríbuit discumbéntibus, allelúia."
+    },
+    "vespers": {
+      "primer": "De angústiis inférni Dóminus erípuit ánimam meam, allelúia.",
+      "segundo": "Quasi pupíllam óculi sui custodívit Dóminus pópulum suum, allelúia.",
+      "tercer": "Fortitúdo mea et laus mea Dóminus, et factus est mihi in salútem, allelúia.",
+      "gospel": "Crucem sanctam súbiit, qui inférnum confrégit; accínctus est poténtia, surréxit die tértia, allelúia."
+    }
+  },
+  "easter_time_2_saturday": {
+    "lauds": {
+      "primer": "Delectásti me, Dómine, et in opéribus mánuum tuárum exsultábo, allelúia.",
+      "segundo": "Ego occídam et vívere fáciam; percútiam et ego sanábo, allelúia.",
+      "tercer": "Glória et honóre coronásti Christum tuum, allelúia.",
+      "gospel": "Pax vobis, ego sum: nolíte timére, allelúia."
+    },
+    "vespers": {
+      "primer": "Excélsus super omnes cælos Deus, suscitávit a terra ínopem, allelúia.",
+      "segundo": "Dirupísti, Dómine, víncula mea: tibi sacrificábo hóstiam laudis, allelúia.",
+      "tercer": "Fílius Dei dídicit ex iis quæ passus est obœdiéntiam, et factus est ómnibus obtemperántibus sibi causa salútis ætérnæ, allelúia.",
+      "gospel": "$ Año A: $Mane nobíscum, quóniam advesperáscit et inclináta est iam dies, allelúia. (verified, exact match, from Ad I Vesperas of Dominica III Paschæ 2026)\n$Año B / Año C: $not independently verified for this I Vesperas slot; the corresponding II Vesperas Año B text (2024, Luke 24:36 'Ipse Iesus stetit in medio discipulorum...') did not verbally match the Spanish Año B citation for this slot (which corresponds instead to Luke 24:35), and the II Vesperas Año C source page (2025) returned an unrelated non-Paschal antiphon (likely a site data error) — left unverified rather than fabricated."
+    }
+  },
+  "easter_time_3_sunday": {
+    "lauds": {
+      "primer": "Dóminus regnávit, decórem indútus est, allelúia.",
+      "segundo": "Liberábitur creatúra in libertátem glóriæ filiórum Dei, allelúia.",
+      "tercer": "Exaltátum est nomen Dómini super cælum et terram, allelúia.",
+      "gospel": "$ Año A: $Oportébat Christum pati et resúrgere a mórtuis tértia die, allelúia. (verified, exact match, Dominica III Paschæ 2026)\n$Año B: $Vidéte manus meas et pedes meos, quia ego ipse sum, allelúia. (2024 source; same Gospel pericope Lk 24:36-48, but a different verse than the Spanish citation — meaning roughly matches, not verbatim)\n$Año C: $Venit Iesus et áccipit panem et dat eis, et piscem simíliter. Hoc iam tértio manifestátus est Iesus discípulis, cum resurrexísset a mórtuis, allelúia. (2025 source; same Gospel pericope Io 21, but a different verse than the Spanish citation — meaning roughly matches, not verbatim)"
+    },
+    "vespers": {
+      "primer": "Purgatiónem peccatórum fáciens, sedet ad déxteram maiestátis in excélsis, allelúia.",
+      "segundo": "Redemptiónem misit Dóminus pópulo suo, allelúia.",
+      "tercer": "Allelúia, regnávit Dóminus noster; exsultémus et demus glóriam ei, allelúia.",
+      "gospel": "$ Año A: $Mane nobíscum, quóniam advesperáscit et inclináta est iam dies, allelúia. (verified, exact match, Dominica III Paschæ 2026)\n$Año B: $Ipse Iesus stetit in médio discipulórum, et dicit eis: Pax vobis, allelúia. (2024 source; same broader pericope, Lk 24:36, but a different verse than the Spanish Año B citation which corresponds to Lk 24:35 — left as found, meaning roughly related, not verbatim)\n$Año C: $not verified — the 2025 source page for this slot (Ad II Vesperas, Dominica III Paschæ) returned an antiphon unrelated to Easter (Lk 9:20, Peter's confession), apparently a data error on the source site; not used to avoid fabricating an incorrect match."
+    }
+  },
+  "easter_time_3_monday": {
+    "lauds": {
+      "primer": "Cor meum et caro mea exsultavérunt in Deum vivum, allelúia.",
+      "segundo": "Eleváta est domus Dómini, et fluent ad eam omnes gentes, allelúia.",
+      "tercer": "Dícite in géntibus: Dóminus regnávit, allelúia.",
+      "gospel": "Operámini non cibum qui perit, sed qui pérmanet in vitam ætérnam, allelúia."
+    },
+    "vespers": {
+      "primer": "Erit tibi Dóminus in lucem sempitérnam, et Deus tuus in glóriam tuam, allelúia.",
+      "segundo": "Láqueus contrítus est, et nos liberáti sumus, allelúia.",
+      "tercer": "Ego, si exaltátus fúero a terra, ómnia traham ad meípsum, allelúia.",
+      "gospel": "Hoc est opus Dei, ut credátis in eum, quem misit ille, allelúia."
+    }
+  },
+  "easter_time_3_tuesday": {
+    "lauds": {
+      "primer": "Deus, tu convérsus vivificábis nos; et plebs tua lætábitur in te, allelúia.",
+      "segundo": "Sperávimus in Dómino; dedit pacem nobis, allelúia.",
+      "tercer": "Terra dedit fructum suum; læténtur et exsúltent gentes, allelúia.",
+      "gospel": "Amen, amen dico vobis: non Móyses dedit vobis panem de cælo, sed Pater meus dat vobis panem de cælo verum, allelúia."
+    },
+    "vespers": {
+      "primer": "Pax vobis, ego sum: nolíte timére, allelúia.",
+      "segundo": "Speret Israel in Dómino, allelúia.",
+      "tercer": "Tibi sérviat omnis creatúra tua, quia dixísti et facta sunt, allelúia.",
+      "gospel": "Panis Dei est, qui de cælo descéndit et dat vitam mundo, allelúia."
+    }
+  },
+  "easter_time_3_wednesday": {
+    "lauds": {
+      "primer": "Omnes gentes vénient et adorábunt coram te, Dómine.",
+      "segundo": "Regem in decóre suo vidébunt óculi nostri, allelúia.",
+      "tercer": "Vidébit omnis caro salutáre Dei nostri, allelúia.",
+      "gospel": "Omnis qui videt Fílium et credit in eum, habet vitam ætérnam, et ego resuscitábo eum in novíssimo die, allelúia."
+    },
+    "vespers": {
+      "primer": "Tristítia vestra vertétur in gáudium, allelúia.",
+      "segundo": "Sive vívimus sive mórimur, Dómini sumus, allelúia.",
+      "tercer": "Ex ipso et per ipsum et in ipso sunt ómnia: ipsi glória in sæcula, allelúia.",
+      "gospel": "Omne quod dat mihi Pater, ad me véniet; et eum qui venit ad me, non eíciam foras, allelúia."
+    }
+  },
+  "easter_time_3_thursday": {
+    "lauds": {
+      "primer": "Cantabimus sicut choros ducentes: omnes fontes mei sunt in te, civitas Dei, alleluia.",
+      "segundo": "Sicut pastor, congregabit agnos et in sinu suo levabit, alleluia.",
+      "tercer": "Dominus in Sion magnus, et excelsus super omnes populos, alleluia.",
+      "gospel": "Amen, amen dico vobis: Qui credit in me, habet vitam aeternam, alleluia."
+    },
+    "vespers": {
+      "primer": "Dedit illi Dominus Deus sedem David patris eius, alleluia.",
+      "segundo": "Iesus Christus solus potens, rex regum et Dominus dominantium, alleluia.",
+      "tercer": "Quis similis tui in fortibus, Domine? Quis similis tui, magnificus in sanctitate? Alleluia.",
+      "gospel": "Ego sum panis vivus qui de caelo descendi. Si quis manducaverit ex hoc pane, vivet in aeternum; et panis quem ego dabo, caro mea est pro mundi vita, alleluia."
+    }
+  },
+  "easter_time_3_friday": {
+    "lauds": {
+      "primer": "Amplius lava me, Domine, ab iniustitia mea.",
+      "segundo": "Christus peccata nostra pertulit in corpore suo super lignum.",
+      "tercer": "Introite in conspectu Domini in exsultatione, alleluia.",
+      "gospel": "Qui manducat meam carnem et bibit meum sanguinem, in me manet et ego in eo, alleluia."
+    },
+    "vespers": {
+      "primer": "Ego Dominus salvans te et redemptor tuus, alleluia.",
+      "segundo": "Benedictum quod venit regnum patris nostri David, alleluia.",
+      "tercer": "Cantemus Domino: gloriose enim magnificatus est, alleluia.",
+      "gospel": "Crucifixus surrexit a mortuis et redemit nos, alleluia."
+    }
+  },
+  "easter_time_3_saturday": {
+    "lauds": {
+      "primer": "Verba, quae ego locutus sum vobis, spiritus et vita sunt, alleluia.",
+      "segundo": "Aedificasti templum et altare in monte sancto tuo, Domine, alleluia.",
+      "tercer": "Ego sum via et veritas et vita, alleluia.",
+      "gospel": "Dixit Simon Petrus: Domine, ad quem ibimus? Verba vitae aeternae habes; et nos credidimus et cognovimus quia tu es Christus Filius Dei, alleluia."
+    },
+    "vespers": {
+      "primer": "Pax Christi exsultet in cordibus vestris, alleluia.",
+      "segundo": "Redemisti nos Deo in sanguine tuo, alleluia.",
+      "tercer": "Nonne haec oportuit pati Christum, et ita intrare in gloriam suam? Alleluia.",
+      "gospel": "Ego sum ostium, dicit Dominus; per me si quis introierit, salvabitur et pascua inveniet, alleluia."
+    }
+  },
+  "easter_time_4_sunday": {
+    "lauds": {
+      "primer": "Non moriar, sed vivam et narrabo opera Domini, alleluia.",
+      "segundo": "Benedictum nomen gloriae tuae sanctum, alleluia.",
+      "tercer": "Date magnificentiam Deo nostro; Dei perfecta sunt opera, et omnes viae eius iudicia, alleluia.",
+      "gospel": "$ Año A: $Ego sum ostium, dicit Dominus; per me si quis introierit, salvabitur et pascua inveniet, alleluia.\n$Año B: $Ego sum pastor ovium; ego sum via, veritas et vita; ego sum pastor bonus, et cognosco oves meas, et cognoscunt me meae, alleluia.\n$Año C: $Ego vitam aeternam do ovibus meis, et non peribunt in aeternum, et non rapiet eas quisquam de manu mea, alleluia."
+    },
+    "vespers": {
+      "primer": "Quae sursum sunt quaerite, ubi Christus est in dextera Dei sedens, alleluia.",
+      "segundo": "Exortum est in tenebris lumen rectis corde.",
+      "tercer": "Alleluia, salus et gloria et virtus Deo nostro, alleluia.",
+      "gospel": "$ Año A: $Ego sum pastor bonus: ego veni, ut vitam habeant, et abundantius habeant, alleluia.\n$Año B: $Alias oves habeo, quae non sunt ex hoc ovili, et illas oportet me adducere, et vocem meam audient, et fient unus grex, unus pastor, alleluia.\n$Año C: $Pater meus quod dedit mihi, maius omnibus est, et nemo potest rapere de manu Patris, alleluia."
+    }
+  },
+  "easter_time_4_monday": {
+    "lauds": {
+      "primer": "Sit splendor Domini Dei nostri super nos, alleluia.",
+      "segundo": "Ponam tenebras coram eis in lucem, alleluia.",
+      "tercer": "Omnia quaecumque voluit Dominus fecit, alleluia.",
+      "gospel": "Ego sum pastor bonus, qui pasco oves meas, et pro ovibus meis pono animam meam, alleluia."
+    },
+    "vespers": {
+      "primer": "Si quis in Christo, nova creatura, alleluia.",
+      "segundo": "Nos diligamus Deum, quoniam ipse prior dilexit nos, alleluia.",
+      "tercer": "De plenitudine eius omnes nos accepimus, et gratiam pro gratia, alleluia.",
+      "gospel": "Alias oves habeo, quae non sunt ex hoc ovili; et illas oportet me adducere, et vocem meam audient, et fiet unum ovile et unus pastor, alleluia."
+    }
+  },
+  "easter_time_4_tuesday": {
+    "lauds": {
+      "primer": "Qui facit voluntatem Patris mei, ipse intrabit in regnum caelorum, alleluia.",
+      "segundo": "Sciant gentes, Domine, misericordiam tuam a nobis, alleluia.",
+      "tercer": "Dominus refugium meum et liberator meus, alleluia.",
+      "gospel": "Opera quae ego facio testimonium perhibent de me, quia Pater me misit, dicit Dominus."
+    },
+    "vespers": {
+      "primer": "Hymnum cantate nobis de canticis Sion, alleluia.",
+      "segundo": "In medio tribulationis vivificasti me, alleluia.",
+      "tercer": "Tua est, Domine, magnificentia et potentia et gloria atque victoria, alleluia.",
+      "gospel": "Ego cognosco oves meas, et sequuntur me; et vitam aeternam do eis, alleluia."
+    }
+  },
+  "easter_time_4_wednesday": {
+    "lauds": {
+      "primer": "Exaltare super omnes caelos, Deus, alleluia.",
+      "segundo": "Dominus germinavit iustitiam et laudem coram universis gentibus, alleluia.",
+      "tercer": "Regnabit Dominus in saecula, Deus tuus, Sion, alleluia.",
+      "gospel": "Ego lux in mundum veni, ut omnis qui credit in me in tenebris non maneat, dicit Dominus, alleluia."
+    },
+    "vespers": {
+      "primer": "Nox sicut dies illuminabitur, alleluia.",
+      "segundo": "Ego cognosco oves meas, et cognoscunt me meae, alleluia.",
+      "tercer": "Operuit caelos gloria eius, et laudis eius plena est terra, alleluia.",
+      "gospel": "Non misit Deus Filium suum in mundum, ut iudicet mundum, sed ut salvetur mundus per ipsum, alleluia."
+    }
+  },
+  "easter_time_4_thursday": {
+    "lauds": {
+      "primer": "Propter nomen tuum, Domine, vivificabis me, alleluia.",
+      "segundo": "Iterum videbo vos, et gaudebit cor vestrum, alleluia.",
+      "tercer": "Aedificat Ierusalem Dominus et sanat contritos corde, alleluia.",
+      "gospel": "Non est discipulus super magistrum; perfectus autem omnis erit, si sit sicut magister eius, alleluia."
+    },
+    "vespers": {
+      "primer": "Susceptor meus et liberator meus Dominus, alleluia.",
+      "segundo": "Gratias Deo, qui dedit nobis victoriam per Dominum nostrum Iesum Christum, alleluia.",
+      "tercer": "Iesus Christus heri et hodie, ipse et in saecula, alleluia.",
+      "gospel": "Ego sum pastor ovium; veni ut vitam habeant, et abundantius habeant, alleluia."
+    }
+  },
+  "easter_time_4_friday": {
+    "lauds": {
+      "primer": "Christus se tradidit pro nobis oblationem et hostiam Deo, alleluia.",
+      "segundo": "Ierusalem, civitas Dei, luce splendida fulgebis, alleluia.",
+      "tercer": "Vidi Ierusalem novam, sicut sponsam ornatam viro suo.",
+      "gospel": "Vado parare vobis locum, et iterum accipiam vos ad meipsum, ut ubi sum ego et vos sitis, alleluia."
+    },
+    "vespers": {
+      "primer": "Sic Deus dilexit mundum, ut Filium suum unigenitum daret; ut omnis, qui credit in ipsum, non pereat, sed habeat vitam aeternam, alleluia.",
+      "segundo": "Regi saeculorum, immortali et invisibili, omnis honor et gloria, alleluia.",
+      "tercer": "Fortitudo mea et laus mea Dominus, et factus est mihi in salutem, alleluia.",
+      "gospel": "Pastor bonus animam suam posuit pro ovibus suis, alleluia."
+    }
+  },
+  "easter_time_4_saturday": {
+    "lauds": {
+      "primer": "_Quam magnificáta sunt ópera tua, Dómine (T.P. allelúia)._",
+      "segundo": "_Effúndam super vos aquam mundam, allelúia._",
+      "tercer": "_Ómnia vestra, vos autem Christi, Christus autem Dei, allelúia._",
+      "gospel": "_Cum apparúerit princeps pastórum, percipiétis immarcescíbilem glóriæ corónam, allelúia._"
+    },
+    "vespers": {
+      "primer": "_Elevátio mánuum meárum ut sacrifícium vespertínum, allelúia._",
+      "segundo": "_Eduxísti de custódia ánimam meam ad confiténdum nómini tuo, allelúia._",
+      "tercer": "_Fílius Dei dídicit ex iis quæ passus est obœdiéntiam, et factus est ómnibus obtemperántibus sibi causa salútis ætérnæ, allelúia._",
+      "gospel": "$ Año A: $_Si abíero et præparávero vobis locum, íterum vénio et accípiam vos ad meípsum, ut ubi sum ego, et vos sitis, allelúia._\n$Año B: $_Iam vos mundi estis propter sermónem quem locútus sum vobis, allelúia._\n$Año C: $_Nunc clarificátus est Fílius hóminis, et Deus clarificátus est in eo, allelúia._"
+    }
+  },
+  "easter_time_5_sunday": {
+    "lauds": {
+      "primer": "_Qui sitit, accípiat aquam vitæ gratis, allelúia._",
+      "segundo": "_Adoráte Dóminum, qui fecit cælum et terram, mare et fontes aquárum, allelúia._",
+      "tercer": "_Exsultábunt sancti in glória, allelúia._",
+      "gospel": "$ Año A: $Ego sum via, veritas et vita: nemo venit ad Patrem, nisi per me, alleluia.\n$Año B: $Qui manet in me, et ego in eo, hic fert fructum multum, dicit Dominus, alleluia.\n$Año C: $Mandatum novum do vobis: ut diligatis invicem sicut dilexi vos, dicit Dominus, alleluia."
+    },
+    "vespers": {
+      "primer": "_Surréxit Dóminus et sedet ad déxteram Dei, allelúia._",
+      "segundo": "_Erípuit nos de potestáte tenebrárum et tránstulit in regnum Fílii sui, allelúia._",
+      "tercer": "_Allelúia, regnávit Dóminus noster; exsultémus et demus glóriam ei, allelúia._",
+      "gospel": "$ Año A: $Domine, ostende nobis Patrem, et sufficit nobis. Dicit ei Iesus: Tanto tempore vobiscum sum, et non cognovisti me, Philippe? Qui vidit me, vidit Patrem, alleluia.\n$Año B: $In hoc clarificatus est Pater meus, ut fructum multum afferatis et efficiamini mei discipuli, alleluia.\n$Año C: $In hoc cognoscent omnes quia mei discipuli estis, si dilectionem habueritis ad invicem, alleluia."
+    }
+  },
+  "easter_time_5_monday": {
+    "lauds": {
+      "primer": "_Gloriabúntur in te omnes qui díligunt nomen tuum, allelúia._",
+      "segundo": "_Tuum, Dómine, regnum, et tu es super omnes príncipes, allelúia._",
+      "tercer": "_Sedébit Dóminus rex in ætérnum, allelúia._",
+      "gospel": "_Qui díligit me, diligétur a Patre meo, et ego díligam eum, et manifestábo ei meípsum, allelúia._"
+    },
+    "vespers": {
+      "primer": "_Confídite, ego vici mundum, allelúia._",
+      "segundo": "_Habitábit in tabernáculo tuo, requiéscet in monte sancto tuo, allelúia._",
+      "tercer": "_Ego si exaltátus fúero a terra, ómnia traham ad meípsum, allelúia._",
+      "gospel": "_Paráclitus autem Spíritus Sanctus, quem mittet Pater in nómine meo, ille vos docébit ómnia et súggeret vobis ómnia, quæcúmque díxero vobis, allelúia._"
+    }
+  },
+  "easter_time_5_tuesday": {
+    "lauds": {
+      "primer": "_Qui descéndit, ipse est et qui ascéndit super omnes cælos, allelúia._",
+      "segundo": "_Agite dies lætítiæ et confitémini Dómino, allelúia._",
+      "tercer": "_Misericórdia Dómini plena est terra, allelúia._",
+      "gospel": "_Pacem relínquo vobis, allelúia, pacem meam do vobis, allelúia._"
+    },
+    "vespers": {
+      "primer": "_Nunc factum est regnum Dei nostri, et potéstas Christi eius, allelúia._",
+      "segundo": "_Accepísti virtútem tuam et regnásti, allelúia._",
+      "tercer": "_Tibi sérviat omnis creatúra tua, quia dixísti, et facta sunt, allelúia._",
+      "gospel": "_Si dilígeretis me, gaudéretis útique, quia vado ad Patrem, allelúia._"
+    }
+  },
+  "easter_time_5_wednesday": {
+    "lauds": {
+      "primer": "_Apud te, Dómine, est fons vitæ, allelúia._",
+      "segundo": "_Misísti Spíritum tuum, Dómine, et creáta sunt, allelúia._",
+      "tercer": "_Rex omnis terræ Deus, psállite sapiénter, allelúia._",
+      "gospel": "_Ego sum vitis vera, allelúia, et vos pálmites mei, allelúia._"
+    },
+    "vespers": {
+      "primer": "_Hunc príncipem et salvatórem Deus exaltávit déxtera sua, allelúia._",
+      "segundo": "_Credo vidére bona Dómini in terra vivéntium. (T.P. allelúia.)_",
+      "tercer": "_Ex ipso et per ipsum et in ipso sunt ómnia: ipsi glória in sæcula, allelúia._",
+      "gospel": "_Si manséritis in me, et verba mea in vobis mánserint, quodcúmque petiéritis fiet vobis, allelúia._"
+    }
+  },
+  "easter_time_5_thursday": {
+    "lauds": {
+      "primer": "_Exaltáre super cælos, Deus, allelúia._",
+      "segundo": "_Redémit Dóminus pópulum suum, allelúia._",
+      "tercer": "_Hic est Deus noster in ætérnum, allelúia._",
+      "gospel": "_Si præcépta mea servavéritis, manébitis in dilectióne mea, allelúia._"
+    },
+    "vespers": {
+      "primer": "_Convertísti planctum meum in gáudium mihi, allelúia._",
+      "segundo": "_Reconciliáti sumus Deo per mortem Fílii eius, allelúia._",
+      "tercer": "_Quis símilis tui in fórtibus, Dómine? Quis símilis tui, magníficus in sanctitáte? Allelúia._",
+      "gospel": "_Hæc locútus sum vobis, ut gáudium meum in vobis sit, et gáudium vestrum impleátur, allelúia._"
+    }
+  },
+  "easter_time_5_friday": {
+    "lauds": {
+      "primer": "_Meménto mei, Dómine Deus, dum véneris in regnum tuum, allelúia._",
+      "segundo": "_Vere tu es Deus abscónditus, Deus Israel, salvátor, allelúia._",
+      "tercer": "_Servíte Dómino in lætítia. (T.P. allelúia.)_",
+      "gospel": "_Hoc est præcéptum meum, ut diligátis ínvicem, sicut diléxi vos, allelúia._"
+    },
+    "vespers": {
+      "primer": "_Christus propter nos egénus factus est, ut nos dívites essémus, allelúia._",
+      "segundo": "_Flúminis ímpetus lætíficat civitátem Dei, allelúia._",
+      "tercer": "_Cantémus Dómino: glorióse enim magnificátus est, allelúia._",
+      "gospel": "_Maiórem caritátem nemo habet, ut ánimam suam ponat quis pro amícis suis, allelúia._"
+    }
+  },
+  "easter_time_5_saturday": {
+    "lauds": {
+      "primer": "_Secúndum misericórdiam tuam vivífica me, Dómine, allelúia._",
+      "segundo": "_Qui vicérunt cantábant cánticum Móysis, servi Dei, et cánticum Agni, allelúia._",
+      "tercer": "_Confirmáta est super nos misericórdia eius, allelúia._",
+      "gospel": "_In hoc Christus mórtuus est et resurréxit, ut et mortuórum et vivórum dominétur, allelúia._"
+    },
+    "vespers": {
+      "primer": "_Qui facit veritátem, venit ad lucem, allelúia._",
+      "segundo": "_Solútis dolóribus inférni, Dóminus surréxit, allelúia._",
+      "tercer": "_Nonne hæc opórtuit pati Christum, et ita intráre in glóriam suam, allelúia?_",
+      "gospel": "$ Año A: $_Ego rogábo Patrem, et álium Paráclitum dabit vobis, ut máneat vobíscum in ætérnum, allelúia._\n\n$Año B: $_Sicut diléxit me Pater, et ego diléxi vos; manéte in dilectióne mea, allelúia._\n$Año C: $_Paráclitus autem Spíritus Sanctus, quem mittet Pater in nómine meo, ille vos docébit ómnia et súggeret vobis ómnia, quæcúmque díxero vobis, allelúia._"
+    }
+  },
+  "easter_time_6_sunday": {
+    "lauds": {
+      "primer": "_Hæc dies quam fecit Dóminus, allelúia._",
+      "segundo": "_Benedíctus es in firmaménto cæli, et laudábilis, Deus noster, allelúia._",
+      "tercer": "_Adoráte Deum sedéntem super thronum, dicéntes: Amen, allelúia._",
+      "gospel": "$ Año A: $Non vos relinquam orphanos: vado et venio ad vos, et gaudebit cor vestrum, alleluia.\n$Año B: $Haec locutus sum vobis, ut gaudium meum in vobis sit, et gaudium vestrum impleatur, alleluia.\n$Año C: $Spiritus Sanctus, quem mittet Pater in nomine meo, ille vos docebit omnia et suggeret vobis omnia quae dixi vobis, alleluia."
+    },
+    "vespers": {
+      "primer": "_Suscitávit Christum a mórtuis, et constítuit ad déxteram suam in cæléstibus, allelúia._",
+      "segundo": "_A simulácris convérsi estis ad Deum vivum, allelúia._",
+      "tercer": "_Allelúia, salus et glória et virtus Deo nostro, allelúia._",
+      "gospel": "$ Año A: $Qui diligit me, diligetur a Patre meo; et ego diligam eum, et manifestabo ei meipsum, alleluia.\n$Año B: $Hoc est praeceptum meum, ut diligatis invicem sicut dilexi vos; maiorem hac dilectionem nemo habet, ut animam suam quis ponat pro amicis suis, alleluia.\n$Año C: $Pacem relinquo vobis, pacem meam do vobis; non quomodo mundus dat, ego do vobis. Non turbetur cor vestrum neque formidet, alleluia."
+    }
+  },
+  "easter_time_6_monday": {
+    "lauds": {
+      "primer": "Sicut cervus ad fontes aquárum, desíderat ánima mea ad te, Deus, allelúia.",
+      "segundo": "Reple Sion, Dómine, verbis tuis, ut narréntur magnália tua, allelúia.",
+      "tercer": "Cláritas Dei illúminat civitátem, et lucérna eius est Agnus, allelúia.",
+      "gospel": "Regenerávit nos Deus in spem vivam per resurrectiónem Iesu Christi ex mórtuis, in hereditátem incorruptíbilem, allelúia."
+    },
+    "vespers": {
+      "primer": "Benedíctus qui venit in nómine Dómini, allelúia.",
+      "segundo": "Beáti qui ad cenam nuptiárum Agni vocáti sunt, allelúia.",
+      "tercer": "De plenitúdine eius omnes nos accépimus, et grátiam pro grátia, allelúia.",
+      "gospel": "Spíritus veritátis, qui a Patre procédit, testimónium perhibébit de me; et vos testimónium perhibébitis, allelúia."
+    }
+  },
+  "easter_time_6_tuesday": {
+    "lauds": {
+      "primer": "Accessístis ad Sion montem et civitátem Dei vivéntis, allelúia.",
+      "segundo": "Tu, Dómine, eruísti ánimam meam, ut non períret, allelúia.",
+      "tercer": "Visitásti terram et inebriásti eam, allelúia.",
+      "gospel": "Adhuc módicum, et mundus me iam non videt; vos autem vidébitis me, quia ego vivo, et vos vivétis, allelúia."
+    },
+    "vespers": {
+      "primer": "Quæ sursum sunt quærite, non quæ super terram, allelúia.",
+      "segundo": "Redémit Dóminus ánimam meam de manu ínferi, allelúia.",
+      "tercer": "Tua est, Dómine, magnificéntia et poténtia et glória atque victória, allelúia.",
+      "gospel": "Ego veritátem dico vobis: Expedit vobis ut ego vadam; si enim non abíero, Paráclitus non véniet, allelúia."
+    }
+  },
+  "easter_time_6_wednesday": {
+    "lauds": {
+      "primer": "Vidérunt te aquæ, Deus; per mare deduxísti pópulum tuum, allelúia.",
+      "segundo": "Dóminus mortíficat et vivíficat, allelúia.",
+      "tercer": "Lux orta est iusto, et rectis corde lætítia, allelúia.",
+      "gospel": "Adhuc multa hábeo vobis dícere, sed non potéstis portáre modo: cum autem vénerit ille Spíritus veritátis, docébit vos omnem veritátem, allelúia."
+    },
+    "vespers": {
+      "primer": "Non turbétur cor vestrum; tantum in me crédite, allelúia.",
+      "segundo": "Confiteántur tibi pópuli, Deus, exsúltent in salutári tuo, allelúia.",
+      "tercer": "Opéruit cælos glória eius, et laudis eius plena est terra, allelúia.",
+      "gospel": "Spíritus me clarificábit, quia de meo accípiet, et annuntiábit vobis, allelúia."
+    }
+  },
+  "ascension_of_the_lord": {
+    "lauds": {
+      "primer": "Viri Galilæi, quid aspícitis in cælum? Hic Iesus, qui assúmptus est a vobis in cælum, sic véniet, allelúia.",
+      "segundo": "Exaltáte regem regum, et hymnum dícite Deo, allelúia.",
+      "tercer": "Vidéntibus illis, elevátus est, et nubes suscépit eum in cælo, allelúia.",
+      "gospel": "Ascéndo ad Patrem meum et Patrem vestrum, Deum meum et Deum vestrum, allelúia."
+    },
+    "vespers": {
+      "primer": "Ascéndit in cælos, sedet ad déxteram Patris, allelúia.",
+      "segundo": "Ascéndit Deus in iubilatióne, et Dóminus in voce tubæ, allelúia.",
+      "tercer": "Nunc clarificátus est Fílius hóminis, et Deus clarificátus est in eo, allelúia.",
+      "gospel": "O rex glóriæ, Dómine virtútum, qui triumphátor hódie super omnes cælos ascendísti, ne derelínquas nos órphanos; sed mitte promíssum Patris in nos, Spíritum veritátis, allelúia."
+    }
+  },
+  "easter_time_6_friday": {
+    "lauds": {
+      "primer": "Confíde, fili, remittúntur tibi peccáta tua, allelúia.",
+      "segundo": "Egréssus es, Dómine, in salútem pópuli tui, cum Christo tuo, allelúia.",
+      "tercer": "Lauda Deum tuum, Sion, qui pósuit fines tuos pacem, allelúia.",
+      "gospel": "Vidémus Iesum, propter passiónem mortis, glória et honóre coronátum, allelúia."
+    },
+    "vespers": {
+      "primer": "De angústiis inférni Dóminus erípuit ánimam meam, allelúia.",
+      "segundo": "Quasi pupíllam óculi sui custodívit Dóminus pópulum suum, allelúia.",
+      "tercer": "Fortitúdo mea et salus mea Dóminus, et factus est mihi in salútem, allelúia.",
+      "gospel": "Pater vester de cælo dabit Spíritum bonum peténtibus se, allelúia."
+    }
+  },
+  "easter_time_6_saturday": {
+    "lauds": {
+      "primer": "Delectásti me, Dómine, et in opéribus mánuum tuárum exsultábo, allelúia.",
+      "segundo": "Ego occídam et vívere fáciam; percútiam et ego sanábo, allelúia.",
+      "tercer": "Glória et honóre coronásti Christum tuum, allelúia.",
+      "gospel": "Amen, amen dico vobis: Si quid petiéritis Patrem in nómine meo, dabit vobis, allelúia."
+    },
+    "vespers": {
+      "primer": "Exívi a Patre et veni in mundum; íterum relínquo mundum et vado ad Patrem, allelúia.",
+      "segundo": "Dóminus Iesus, postquam locútus est discípulis suis, ascéndit in cælum et sedet a dextris Dei, allelúia.",
+      "tercer": "Nemo ascéndit in cælum, nisi qui de cælo descéndit, Fílius hóminis, qui est in cælo, allelúia.",
+      "gospel": "Pater, manifestávi nomen tuum homínibus, quos dedísti mihi; nunc autem pro eis rogo, non pro mundo, quia ad te vénio, allelúia."
+    }
+  },
+  "easter_time_7_monday": {
+    "lauds": {
+      "primer": "Cor meum et caro mea exsultavérunt in Deum vivum, allelúia.",
+      "segundo": "Eleváta est domus Dómini, et fluent ad eam omnes gentes, allelúia.",
+      "tercer": "Dícite in géntibus: Dóminus regnávit, allelúia.",
+      "gospel": "In mundo pressúram habébitis; sed confídite: ego vici mundum, allelúia."
+    },
+    "vespers": {
+      "primer": "Erit tibi Dóminus in lucem sempitérnam, et Deus tuus in glóriam tuam, allelúia.",
+      "segundo": "Láqueus contrítus est, et nos liberáti sumus, allelúia.",
+      "tercer": "Ego, si exaltátus fúero a terra, ómnia traham ad meípsum, allelúia.",
+      "gospel": "Spíritus Paráclitus apud vos manébit et in vobis erit, allelúia."
+    }
+  },
+  "easter_time_7_tuesday": {
+    "lauds": {
+      "primer": "Deus, tu convérsus vivificábis nos; et plebs tua lætábitur in te, allelúia.",
+      "segundo": "Sperávimus in Dómino; dedit pacem nobis, allelúia.",
+      "tercer": "Terra dedit fructum suum; læténtur et exsúltent gentes, allelúia.",
+      "gospel": "Resurréxit Dóminus a mórtuis, sicut díxerat; exsultémus et lætémur omnes, quóniam ipse regnat in ætérnum, allelúia."
+    },
+    "vespers": {
+      "primer": "Pax vobis, ego sum: nolíte timére, allelúia.",
+      "segundo": "Speret Israel in Dómino, allelúia.",
+      "tercer": "Tibi sérviat omnis creatúra tua, quia dixísti et facta sunt, allelúia.",
+      "gospel": "Accipiétis virtútem Spíritus Sancti in vos, et éritis mihi testes usque ad últimum terræ, allelúia."
+    }
+  },
+  "easter_time_7_wednesday": {
+    "lauds": {
+      "primer": "Omnes gentes vénient et adorábunt coram te, Dómine, allelúia.",
+      "segundo": "Regem in decóre suo vidébunt óculi nostri, allelúia.",
+      "tercer": "Vidébit omnis caro salutáre Dei nostri, allelúia.",
+      "gospel": "Grátias Deo, qui dedit nobis victóriam per Dóminum nostrum Iesum Christum, allelúia."
+    },
+    "vespers": {
+      "primer": "Tristítia vestra vertétur in gáudium, allelúia.",
+      "segundo": "Sive vívimus sive mórimur, Dómini sumus, allelúia.",
+      "tercer": "Ex ipso et per ipsum et in ipso sunt ómnia: ipsi glória in sǽcula, allelúia.",
+      "gospel": "Christus vos baptizábit in Spíritu Sancto et igni, allelúia."
+    }
+  },
+  "easter_time_7_thursday": {
+    "lauds": {
+      "primer": "Cantábimus sicut choros ducéntes: omnes fontes mei sunt in te, cívitas Dei, allelúia.",
+      "segundo": "Sicut pastor, congregábit agnos et in sinu suo levábit, allelúia.",
+      "tercer": "Dóminus in Sion magnus, et excélsus super omnes pópulos, allelúia.",
+      "gospel": "Eúntes in mundum, docéte omnes gentes, baptizántes eos, allelúia, in nómine Patris et Fílii et Spíritus Sancti, allelúia."
+    },
+    "vespers": {
+      "primer": "Dedit illi Dóminus Deus sedem David patris eius, allelúia.",
+      "segundo": "Iesus Christus solus potens, rex regum et Dóminus dominántium, allelúia.",
+      "tercer": "Quis símilis tui in fórtibus, Dómine? Quis símilis tui, magníficus in sanctitáte? Allelúia.",
+      "gospel": "Cum vénerit ille Spíritus veritátis, docébit vos omnem veritátem, et quæ ventúra sunt annuntiábit vobis, allelúia."
+    }
+  },
+  "easter_time_7_friday": {
+    "lauds": {
+      "primer": "Amplius lava me, Dómine, ab iniustítia mea.",
+      "segundo": "Christus peccáta nostra pértulit in córpore suo super lignum.",
+      "tercer": "Introíte in conspéctu Dómini in exsultatióne, allelúia.",
+      "gospel": "Christus Iesus mórtuus est et resurréxit, qui est ad déxteram Dei, semper vivens ad interpellándum pro nobis, allelúia."
+    },
+    "vespers": {
+      "primer": "Ego Dóminus salvans te et redémptor tuus, allelúia.",
+      "segundo": "Benedíctum quod venit regnum patris nostri David, allelúia.",
+      "tercer": "Cantémus Dómino: glorióse enim magnificátus est, allelúia.",
+      "gospel": "Omnes erant perseverántes unanímiter in oratióne cum María, matre Iesu, allelúia."
+    }
+  },
+  "easter_time_7_saturday": {
+    "lauds": {
+      "primer": "Verba, quæ ego locútus sum vobis, spíritus et vita sunt, allelúia.",
+      "segundo": "Ædificásti templum et altáre in monte sancto tuo, Dómine, allelúia.",
+      "tercer": "Ego sum via et véritas et vita, allelúia.",
+      "gospel": "Ecce ego vobíscum sum ómnibus diébus, usque ad consummatiónem sǽculi, allelúia."
+    },
+    "vespers": {
+      "primer": "Dum compleréntur dies Pentecóstes, erant omnes páriter in eódem loco, allelúia.",
+      "segundo": "Apparuérunt Apóstolis dispertítæ linguæ tamquam ignis, sedítque super síngulos eórum Spíritus Sanctus, allelúia.",
+      "tercer": "Spíritus, qui a Patre procédit, ille me clarificábit, allelúia.",
+      "gospel": "Veni, Sancte Spíritus, reple tuórum corda fidélium, et tui amóris in eis ignem accénde, qui, per diversitátem linguárum cunctárum, gentes in unitátem fídei congregásti, allelúia."
+    }
+  },
+  "pentecost_sunday": {
+    "lauds": {
+      "primer": "O quam bonus et suávis est, Dómine, Spíritus tuus in nobis! Allelúia.",
+      "segundo": "Fontes et ómnia quæ movéntur in aquis, hymnum dícite Deo, allelúia.",
+      "tercer": "Loquebántur váriis linguis Apóstoli magnália Dei, allelúia.",
+      "gospel": "Accípite Spíritum Sanctum: quorum remiséritis peccáta, remittúntur eis, allelúia."
+    },
+    "vespers": {
+      "primer": "Spíritus Dómini replévit orbem terrárum, allelúia.",
+      "segundo": "Confírma hoc, Deus, quod operátus es in nobis, a templo sancto tuo, quod est in Ierúsalem, allelúia.",
+      "tercer": "Repléti sunt omnes Spíritu Sancto, et cœpérunt loqui, allelúia.",
+      "gospel": "Hódie compléti sunt dies Pentecóstes, allelúia; hódie Spíritus Sanctus in igne discípulis appáruit, et tríbuit eis charísmatum dona; misit eos in univérsum mundum prædicáre et testificári: Qui credíderit et baptizátus fúerit, salvus erit, allelúia."
+    }
+  },
+  "advent_1_sunday": {
+    "lauds": {
+      "primer": "In illa die stillábunt montes dulcédinem, et colles fluent lac et mel, allelúia.",
+      "segundo": "Montes et colles cantábunt coram Deo laudem, et ómnia ligna silvárum plaudent mánibus: quóniam véniet Dóminus dominátor in regnum ætérnum, allelúia.",
+      "tercer": "Ecce véniet Prophéta magnus, et ipse renovábit Ierúsalem, allelúia.",
+      "gospel": "Vigiláte ergo: nescítis enim quando dóminus domus véniat: sero an média nocte, an galli cantu an mane."
+    },
+    "vespers": {
+      "primer": "Iucundáre, fília Sion, et exsúlta satis fília Ierúsalem, allelúia.",
+      "segundo": "Rex noster advéniet Christus, quem Ioánnes prædicávit Agnum esse ventúrum.",
+      "tercer": "Ecce vénio cito, et merces mea mecum est, dicit Dóminus: dare unicuíque secúndum ópera sua.",
+      "gospel": "Ne tímeas, María: invenísti enim grátiam apud Dóminum: ecce concípies et páries Fílium."
+    }
+  },
+  "advent_1_monday": {
+    "lauds": {
+      "primer": "Ad te orábo, Dómine, mane exáudies vocem meam.",
+      "segundo": "Laudámus nomen tuum ínclitum, Deus noster.",
+      "tercer": "Adoráte Dóminum in aula sancta eius.",
+      "gospel": "Leva, Ierúsalem, óculos et vide poténtiam Regis: ecce Salvátor venit sólvere te a vínculo."
+    },
+    "vespers": {
+      "primer": "Oculi Dómini in páuperem respíciunt.",
+      "segundo": "Beáti mundo corde, quóniam ipsi Deum vidébunt.",
+      "tercer": "In Fílio suo elégit nos Deus in adoptiónem filiórum.",
+      "gospel": "Angelus Dómini nuntiávit Maríæ, et concépit de Spíritu Sancto, allelúia."
+    }
+  },
+  "advent_1_tuesday": {
+    "lauds": {
+      "primer": "Innocens mánibus et mundo corde ascéndet in montem Dómini.",
+      "segundo": "Exaltáte Regem sæculórum in opéribus vestris.",
+      "tercer": "Rectos decet collaudátio.",
+      "gospel": "Egrediétur virga de radíce Iesse, et replébitur omnis terra glória Dómini: et vidébit omnis caro salutáre Dei."
+    },
+    "vespers": {
+      "primer": "Tríbuit Dóminus victóriam Christo suo.",
+      "segundo": "Cantábimus et psallémus virtútes tuas.",
+      "tercer": "Fecísti nos, Dómine, regnum et sacerdótes Deo nostro.",
+      "gospel": "Quǽrite Dóminum, dum inveníri potest: invocáte eum, dum prope est, allelúia."
+    }
+  },
+  "advent_1_thursday": {
+    "lauds": {
+      "primer": "Exsúrge, psaltérium et cíthara: excitábo auroram.",
+      "segundo": "Pópulus meus, ait Dóminus, bonis meis adimplébitur.",
+      "tercer": "Magnus Dóminus et laudábilis nimis in civitáte Dei nostri.",
+      "gospel": "Exspectábo Dóminum salvatórem meum, et præstolábor eum dum prope est, allelúia."
+    },
+    "vespers": {
+      "primer": "Clamávi ad te, et sanásti me, Dómine; in ætérnum confitébor tibi.",
+      "segundo": "Beátus vir, cui non imputávit Dóminus peccátum.",
+      "tercer": "Dedit ei Dóminus potestátem et honórem et regnum, et omnes pópuli ipsi sérvient.",
+      "gospel": "Benedícta tu in muliéribus et benedíctus fructus ventris tui."
+    }
+  },
+  "advent_1_friday": {
+    "lauds": {
+      "primer": "Acceptábis sacrifícium iustítiæ super altáre tuum, Dómine.",
+      "segundo": "In Dómino iustificábitur et laudábitur omne semen Israel.",
+      "tercer": "Introíte in conspéctu Dómini in exsultatióne.",
+      "gospel": "Ecce véniet Deus et homo de domo David, sedére in throno, allelúia."
+    },
+    "vespers": {
+      "primer": "Sana, Dómine, ánimam meam, quia peccávi tibi.",
+      "segundo": "Dóminus virtútum nobíscum, refúgium nobis Deus Iacob.",
+      "tercer": "Omnes gentes vénient et adorábunt coram te, Dómine.",
+      "gospel": "Ex Ægypto vocávi Fílium meum: véniet ut salvet pópulum suum."
+    }
+  },
+  "advent_1_saturday": {
+    "lauds": {
+      "tercer": "Ecce Dóminus noster cum virtúte véniet, ut illúminet óculos servórum suórum, allelúia.",
+      "gospel": "Sion, noli timére: ecce Deus tuus véniet, allelúia.",
+      "primer": "Prævenérunt óculi mei ad te dilúculo.",
+      "segundo": "Fortitúdo mea et laus mea Dóminus, et factus est mihi in salútem."
+    },
+    "vespers": {
+      "primer": "Gaude et lætáre, fília Sion, quia ecce vénio, et habitábo in médio tui, dicit Dóminus.",
+      "segundo": "Confortáte manus dissolútas; confortámini, dícite: ecce Deus noster véniet, et salvábit nos, allelúia.",
+      "tercer": "Lex per Móysen data est, grátia et véritas per Iesum Christum facta est.",
+      "gospel": "Veni, Dómine, visitáre nos in pace, ut lætémur coram te corde perfécto."
+    }
+  },
+  "advent_2_sunday": {
+    "lauds": {
+      "primer": "Urbs fortitúdinis nostræ Sion, Salvátor ponétur in ea murus et antemurále; aperíte portas, quia nobíscum Deus, allelúia.",
+      "segundo": "Omnes sitiéntes, veníte ad aquas: quǽrite Dóminum dum inveníri potest, allelúia.",
+      "tercer": "Ecce Dóminus noster cum virtúte véniet, ut illúminet óculos servórum suórum, allelúia.",
+      "gospel": "Ecce mitto ángelum meum ante fáciem tuam, qui præparábit viam tuam."
+    },
+    "vespers": {
+      "primer": "Ecce in núbibus cæli Dóminus véniet cum potestáte magna, allelúia.",
+      "segundo": "Ecce apparébit Dóminus, et non mentiétur; si moram fécerit, exspécta eum quia véniet et non tardábit, allelúia.",
+      "tercer": "Dóminus légifer noster, Dóminus rex noster: ipse véniet et salvábit nos.",
+      "gospel": "Beáta, quæ credidísti, quóniam perficiéntur ea, quæ dicta sunt tibi a Dómino, allelúia."
+    }
+  },
+  "advent_2_monday": {
+    "lauds": {
+      "primer": "Quando véniam et apparébo ante fáciem Dómini?",
+      "segundo": "Osténde nobis, Dómine, lucem miseratiónum tuárum.",
+      "tercer": "Benedíctus es, Dómine, in firmaménto cæli.",
+      "gospel": "Dicit Dóminus: Pæniténtiam ágite: appropinquávit enim regnum cælórum, allelúia."
+    },
+    "vespers": {
+      "primer": "Speciósus forma præ fíliis hóminum, diffúsa est grátia in lábiis tuis.",
+      "segundo": "Ecce Sponsus venit: exíte óbviam ei.",
+      "tercer": "Propósuit Deus in plenitúdine témporum instauráre ómnia in Christo.",
+      "gospel": "Ecce Rex veniet, Dóminus terræ, et ipse áuferet iugum captivitátis nostræ."
+    }
+  },
+  "advent_2_tuesday": {
+    "lauds": {
+      "primer": "_Emítte lucem tuam et veritátem tuam, Dómine._",
+      "segundo": "_Cunctis diébus vitæ nostræ, salvos nos fac, Dómine._",
+      "tercer": "_Te decet hymnus, Deus, in Sion._",
+      "gospel": "_Gaude et lætáre, fília Sion, quia ecce vénio, et habitábo in médio tui, dicit Dóminus._"
+    },
+    "vespers": {
+      "primer": "_Non potéstis Deo servíre et mammónæ._",
+      "segundo": "_Thesaurizáte vobis thesáuros in cælo, dicit Dóminus._",
+      "tercer": "_Dignus est Agnus, qui occísus est, accípere glóriam et honórem._",
+      "gospel": "_Vox clamántis in desérto: Paráte viam Dómini, rectas fácite sémitas Dei nostri._"
+    }
+  },
+  "advent_2_wednesday": {
+    "lauds": {
+      "primer": "_Deus, in sancto via tua: quis Deus magnus sicut Deus noster?_",
+      "segundo": "_Exsultávit cor meum in Dómino, qui humíliat et súblevat._",
+      "tercer": "_Dóminus regnávit, exsúltet terra._",
+      "gospel": "_Super sólium David et super regnum eius sedébit in ætérnum, allelúia._"
+    },
+    "vespers": {
+      "primer": "_Exspectémus beátam spem et advéntum glóriæ Salvatóris nostri._",
+      "segundo": "_Illúminet vultum suum super nos Deus, et benedícat nobis._",
+      "tercer": "_In ipso cóndita sunt univérsa, et ómnia in ipso constant._",
+      "gospel": "_Sion, renováberis, et vidébis iustum tuum, qui ventúrus est in te._"
+    }
+  },
+  "advent_2_thursday": {
+    "lauds": {
+      "primer": "_Excita, Dómine, poténtiam tuam, ut salvos fácias nos._",
+      "segundo": "_Magnífice fecit Dóminus, annuntiáte hoc in univérsa terra._",
+      "tercer": "_Exsultáte Deo adiutóri nostro._",
+      "gospel": "_Ego auxiliátus sum tibi, dicit Dóminus, et sum redémptor tuus, Sanctus Israel._"
+    },
+    "vespers": {
+      "primer": "_Pósui te in lucem géntium, ut sis salus mea usque ad extrémum terræ._",
+      "segundo": "_Salvos fáciet Dóminus fílios páuperum; ex oppressióne rédimet ánimas eórum._",
+      "tercer": "_Nunc facta est salus et regnum Dei nostri._",
+      "gospel": "_Qui post me venit, ante me factus est: cuius non sum dignus calceaménta sólvere._"
+    }
+  },
+  "advent_2_friday": {
+    "lauds": {
+      "primer": "_Cor contrítum et humiliátum, Deus, non despícies._",
+      "segundo": "_Cum irátus fúeris, Dómine, misericórdiæ recordáberis._",
+      "tercer": "_Lauda, Ierúsalem, Dóminum._",
+      "gospel": "_Dícite: Pusillánimes, confortámini: ecce Dóminus Deus noster véniet._"
+    },
+    "vespers": {
+      "primer": "_Dómine, líbera ánimam meam de morte, pedes meos a lapsu._",
+      "segundo": "_Auxílium meum a Dómino, qui fecit cælum et terram._",
+      "tercer": "_Iustæ et veræ sunt viæ tuæ, Rex sæculórum._",
+      "gospel": "_Hauriétis aquas in gáudio de fóntibus Salvatóris, allelúia._"
+    }
+  },
+  "advent_2_saturday": {
+    "lauds": {
+      "primer": "_Annuntiámus mane misericórdiam tuam, Dómine, et veritátem tuam per noctem._",
+      "segundo": "_Date magnificéntiam Deo nostro._",
+      "tercer": "_Quam admirábile est nomen tuum, Dómine, in univérsa terra._",
+      "gospel": "_Levábit Dóminus signum in natiónibus, et congregábit dispérsos Israel._"
+    },
+    "vespers": {
+      "primer": "_Ierúsalem, gaude gáudio magno, quia véniet tibi Salvátor, allelúia._",
+      "segundo": "_Ego Dóminus prope feci iustítiam meam; non elongábitur, et salus mea non morábitur._",
+      "tercer": "_Emítte Agnum, Dómine, dominatórem terræ, de Petra desérti, ad montem fíliæ Sion._"
+    }
+  },
+  "advent_3_sunday": {
+    "lauds": {
+      "primer": "_Véniet Dóminus et non tardábit, ut illúminet abscóndita tenebrárum, et manifestábit se ad omnes gentes, allelúia._",
+      "segundo": "_Montes et omnes colles humiliabúntur, et erunt prava in directa et áspera in vias planas. Veni, Dómine, et noli tardáre, allelúia._",
+      "tercer": "_Dabo in Sion salútem, et in Ierúsalem glóriam meam, allelúia._",
+      "gospel": "Ioánnes autem cum audísset in vínculis ópera Christi, mittens duos de discípulis suis, ait illi: Tu es qui ventúrus es, an álium exspectámus?"
+    },
+    "vespers": {
+      "segundo": "_Erúmpant montes iucunditátem et colles iustítiam, quia lux mundi Dóminus cum poténtia venit._",
+      "tercer": "_Iuste et pie vivámus, exspectántes beátam spem et advéntum Dómini._",
+      "primer": "Ecce véniet Dóminus, ut sédeat cum princípibus et sólium glóriæ téneat.",
+      "gospel": "Tu es qui ventúrus es, an álium exspectámus? Dícite Ioánni quæ vidístis: ad lumen rédeunt cæci, mórtui resúrgunt, páuperes evangelizántur, allelúia."
+    }
+  },
+  "advent_3_monday": {
+    "lauds": {
+      "primer": "_Beáti qui hábitant in domo tua, Dómine._",
+      "segundo": "_Veníte, et ascendámus ad montem Dómini._",
+      "tercer": "_Cantáte Dómino, benedícite nómini eius._",
+      "gospel": "_De cælo véniet dominátor Dóminus, et in manu eius honor et impérium._"
+    },
+    "vespers": {
+      "primer": "_Oculi nostri semper ad Dóminum, donec misereátur nostri._",
+      "segundo": "_Adiutórium nostrum in nómine Dómini, qui fecit cælum et terram._",
+      "tercer": "_In Fílio suo elégit nos Deus in adoptiónem filiórum._",
+      "gospel": "_Beátam me dicent omnes generatiónes, quia ancíllam húmilem respéxit Deus._"
+    }
+  },
+  "advent_3_tuesday": {
+    "lauds": {
+      "primer": "_Benedixísti, Dómine, terram tuam; remisísti iniquitátem plebis tuæ._",
+      "segundo": "_Anima mea desiderávit te in nocte, de mane vígilans ad te._",
+      "tercer": "_Illúmina, Dómine, vultum tuum super nos._",
+      "gospel": "_Eleváre, eleváre, consúrge, Ierúsalem: solve víncula colli tui, captíva fília Sion._"
+    },
+    "vespers": {
+      "primer": "_Dóminus in circúitu pópuli sui._",
+      "segundo": "_Nisi efficiámini sicut párvuli, non intrábitis in regnum cælórum._",
+      "tercer": "_Fecísti nos, Dómine, regnum et sacerdótes Deo nostro._",
+      "gospel": "_Antequam convenírent, invénta est María habens in útero de Spíritu Sancto, allelúia._"
+    }
+  },
+  "advent_3_wednesday": {
+    "vespers": {
+      "tercer": "Ipse primogénitus omnis creatúræ, in ómnibus primátum ténens.",
+      "primer": "Qui séminant in lácrimis, in exsultatióne metent.",
+      "segundo": "Dóminus ædíficet nobis domum, et custódiat civitátem.",
+      "gospel": "Vénient ad te qui detrahébant tibi, et adorábunt vestígia pedum tuórum."
+    },
+    "lauds": {
+      "primer": "Lætífica ánimam servi tui: ad te, Dómine, ánimam meam levávi.",
+      "segundo": "Beátus vir qui ámbulat in iustítia et lóquitur veritátem.",
+      "tercer": "Iubiláte in conspéctu regis Dómini.",
+      "gospel": "Consolámini, consolámini, pópule meus, dicit Dóminus Deus vester."
+    }
+  },
+  "advent_december_17": {
+    "lauds": {
+      "primer": "Egrediétur Dóminus de loco sancto suo, véniet ut salvet pópulum suum.",
+      "segundo": "Urbs fortitúdinis nostræ Sion, Salvátor ponétur in ea murus et antemurále; aperíte portas, quia nobíscum Deus, allelúia.",
+      "tercer": "Ut cognoscámus, Dómine, in terra viam tuam, in ómnibus géntibus salutáre tuum.",
+      "gospel": "Scitóte quia prope est regnum Dei; amen dico vobis, quia non tardábit."
+    },
+    "vespers": {
+      "primer": "Egrediétur Dóminus de loco sancto suo, véniet ut salvet pópulum suum.",
+      "segundo": "Urbs fortitúdinis nostræ Sion, Salvátor ponétur in ea murus et antemurále; aperíte portas, quia nobíscum Deus, allelúia.",
+      "tercer": "Ut cognoscámus, Dómine, in terra viam tuam, in ómnibus géntibus salutáre tuum.",
+      "gospel": "O Sapiéntia, quæ ex ore Altíssimi prodísti, attíngens a fine usque ad finem, fórtiter suavitérque dispónens ómnia: veni ad docéndum nos viam prudéntiæ."
+    }
+  },
+  "advent_december_18": {
+    "lauds": {
+      "segundo": "Propter Sion non tacébo, donec egrediátur ut splendor Iustus eius.",
+      "tercer": "Spíritus Dómini super me, evangelizáre paupéribus misit me.",
+      "gospel": "Vigiláte ánimo, in próximo est Dóminus Deus noster.",
+      "primer": "De Sion véniet Dóminus omnípotens, ut salvum fáciat pópulum suum."
+    },
+    "vespers": {
+      "segundo": "Propter Sion non tacébo, donec egrediátur ut splendor Iustus eius.",
+      "tercer": "Spíritus Dómini super me, evangelizáre paupéribus misit me.",
+      "gospel": "O Adonái, et Dux domus Israel, qui Móysi in igne flammæ rubi apparuísti, et ei in Sina legem dedísti: veni ad rediméndum nos in brácchio exténto.",
+      "primer": "De Sion véniet Dóminus omnípotens, ut salvum fáciat pópulum suum."
+    }
+  },
+  "advent_december_19": {
+    "lauds": {
+      "primer": "Ad te Dómine levávi ánimam meam. Veni et éripe me; Dómine ad te confúgi.",
+      "segundo": "Da mercédem, Dómine, sustinéntibus te, ut prophétæ tui fidéles inveniántur.",
+      "tercer": "Convértere, Dómine, aliquántulum, et ne tardes veníre ad servos tuos.",
+      "gospel": "Oriétur sicut sol Salvátor mundi, et descéndet in úterum Vírginis sicut imber super gramen, allelúia."
+    },
+    "vespers": {
+      "primer": "Ad te Dómine levávi ánimam meam. Veni et éripe me; Dómine ad te confúgi.",
+      "segundo": "Da mercédem, Dómine, sustinéntibus te, ut prophétæ tui fidéles inveniántur.",
+      "tercer": "Convértere, Dómine, aliquántulum, et ne tardes veníre ad servos tuos.",
+      "gospel": "O Radix Iesse, qui stas in signum populórum, super quem continébunt reges os suum, quem Gentes deprecabúntur: veni ad liberándum nos, iam noli tardáre."
+    }
+  },
+  "advent_4_sunday": {
+    "lauds": {
+      "primer": "Cánite tuba in Sion, quia prope est dies Dómini: ecce véniet ad salvándum nos, allelúia.",
+      "segundo": "Dóminus véniet, occúrrite illi, dicéntes: Magnum princípium, et regni eius non erit finis: Deus fortis, Dominátor, Princeps pacis, allelúia.",
+      "tercer": "Omnípotens Sermo tuus, Dómine, a regálibus sédibus véniet, allelúia.",
+      "gospel": "Ex quo facta est vox salutatiónis tuæ in áuribus meis, exsultávit in gáudio infans in útero meo, allelúia."
+    },
+    "vespers": {
+      "primer": "Intuémini quam gloriósus sit iste, qui ingréditur ad salvándos pópulos.",
+      "segundo": "Erunt prava in dirécta et áspera in vias planas. Veni, Dómine, et noli tardáre, allelúia.",
+      "tercer": "Multiplicábitur eius impérium, et pacis non erit finis.",
+      "gospel": "O Rex Géntium, et desiderátus eárum, lapísque anguláris, qui facis útraque unum: veni, et salva hóminem, quem de limo formásti."
+    }
+  },
+  "advent_december_21": {
+    "lauds": {
+      "primer": "Deus a Líbano véniet, et splendor eius sicut lumen erit.",
+      "segundo": "Roráte, cæli, désuper, et nubes plúant Iustum; aperiátur terra et gérminet Salvatórem.",
+      "gospel": "Nolíte timére, quinta enim die véniet ad vos Dóminus noster.",
+      "tercer": "Parátus esto, Israel, in occúrsum Dómini, quóniam venit."
+    },
+    "vespers": {
+      "gospel": "O Oriens, splendor lucis ætérnæ, et sol iustítiæ: veni, et illúmina sedéntes in ténebris et umbra mortis.",
+      "primer": "Ecce véniet desiderátus cunctis géntibus, et replébitur glória domus Dómini, allelúia.",
+      "segundo": "Veni, Dómine, et noli tardáre: reláxa facínora plebis tuæ Israël.",
+      "tercer": "Ecce iam véniet plenitúdo témporis, in quo misit Deus Fílium suum in terris."
+    }
+  },
+  "advent_december_22": {
+    "lauds": {
+      "primer": "De Sion véniet qui regnatúrus est: Dóminus, Emmánuel magnum nomen eius.",
+      "segundo": "Constántes estóte, vidébitis auxílium Dómini super vos.",
+      "tercer": "Ego autem ad Dóminum aspíciam et exspectábo Deum, salvatórem meum.",
+      "gospel": "Ex quo facta est vox salutatiónis tuæ in áuribus meis, exsultávit in gáudio infans in útero meo, allelúia."
+    },
+    "vespers": {
+      "primer": "De Sion véniet qui regnatúrus est: Dóminus, Emmánuel magnum nomen eius.",
+      "segundo": "Constántes estóte, vidébitis auxílium Dómini super vos.",
+      "tercer": "Ego autem ad Dóminum aspíciam et exspectábo Deum, salvatórem meum.",
+      "gospel": "O Rex Géntium, et desiderátus eárum, lapísque anguláris, qui facis útraque unum: veni, et salva hóminem, quem de limo formásti."
+    }
+  },
+  "advent_december_23": {
+    "lauds": {
+      "primer": "Ecce véniet Dóminus, princeps regum terræ; beáti qui paráti sunt occúrrere illi.",
+      "segundo": "Cantáte Dómino cánticum novum; laus eius ab extrémis terræ.",
+      "tercer": "Cum vénerit Fílius hóminis, putas, invéniet fidem super terram?",
+      "gospel": "Ecce compléta sunt ómnia, quæ dicta sunt per Angelum de Vírgine María."
+    },
+    "vespers": {
+      "primer": "Ecce véniet Dóminus, princeps regum terræ; beáti qui paráti sunt occúrrere illi.",
+      "segundo": "Cantáte Dómino cánticum novum; laus eius ab extrémis terræ.",
+      "tercer": "Cum vénerit Fílius hóminis, putas, invéniet fidem super terram?",
+      "gospel": "O Emmánuel, Rex et légifer noster, exspectátio Géntium, et Salvátor eárum: veni ad salvándum nos, Dómine, Deus noster."
+    }
+  },
+  "advent_december_24": {
+    "lauds": {
+      "primer": "Tu, Béthlehem, terra Iuda, non eris mínima: ex te enim éxiet Dux qui regat pópulum meum Israel.",
+      "segundo": "Leváte cápita vestra: ecce appropínquat redémptio vestra.",
+      "tercer": "Crástina erit vobis salus, dicit Dóminus Deus exercítuum.",
+      "gospel": "Compléti sunt dies Maríæ ut páreret Fílium suum primogénitum."
+    }
+  },
+  "most_holy_trinity": {
+    "lauds": {
+      "primer": "Tibi decus et impérium, tibi glória et potéstas, tibi laus et iubilátio in sempitérna sæcula, o beáta Trínitas.",
+      "segundo": "Te iure laudant, te adórant, te gloríficant omnes creatúræ tuæ, o beáta Trínitas.",
+      "tercer": "Ex quo ómnia, per quem ómnia, in quo ómnia: ipsi glória in sǽcula.",
+      "gospel": "Benedícta sit creátrix et gubernátrix ómnium, sancta et indivídua Trínitas, et nunc et semper et per infiníta sæculórum sæcula."
+    },
+    "vespers": {
+      "primer": "O vera summa sempitérna Trínitas, Pater et Fílius et Spíritus Sanctus.",
+      "segundo": "Líbera nos, salva nos, vivífica nos, o beáta Trínitas.",
+      "tercer": "Sanctus, sanctus, sanctus Dóminus Deus omnípotens, qui erat et qui est et qui ventúrus est.",
+      "gospel": "Te Deum Patrem ingénitum, te Fílium unigénitum, te Spíritum Sanctum Paráclitum, sanctam et indivíduam Trinitátem, toto corde et ore confitémur, laudámus atque benedícimus: tibi glória in sǽcula."
+    }
+  },
+  "our_lord_jesus_christ_king_of_the_universe": {
+    "lauds": {
+      "primer": "Ecce vir Oriens nomen eius; sedébit et dominábitur, et loquétur pacem géntibus.",
+      "segundo": "Magnificábitur usque ad términos terræ, et erit iste pax.",
+      "tercer": "Dedit ei Dóminus potestátem et honórem et regnum, et omnes pópuli, tribus et linguæ, ipsi sérvient.",
+      "gospel": "Fecit nos Deo et Patri suo regnum, primogénitus mortuórum et princeps regum terræ."
+    },
+    "vespers": {
+      "primer": "Super sólium David et super regnum eius sedébit in ætérnum, allelúia.",
+      "segundo": "Regnum tuum, regnum ómnium sæculórum, et dominátio tua in omnem generatiónem et generatiónem.",
+      "tercer": "Habet in vestiménto et in fémore suo scriptum: Rex regum et Dóminus dominántium. Ipsi glória et impérium in sǽcula sæculórum.",
+      "gospel": "Data est mihi omnis potéstas in cælo et in terra, dicit Dóminus."
+    }
+  },
+  "most_holy_body_and_blood_of_christ": {
+    "lauds": {
+      "primer": "Angelórum esca nutrivísti pópulum tuum, et panem de cælo præstitísti eis, allelúia.",
+      "segundo": "Sacerdótes sancti incénsum et panes ófferunt Deo, allelúia.",
+      "tercer": "Vincénti dabo manna abscónditum et nomen novum, allelúia.",
+      "gospel": "Ego sum panis vivus qui de cælo descéndi: si quis manducáverit ex hoc pane, vivet in ætérnum, allelúia."
+    },
+    "vespers": {
+      "primer": "Sacérdos in ætérnum Christus Dóminus secúndum órdinem Melchísedech, panem et vinum óbtulit.",
+      "segundo": "Cálicem salutáris accípiam, et nomen Dómini invocábo.",
+      "tercer": "Tu es via, tu es véritas, tu es vita mundi, Dómine.",
+      "gospel": "O sacrum convívium, in quo Christus súmitur: recólitur memória passiónis eius, mens implétur grátia et futúræ glóriæ nobis pignus datur, allelúia."
+    }
+  },
+  "most_sacred_heart_of_jesus": {
+    "lauds": {
+      "primer": "Stans Iesus clamábat dicens: Si quis sitit, véniat ad me et bibat.",
+      "segundo": "Veníte ad me, omnes qui laborátis et oneráti estis, et ego refíciam vos.",
+      "tercer": "Fili, præbe mihi cor tuum, et óculi tui custódiant vias meas.",
+      "gospel": "Per víscera misericórdiæ suæ visitávit nos Deus et fecit redemptiónem pópuli sui, allelúia."
+    },
+    "vespers": {
+      "primer": "Suávi iugo tuo domináre, Dómine, in médio inimicórum tuórum.",
+      "segundo": "Miséricors et miserátor Dóminus: escam dedit timéntibus se.",
+      "tercer": "Ecce Agnus Dei, ecce qui tollit peccáta mundi.",
+      "gospel": "Suscépit nos Dóminus in sinum et cor suum, recordátus misericórdiæ suæ, allelúia."
+    }
+  },
+  "advent_1_wednesday": {
+    "lauds": {
+      "gospel": "Egredietur virga de radice Iesse, et replebitur omnis terra gloria Domini: et videbit omnis caro salutare Dei.",
+      "primer": "Deus, in lúmine tuo vidébimus lumen.",
+      "segundo": "Dómine, magnus es tu, et præclárus in virtúte tua.",
+      "tercer": "Iubiláte Deo in voce exsultatiónis."
+    },
+    "vespers": {
+      "gospel": "Quaerite Dominum, dum inveniri potest: invocate eum, dum prope est, alleluia.",
+      "primer": "Dóminus illuminátio mea et salus mea, quem timébo?",
+      "segundo": "Vultum tuum, Dómine, requíram: ne avértas fáciem tuam a me.",
+      "tercer": "Ipse primogénitus omnis creatúræ, in ómnibus primátum tenens."
+    }
+  },
+  "most_holy_trinity_1v": {
+    "vespers": {
+      "primer": "Gloria tibi, Trinitas aequalis, una Deitas, et ante omnia saecula, et nunc et in perpetuum.",
+      "segundo": "Benedicta sit sancta Trinitas atque indivisa Unitas; confitebimur ei, quia fecit nobiscum misericordiam suam.",
+      "tercer": "Gloria et honor Deo in unitate Trinitatis, Patri et Filio cum Sancto Spiritu, in sempiterna saecula.",
+      "gospel": "Gratias tibi, Deus; gratias tibi, vera una Trinitas, una et trina Veritas, trina et vera Unitas."
+    }
+  },
+  "our_lord_jesus_christ_king_of_the_universe_1v": {
+    "vespers": {
+      "primer": "Pacificus vocabitur, et thronus eius erit firmissimus in perpetuum.",
+      "segundo": "Regnum eius regnum sempiternum est, et omnes reges servient ei et oboedient.",
+      "tercer": "Christo datus est principatus et honor regni; omnis populus, tribus et linguae servient ei in aeternum.",
+      "gospel": "Dabit illi Dominus Deus sedem David, patris eius; et regnabit in domo Iacob in aeternum, et regni eius non erit finis, alleluia."
+    }
+  },
+  "most_holy_body_and_blood_of_christ_1v": {
+    "vespers": {
+      "primer": "Miserator Dominus escam dedit timentibus se in memoriam suorum mirabilium.",
+      "segundo": "Qui pacem ponit fines Ecclesiae, frumenti adipe satiat nos Dominus.",
+      "tercer": "Amen, amen dico vobis: Si quid petieritis Patrem in nomine meo, dabit vobis alleluia.",
+      "gospel": "O quam suavis est, Domine, spiritus tuus, qui, ut dulcedinem tuam in filios demonstrares, pane suavissimo de caelo praestito, esurientes reples bonis, fastidiosos divites dimittens inanes."
+    }
+  },
+  "most_sacred_heart_of_jesus_1v": {
+    "vespers": {
+      "primer": "In caritate perpetua dilexit nos Deus; ideo, exaltatus a terra, attraxit nos ad cor suum, miserans.",
+      "segundo": "Discite a me, quia mitis sum et humilis corde, et invenietis requiem animabus vestris.",
+      "tercer": "Ego sum pastor bonus, qui pasco oves meas et pro ovibus meis pono animam meam.",
+      "gospel": "Ignem veni mittere in terram, et quid volo nisi ut accendatur?"
+    }
+  },
+  "advent_december_20": {
+    "lauds": {
+      "gospel": "Missus est Gábriel Angelus ad Maríam Vírginem desponsátam Ióseph.",
+      "primer": "De Sion véniet qui regnatúrus est: Dóminus, Emmánuel magnum nomen eius.",
+      "segundo": "Constántes estóte, vidébitis auxílium Dómini super vos.",
+      "tercer": "Ego autem ad Dóminum aspíciam, et exspectábo Deum, salvatórem meum."
+    },
+    "vespers": {
+      "gospel": "O Clavis David, et sceptrum domus Israel; qui áperis, et nemo claudit; claudis, et nemo áperit: veni, et educ vinctum de domo cárceris, sedéntem in ténebris, et umbra mortis.",
+      "primer": "De Sion véniet qui regnatúrus est: Dóminus, Emmánuel magnum nomen eius.",
+      "segundo": "Constántes estóte, vidébitis auxílium Dómini super vos.",
+      "tercer": "Ego autem ad Dóminum aspíciam, et exspectábo Deum, salvatórem meum."
+    }
+  },
+  "advent_3_thursday": {
+    "lauds": {
+      "primer": "Exsúrge, psaltérium et cíthara: excitábo auróram.",
+      "segundo": "Pópulus meus, ait Dóminus, bonis meis adimplébitur.",
+      "tercer": "Magnus Dóminus et laudábilis nimis in civitáte Dei nostri.",
+      "gospel": "Exspectábo Dóminum salvatórem meum et præstolábor eum dum prope est, allelúia."
+    },
+    "vespers": {
+      "gospel": "Benedícta tu inter mulíeres, et benedíctus fructus ventris tui."
+    }
+  },
+  "christmas_time_january_4": {
+    "lauds": {
+      "primer": "Prævenérunt óculi mei ad te dilúculo.",
+      "segundo": "Fortitúdo mea et laus mea Dóminus, et factus est mihi in salútem.",
+      "tercer": "Laudáte Dóminum, omnes gentes.",
+      "gospel": "Christus Deus noster, in quo divinitátis est plenitúdo, carnis nostræ infírma suscípiens, novus natus est homo, allelúia."
+    },
+    "vespers": {
+      "primer": "Virgo verbo concépit, Virgo permánsit, Virgo péperit Regem ómnium regum.",
+      "segundo": "Lætámini cum Ierúsalem; declinávit super eam Dóminus quasi flúvium pacis.",
+      "tercer": "Natus est nobis Deus de Deo, lumen de lúmine, quod erat in princípio.",
+      "gospel": "Castæ Paréntis viscéra cæléstis intrat grátia: venter puéllæ báiulat secréta, quæ non nóverat."
+    }
+  },
+  "basil_the_great_and_gregory_nazianzen_bishops": {
+    "lauds": {
+      "primer": "Vos estis lux mundi: non potest cívitas abscóndi supra montem pósita.",
+      "segundo": "Sic lúceat lux vestra coram homínibus, ut vídeant ópera vestra bona, et gloríficent Patrem vestrum, qui in cælis est.",
+      "tercer": "Vivus est enim sermo Dei, et efficax, et penetrabílior omni gládio ancípiti."
+    },
+    "vespers": {
+      "primer": "Evangélii factus sum ego miníster, secúndum donum grátiæ Dei, quæ data est mihi.",
+      "segundo": "Fidélis servus et prudens, quem constítuit dóminus super famíliam suam.",
+      "tercer": "Oves meæ vocem meam áudiunt, dicit Dóminus, et fiet unum ovíle et unus pastor."
+    }
+  },
+  "lent_3_friday": {
+    "lauds": {
+      "primer": "Tibi soli peccávi, Dómine; miserére mei.",
+      "segundo": "Cognóvimus, Dómine, iniquitátes nostras, quia peccávimus tibi.",
+      "tercer": "Dóminus ipse est Deus; nos pópulus eius et oves páscuæ eius.",
+      "gospel": "Magíster, quod est mandátum magnum in lege? Ait illi Iesus: Díliges Dóminum Deum tuum ex toto corde tuo."
+    },
+    "vespers": {
+      "primer": "Magnus est Dóminus, et Deus noster præ ómnibus diis.",
+      "segundo": "Domus Israel, benedícite Dómino; psállite nómini eius, quóniam suáve.",
+      "tercer": "Omnes gentes vénient et adorábunt coram te, Dómine.",
+      "gospel": "Dilígere próximum suum tamquam seípsum, magis est ómnibus sacrifíciis."
+    }
+  },
+  "lent_3_monday": {
+    "lauds": {
+      "primer": "Beáti qui hábitant in domo tua, Dómine.",
+      "segundo": "Veníte, et ascendámus ad montem Dómini.",
+      "tercer": "Cantáte Dómino, benedícite nómini eius.",
+      "gospel": "Amen dico vobis, quia nemo prophéta accéptus est in pátria sua."
+    },
+    "vespers": {
+      "gospel": "Iesus, tránsiens per médium illórum, ibat."
+    }
+  },
+  "lent_3_tuesday": {
+    "lauds": {
+      "primer": "Benedixísti, Dómine, terram tuam; remisísti iniquitátem plebis tuæ.",
+      "segundo": "Ánima mea desiderávit te in nocte, de mane vígilans ad te.",
+      "tercer": "Illúmina, Dómine, vultum tuum super nos.",
+      "gospel": "Non dico tibi, Petre, ut dimíttas séptiés, sed usque septuágiés séptiés, dicit Dóminus."
+    },
+    "vespers": {
+      "primer": "Dóminus in circúitu pópuli sui.",
+      "segundo": "Nisi effíciámini sicut párvuli, non intrábitis in regnum cælórum.",
+      "tercer": "Fecísti nos, Dómine, regnum et sacerdótes Deo nostro.",
+      "gospel": "Sic et Pater meus cæléstis fáciet vobis, si non remisértis unusquísque fratri suo de córdibus vestris."
+    }
+  },
+  "lent_3_wednesday": {
+    "lauds": {
+      "primer": "Lætífica ánimam servi tui: ad te, Dómine, ánimam meam levávi.",
+      "segundo": "Beátus vir qui ámbulat in iustítia et lóquitur veritátem.",
+      "tercer": "Iubiláte in conspéctu regis Dómini.",
+      "gospel": "Nolíte putáre quóniam veni sólvere legem aut prophétas; non veni sólvere, sed adimplére, dicit Dóminus."
+    },
+    "vespers": {
+      "primer": "Qui séminant in lácrimis, in exsultatióne metent.",
+      "segundo": "Dóminus ædíficet nobis domum, et custódiat civitátem.",
+      "tercer": "Ipse primogénitus omnis creatúræ, in ómnibus primátum tenens.",
+      "gospel": "Qui fécerit et docúerit mandáta Dómini, hic magnus vocábitur in regno cælórum."
+    }
+  },
+  "lent_3_thursday": {
+    "lauds": {
+      "primer": "Gloriósa dicta sunt de te, cívitas Dei.",
+      "segundo": "Dóminus in fortitúdine véniet, et merces eius cum eo.",
+      "tercer": "Exaltáte Dóminum Deum nostrum, et adoráte ad montem sanctum eius.",
+      "gospel": "Si in dígito Dei eício dæmónia, proféctó pervénit in vos regnum Dei, dicit Dóminus."
+    },
+    "vespers": {
+      "primer": "Sancti tui exsúltent, Dómine, intrántes in tabernáculum tuum.",
+      "segundo": "Elégit Dóminus Sion in habitatiónem sibi.",
+      "tercer": "Dedit ei Dóminus potestátem et honórem et regnum, et omnes pópuli ipsi sérvient.",
+      "gospel": "Extóllens vocem quædam múlier de turba, dixit: Beátus venter qui te portávit et úbera quæ suxísti. At Iesus ait illi: Quinímmo beáti, qui áudiunt verbum Dei et custódiunt illud."
+    }
+  },
+  "lent_3_saturday": {
+    "lauds": {
+      "primer": "Prope es tu, Dómine, et omnes viæ tuæ véritas.",
+      "segundo": "Mecum sit, Dómine, sapiéntia tua et mecum labóret.",
+      "tercer": "Véritas Dómini manet in ætérnum.",
+      "gospel": "Stans a longe publicánus, nolébat óculos ad cælum leváre, sed percutiébat pectus suum dicens: Deus, propítius esto mihi peccatóri."
+    },
+    "vespers": {
+      "primer": "In domum Dómini lætántes íbimus.",
+      "segundo": "Surge, qui dormis, et exsúrge a mórtuis, et illuminábit te Christus.",
+      "tercer": "Propter nímiam caritátem suam, qua diléxit nos Deus, cum essémus mórtui peccátis, convivificávit nos in Christo."
+    }
+  },
+  "lent_4_monday": {
+    "lauds": {
+      "primer": "Repléti sumus mane misericórdia tua, Dómine.",
+      "segundo": "Laus Dómini ab extrémis terræ.",
+      "tercer": "Laudáte nomen Dómini, qui statis in domo Dómini.",
+      "gospel": "Erat quidam régulus, cuius fílius infirmabátur Caphárnaum. Hic cum audísset quia Iesus veníret in Galilæam, rogábat eum ut sanáret fílium eius."
+    },
+    "vespers": {
+      "primer": "Confitémini Dómino, quóniam in ætérnum misericórdia eius.",
+      "segundo": "Magna et mirabília sunt ópera tua, Dómine Deus omnípotens.",
+      "tercer": "Propósuit Deus in plenitúdine témporum instauráre ómnia in Christo.",
+      "gospel": "Cognóvit pater quia illa hora erat in qua dixit Iesus: Fílius tuus vivit; et crédidit ipse et domus eius tota."
+    }
+  },
+  "lent_3_sunday": {
+    "lauds": {
+      "primer": "Super voces aquárum multárum, testimónia tua, Dómine, credibília facta sunt nimis.",
+      "segundo": "Benedícite, fontes, Dómino; laudáte et superexaltáte eum in sæcula.",
+      "tercer": "Reges terræ et omnes pópuli, laudáte Deum.",
+      "gospel": "$ Año A: $Venit hora et nunc est, quando veri adoratóres adorábunt Patrem in Spíritu et veritáte: nam et Pater tales quærit, qui adórent eum. (Io 4:23)\n$Año B: $Sólvite templum hoc, dicit Dóminus, et post tríduum reædificábo illud. Hoc autem dicébat de templo córporis sui. (Io 2:19,21 — verbatim match to existing Spanish Año B)\n$Año C: $Iustificáti ex fide, pacem habeámus ad Deum, per Dóminum nostrum Iesum Christum. (Rom 5:1)"
+    },
+    "vespers": {
+      "primer": "Dómine, rex omnípotens, líbera nos propter nomen tuum, et da nobis locum pæniténtiæ.",
+      "segundo": "Redémpti sumus pretióso sánguine agni immaculáti Christi.",
+      "tercer": "Vere languóres nostros ipse tulit, et dolóres nostros ipse portávit.",
+      "gospel": "$ Año A: $Dicit Dóminus: Si quis bíberit aquam, quam ego dabo ei, non síntiet in ætérnum.\n$Año B: $Cum esset Iesus Hierosólymis in Pascha, in die festo, multi credidérunt in nómine Iesu, vidéntes signa eius, quæ faciébat. (Io 2:23)\n$Año C: $Dómine, dimítte illam et hoc anno, usque dum fódiam circa illam, et síquidem fécerit fructum in futúrum. (Lc 13:8)"
+    }
+  },
+  "lent_4_sunday": {
+    "lauds": {
+      "primer": "Deus meus es tu et confitébor tibi; Deus meus es tu et exaltábo te.",
+      "segundo": "Potens es, Dómine, erípere nos de manu forti; líbera nos, Deus noster.",
+      "tercer": "Laudáte Dóminum in magnálibus eius.",
+      "gospel": "$ Año A: $A sæculo non est audítum quia quis apéruit óculos cæci nati, nisi Christus Fílius Dei.\n$Año B: $Sic Deus diléxit mundum, ut Fílium suum unigénitum daret; ut omnis, qui credit in ipsum, non péreat, sed hábeat vitam ætérnam. (Io 3:16)\n$Año C: $Cito proférte stolam primam et indúite illum et date ánulum in manum eius et calceaménta in pedes: quia hic fílius meus mórtuus erat et revíxit, períerat et invéntus est. (Lc 15:22-24)"
+    },
+    "vespers": {
+      "primer": "Ipse est qui constitútus est a Deo iudex vivórum et mortuórum.",
+      "segundo": "Iucúndus homo, qui miserétur in Dómino: non commovébitur in ætérnum.",
+      "tercer": "Quæ prænuntiávit Deus per os ómnium prophetárum, pati Christum suum, sic implévit.",
+      "gospel": "$ Año A: $Homo, qui dícitur Iesus, lutum fecit et unxit óculos meos: ábii et lavi et modo vídeo.\n$Año B: $Qui facit veritátem venit ad lucem, ut manifesténtur eius ópera, quia in Deo sunt facta. (Io 3:21)\n$Año C: $Fili, tu semper mecum es, et ómnia mea tua sunt; epulári autem et gaudére oportébat, quia frater tuus mórtuus fúerat et revíxit, períerat et invéntus est. (Lc 15:31-32 — verbatim match to existing Spanish Año C)"
+    }
+  }
+}

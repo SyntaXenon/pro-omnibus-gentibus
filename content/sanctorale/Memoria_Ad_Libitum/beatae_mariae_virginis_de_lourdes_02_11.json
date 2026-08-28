@@ -1,0 +1,15 @@
+{
+  "id": "our_lady_of_lourdes_02_11",
+  "titulus": "Beatæ Mariæ Virginis de Lourdes",
+  "dies": "02-11",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "ALBUS",
+  "collecta": "Deus, qui per immaculatam Virginis Conceptionem dignum Filio tuo habitaculum præparasti: supplices a te quæsumus; ut, ejusdem Virginis Apparitionem celebrantes, salutem mentis et corporis consequamur.",
+  "antiphonae_evangelicae": {
+    "magnificat": "Ista est columba mea, perfecta mea, immaculata mea.",
+    "benedictus": "Præclara salutis aurora, ex te, Virgo Maria, exivit sol justitiæ, qui visitavit nos oriens ex alto.",
+    "benedictus_es": "Espléndida aurora de salvación, de ti, Virgen María, salió el sol de justicia, que nos visitó como aurora que nace de lo alto.",
+    "magnificat_es": "Esta es mi paloma, mi perfecta, mi inmaculada."
+  },
+  "commune_subsidiarium": "COMMON_BVM"
+}

@@ -1,0 +1,150 @@
+=== Vulgate scrape started 2026-08-09 23:32:32 ===
+Gen: 50 chapters, 1530 verses -> gen.json
+Exod: 40 chapters, 1211 verses -> exod.json
+Lev: 27 chapters, 858 verses -> lev.json
+Num: 36 chapters, 1288 verses -> num.json
+Deut: 34 chapters, 959 verses -> deut.json
+Jos: 24 chapters, 658 verses -> jos.json
+Judg: 21 chapters, 618 verses -> judg.json
+Ruth: 4 chapters, 85 verses -> ruth.json
+1Sam: 31 chapters, 811 verses -> 1sam.json
+2Sam: 24 chapters, 694 verses -> 2sam.json
+1Kgs: 22 chapters, 817 verses -> 1kgs.json
+2Kgs: 25 chapters, 719 verses -> 2kgs.json
+1Chr: 29 chapters, 940 verses -> 1chr.json
+2Chr: 36 chapters, 822 verses -> 2chr.json
+Ezra: 10 chapters, 280 verses -> ezra.json
+Neh: 13 chapters, 404 verses -> neh.json
+Tob: 14 chapters, 298 verses -> tob.json
+Jdt: 16 chapters, 345 verses -> jdt.json
+Esth: 16 chapters, 275 verses -> esth.json
+Job: 42 chapters, 1070 verses -> job.json
+Ps: SKIP - already recovered (with historical fixes applied)
+Prov: 31 chapters, 915 verses -> prov.json
+Eccl: 12 chapters, 222 verses -> eccl.json
+Song: 8 chapters, 116 verses -> song.json
+Wis: 19 chapters, 439 verses -> wis.json
+Sir: 51 chapters, 1591 verses -> sir.json
+Isa: 66 chapters, 1292 verses -> isa.json
+Jer: 52 chapters, 1363 verses -> jer.json
+Lam: 5 chapters, 154 verses -> lam.json
+Bar: 6 chapters, 213 verses -> bar.json
+Ezek: 48 chapters, 1272 verses -> ezek.json
+Dan: 14 chapters, 531 verses -> dan.json
+Hos: 14 chapters, 198 verses -> hos.json
+Joel: 3 chapters, 73 verses -> joel.json
+Amos: 9 chapters, 146 verses -> amos.json
+Obad: 1 chapters, 21 verses -> obad.json
+Jon: 4 chapters, 48 verses -> jon.json
+Mic: 7 chapters, 104 verses -> mic.json
+Nah: 3 chapters, 47 verses -> nah.json
+Hab: 3 chapters, 56 verses -> hab.json
+Zeph: 3 chapters, 53 verses -> zeph.json
+Hag: 2 chapters, 38 verses -> hag.json
+Zech: 14 chapters, 211 verses -> zech.json
+Mal: 4 chapters, 55 verses -> mal.json
+1Macc: 16 chapters, 929 verses -> 1macc.json
+2Macc: 15 chapters, 558 verses -> 2macc.json
+Matt: 28 chapters, 1070 verses -> matt.json
+Mark: 16 chapters, 677 verses -> mark.json
+Luke: 24 chapters, 1151 verses -> luke.json
+John: 21 chapters, 879 verses -> john.json
+Acts: 28 chapters, 1004 verses -> acts.json
+Rom: 16 chapters, 433 verses -> rom.json
+1Cor: 16 chapters, 437 verses -> 1cor.json
+2Cor: 13 chapters, 255 verses -> 2cor.json
+Gal: 6 chapters, 149 verses -> gal.json
+Eph: 6 chapters, 155 verses -> eph.json
+Phil: 4 chapters, 104 verses -> phil.json
+Col: 4 chapters, 95 verses -> col.json
+1Thess: 5 chapters, 88 verses -> 1thess.json
+2Thess: 3 chapters, 46 verses -> 2thess.json
+1Tim: 6 chapters, 113 verses -> 1tim.json
+2Tim: 4 chapters, 83 verses -> 2tim.json
+Titus: 3 chapters, 46 verses -> titus.json
+Phlm: 1 chapters, 25 verses -> phlm.json
+Heb: 13 chapters, 303 verses -> heb.json
+Jas: 5 chapters, 108 verses -> jas.json
+1Pet: 5 chapters, 105 verses -> 1pet.json
+2Pet: 3 chapters, 61 verses -> 2pet.json
+1John: 5 chapters, 105 verses -> 1john.json
+2John: 1 chapters, 13 verses -> 2john.json
+3John: 1 chapters, 14 verses -> 3john.json
+Jude: 1 chapters, 25 verses -> jude.json
+Rev: 22 chapters, 405 verses -> rev.json
+=== Vulgate scrape finished 2026-08-09 23:42:14 ===
+=== Vulgate scrape started 2026-08-10 03:27:35 ===
+Gen: SKIP - already recovered (with historical fixes applied)
+Exod: SKIP - already recovered (with historical fixes applied)
+Lev: SKIP - already recovered (with historical fixes applied)
+Num: SKIP - already recovered (with historical fixes applied)
+Deut: SKIP - already recovered (with historical fixes applied)
+Jos: SKIP - already recovered (with historical fixes applied)
+Judg: SKIP - already recovered (with historical fixes applied)
+Ruth: SKIP - already recovered (with historical fixes applied)
+1Sam: SKIP - already recovered (with historical fixes applied)
+2Sam: SKIP - already recovered (with historical fixes applied)
+1Kgs: SKIP - already recovered (with historical fixes applied)
+2Kgs: SKIP - already recovered (with historical fixes applied)
+1Chr: SKIP - already recovered (with historical fixes applied)
+2Chr: SKIP - already recovered (with historical fixes applied)
+Ezra: SKIP - already recovered (with historical fixes applied)
+Neh: SKIP - already recovered (with historical fixes applied)
+Tob: SKIP - already recovered (with historical fixes applied)
+Jdt: SKIP - already recovered (with historical fixes applied)
+Esth: SKIP - already recovered (with historical fixes applied)
+Job: SKIP - already recovered (with historical fixes applied)
+Ps: 150 chapters, 2528 verses -> ps.json
+Prov: SKIP - already recovered (with historical fixes applied)
+Eccl: SKIP - already recovered (with historical fixes applied)
+Song: SKIP - already recovered (with historical fixes applied)
+Wis: SKIP - already recovered (with historical fixes applied)
+Sir: SKIP - already recovered (with historical fixes applied)
+Isa: SKIP - already recovered (with historical fixes applied)
+Jer: SKIP - already recovered (with historical fixes applied)
+Lam: SKIP - already recovered (with historical fixes applied)
+Bar: SKIP - already recovered (with historical fixes applied)
+Ezek: SKIP - already recovered (with historical fixes applied)
+Dan: SKIP - already recovered (with historical fixes applied)
+Hos: SKIP - already recovered (with historical fixes applied)
+Joel: SKIP - already recovered (with historical fixes applied)
+Amos: SKIP - already recovered (with historical fixes applied)
+Obad: SKIP - already recovered (with historical fixes applied)
+Jon: SKIP - already recovered (with historical fixes applied)
+Mic: SKIP - already recovered (with historical fixes applied)
+Nah: SKIP - already recovered (with historical fixes applied)
+Hab: SKIP - already recovered (with historical fixes applied)
+Zeph: SKIP - already recovered (with historical fixes applied)
+Hag: SKIP - already recovered (with historical fixes applied)
+Zech: SKIP - already recovered (with historical fixes applied)
+Mal: SKIP - already recovered (with historical fixes applied)
+1Macc: SKIP - already recovered (with historical fixes applied)
+2Macc: SKIP - already recovered (with historical fixes applied)
+Matt: SKIP - already recovered (with historical fixes applied)
+Mark: SKIP - already recovered (with historical fixes applied)
+Luke: SKIP - already recovered (with historical fixes applied)
+John: SKIP - already recovered (with historical fixes applied)
+Acts: SKIP - already recovered (with historical fixes applied)
+Rom: SKIP - already recovered (with historical fixes applied)
+1Cor: SKIP - already recovered (with historical fixes applied)
+2Cor: SKIP - already recovered (with historical fixes applied)
+Gal: SKIP - already recovered (with historical fixes applied)
+Eph: SKIP - already recovered (with historical fixes applied)
+Phil: SKIP - already recovered (with historical fixes applied)
+Col: SKIP - already recovered (with historical fixes applied)
+1Thess: SKIP - already recovered (with historical fixes applied)
+2Thess: SKIP - already recovered (with historical fixes applied)
+1Tim: SKIP - already recovered (with historical fixes applied)
+2Tim: SKIP - already recovered (with historical fixes applied)
+Titus: SKIP - already recovered (with historical fixes applied)
+Phlm: SKIP - already recovered (with historical fixes applied)
+Heb: SKIP - already recovered (with historical fixes applied)
+Jas: SKIP - already recovered (with historical fixes applied)
+1Pet: SKIP - already recovered (with historical fixes applied)
+2Pet: SKIP - already recovered (with historical fixes applied)
+1John: SKIP - already recovered (with historical fixes applied)
+2John: SKIP - already recovered (with historical fixes applied)
+3John: SKIP - already recovered (with historical fixes applied)
+Jude: SKIP - already recovered (with historical fixes applied)
+Rev: SKIP - already recovered (with historical fixes applied)
+=== Vulgate scrape finished 2026-08-10 03:29:05 ===

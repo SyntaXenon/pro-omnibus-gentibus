@@ -1,0 +1,110 @@
+{
+  "id": "nativity_john_baptist_06_24",
+  "titulus": "In Nativitate Sancti Ioannis Baptistæ",
+  "dies": "06-24",
+  "gradus": "SOLLEMNITAS",
+  "color": "ALBUS",
+  "habet_primas_vesperas": true,
+  "collecta": "Deus, qui præséntem diem honorábilem nobis in beáti Joánnis nativitáte fecísti: da pópulis tuis spirituálium grátiam gaudiórum; et ómnium fidélium mentes dirige in viam salútis ætérnæ.",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Ipse præíbit ante illum in spíritu et virtúte Elíæ paráre Dómino plebem perféctam.",
+        "antiphona_es": "Él irá delante del Señor con el espíritu y el poder de Elías, para prepararle un pueblo bien dispuesto.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_primarum_vesperarum": [
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 112",
+        "antiphona": "Elísabeth Zacharíæ magnum virum génuit: Joánnem Baptístam, præcursórem Dómini.",
+        "antiphona_es": "Isabel dio a luz para Zacarías un gran varón: Juan Bautista, precursor del Señor."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 145",
+        "antiphona": "Ex útero senectútis et stérili Joánnes natus est, præcúrsor Dómini.",
+        "antiphona_es": "Del seno de la vejez y de la esterilidad nació Juan, precursor del Señor."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "eph 1:3-10",
+        "antiphona": "Inter natos mulíerum non surréxit major Joánne Baptísta.",
+        "antiphona_es": "Entre los nacidos de mujer no se ha levantado nadie mayor que Juan Bautista."
+      }
+    ],
+    "psalmodia_secundarum_vesperarum": [
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 14",
+        "antiphona": "Fuit homo missus a Deo, cui nomen erat Joánnes; hic venit ut testimónium perhibéret de lúmine.",
+        "antiphona_es": "Hubo un hombre enviado por Dios, que se llamaba Juan; éste vino para dar testimonio de la luz."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 111",
+        "antiphona": "Hic venit ut testimónium perhibéret veritáti.",
+        "antiphona_es": "Éste vino para dar testimonio de la verdad."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "rev 15:3-4",
+        "antiphona": "Joánnes erat lucérna ardens et lucens.",
+        "antiphona_es": "Juan era una lámpara que ardía y brillaba."
+      }
+    ],
+    "lectio_brevis_vesperarum": "acts 13:23-25",
+    "lectio_brevis_laudum": "mal 4:5-6"
+  },
+  "antiphonae_evangelicae": {
+    "magnificat": "Ingrésso * Zacharía templum Dómini, appáruit ei Gábriel Angelus stans a dextris altáris incénsi.",
+    "magnificat_es": "Al entrar Zacarías en el templo del Señor, se le apareció el ángel Gabriel, de pie a la derecha del altar del incienso.",
+    "magnificat_ii": "Puer * qui natus est nobis, plus quam prophéta est: hic est enim, de quo Salvátor ait: Inter natos mulíerum non surréxit major Joánne Baptísta.",
+    "magnificat_ii_es": "El niño que nos ha nacido es más que un profeta; pues es aquel de quien dijo el Salvador: Entre los nacidos de mujer no ha surgido nadie mayor que Juan Bautista.",
+    "magnificat_i": "Ingrésso * Zacharía templum Dómini, appáruit ei Gábriel Angelus stans a dextris altáris incénsi.",
+    "magnificat_i_es": "Al entrar Zacarías en el templo del Señor, se le apareció el ángel Gabriel, de pie a la derecha del altar del incienso.",
+    "benedictus": "Apértum est * os Zacharíæ, et prophetávit dicens: Benedíctus Deus Israël.",
+    "benedictus_es": "Se abrió la boca de Zacarías, y profetizó diciendo: Bendito sea el Dios de Israel."
+  },
+  "breviarium_id": "nativity_of_john_the_baptist"
+}

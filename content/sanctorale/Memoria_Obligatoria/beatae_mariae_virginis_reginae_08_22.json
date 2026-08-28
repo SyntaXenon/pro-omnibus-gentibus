@@ -1,0 +1,16 @@
+{
+  "id": "queenship_mary_08_22",
+  "titulus": "Beatæ Mariæ Virginis Reginæ",
+  "dies": "08-22",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "collecta": "Omnípotens sempitérne Deus, qui in Corde beátæ Maríæ Vírginis dignum Spíritus Sancti habitáculum præparásti: concéde propítius; ut ejúsdem immaculáti Cordis festivitátem devóta mente recoléntes, secúndum cor tuum vívere valeámus.",
+  "antiphonae_evangelicae": {
+    "magnificat": "Exsultavit cor meum in Domino, et exaltatum est cornu meum in Deo meo, quia lætata sum in salutari tuo.",
+    "benedictus": "O beata Virgo Maria: tu gratiæ Mater, tu spes mundi, exaudi nos filios tuos clamantes ad te.",
+    "benedictus_es": "Oh bienaventurada Virgen María: tú, Madre de gracia, tú, esperanza del mundo, escúchanos a nosotros, tus hijos, que clamamos a ti.",
+    "magnificat_es": "Mi corazón se regocija en el Señor, mi fuerza se exalta en mi Dios, porque me he alegrado en tu salvación."
+  },
+  "breviarium_id": "queenship_of_the_blessed_virgin_mary",
+  "commune_subsidiarium": "COMMON_BVM"
+}

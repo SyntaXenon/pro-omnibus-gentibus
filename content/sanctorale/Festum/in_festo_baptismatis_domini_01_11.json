@@ -1,0 +1,86 @@
+{
+  "id": "baptism_lord_01_11",
+  "titulus": "In Festo Baptismatis Domini",
+  "dies": "01-11",
+  "gradus": "FESTUM",
+  "color": "ALBUS",
+  "habet_primas_vesperas": false,
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Fontes aquárum sanctificáti sunt, Christo apparénte in glória orbi terrárum. Hauríte aquas de fóntibus Salvatóris; sanctificávit enim nunc omnem creatúram Christus Deus noster.",
+        "antiphona_es": "Las fuentes de las aguas quedaron santificadas al manifestarse Cristo en gloria al orbe entero. Sacad agua de las fuentes del Salvador; porque ahora Cristo, nuestro Dios, ha santificado toda la creación.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 109:1-5,7",
+        "antiphona": "Vox de cælis sónuit et vox Patris audíta est: Hic est Fílius meus, in quo mihi complácui, ipsum audíte.",
+        "antiphona_es": "Resonó una voz desde el cielo y se oyó la voz del Padre: Este es mi Hijo, en quien tengo puesta mi complacencia; escuchadlo."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 111",
+        "antiphona": "Caput dracónis Salvátor contéruit in Iordáne flúmine, ab eius potestáte omnes erípuit.",
+        "antiphona_es": "El Salvador aplastó la cabeza del dragón en el río Jordán, y arrancó a todos de su poder."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "rev 15:3-4",
+        "antiphona": "Magnum mystérium declarátur hódie, quia Creátor ómnium in Iordáne expúrgat nostra facínora.",
+        "antiphona_es": "Hoy se manifiesta un gran misterio, porque el Creador de todas las cosas purifica en el Jordán nuestras culpas."
+      }
+    ],
+    "lectio_brevis_vesperarum": "acts 10:37-38",
+    "lectio_brevis_laudum": "isa 61:1-2"
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Baptizátur Christus, et sanctificátur omnis mundus; et tríbuit nobis remissiónem peccatórum; aqua et Spíritu omnes purificémur.",
+    "benedictus_es": "Cristo es bautizado, y todo el mundo es santificado; y nos concede la remisión de los pecados; purifiquémonos todos con agua y con el Espíritu.",
+    "magnificat": "Christus Iesus diléxit nos, et lavit nos a peccátis nostris in sánguine suo, et fecit nos regnum et sacerdótes Deo et Patri suo. Ipsi glória et impérium in sæcula.",
+    "magnificat_es": "Cristo Jesús nos amó, y nos lavó de nuestros pecados con su sangre, y nos hizo un reino y sacerdotes para Dios, su Padre. A él la gloria y el poder por los siglos."
+  },
+  "breviarium_id": "baptism_of_the_lord",
+  "collecta": "Omnipotens sempiterne Deus, qui Christum, in Iordane flumine baptizatum, Spiritu Sancto super eum descendente, dilectum Filium tuum sollemniter declarasti, concede filiis adoptionis tuæ, ex aqua et Spiritu Sancto renatis, ut in beneplacito tuo iugiter perseverent."
+}

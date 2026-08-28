@@ -1,0 +1,630 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Pro Omnibus Gentibus - Liturgia Horarum - __DATE__</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=EB+Garamond:ital@0;1&family=Crimson+Text:ital@0;1&family=Alegreya:ital@0;1&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<style>
+/* Locally-supplied liturgical typefaces (project's own /fonts folder, not a
+   web font service) - paths are relative to docs/*.html, where every
+   generated page actually lives. */
+@font-face {
+  font-family: 'Roman Uncial Modern';
+  src: url('../fonts/RomanUncialModern.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Kliment Std';
+  src: url('../fonts/Kliment_Std.ttf') format('truetype');
+  font-display: swap;
+}
+/* ============================================================
+   THEME ENGINE - all colors/fonts/spacing flow through these
+   custom properties. Settings.js sets these on :root at runtime;
+   the values below are just the "parchment" preset's own defaults
+   so the page looks right even before settings.js has run once.
+   ============================================================ */
+:root {
+  --bg: #faf3e6;
+  --bg-image: none;
+  --bg-overlay-opacity: 0;
+  --bg-blur: 0px;
+  --fg: #2b241c;
+  --accent: #7a5c3e;
+  --accent-soft: #ceb98f;
+  --panel-bg: #fffaf0;
+  --panel-border: #e0d2b0;
+  --link: #7a5c3e;
+
+  --font-main: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-rubric: 'Cinzel', Georgia, serif;
+  --font-latin: 'Cormorant Garamond', Georgia, serif;
+  --font-size-main: 18px;
+  --font-size-rubric: 12px;
+  --font-size-latin: 18px;
+  --line-height: 1.65;
+  --para-spacing: 0.9em;
+
+  --dropcap-scale: 3.2;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; padding: 0;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-main);
+  font-size: var(--font-size-main);
+  line-height: var(--line-height);
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Background image / texture layer sits behind everything, independent of
+   theme color, so an uploaded photo or a texture preset can be dimmed with
+   an overlay without touching --bg (which stays the fallback + overlay tint). */
+#bgLayer {
+  position: fixed; inset: 0; z-index: -2;
+  background-color: var(--bg);
+  background-image: var(--bg-image);
+  background-size: cover; background-position: center; background-attachment: fixed;
+  filter: blur(var(--bg-blur));
+  transform: scale(1.06); /* avoid blurred edges showing at viewport border */
+}
+#bgOverlay {
+  position: fixed; inset: 0; z-index: -1;
+  background-color: var(--bg);
+  opacity: var(--bg-overlay-opacity);
+}
+.screen { min-height: 100vh; padding-bottom: 4rem; }
+.hidden { display: none !important; }
+
+a { color: var(--link); }
+
+/* ---------- App chrome (header bar shared by all three screens) ---------- */
+.app-header {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  background: var(--panel-bg);
+  border-bottom: 1px solid var(--panel-border);
+  position: sticky; top: 0; z-index: 10;
+}
+.app-header h2 { margin: 0; font-family: var(--font-rubric); font-size: 1.1rem; letter-spacing: 0.03em; }
+.header-spacer { flex: 1; }
+.header-actions { display: flex; gap: 0.4rem; align-items: center; }
+.icon-btn {
+  background: none; border: 1px solid transparent; border-radius: 8px;
+  font-size: 1.25rem; line-height: 1; padding: 0.4rem 0.55rem; cursor: pointer;
+  color: var(--fg); font-family: inherit;
+}
+.icon-btn:hover { background: var(--accent-soft); border-color: var(--accent); }
+.icon-btn.text { font-size: 0.85rem; font-family: var(--font-rubric); letter-spacing: 0.03em; }
+
+/* ---------- Logo ---------- */
+.app-logo { display: flex; align-items: center; gap: 0.6rem; }
+.app-logo svg { display: block; }
+.app-logo .wordmark { font-family: var(--font-rubric); line-height: 1.05; }
+.app-logo .wordmark .big { display: block; font-size: 0.95rem; letter-spacing: 0.08em; }
+.app-logo .wordmark .small { display: block; font-size: 0.62rem; letter-spacing: 0.12em; opacity: 0.75; text-transform: uppercase; }
+.app-logo.small svg { width: 28px; height: 28px; }
+.app-logo.small .wordmark .big { font-size: 0.78rem; }
+.app-logo.small .wordmark .small { font-size: 0.52rem; }
+
+/* ---------- Liturgical Calendar Hero ---------- */
+.calendar-hero {
+  margin: 1.25rem; padding: 1.1rem 1.3rem;
+  background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: 12px;
+  display: flex; align-items: center; gap: 1rem;
+  border-left: 6px solid var(--accent);
+}
+.calendar-hero .hero-text { flex: 1; min-width: 0; }
+.calendar-hero .hero-date { font-family: var(--font-rubric); font-size: 0.72rem; letter-spacing: 0.08em;
+  text-transform: uppercase; opacity: 0.7; margin: 0 0 0.2rem; }
+.calendar-hero .hero-title { font-size: 1.15rem; margin: 0; font-weight: 600; }
+.calendar-hero .hero-rank { font-family: var(--font-rubric); font-size: 0.8rem; opacity: 0.85; margin-top: 0.15rem; }
+.color-badge {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-family: var(--font-rubric); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 0.25rem 0.55rem; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap;
+}
+.color-badge .dot { width: 0.6rem; height: 0.6rem; border-radius: 50%; background: currentColor; display: inline-block; }
+.color-white { color: #7a6d4f; background: #fffef8; }
+.color-green { color: #2f6b3a; background: #eef6ee; }
+.color-violet { color: #5a3c8a; background: #f3edfa; }
+.color-red { color: #a3272c; background: #fbecec; }
+.color-rose { color: #b9587f; background: #fbeef3; }
+.calendar-hero.small { margin: 1rem 1.25rem; padding: 0.7rem 1rem; }
+.calendar-hero.small .hero-title { font-size: 1rem; }
+
+/* ---------- Hour Selection screen ---------- */
+.hour-cards {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem; margin: 0 1.25rem 2rem;
+}
+.hour-card {
+  background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: 14px;
+  padding: 1.4rem 1.2rem; cursor: pointer; text-align: left;
+  font-family: inherit; color: var(--fg);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  position: relative; overflow: hidden;
+}
+.hour-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,0.08); }
+.hour-card:disabled { opacity: 0.45; cursor: not-allowed; }
+.hour-card:disabled:hover { transform: none; box-shadow: none; }
+.hour-card .hc-name { font-family: var(--font-rubric); font-size: 1.15rem; letter-spacing: 0.02em; margin: 0 0 0.3rem; }
+.hour-card .hc-time { font-size: 0.85rem; opacity: 0.7; }
+.hour-card .hc-soon { font-size: 0.72rem; opacity: 0.6; font-style: italic; margin-top: 0.4rem; }
+.hour-card.pray-now {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft), 0 0 22px 4px var(--accent-soft);
+  animation: praynow-pulse 2.4s ease-in-out infinite;
+}
+.hour-card.pray-now::after {
+  content: attr(data-praynow-label);
+  position: absolute; top: 0.6rem; right: 0.6rem;
+  font-family: var(--font-rubric); font-size: 0.6rem; letter-spacing: 0.06em; text-transform: uppercase;
+  background: var(--accent); color: var(--panel-bg); padding: 0.2rem 0.5rem; border-radius: 999px;
+}
+@keyframes praynow-pulse {
+  0%, 100% { box-shadow: 0 0 0 3px var(--accent-soft), 0 0 14px 2px var(--accent-soft); }
+  50% { box-shadow: 0 0 0 5px var(--accent-soft), 0 0 30px 8px var(--accent-soft); }
+}
+.hour-select-footer { margin: 0 1.25rem; font-size: 0.85rem; opacity: 0.75; }
+
+/* ---------- Main prayer screen ---------- */
+#mainScreen .content-wrap { max-width: 900px; margin: 0 auto; padding: 0 1.25rem; }
+h1#dateHeading { font-size: 1.4rem; margin: 1rem 0 0.2rem; }
+.controls { display: flex; gap: 1.25rem; flex-wrap: wrap; align-items: flex-end; margin: 1rem 0 1.5rem;
+             font-family: var(--font-rubric); }
+.control-group { display: flex; flex-direction: column; gap: 0.25rem; }
+.control-group label { font-size: 0.68rem; opacity: 0.65; text-transform: uppercase; letter-spacing: 0.05em; }
+select, input[type=text], input[type=number] {
+  font-size: 0.92rem; padding: 0.32rem 0.5rem; font-family: var(--font-main);
+  background: var(--panel-bg); color: var(--fg); border: 1px solid var(--panel-border); border-radius: 6px;
+}
+.meta { color: var(--fg); opacity: 0.7; margin-bottom: 1.5rem; font-family: var(--font-rubric); font-size: 0.85rem; }
+#tzNote { background: #fff3cd; color: #664d03; border: 1px solid #ffe69c; border-radius: 6px;
+           padding: 0.6rem 0.9rem; margin-bottom: 1rem; font-size: 0.85rem; opacity: 1; }
+
+table { width: 100%; border-collapse: collapse; }
+th {
+  text-align: left; background: var(--accent-soft); padding: 0.45rem 0.65rem; font-family: var(--font-rubric);
+  font-size: var(--font-size-rubric); text-transform: uppercase; letter-spacing: 0.04em; color: var(--accent);
+}
+td { width: 50%; vertical-align: top; padding: calc(var(--para-spacing) * 0.6) 0.65rem; border-bottom: 1px solid var(--panel-border); }
+td.single { width: 100%; }
+.col-left { border-right: 1px solid var(--panel-border); font-family: var(--font-main); font-size: var(--font-size-main); }
+.col-right { font-family: var(--font-latin); font-size: var(--font-size-latin); }
+td.single { font-family: var(--font-main); font-size: var(--font-size-main); }
+.unit-label { font-size: 0.68rem; opacity: 0.55; font-family: var(--font-rubric); text-transform: uppercase; }
+.vn { font-size: 0.68rem; opacity: 0.55; font-family: var(--font-rubric); vertical-align: super; }
+tr:last-child td { border-bottom: none; }
+.hymn-line { font-style: italic; }
+
+/* symbols/dividers (decorative toggles) */
+.section-symbol { margin: 0 0.35rem; color: var(--accent); }
+body.hide-symbols .section-symbol { display: none; }
+tr.unit-divider td { border-top: 2px solid var(--accent-soft); }
+body.hide-dividers tr.unit-divider td { border-top: 1px solid var(--panel-border); }
+
+/* drop caps */
+body.dropcap-illuminated td.single > .dropcap:first-letter,
+body.dropcap-illuminated td.col-left > .dropcap:first-letter {
+  font-family: 'UnifrakturCook', var(--font-rubric); font-size: calc(1em * var(--dropcap-scale));
+  float: left; line-height: 0.8; padding: 0.05em 0.08em 0 0; color: var(--accent);
+}
+body.dropcap-roman td.single > .dropcap:first-letter,
+body.dropcap-roman td.col-left > .dropcap:first-letter {
+  font-family: 'Cinzel', var(--font-rubric); font-size: calc(1em * var(--dropcap-scale) * 0.85);
+  float: left; line-height: 0.8; padding: 0.05em 0.08em 0 0; color: var(--accent);
+}
+body.dropcap-clean td.single > .dropcap:first-letter,
+body.dropcap-clean td.col-left > .dropcap:first-letter {
+  font-size: calc(1em * var(--dropcap-scale) * 0.7);
+  float: left; line-height: 0.75; padding: 0.02em 0.06em 0 0; font-weight: 600; color: var(--accent);
+}
+
+/* ---------- Paged / ribbon reading mode ---------- */
+.ribbon {
+  position: fixed; top: 0; right: 2.2rem; width: 1.6rem; height: 4.4rem;
+  background: var(--accent); z-index: 20;
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 50% 100%, 0 78%);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  display: none;
+}
+body.reading-paged .ribbon { display: block; }
+.pager-controls { display: none; justify-content: space-between; align-items: center;
+  margin: 1.5rem 0; font-family: var(--font-rubric); }
+body.reading-paged .pager-controls { display: flex; }
+body.reading-paged .page { display: none; animation: page-turn 0.28s ease; }
+body.reading-paged .page.active { display: block; }
+@keyframes page-turn { from { opacity: 0; transform: translateX(12px);} to { opacity: 1; transform: translateX(0);} }
+.pager-controls button {
+  background: var(--panel-bg); border: 1px solid var(--panel-border); color: var(--fg);
+  font-family: var(--font-rubric); font-size: 0.8rem; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer;
+}
+.pager-controls button:disabled { opacity: 0.4; cursor: not-allowed; }
+.pager-controls .page-indicator { font-size: 0.75rem; opacity: 0.7; }
+
+/* ---------- Quick font nudge ---------- */
+#fontNudge {
+  position: fixed; bottom: 1.2rem; right: 1.2rem; z-index: 30;
+  display: flex; gap: 0.4rem; background: var(--panel-bg); border: 1px solid var(--panel-border);
+  border-radius: 999px; padding: 0.35rem; box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+#fontNudge button {
+  width: 2.1rem; height: 2.1rem; border-radius: 50%; border: none; background: var(--accent-soft);
+  color: var(--fg); font-family: var(--font-rubric); font-weight: 600; cursor: pointer; font-size: 0.85rem;
+}
+#fontNudge button:hover { background: var(--accent); color: var(--panel-bg); }
+
+/* ---------- Settings screen ---------- */
+.settings-layout { display: flex; gap: 1.5rem; max-width: 1180px; margin: 0 auto; padding: 1.25rem; align-items: flex-start; }
+.settings-body { flex: 1 1 auto; min-width: 0; max-width: 760px; margin: 0; padding: 0; }
+.settings-preview {
+  flex: 0 0 320px; position: sticky; top: 4.5rem; align-self: flex-start;
+  background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: 12px;
+  padding: 0.9rem 1rem; max-height: calc(100vh - 6rem); overflow-y: auto;
+}
+.settings-preview-label {
+  font-family: var(--font-rubric); font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase;
+  opacity: 0.6; margin: 0 0 0.6rem;
+}
+.settings-preview table { width: 100%; border-collapse: collapse; font-size: 0.85em; }
+.settings-preview .single, .settings-preview .col-left, .settings-preview .col-right { font-size: 0.85em; }
+@media (max-width: 900px) {
+  .settings-layout { flex-direction: column; }
+  .settings-preview { position: static; width: 100%; flex: none; max-height: 45vh; }
+}
+.settings-section {
+  background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: 12px;
+  padding: 1.1rem 1.3rem; margin-bottom: 1.1rem;
+}
+.settings-section h3 {
+  font-family: var(--font-rubric); font-size: 0.95rem; letter-spacing: 0.03em; text-transform: uppercase;
+  margin: 0 0 0.9rem; color: var(--accent);
+}
+.settings-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 0.5rem 0; border-bottom: 1px solid var(--panel-border);
+}
+.settings-row:last-child { border-bottom: none; }
+.settings-row label { font-size: 0.88rem; flex: 1; min-width: 0; }
+.settings-row .settings-control { flex: 0 0 auto; display: flex; align-items: center; gap: 0.5rem; min-width: 0; max-width: 100%; flex-wrap: wrap; justify-content: flex-end; }
+.settings-row input[type=range] { width: 140px; max-width: 45vw; }
+.settings-row input[type=color] { width: 2.4rem; height: 1.8rem; border: 1px solid var(--panel-border); border-radius: 6px; padding: 0; }
+/* Rows whose control is a whole picker grid (fonts) rather than a compact
+   input - the label goes above, the picker gets the full row width to wrap
+   its swatches within, instead of being squeezed into a narrow trailing
+   column and overflowing past the panel edge. */
+.settings-row.stacked { flex-direction: column; align-items: stretch; gap: 0.5rem; }
+.settings-row.stacked .settings-control { width: 100%; max-width: 100%; justify-content: flex-start; }
+.settings-hint { font-size: 0.75rem; opacity: 0.65; margin-top: -0.4rem; margin-bottom: 0.6rem; }
+
+.preset-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.7rem; }
+.preset-card {
+  border: 2px solid var(--panel-border); border-radius: 10px; padding: 0.7rem 0.6rem; cursor: pointer;
+  text-align: center; font-family: var(--font-rubric); font-size: 0.72rem; letter-spacing: 0.02em;
+  background: var(--bg); color: var(--fg);
+}
+.preset-card.active { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.preset-card .swatch { width: 100%; height: 2.4rem; border-radius: 6px; margin-bottom: 0.5rem; border: 1px solid rgba(0,0,0,0.1); }
+
+.toggle { position: relative; width: 2.6rem; height: 1.5rem; }
+.toggle input { opacity: 0; width: 100%; height: 100%; margin: 0; position: absolute; cursor: pointer; }
+.toggle .track { position: absolute; inset: 0; background: var(--panel-border); border-radius: 999px; transition: background 0.15s; }
+.toggle .thumb { position: absolute; top: 2px; left: 2px; width: 1.2rem; height: 1.2rem; border-radius: 50%;
+  background: #fff; transition: transform 0.15s; box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
+.toggle input:checked ~ .track { background: var(--accent); }
+.toggle input:checked ~ .thumb { transform: translateX(1.1rem); }
+
+.font-swatch-row { display: flex; flex-wrap: wrap; gap: 0.5rem; width: 100%; }
+.font-swatch {
+  border: 1px solid var(--panel-border); border-radius: 8px; padding: 0.5rem 0.8rem; cursor: pointer;
+  background: var(--bg); font-size: 0.95rem;
+}
+.font-swatch.active { border-color: var(--accent); background: var(--accent-soft); }
+
+.bg-upload-preview {
+  width: 100%; height: 100px; border-radius: 8px; border: 1px dashed var(--panel-border);
+  background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center;
+  font-size: 0.8rem; opacity: 0.7; margin-bottom: 0.6rem;
+}
+.texture-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 0.6rem; }
+.texture-card { height: 3.2rem; border-radius: 8px; border: 2px solid var(--panel-border); cursor: pointer; position: relative; }
+.texture-card.active { border-color: var(--accent); }
+.texture-card span { position: absolute; bottom: 0.2rem; left: 0.4rem; font-size: 0.62rem; font-family: var(--font-rubric);
+  background: rgba(0,0,0,0.45); color: #fff; padding: 0.05rem 0.3rem; border-radius: 4px; }
+
+.settings-reset { text-align: center; margin-top: 0.5rem; }
+.settings-reset button {
+  background: none; border: 1px solid #a3272c; color: #a3272c; padding: 0.5rem 1.1rem; border-radius: 8px;
+  font-family: var(--font-rubric); font-size: 0.8rem; cursor: pointer;
+}
+
+/* ---------- Drawers (Intentions / Diary) ---------- */
+.drawer-backdrop {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.35); z-index: 40;
+}
+.drawer {
+  position: fixed; top: 0; right: 0; height: 100vh; width: min(400px, 92vw); z-index: 41;
+  background: var(--panel-bg); box-shadow: -6px 0 24px rgba(0,0,0,0.2);
+  display: flex; flex-direction: column; animation: drawer-in 0.2s ease;
+}
+@keyframes drawer-in { from { transform: translateX(100%); } to { transform: translateX(0); } }
+.drawer-header { display: flex; align-items: center; padding: 1rem 1.1rem; border-bottom: 1px solid var(--panel-border); }
+.drawer-header h3 { margin: 0; font-family: var(--font-rubric); font-size: 1rem; flex: 1; }
+.drawer-body { flex: 1; overflow-y: auto; padding: 1rem 1.1rem; }
+.intention-item { display: flex; align-items: center; gap: 0.6rem; padding: 0.5rem 0; border-bottom: 1px solid var(--panel-border); }
+.intention-item input[type=checkbox] { width: 1.1rem; height: 1.1rem; }
+.intention-item .intention-text { flex: 1; font-size: 0.92rem; }
+.intention-item button { background: none; border: none; color: #a3272c; cursor: pointer; font-size: 0.9rem; }
+.add-intention-row { display: flex; gap: 0.5rem; margin-top: 0.9rem; }
+.add-intention-row input { flex: 1; }
+.add-intention-row button { background: var(--accent); color: var(--panel-bg); border: none; border-radius: 6px; padding: 0.4rem 0.8rem; cursor: pointer; font-family: var(--font-rubric); }
+
+/* ---- Hymnal screen ---- */
+.hymnal-body { max-width: 900px; margin: 0 auto; padding: 1rem 1.2rem 3rem; }
+.hymnal-controls { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 0.8rem; }
+.hymnal-controls #hymnalSearch { flex: 1 1 240px; min-width: 0; }
+.hymnal-controls select { flex: 0 0 auto; }
+.hymnal-controls button { background: var(--accent); color: var(--panel-bg); border: none; border-radius: 6px; padding: 0.4rem 0.8rem; cursor: pointer; font-family: var(--font-rubric); white-space: nowrap; }
+.hymnal-list { display: flex; flex-direction: column; gap: 0.6rem; }
+.hymnal-card { background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: 10px; padding: 0.7rem 0.9rem; }
+.hymnal-card-header { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; }
+.hymnal-card-title { font-family: var(--font-rubric); font-weight: 600; flex: 1 1 auto; min-width: 0; }
+.hymnal-card-hours { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.hymnal-badge, .hymnal-hour-badge { display: inline-block; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.03em; padding: 0.12rem 0.45rem; border-radius: 999px; }
+.hymnal-badge { background: var(--accent-soft); color: var(--accent); margin-left: 0.4rem; }
+.hymnal-badge-mine { background: var(--accent); color: var(--panel-bg); }
+.hymnal-hour-badge { border: 1px solid var(--panel-border); opacity: 0.75; }
+.hymnal-toggle-btn { background: none; border: 1px solid var(--panel-border); border-radius: 6px; padding: 0.25rem 0.6rem; cursor: pointer; font-size: 0.82rem; color: var(--accent); }
+.hymnal-del-btn { background: none; border: none; color: #a3272c; cursor: pointer; font-size: 1.1rem; line-height: 1; padding: 0 0.2rem; }
+.hymnal-lyrics { display: flex; flex-wrap: wrap; gap: 1.2rem; margin-top: 0.7rem; padding-top: 0.6rem; border-top: 1px solid var(--panel-border); }
+.hymnal-lyrics-col { flex: 1 1 220px; min-width: 200px; }
+.hymnal-lyrics-lang { font-family: var(--font-rubric); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--accent); margin-bottom: 0.3rem; }
+.hymnal-lyrics-col .hymn-line { font-size: 0.92rem; }
+.hymnal-stanza-break { height: 0.6rem; }
+.hymnal-add-form { background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: 10px; padding: 0.9rem 1rem; margin-bottom: 0.8rem; display: flex; flex-direction: column; gap: 0.7rem; }
+.hymnal-add-form h3 { margin: 0; font-family: var(--font-rubric); }
+.hymnal-add-form label { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.85rem; }
+.hymnal-add-form input[type=text], .hymnal-add-form select, .hymnal-add-form textarea { font-family: var(--font-main); }
+.hymnal-add-form textarea { resize: vertical; }
+.hymnal-hours-fieldset { border: 1px solid var(--panel-border); border-radius: 8px; padding: 0.5rem 0.7rem; display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; }
+.hymnal-hours-fieldset legend { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; padding: 0 0.3rem; }
+.hymnal-hour-check { flex-direction: row !important; align-items: center; gap: 0.35rem !important; font-size: 0.85rem; }
+.hymnal-hour-check[data-also-sung-for] { font-size: 0.78rem; opacity: 0.8; font-style: italic; margin-top: -0.4rem; }
+.hymnal-add-form-actions { display: flex; gap: 0.6rem; }
+.hymnal-add-form-actions button { border: none; border-radius: 6px; padding: 0.45rem 0.9rem; cursor: pointer; font-family: var(--font-rubric); }
+#hymnalSaveBtn { background: var(--accent); color: var(--panel-bg); }
+#hymnalCancelBtn { background: none; border: 1px solid var(--panel-border) !important; color: var(--fg); }
+
+.diary-streak { text-align: center; padding: 0.8rem 0; border-bottom: 1px solid var(--panel-border); margin-bottom: 0.8rem; }
+.diary-streak .streak-num { font-size: 2.2rem; font-family: var(--font-rubric); color: var(--accent); }
+.diary-streak .streak-label { font-size: 0.75rem; opacity: 0.7; text-transform: uppercase; letter-spacing: 0.05em; }
+.diary-prayed-btn {
+  display: block; width: 100%; padding: 0.7rem; margin-bottom: 1rem; border-radius: 8px; border: 1px solid var(--accent);
+  background: var(--accent-soft); font-family: var(--font-rubric); cursor: pointer; font-size: 0.85rem;
+}
+.diary-prayed-btn.done { background: var(--accent); color: var(--panel-bg); }
+.diary-journal textarea { width: 100%; min-height: 100px; font-family: var(--font-main); padding: 0.6rem;
+  border: 1px solid var(--panel-border); border-radius: 8px; background: var(--bg); color: var(--fg); resize: vertical; }
+.diary-bookmarks-list { font-size: 0.85rem; }
+.diary-bookmarks-list .bm-item { padding: 0.4rem 0; border-bottom: 1px solid var(--panel-border); display: flex; justify-content: space-between; }
+
+/* ---------- Top bar (beta checkbox + menu language) ---------- */
+.top-bar {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 0.35rem 1.25rem; background: var(--accent); color: var(--panel-bg);
+  font-family: var(--font-rubric); font-size: 0.72rem; letter-spacing: 0.03em;
+}
+.beta-check { display: flex; align-items: center; gap: 0.4rem; cursor: pointer; }
+.beta-check input { width: 0.95rem; height: 0.95rem; }
+.menu-lang-select {
+  background: transparent; color: var(--panel-bg); border: 1px solid var(--panel-bg);
+  border-radius: 6px; font-size: 0.7rem; padding: 0.15rem 0.4rem; font-family: var(--font-rubric);
+}
+.menu-lang-select option { color: #222; }
+
+/* ---------- Colophon footer ---------- */
+.colophon {
+  text-align: center; font-family: 'Cardo', Georgia, serif; font-style: italic; font-size: 0.72rem;
+  opacity: 0.55; padding: 2rem 1rem 1.5rem; color: var(--fg);
+}
+
+/* ---------- Generic modal (first-visit notice / beta warning) ---------- */
+.modal-backdrop {
+  position: fixed; inset: 0; z-index: 60; background: rgba(0,0,0,0.55);
+  display: flex; align-items: center; justify-content: center; padding: 1rem;
+}
+.modal-box {
+  background: var(--panel-bg); color: var(--fg); border-radius: 14px; max-width: 480px; width: 100%;
+  padding: 1.6rem 1.7rem; box-shadow: 0 12px 40px rgba(0,0,0,0.3); max-height: 85vh; overflow-y: auto;
+}
+.modal-box h3 { font-family: var(--font-rubric); color: var(--accent); font-size: 1rem; margin: 1rem 0 0.5rem; }
+.modal-box h3:first-child { margin-top: 0; }
+.modal-box p { font-size: 0.9rem; line-height: 1.55; margin: 0 0 0.5rem; }
+.modal-btn-row { display: flex; gap: 0.7rem; justify-content: flex-end; margin-top: 1.2rem; }
+.modal-primary-btn, .modal-secondary-btn {
+  font-family: var(--font-rubric); font-size: 0.82rem; padding: 0.55rem 1.2rem; border-radius: 8px; cursor: pointer;
+}
+.modal-primary-btn { background: var(--accent); color: var(--panel-bg); border: none; margin-top: 1rem; }
+.modal-secondary-btn { background: none; border: 1px solid var(--panel-border); color: var(--fg); }
+
+/* ---------- Beta English machine translation ---------- */
+.mt-pending { opacity: 0.45; font-style: italic; }
+.mt-badge {
+  display: inline-block; font-family: var(--font-rubric); font-size: 0.58rem; letter-spacing: 0.04em;
+  background: #a3272c; color: #fff; padding: 0.05rem 0.3rem; border-radius: 4px; vertical-align: middle;
+  margin-right: 0.3rem;
+}
+
+/* ---------- Beta debug drawer ---------- */
+.debug-var-row { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem;
+  padding: 0.4rem 0; border-bottom: 1px solid var(--panel-border); font-size: 0.82rem; }
+.debug-var-row code { font-size: 0.78rem; background: var(--bg); padding: 0.1rem 0.35rem; border-radius: 4px; }
+#debugJsonBox { width: 100%; min-height: 220px; font-family: monospace; font-size: 0.78rem;
+  background: var(--bg); color: var(--fg); border: 1px solid var(--panel-border); border-radius: 8px; padding: 0.6rem; }
+
+/* ---------- Phone simulator (beta debug menu) ---------- */
+.phone-sim-frame {
+  position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 61;
+  width: 375px; height: 812px; max-height: 92vh; background: #000; border-radius: 36px; padding: 10px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5); display: flex; flex-direction: column;
+}
+.phone-sim-chrome {
+  display: flex; align-items: center; justify-content: space-between; padding: 0.3rem 0.6rem 0.5rem;
+  color: #fff; font-family: var(--font-rubric); font-size: 0.7rem; letter-spacing: 0.05em;
+}
+.phone-sim-chrome .icon-btn { color: #fff; }
+.phone-sim-viewport { flex: 1; width: 100%; border: none; border-radius: 24px; background: #fff; }
+
+@media (max-width: 640px) {
+  .app-header h2 { font-size: 0.95rem; }
+  .hour-cards { grid-template-columns: 1fr; }
+  .top-bar { flex-wrap: wrap; }
+}
+</style></head>
+<body>
+
+<div id="bgLayer"></div>
+<div id="bgOverlay"></div>
+<div class="ribbon" aria-hidden="true"></div>
+
+<!-- ============== SCREEN 1: HOUR SELECTION ============== -->
+<div id="hourSelectScreen" class="screen">
+  <div class="top-bar">
+    <label class="beta-check"><input type="checkbox" id="betaCheckboxA"> <span id="betaLabelA">Beta Tester Mode</span></label>
+    <select id="menuLangSelectA" class="menu-lang-select"></select>
+  </div>
+  <header class="app-header">
+    <div class="app-logo" id="logoHourSelect"></div>
+    <div class="header-spacer"></div>
+    <button class="icon-btn hidden" id="btnDebugFromHourSelect" title="Beta debug menu">&#128027;</button>
+    <button class="icon-btn" id="btnHymnalFromHourSelect" title="Hymnal">&#9834;</button>
+    <button class="icon-btn" id="btnIntentionsFromHourSelect" title="Intentions">&#128367;</button>
+    <button class="icon-btn" id="btnDiaryFromHourSelect" title="Prayer Diary">&#128214;</button>
+    <button class="icon-btn" id="btnSettingsFromHourSelect" title="Settings">&#9881;</button>
+  </header>
+  <div class="calendar-hero" id="heroHourSelect"></div>
+  <div class="hour-cards" id="hourCards"></div>
+  <div class="hour-select-footer" id="hourSelectFooter"></div>
+</div>
+
+<!-- ============== SCREEN 2: MAIN PRAYER SCREEN ============== -->
+<div id="mainScreen" class="screen hidden">
+  <div class="top-bar">
+    <label class="beta-check"><input type="checkbox" id="betaCheckboxB"> <span id="betaLabelB">Beta Tester Mode</span></label>
+    <select id="menuLangSelectB" class="menu-lang-select"></select>
+  </div>
+  <header class="app-header">
+    <button class="icon-btn" id="btnBackToHourSelect" title="Choose another hour">&#8592;</button>
+    <div class="app-logo small" id="logoMain"></div>
+    <div class="header-spacer"></div>
+    <button class="icon-btn hidden" id="btnDebug" title="Beta debug menu">&#128027;</button>
+    <button class="icon-btn" id="btnHymnal" title="Hymnal">&#9834;</button>
+    <button class="icon-btn" id="btnIntentions" title="Intentions">&#128367;</button>
+    <button class="icon-btn" id="btnDiary" title="Prayer Diary">&#128214;</button>
+    <button class="icon-btn" id="btnSettings" title="Settings">&#9881;</button>
+  </header>
+  <div class="calendar-hero small" id="heroMain"></div>
+  <div class="content-wrap">
+    <h1 id="dateHeading"></h1>
+    <div class="controls">
+      <div class="control-group">
+        <label for="tzSelect" id="tzLabel">Timezone</label>
+        <select id="tzSelect"></select>
+      </div>
+      <div class="control-group">
+        <label for="dateSelect" id="dateLabel">Date</label>
+        <select id="dateSelect"></select>
+      </div>
+      <div class="control-group">
+        <label for="leftLang" id="leftLabel">Main</label>
+        <select id="leftLang"></select>
+      </div>
+      <div class="control-group">
+        <label for="rightLang" id="rightLabel">Vernacular</label>
+        <select id="rightLang"></select>
+      </div>
+      <div class="control-group">
+        <label for="hourSelect" id="hourLabel">Hour</label>
+        <select id="hourSelect"></select>
+      </div>
+    </div>
+    <div class="meta" id="tzNote" style="display:none;"></div>
+    <div class="meta" id="metaLine"></div>
+
+    <div class="pager-controls" id="pagerControls">
+      <button id="pagerPrev">&#8592; Prev</button>
+      <span class="page-indicator" id="pagerIndicator"></span>
+      <button id="pagerNext">Next &#8594;</button>
+    </div>
+
+    <table id="mainTable"></table>
+
+    <div class="pager-controls" id="pagerControlsBottom">
+      <button id="pagerPrevBottom">&#8592; Prev</button>
+      <span class="page-indicator" id="pagerIndicatorBottom"></span>
+      <button id="pagerNextBottom">Next &#8594;</button>
+    </div>
+  </div>
+</div>
+
+<div id="fontNudge">
+  <button id="fontMinus" title="Smaller text">A&#8722;</button>
+  <button id="fontPlus" title="Larger text">A&#43;</button>
+</div>
+
+<!-- ============== SCREEN 3: SETTINGS ============== -->
+<div id="settingsScreen" class="screen hidden">
+  <header class="app-header">
+    <button class="icon-btn" id="btnCloseSettings" title="Back">&#8592;</button>
+    <h2 id="settingsTitle">Settings</h2>
+  </header>
+  <div class="settings-layout">
+    <aside class="settings-preview" id="settingsPreview"></aside>
+    <div class="settings-body" id="settingsBody"></div>
+  </div>
+</div>
+
+<!-- ============== SCREEN 4: HYMNAL ============== -->
+<div id="hymnalScreen" class="screen hidden">
+  <header class="app-header">
+    <button class="icon-btn" id="btnCloseHymnal" title="Back">&#8592;</button>
+    <h2 id="hymnalTitle">Hymnal</h2>
+  </header>
+  <div class="hymnal-body" id="hymnalBody"></div>
+</div>
+
+<footer class="colophon">Nasivs Gustabvs Torrecillvs Andradensis Gambervs in versione prima hvmiliter et devote fecit</footer>
+
+<!-- First-visit development-status notice (shown in English and Spanish together) -->
+<div id="firstVisitModal" class="modal-backdrop hidden">
+  <div class="modal-box">
+    <h3 id="firstVisitTitleEn"></h3>
+    <p id="firstVisitBodyEn"></p>
+    <h3 id="firstVisitTitleEs"></h3>
+    <p id="firstVisitBodyEs"></p>
+    <button class="modal-primary-btn" id="firstVisitDismiss"></button>
+  </div>
+</div>
+
+<!-- Beta-mode warning, shown before the checkbox can actually turn beta mode on -->
+<div id="betaWarnModal" class="modal-backdrop hidden">
+  <div class="modal-box">
+    <h3 id="betaWarnTitleEn"></h3>
+    <p id="betaWarnBodyEn"></p>
+    <h3 id="betaWarnTitleEs"></h3>
+    <p id="betaWarnBodyEs"></p>
+    <div class="modal-btn-row">
+      <button class="modal-secondary-btn" id="betaWarnCancel"></button>
+      <button class="modal-primary-btn" id="betaWarnAccept"></button>
+    </div>
+  </div>
+</div>
+
+<script id="dayData" type="application/json">__DATA_JSON__</script>
+<script>
+__APP_JS__
+</script>
+</body></html>

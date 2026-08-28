@@ -1,0 +1,96 @@
+{
+  "id": "conversion_st_paul_01_25",
+  "titulus": "In Conversione Sancti Pauli, Apostoli",
+  "dies": "01-25",
+  "gradus": "FESTUM",
+  "color": "ALBUS",
+  "habet_primas_vesperas": false,
+  "commune_subsidiarium": "COMMON_APOSTLES",
+  "officium_lectionis": {
+    "lectio_altera": {
+      "auctor": "Homilía sancti Hierónymi Presbýteri.",
+      "titulus": "Lib. 3. in Matth. cap. 19.",
+      "textus": "Grandis fidúcia! Petrus piscátor erat, dives non fúerat, cibos manu et arte quærébat: et tamen lóquitur confidénter: Relíquimus ómnia. Et quia non súfficit tantum relínquere, jungit quod perféctum est: Et secúti sumus te. Fécimus quod jussísti: quid ígitur nobis dabis prǽmii? Jesus autem dixit illis: Amen dico vobis, quod vos qui secúti estis me, in regeneratióne, cum séderit Fílius hóminis in sede majestátis suæ, sedébitis et vos super sedes duódecim, judicántes duódecim tribus Ísraël. Non dixit: Qui reliquístis ómnia; hoc enim et Crates fecit philósophus, et multi álii divítias contempsérunt: sed, Qui secúti estis me: quod próprie Apostolórum est, atque credéntium. In regeneratióne, cum séderit Fílius hóminis in sede majestátis suæ (quando et mórtui de corruptióne resúrgent incorrúpti) sedébitis et vos in sóliis judicántium, condemnántes duódecim tribus Ísraël: quia vobis credéntibus, illi crédere noluérunt. Et omnis qui relíquerit domum, vel fratres, aut soróres, aut patrem, aut matrem, aut uxórem, aut fílios, aut agros propter nomen meum, céntuplum accípiet, et vitam ætérnam possidébit. Locus iste cum illa senténtia cóngruit, in qua Salvátor lóquitur: Non veni pacem míttere, sed gládium. Veni enim separáre hóminem a patre suo, et matrem a fília, et nurum a socru: et inimíci hóminis doméstici ejus. Qui ergo propter fidem Christi, et prædicatiónem Evangélii, omnes afféctus contémpserint, atque divítias et sǽculi voluptátes: isti céntuplum recípient, et vitam ætérnam possidébunt."
+    },
+    "responsorium_alterum": {
+      "textus": "℟. Isti sunt viri sancti, quos elégit Dóminus in caritáte non ficta, et dedit illis glóriam sempitérnam: * Quorum doctrína fulget Ecclésia, ut sole luna. V. Sancti per fidem vicérunt regna: operáti sunt justítiam.",
+      "versus_repetitus": "℣. Sancti per fidem vicérunt regna: operáti sunt justítiam."
+    },
+    "te_deum_requisitum": true
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Vos qui reliquistis omnia, et secuti estis me, centuplum accipietis, et vitam æternam possidebitis.",
+    "magnificat": "Hoc est præceptum meum, ut diligatis invicem, sicut dilexi vos.",
+    "benedictus_es": "Vosotros que lo dejasteis todo y me seguisteis, recibiréis el céntuplo y poseeréis la vida eterna.",
+    "magnificat_es": "Este es mi mandamiento: que os améis unos a otros como yo os he amado."
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Súfficit tibi, Paule, grátia mea, nam virtus in infirmitáte perfícitur.",
+        "antiphona_es": "Te basta mi gracia, Pablo, porque la fuerza se realiza plenamente en la debilidad.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "lectio_brevis_vesperarum": "heb 13:20-21",
+    "lectio_brevis_laudum": "acts 26:16-18",
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 115",
+        "antiphona": "Libénter gloriábor in infirmitátibus meis, ut inhábitet in me virtus Christi.",
+        "antiphona_es": "Con gusto me gloriaré en mis debilidades, para que habite en mí la fuerza de Cristo."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 125",
+        "antiphona": "Ego plantávi, Apóllo rigávit, Deus autem increméntum dedit.",
+        "antiphona_es": "Yo planté, Apolo regó, pero Dios dio el crecimiento."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "eph 1:3-10",
+        "antiphona": "Mihi vívere Christus est, et mori lucrum; gloriári me opórtet in cruce Dómini mei Iesu Christi.",
+        "antiphona_es": "Para mí la vida es Cristo, y morir una ganancia; debo gloriarme en la cruz de mi Señor Jesucristo."
+      }
+    ]
+  },
+  "collecta": "Deus, qui universum mundum beati Pauli Apostoli prædicatione docuisti: da nobis, quæsumus; ut, qui ejus hodie Conversionem colimus, per ejus ad te exempla gradiamur.",
+  "breviarium_id": "conversion_of_saint_paul_the_apostle"
+}

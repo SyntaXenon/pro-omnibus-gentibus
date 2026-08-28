@@ -1,0 +1,31 @@
+{
+  "id": "st_barnabas_ap_06_11",
+  "titulus": "Sancti Barnabæ, apostoli",
+  "dies": "06-11",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "RUBER",
+  "commune_subsidiarium": "COMMON_APOSTLES",
+  "collecta": "Deus, qui nos beáti Bárnabæ Apóstoli tui méritis et intercessióne lætíficas: concéde propítius; ut, qui tua per eum benefícia póscimus, dono tuæ grátiæ consequámur.",
+  "officium_lectionis": {
+    "lectio_altera": {
+      "auctor": "Homilía sancti Hierónymi Presbýteri.",
+      "titulus": "Lib. 3. in Matth. cap. 19.",
+      "textus": "Grandis fidúcia! Petrus piscátor erat, dives non fúerat, cibos manu et arte quærébat: et tamen lóquitur confidénter: Relíquimus ómnia. Et quia non súfficit tantum relínquere, jungit quod perféctum est: Et secúti sumus te. Fécimus quod jussísti: quid ígitur nobis dabis prǽmii? Jesus autem dixit illis: Amen dico vobis, quod vos qui secúti estis me, in regeneratióne, cum séderit Fílius hóminis in sede majestátis suæ, sedébitis et vos super sedes duódecim, judicántes duódecim tribus Ísraël. Non dixit: Qui reliquístis ómnia; hoc enim et Crates fecit philósophus, et multi álii divítias contempsérunt: sed, Qui secúti estis me: quod próprie Apostolórum est, atque credéntium. In regeneratióne, cum séderit Fílius hóminis in sede majestátis suæ (quando et mórtui de corruptióne resúrgent incorrúpti) sedébitis et vos in sóliis judicántium, condemnántes duódecim tribus Ísraël: quia vobis credéntibus, illi crédere noluérunt. Et omnis qui relíquerit domum, vel fratres, aut soróres, aut patrem, aut matrem, aut uxórem, aut fílios, aut agros propter nomen meum, céntuplum accípiet, et vitam ætérnam possidébit. Locus iste cum illa senténtia cóngruit, in qua Salvátor lóquitur: Non veni pacem míttere, sed gládium. Veni enim separáre hóminem a patre suo, et matrem a fília, et nurum a socru: et inimíci hóminis doméstici ejus. Qui ergo propter fidem Christi, et prædicatiónem Evangélii, omnes afféctus contémpserint, atque divítias et sǽculi voluptátes: isti céntuplum recípient, et vitam ætérnam possidébunt."
+    },
+    "responsorium_alterum": {
+      "textus": "℟. Isti sunt viri sancti, quos elégit Dóminus in caritáte non ficta, et dedit illis glóriam sempitérnam: * Quorum doctrína fulget Ecclésia, ut sole luna. V. Sancti per fidem vicérunt regna: operáti sunt justítiam.",
+      "versus_repetitus": "℣. Sancti per fidem vicérunt regna: operáti sunt justítiam."
+    }
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Vos qui reliquistis omnia, et secuti estis me, centuplum accipietis, et vitam æternam possidebitis.",
+    "benedictus_es": "Vosotros que lo habéis dejado todo y me habéis seguido, recibiréis el céntuplo y poseeréis la vida eterna.",
+    "magnificat": "Hoc est præceptum meum, ut diligatis invicem, sicut dilexi vos.",
+    "magnificat_es": "Este es mi mandamiento: que os améis unos a otros, como yo os he amado."
+  },
+  "propria": {
+    "capitulum_laudum": "Eph 2:19-20: Fratres: Jam non estis hóspites et ádvenæ: sed estis cives Sanctórum et doméstici Dei: superædificáti super fundaméntum Apostolórum, et Prophetárum, ipso summo angulári lápide Christo Jesu.",
+    "capitulum_vesperarum": "Eph 2:19-20: Fratres: Jam non estis hóspites et ádvenæ: sed estis cives Sanctórum et doméstici Dei: superædificáti super fundaméntum Apostolórum, et Prophetárum, ipso summo angulári lápide Christo Jesu."
+  },
+  "breviarium_id": "barnabas_apostle"
+}

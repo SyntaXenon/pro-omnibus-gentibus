@@ -1,0 +1,14 @@
+{
+  "id": "holy_name_mary_09_12",
+  "titulus": "Sanctissimi Nominis Mariæ",
+  "dies": "09-12",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "ALBUS",
+  "collecta": "Concede, quæsumus, omnipotens Deus: ut fideles tui, qui sub sanctissimæ Virginis Mariæ Nomine et protectione lætantur; ejus pia intercessione, a cunctis malis liberentur in terris, et ad gaudia æterna pervenire mereantur in cælis.",
+  "antiphonae_evangelicae": {
+    "benedictus": "Paradísi porta per Evam cunctis clausa est, et per Maríam Vírginem patefácta est.",
+    "benedictus_es": "La puerta del paraíso, cerrada para todos por Eva, fue abierta de nuevo por la Virgen María.",
+    "magnificat": "Beáta es, María, quæ credidísti: perficiéntur in te quæ dicta sunt tibi a Dómino.",
+    "magnificat_es": "Bienaventurada tú, María, que has creído: se cumplirá en ti lo que te fue dicho de parte del Señor."
+  }
+}

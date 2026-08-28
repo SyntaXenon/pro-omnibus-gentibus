@@ -1,0 +1,108 @@
+{
+  "id": "epiphany_01_06",
+  "titulus": "In Epiphania Domini",
+  "dies": "01-06",
+  "gradus": "SOLLEMNITAS",
+  "color": "ALBUS",
+  "habet_primas_vesperas": true,
+  "collecta": "Deus, qui hodiérna die Unigénitum tuum géntibus stella duce revelásti: concéde propítius; ut, qui jam te ex fide cognóvimus, usque ad contemplándam spéciem tuæ celsitúdinis perducámur. $Per eumdem",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "María et flúmina, benedícite Dómino; hymnum dícite, fontes, Dómino, allelúia.",
+        "antiphona_es": "Mares y ríos, bendecid al Señor; fuentes, cantad un himno al Señor, aleluya.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_primarum_vesperarum": [
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 134:1-12",
+        "antiphona": "Ante lucíferum génitus et ante sǽcula, Dóminus, salvátor noster, hódie mundo appáruit.",
+        "antiphona_es": "Engendrado antes del lucero del alba y antes de los siglos, el Señor, nuestro salvador, se ha manifestado hoy al mundo."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 134:13-21",
+        "antiphona": "Magnus est Dóminus, et Deus noster præ ómnibus diis.",
+        "antiphona_es": "Grande es el Señor, y nuestro Dios está por encima de todos los dioses."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "1tim 3:16",
+        "antiphona": "Stella ista sicut flamma corúscat, et Regem regum Deum demónstrat: magi eam vidérunt, et magno Regi múnera obtulérunt.",
+        "antiphona_es": "Esta estrella resplandece como una llama y señala a Dios, Rey de reyes: los magos la vieron y ofrecieron sus dones al gran Rey."
+      }
+    ],
+    "psalmodia_secundarum_vesperarum": [
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 109:1-5,7",
+        "antiphona": "Magnificátus est Rex pacíficus super omnes reges univérsæ terræ.",
+        "antiphona_es": "El Rey pacífico ha sido engrandecido sobre todos los reyes de toda la tierra."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 111",
+        "antiphona": "Exórtum est in ténebris lumen rectis corde; miséricors et miserátor et iustus Dóminus.",
+        "antiphona_es": "En las tinieblas ha nacido una luz para los rectos de corazón: el Señor es misericordioso, clemente y justo."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "rev 15:3-4",
+        "antiphona": "Omnes gentes, quascúmque fecísti, vénient, et adorábunt coram te, Dómine.",
+        "antiphona_es": "Todas las naciones que hiciste vendrán y se postrarán ante ti, Señor."
+      }
+    ],
+    "lectio_brevis_vesperarum": "titus 3:4-5",
+    "lectio_brevis_laudum": "isa 52:7-10"
+  },
+  "antiphonae_evangelicae": {
+    "magnificat_ii": "Tribus miráculis * ornátum diem sanctum cólimus: hódie stella Magos duxit ad præsépium: hódie vinum ex aqua factum est ad núptias: hódie in Jordáne a Joánne Christus baptizári vóluit, ut salváret nos, allelúja.",
+    "magnificat_ii_es": "Celebramos este día santo, adornado con tres milagros: hoy la estrella condujo a los Magos hasta el pesebre; hoy el agua se convirtió en vino para las bodas; hoy Cristo quiso ser bautizado por Juan en el Jordán, para salvarnos, aleluya.",
+    "magnificat_i": "Magi, vidéntes stellam, dixérunt ad ínvicem: Hoc signum magni Regis est; eámus et inquirámus eum, et offerámus ei múnera, aurum, tus et myrrham.",
+    "magnificat_i_es": "Los Magos, al ver la estrella, se dijeron unos a otros: Esta es la señal del gran Rey; vayamos a buscarlo, y ofrezcámosle dones: oro, incienso y mirra.",
+    "benedictus": "Hódie * cælésti Sponso juncta est Ecclésia, quóniam in Jordáne lavit Christus ejus crímina: currunt cum munéribus Magi ad regáles núptias, et ex aqua facto vino lætántur convívæ, allelúja.",
+    "benedictus_es": "Hoy la Iglesia se ha unido a su Esposo celestial, porque Cristo lavó sus pecados en el Jordán: los Magos corren con sus dones a las bodas reales, y los convidados se alegran del agua convertida en vino, aleluya."
+  },
+  "breviarium_id": "epiphany_of_the_lord"
+}

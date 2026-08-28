@@ -1,0 +1,17 @@
+{
+  "id": "st_mary_magdalene_07_22",
+  "titulus": "Sanctæ Mariæ Magdalenæ",
+  "dies": "07-22",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "collecta": "Beátæ Maríæ Magdalénæ, quǽsumus, Dómine, suffrágiis adjuvémur: cujus précibus exorátus, quatriduánum fratrem Lázarum vivum ab ínferis resuscitásti: $Qui vivis",
+  "antiphonae_evangelicae": {
+    "benedictus": "Surgens autem Iesus mane, prima sábbati, appáruit primo Maríæ Magdalénæ, de qua eiécerat septem dæmónia, allelúia.",
+    "magnificat": "María Magdaléne ábiit, et annuntiávit discípulis: Vidi Dóminum, allelúia.",
+    "benedictus_es": "Jesús, resucitado al amanecer del primer día de la semana, se apareció primero a María Magdalena, de la que había echado siete demonios. Aleluya.",
+    "magnificat_es": "María Magdalena fue y anunció a los discípulos: «He visto al Señor.» Aleluya."
+  },
+  "breviarium_id": "mary_magdalene",
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text. Replaced with genuine saint-specific text sourced from breviarium-core (Spanish), Latin is a direct faithful translation from the Vulgate underlying the quoted Gospel verses (John 20:18, Mark 16:9). Collect was already correct, unchanged."
+}

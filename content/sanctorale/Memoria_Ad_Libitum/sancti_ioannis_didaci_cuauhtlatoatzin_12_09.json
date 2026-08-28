@@ -1,0 +1,15 @@
+{
+  "id": "juan_diego_12_09",
+  "titulus": "Sancti Ioannis Didaci Cuauhtlatoatzin",
+  "dies": "12-09",
+  "gradus": "MEMORIA_AD_LIBITUM",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "antiphonae_evangelicae": {
+    "benedictus": "Qui facit veritátem, venit ad lucem, ut manifesténtur ópera eíus, quia in Deo sunt facta.",
+    "magnificat": "Serve bone et fidélis, intra in convívium Dómini tui.",
+    "benedictus_es": "El que obra la verdad va a la luz, para que quede de manifiesto que sus obras están hechas según Dios.",
+    "magnificat_es": "Siervo bueno y fiel, pasa al banquete de tu Señor."
+  },
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text. Replaced with genuine text for Juan Diego's own Dec-9 office, sourced in Spanish from eltestigofiel.org (official Mexican Conferencia Episcopal Liturgia de las Horas feed); Latin is a direct faithful translation (Benedictus from the Vulgate underlying John 3:21)."
+}

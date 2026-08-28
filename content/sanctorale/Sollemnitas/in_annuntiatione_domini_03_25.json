@@ -1,0 +1,106 @@
+{
+  "id": "annunciation_03_25",
+  "titulus": "In Annuntiatione Domini",
+  "dies": "03-25",
+  "gradus": "SOLLEMNITAS",
+  "color": "ALBUS",
+  "habet_primas_vesperas": true,
+  "collecta": "Deus, qui de beátæ Maríæ Vírginis útero Verbum tuum, Angelo nuntiánte, carnem suscípere voluísti: præsta supplícibus tuis; ut, qui vere eam Genetrícem Dei crédimus, ejus apud te intercessiónibus adjuvémur. $Per eundem",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Benedícta tu in muliéribus et benedíctus fructus ventris tui (T.P. Allelúia).",
+        "antiphona_es": "Bendita tú entre las mujeres, y bendito el fruto de tu vientre (T.P. Aleluya).",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_primarum_vesperarum": [
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 112",
+        "antiphona": "Egrediétur virga de radíce Iesse, et replébitur omnis terra glória Dómini: et vidébit omnis caro salutáre Dei.",
+        "antiphona_es": "Brotará un vástago de la raíz de Jesé, y toda la tierra se llenará de la gloria del Señor: y toda carne verá la salvación de Dios."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 147",
+        "antiphona": "Dabit ei Dóminus sedem David patris eius, et regnábit in ætérnum (T.P. Allelúia).",
+        "antiphona_es": "El Señor le dará el trono de David, su padre, y reinará eternamente (T.P. Aleluya)."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "1tim 3:16",
+        "antiphona": "Verbum supérnum, a Patre ante témpora génitum, hódie pro nobis caro factum exinanívit semetípsum (T.P. Allelúia).",
+        "antiphona_es": "El Verbo celestial, engendrado del Padre antes de todos los tiempos, hoy se anonadó a sí mismo, hecho carne por nosotros (T.P. Aleluya)."
+      }
+    ],
+    "lectio_brevis_vesperarum": "1john 1:1-2",
+    "lectio_brevis_laudum": "phil 2:6-7",
+    "psalmodia_secundarum_vesperarum": [
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 109:1-5,7",
+        "antiphona": "Angelus Dómini nuntiávit Maríæ, et concépit de Spíritu Sancto.",
+        "antiphona_es": "El ángel del Señor anunció a María, y ella concibió por obra del Espíritu Santo."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 129",
+        "antiphona": "Ne tímeas, María, invenísti enim grátiam apud Dóminum: ecce concípies et páries Fílium.",
+        "antiphona_es": "No temas, María, porque has hallado gracia ante el Señor: he aquí que concebirás y darás a luz un Hijo."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "rev 15:3-4",
+        "antiphona": "Ecce ancílla Dómini: fiat mihi secúndum verbum tuum.",
+        "antiphona_es": "He aquí la esclava del Señor: hágase en mí según tu palabra."
+      }
+    ]
+  },
+  "antiphonae_evangelicae": {
+    "magnificat": "Spíritus Sanctus * in te descéndet, María, et virtus Altíssimi obumbrábit tibi. (Allelúja.)",
+    "magnificat_es": "El Espíritu Santo descenderá sobre ti, María, y el poder del Altísimo te cubrirá con su sombra. (Aleluya.)",
+    "benedictus": "Quómodo fiet istud, * Angele Dei, quóniam virum non cognósco? Audi, María Virgo: Spíritus Sanctus supervéniet in te, et virtus Altíssimi obumbrábit tibi. (Allelúja.)",
+    "benedictus_es": "¿Cómo será esto, ángel de Dios, pues no conozco varón? Escucha, Virgen María: el Espíritu Santo vendrá sobre ti, y el poder del Altísimo te cubrirá con su sombra. (Aleluya.)"
+  },
+  "breviarium_id": "annunciation_of_the_lord"
+}

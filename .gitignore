@@ -1,0 +1,44 @@
+# _recovered_scripts/ is a mix of load-bearing build tooling and one-off
+# scratch/investigation output from Claude Code sessions (JSON dumps,
+# agent RESULT.json files, OCR scan text). Ignore the folder wholesale,
+# then explicitly keep the handful of files that are actually needed:
+# render_day.py imports the first three at runtime; the rest are ongoing
+# maintenance tools/notes worth keeping in history.
+/_recovered_scripts/*
+!/_recovered_scripts/breviarium_core_resolver.py
+!/_recovered_scripts/citation_convert.py
+!/_recovered_scripts/resolver.py
+!/_recovered_scripts/bugfixing_pass_notes.md
+!/_recovered_scripts/content_completeness_check.py
+!/_recovered_scripts/la_es_consistency_scanner.py
+
+# One-off root-level scratch/debug output from earlier investigation
+# sessions - not part of the app or the build.
+/audit_check.txt
+/dore_bible_raw.txt
+/gap_scan_full.json
+/gap_scan3_full.json
+/immaculate_heart_check.txt
+/lwanga_extract.txt
+/lwanga_extract2.txt
+/missal_fetch_out.txt
+/movable_check.txt
+/movable_collects.txt
+/n_check.txt
+/n_test.txt
+/n_test2.txt
+/n_test3.txt
+/new_saints_check.txt
+/new_saints_check2.txt
+/stephen_joachim_check.txt
+
+# Local-only Claude Code session state (machine-specific permissions,
+# process lock) - not secrets, just not meant to be shared/committed.
+/.claude/settings.local.json
+/.claude/scheduled_tasks.lock
+
+# OS / editor / Python cruft
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

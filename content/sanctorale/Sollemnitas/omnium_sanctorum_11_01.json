@@ -1,0 +1,110 @@
+{
+  "id": "all_saints_11_01",
+  "titulus": "Omnium Sanctorum",
+  "dies": "11-01",
+  "gradus": "SOLLEMNITAS",
+  "color": "ALBUS",
+  "habet_primas_vesperas": true,
+  "collecta": "Omnípotens sempitérne Deus, qui nos ómnium Sanctórum tuórum mérita sub una tribuísti celebritáte venerári: quǽsumus; ut desiderátam nobis tuæ propitiatiónis abundántiam, multiplicátis intercessóribus, largiáris.",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Sancti Dómini, Dóminum benedícite in ætérnum.",
+        "antiphona_es": "Santos del Señor, bendecid al Señor eternamente.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_primarum_vesperarum": [
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 112",
+        "antiphona": "Lux perpétua lucébit sanctis tuis, Dómine, et ætérnitas témporum, allelúja.",
+        "antiphona_es": "Una luz eterna alumbrará a tus santos, Señor, y será suya la eternidad de los siglos. Aleluya."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "Ps 147",
+        "antiphona": "Ierúsalem, cívitas Dei, lætáberis in fíliis tuis, quóniam omnes benedicéntur et congregabúntur ad Dóminum, allelúia.",
+        "antiphona_es": "Jerusalén, ciudad de Dios, te alegrarás en tus hijos, porque todos serán bendecidos y congregados junto al Señor. Aleluya."
+      },
+      {
+        "hora": "vespers_i",
+        "citatio": "rev 19:1-2,5-7",
+        "antiphona": "Cantábant sancti cánticum novum ante sedem Dei et Agni, et resonábat terra in voces illórum.",
+        "antiphona_es": "Los santos entonaban un cántico nuevo ante el trono de Dios y del Cordero, y su voz resonaba por toda la tierra."
+      }
+    ],
+    "psalmodia_secundarum_vesperarum": [
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 109:1-5,7",
+        "antiphona": "Vidi turbam magnam, quam dinumeráre nemo póterat, ex ómnibus géntibus, stantes ante thronum.",
+        "antiphona_es": "Vi una muchedumbre inmensa, que nadie podía contar, de toda nación, de pie ante el trono."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "Ps 115",
+        "antiphona": "Deus tentávit illos, et invénit eos dignos se; ídeo accípient regnum decóris de manu Dómini.",
+        "antiphona_es": "Dios los puso a prueba y los halló dignos de sí; por eso recibirán de la mano del Señor un reino de gloria."
+      },
+      {
+        "hora": "vespers_ii",
+        "citatio": "rev 4:11;5:9,10,12",
+        "antiphona": "Redemísti nos, Dómine Deus, in sánguine tuo ex omni tribu et lingua et pópulo et natióne, et fecísti nos Deo nostro regnum.",
+        "antiphona_es": "Nos has redimido, Señor Dios, con tu sangre, de toda tribu, lengua, pueblo y nación, y nos has hecho para nuestro Dios un reino."
+      }
+    ],
+    "lectio_brevis_vesperarum": "2cor 6:16;7:1",
+    "lectio_brevis_laudum": "eph 1:17-18"
+  },
+  "antiphonae_evangelicae": {
+    "benedictus": "Iusti fulgébunt sicut sol in regno Patris eórum, allelúia.",
+    "benedictus_es": "Los justos brillarán como el sol en el reino de su Padre, aleluya.",
+    "magnificat": "Ángeli, * Archángeli, Throni et Dominatiónes, Principátus et Potestátes, Virtútes cælórum, Chérubim atque Séraphim, Patriárchæ et Prophétæ, sancti legis Doctóres, Apóstoli, omnes Christi Mártyres, sancti Confessóres, Vírgines Dómini, Anachorítæ, Sanctíque omnes, intercédite pro nobis.",
+    "magnificat_es": "Ángeles, Arcángeles, Tronos y Dominaciones, Principados y Potestades, Virtudes de los cielos, Querubines y Serafines, Patriarcas y Profetas, santos Doctores de la ley, Apóstoles, todos los Mártires de Cristo, santos Confesores, Vírgenes del Señor, Anacoretas, y todos los Santos, interceded por nosotros.",
+    "magnificat_ii": "O quam gloriósum est regnum * in quo cum Christo gaudent omnes Sancti, amícti stolis albis sequúntur Agnum quocúmque íerit!",
+    "magnificat_ii_es": "¡Oh, cuán glorioso es el reino en que todos los Santos se gozan con Cristo, y vestidos con blancas túnicas siguen al Cordero adondequiera que va!",
+    "magnificat_i": "Ángeli, * Archángeli, Throni et Dominatiónes, Principátus et Potestátes, Virtútes cælórum, Chérubim atque Séraphim, Patriárchæ et Prophétæ, sancti legis Doctóres, Apóstoli, omnes Christi Mártyres, sancti Confessóres, Vírgines Dómini, Anachorítæ, Sanctíque omnes, intercédite pro nobis.",
+    "magnificat_i_es": "Ángeles, Arcángeles, Tronos y Dominaciones, Principados y Potestades, Virtudes de los cielos, Querubines y Serafines, Patriarcas y Profetas, santos Doctores de la ley, Apóstoles, todos los Mártires de Cristo, santos Confesores, Vírgenes del Señor, Anacoretas, y todos los Santos, interceded por nosotros."
+  },
+  "breviarium_id": "all_saints"
+}

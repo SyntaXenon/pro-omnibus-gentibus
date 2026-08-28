@@ -1,0 +1,86 @@
+{
+  "id": "transfiguration_08_06",
+  "titulus": "In Transfiguratione Domini",
+  "dies": "08-06",
+  "gradus": "FESTUM",
+  "color": "ALBUS",
+  "habet_primas_vesperas": false,
+  "collecta": "Deus, qui fídei sacraménta in Unigéniti tui gloriósa Transfiguratióne patrum testimónio roborásti, et adoptiónem filiórum perféctam, voce delápsa in nube lúcida, mirabíliter præsignásti: concéde propítius; ut ipsíus Regis glóriæ nos coherédes effícias, et ejúsdem glóriæ tríbuas esse consórtes. $Per eundem",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Hódie transfigurátus ac Patris voce testificátus Dóminus, Móyses et Elías affuérunt spléndidi, excéssum eius quem completúrus erat loquéntes.",
+        "antiphona_es": "Hoy, transfigurado el Señor y confirmado por la voz del Padre, se hicieron presentes, resplandecientes, Moisés y Elías, hablando de su partida, que él había de cumplir.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 109:1-5,7",
+        "antiphona": "Assúmpsit Iesus Petrum et Iacóbum et Ioánnem fratrem eius, et duxit eos in montem excélsum seórsum, et transfigurátus est ante eos.",
+        "antiphona_es": "Tomó Jesús a Pedro, a Santiago y a Juan su hermano, y los llevó aparte a un monte elevado, y se transfiguró delante de ellos."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 120",
+        "antiphona": "Nubes lúcida obumbrávit eos; et ecce vox de nube, dicens: Hic est Fílius meus diléctus, in quo mihi bene complácui.",
+        "antiphona_es": "Una nube luminosa los cubrió con su sombra; y he aquí una voz que decía desde la nube: Este es mi Hijo amado, en quien me he complacido."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "1tim 3:16",
+        "antiphona": "Descendéntibus illis de monte, præcépit Iesus dicens: Némini dixéritis visiónem, donec Fílius hóminis a mórtuis resúrgat, allelúia.",
+        "antiphona_es": "Mientras bajaban del monte, Jesús les ordenó diciendo: No contéis a nadie esta visión, hasta que el Hijo del hombre resucite de entre los muertos, aleluya."
+      }
+    ],
+    "lectio_brevis_vesperarum": "rom 8:16-17",
+    "lectio_brevis_laudum": "rev 21:10,23"
+  },
+  "antiphonae_evangelicae": {
+    "magnificat": "Christus Jesus, * splendor Patris et figúra substántiæ ejus, portans ómnia verbo virtútis suæ, purgatiónem peccatórum fáciens, in monte excélso gloriósus apparére hódie dignátus est.",
+    "benedictus": "Et ecce, * vox de nube dicens: Hic est Fílius meus diléctus, in quo mihi complácui; ipsum audíte, allelúja.",
+    "benedictus_es": "Y he aquí una voz que venía de la nube y decía: Este es mi Hijo amado, en quien me he complacido; a él escuchad, aleluya.",
+    "magnificat_es": "Cristo Jesús, resplandor del Padre e imagen de su sustancia, que sostiene todas las cosas con la palabra de su poder, habiendo realizado la purgación de los pecados, se dignó hoy aparecer glorioso en el monte excelso."
+  },
+  "breviarium_id": "transfiguration_of_the_lord"
+}

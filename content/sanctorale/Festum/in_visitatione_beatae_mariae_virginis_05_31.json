@@ -1,0 +1,87 @@
+{
+  "id": "visitation_05_31",
+  "titulus": "In Visitatione Beatæ Mariæ Virginis",
+  "dies": "05-31",
+  "gradus": "FESTUM",
+  "color": "ALBUS",
+  "habet_primas_vesperas": false,
+  "collecta": "Concéde nobis, quǽsumus, Dómine: ut, qui solemnitátem beátæ Maríæ Vírginis Regínæ nostræ celebrámus; eius muníti præsídio, pacem in præsénti et glóriam in futúro cónsequi mereámur.",
+  "officium_lectionis": {
+    "te_deum_requisitum": true
+  },
+  "propria": {
+    "psalmodia_laudum": [
+      {
+        "hora": "lauds",
+        "citatio": "Dan 3:57-88,56",
+        "antiphona": "Ut audívit salutatiónem Maríæ Elísabeth, exsultávit infans in útero eius, et repléta est Spíritu Sancto.",
+        "antiphona_es": "Al oír Isabel el saludo de María, saltó de gozo el niño en su seno, y ella quedó llena del Espíritu Santo.",
+        "versus": [
+          "Benedicite, omnia opera Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, angeli Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, aquæ omnes, quæ super cælos sunt, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes virtutes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sol et luna, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, stellæ cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnis imber et ros, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes spiritus Dei, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, ignis et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, frigus et æstus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, rores et pruina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, gelu et frigus, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, glacies et nives, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, noctes et dies, Domino laudate et superexaltate eum in sæcula.",
+          "Benedicite, lux et tenebræ, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fulgura et nubes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat terra Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, montes et colles, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, universa germinantia in terra, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, fontes, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, maria et flumina, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, cete, et omnia quæ moventur in aquis, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes volucres cæli, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, omnes bestiæ et pecora, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, filii hominum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicat Israel Dominum : laudet et superexaltet eum in sæcula.",
+          "Benedicite, sacerdotes Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, servi Domini, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, spiritus et animæ justorum, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, sancti et humiles corde, Domino : laudate et superexaltate eum in sæcula.",
+          "Benedicite, Anania, Azaria, Misael, Domino : laudate et superexaltate eum in sæcula : quia eruit nos de inferno, et salvos fecit de manu mortis : et liberavit nos de medio ardentis flammæ, et de medio ignis eruit nos.",
+          "Benedictus es in firmamento cæli : et laudabilis et gloriosus in sæcula."
+        ]
+      }
+    ],
+    "psalmodia_vesperarum": [
+      {
+        "hora": "vespers",
+        "citatio": "Ps 112",
+        "antiphona": "Intrávit María in domum Zacharíæ, et salutávit Elísabeth.",
+        "antiphona_es": "Entró María en la casa de Zacarías, y saludó a Isabel."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "Ps 116",
+        "antiphona": "Ex quo facta est vox salutatiónis tuæ in áuribus meis, exsultávit infans in útero meo.",
+        "antiphona_es": "En cuanto llegó a mis oídos la voz de tu saludo, saltó de gozo el niño en mi seno."
+      },
+      {
+        "hora": "vespers",
+        "citatio": "rev 11:17-18;12:10-12",
+        "antiphona": "Benedícta tu inter mulíeres, et benedíctus fructus ventris tui.",
+        "antiphona_es": "Bendita tú entre las mujeres, y bendito el fruto de tu vientre."
+      }
+    ],
+    "lectio_brevis_vesperarum": "eph 2:4-6",
+    "lectio_brevis_laudum": "Joel 2:27-3,1"
+  },
+  "antiphonae_evangelicae": {
+    "magnificat": "Beata quæ credidisti, quæ dicta sunt tibi a Domino: cum Christo regnas in æternum.",
+    "benedictus": "Regina mundi dignissima, Maria, Virgo perpetua, intercede pro nostra pace et salute, quæ genuisti Christum Dominum, Salvatorem omnium.",
+    "benedictus_es": "Reina dignísima del mundo, María, Virgen perpetua, intercede por nuestra paz y salvación, tú que engendraste a Cristo Señor, Salvador de todos.",
+    "magnificat_es": "Bienaventurada tú, que creíste que se cumplirían las cosas que te fueron dichas de parte del Señor: reinas con Cristo eternamente."
+  },
+  "breviarium_id": "visitation_of_mary",
+  "commune_subsidiarium": "COMMON_BVM"
+}

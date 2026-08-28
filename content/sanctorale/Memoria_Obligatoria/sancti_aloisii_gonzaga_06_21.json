@@ -1,0 +1,17 @@
+{
+  "id": "st_aloysius_gonzaga_06_21",
+  "titulus": "Sancti Aloisii Gonzaga, religiosi",
+  "dies": "06-21",
+  "gradus": "MEMORIA_OBLIGATORIA",
+  "color": "ALBUS",
+  "commune_subsidiarium": "COMMON_HOLY_MEN_WOMEN",
+  "collecta": "Cœléstium donórum distribútor, Deus, qui in angélico júvene Aloísio miram vitæ innocéntiam pari cum pœniténtia sociásti: ejus méritis et précibus concéde; ut, innocéntem non secúti, pœniténtem imitémur.",
+  "antiphonae_evangelicae": {
+    "benedictus": "Qui fácit voluntátem Patris mei, qui in cælis est, ipse meus frater, et soror, et mater est, dicit Dóminus.",
+    "benedictus_es": "«El que cumple la voluntad de mi Padre, ése es mi hermano y mi hermana y mi madre», dice el Señor.",
+    "magnificat": "Quam bonus est, Dómine, spíritus tuus! Ut fíliis tuis dulcédinem tuam osténderes, panem suávem de cælo eis dedísti, qui esuriéntes bonis replet, et dívites dimíttit inánes.",
+    "magnificat_es": "¡Qué bueno es, Señor, tu espíritu! Para demostrar a tus hijos tu ternura, les has dado un pan delicioso bajado del cielo, que colma de bienes a los hambrientos, y deja vacíos a los ricos hastiados."
+  },
+  "breviarium_id": "aloysius_gonzaga_religious",
+  "source_note": "Magnificat/Benedictus antiphons were previously the wrong shared COMMON_HOLY_MEN_WOMEN placeholder text. Replaced with genuine text sourced from breviarium-core (Spanish, Eucharistic-themed antiphon fitting Aloysius's known Eucharistic devotion), Latin is a direct faithful translation. Collect was already correct, unchanged."
+}
