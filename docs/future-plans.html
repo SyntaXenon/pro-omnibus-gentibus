@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pro Omnibus Gentibus Future Plans</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ground: #fbf6ea;
+    --ground-alt: #f3ead6;
+    --ink: #2b2318;
+    --ink-soft: #5a4d3a;
+    --rule: #ddccA4;
+    --accent: #9c3b2e;
+    --accent-soft: #d8c49a;
+    --gold-ink: #8a6a2b;
+    --lit-white: #a89a78; --lit-green: #4b6b4f; --lit-violet: #5b4570; --lit-red: #8a3327; --lit-rose: #b8697a;
+    --shadow: 0 1px 0 rgba(43,35,24,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #1c1610; --ground-alt: #251d15; --ink: #ece0c8; --ink-soft: #c2b291; --rule: #4a3d2a;
+      --accent: #dd7c5f; --accent-soft: #6e5a34; --gold-ink: #c7a565;
+      --lit-white: #cdbfa0; --lit-green: #7ea187; --lit-violet: #9d84b3; --lit-red: #c96a56; --lit-rose: #d495a4;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #1c1610; --ground-alt: #251d15; --ink: #ece0c8; --ink-soft: #c2b291; --rule: #4a3d2a;
+    --accent: #dd7c5f; --accent-soft: #6e5a34; --gold-ink: #c7a565;
+    --lit-white: #cdbfa0; --lit-green: #7ea187; --lit-violet: #9d84b3; --lit-red: #c96a56; --lit-rose: #d495a4;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: 'Cormorant Garamond', 'Palatino Linotype', Georgia, serif; font-size: 1.2rem; line-height: 1.6; }
+  a { color: var(--accent); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  [data-lang-block] { display: none; }
+  html[data-lang="es"] [data-lang-block="es"] { display: block; }
+  html[data-lang="en"] [data-lang-block="en"] { display: block; }
+
+  .langbar { position: sticky; top: 0; z-index: 20; display: flex; justify-content: center; gap: 0.4rem; padding: 0.6rem 1rem; background: var(--ground-alt); border-bottom: 1px solid var(--rule); }
+  .langbar button { font-family: 'Cinzel', Georgia, serif; font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.4rem 0.9rem; border-radius: 999px; cursor: pointer; background: none; border: 1px solid var(--rule); color: var(--ink-soft); }
+  .langbar button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--ground); }
+
+  .page { max-width: 760px; margin: 0 auto; padding: 3rem 1.5rem 5.5rem; }
+
+  .free-notice { text-align: center; font-family: 'EB Garamond', Georgia, serif; font-style: italic; font-size: 1rem; color: var(--ink-soft); max-width: 34rem; margin: 0 auto 2.4rem; padding-bottom: 2rem; border-bottom: 1px solid var(--rule); }
+  .free-notice b { font-style: normal; color: var(--accent); }
+
+  header.hero { padding-bottom: 2.2rem; margin-bottom: 2.6rem; border-bottom: 1px solid var(--rule); }
+  .eyebrow { font-family: 'Cinzel', Georgia, serif; font-weight: 600; font-size: 0.72rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--gold-ink); }
+  h1.title { font-family: 'Cinzel', Georgia, serif; font-weight: 600; font-size: clamp(1.9rem, 4.6vw, 2.6rem); margin: 0.55rem 0 0.8rem; text-wrap: balance; }
+  .dek { font-style: italic; font-size: 1.18rem; color: var(--ink-soft); max-width: 38rem; text-wrap: balance; }
+
+  section { margin: 3.1rem 0; }
+  section > h2 { display: flex; align-items: baseline; gap: 0.6rem; font-family: 'Cinzel', Georgia, serif; font-weight: 600; font-size: 1.32rem; margin: 0 0 1.2rem; }
+  section > h2 .swatch { width: 0.58rem; height: 0.58rem; border-radius: 50%; flex: none; box-shadow: var(--shadow); }
+  section > p.intro { color: var(--ink-soft); font-size: 1.08rem; }
+  p { margin: 0 0 1.05rem; }
+
+  .rite-grid { display: grid; gap: 0.9rem; }
+  .rite { display: grid; grid-template-columns: 11rem 1fr; gap: 1rem; padding: 0.95rem 0; border-top: 1px solid var(--rule); align-items: start; }
+  .rite:first-child { border-top: none; padding-top: 0; }
+  .rite h3 { margin: 0; font-family: 'Cinzel', Georgia, serif; font-size: 0.98rem; font-weight: 600; color: var(--gold-ink); }
+  .rite p { margin: 0; font-size: 1.03rem; }
+  @media (max-width: 560px) { .rite { grid-template-columns: 1fr; gap: 0.25rem; } }
+
+  .lang-cloud { display: flex; flex-wrap: wrap; gap: 0.55rem; margin: 0.4rem 0 1.3rem; }
+  .lang-pill { font-family: 'Cinzel', Georgia, serif; font-size: 0.78rem; letter-spacing: 0.03em; padding: 0.34rem 0.85rem; border-radius: 999px; border: 1px solid var(--rule); background: var(--ground-alt); }
+  .lang-pill.done { border-color: var(--lit-green); color: var(--lit-green); }
+  .lang-pill.next { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+
+  .idea-grid { display: grid; gap: 1.1rem; }
+  .idea { background: var(--ground-alt); border: 1px solid var(--rule); border-radius: 4px; padding: 1.05rem 1.3rem; }
+  .idea h3 { margin: 0 0 0.4rem; font-family: 'Cinzel', Georgia, serif; font-size: 1rem; font-weight: 600; }
+  .idea p { margin: 0; font-size: 1.04rem; color: var(--ink-soft); }
+
+  .note-line { font-family: 'EB Garamond', Georgia, serif; font-style: italic; color: var(--ink-soft); font-size: 1.02rem; border-left: 3px solid var(--accent-soft); padding-left: 1.05rem; margin-top: 1.6rem; }
+  .note-line b { font-style: normal; color: var(--ink); }
+
+  footer.colophon { margin-top: 4rem; padding-top: 1.6rem; border-top: 1px solid var(--rule); text-align: center; font-family: 'EB Garamond', Georgia, serif; font-style: italic; color: var(--ink-soft); font-size: 0.98rem; }
+  .footer-links { margin-top: 0.7rem; font-family: 'Cinzel', Georgia, serif; font-style: normal; font-size: 0.78rem; letter-spacing: 0.04em; }
+  .footer-links a { margin: 0 0.5rem; }
+  ::selection { background: var(--accent-soft); color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="langbar" role="group" aria-label="Language">
+  <button id="btnEs" aria-pressed="true">Español</button>
+  <button id="btnEn" aria-pressed="false">English</button>
+</div>
+
+<div class="page">
+
+<div data-lang-block="es">
+  <p class="free-notice">Pro Omnibus Gentibus es y será siempre gratuito, sin anuncios ni versión de pago, y de código abierto. Esto es lo que espero construir a continuación.</p>
+
+  <header class="hero">
+    <div class="eyebrow">Hoja de ruta</div>
+    <h1 class="title">Planes futuros</h1>
+    <p class="dek">Hacia dónde va este proyecto: más ritos, más idiomas, y más formas de hacer tuya la Liturgia de las Horas.</p>
+  </header>
+
+  <section id="rites-es">
+    <h2><span class="swatch" style="background:var(--lit-violet)"></span>Otros ritos y usos litúrgicos</h2>
+    <p class="intro">La Liturgia de las Horas que existe hoy en la aplicación sigue el rito romano, en la forma que rezaría un fiel de una diócesis latina ordinaria. Pero la Iglesia de rito latino tiene, y ha tenido siempre, formas propias del Oficio Divino nacidas dentro de familias religiosas concretas, cada una con su propio calendario, sus propios himnos y su propio carácter. Espero, con el tiempo, poder ofrecer varias de ellas como opciones reales, no como una simple nota al pie.</p>
+    <div class="rite-grid">
+      <div class="rite"><h3>Dominicano</h3><p>El breviario propio de la Orden de Predicadores, con su calendario, sus himnos y su cursus distintivos, uno de los usos religiosos más completos y mejor documentados que existen.</p></div>
+      <div class="rite"><h3>Benedictino / Monástico</h3><p>El cursus monástico que da forma a la vida contemplativa desde la Regla de San Benito, con una distribución del salterio distinta a la del breviario secular y su propio calendario de fiestas monásticas.</p></div>
+      <div class="rite"><h3>Carmelita</h3><p>El uso propio de la Orden del Carmen, con sus santos y su tradición espiritual particular reflejados en el calendario y en los propios de los santos.</p></div>
+      <div class="rite"><h3>Cartujo</h3><p>El Oficio de la Cartuja, uno de los usos monásticos que ha conservado más fielmente su forma original a través de los siglos.</p></div>
+      <div class="rite"><h3>Premonstratense</h3><p>El uso propio de los canónigos norbertinos, hermano cercano del cursus monástico pero con su propia identidad litúrgica.</p></div>
+      <div class="rite"><h3>Ambrosiano</h3><p>El rito propio de la Iglesia de Milán, con una tradición litúrgica latina independiente del rito romano que se remonta a San Ambrosio.</p></div>
+      <div class="rite"><h3>Hispano-mozárabe</h3><p>El antiguo rito de la España visigoda, todavía vivo hoy en unas pocas capillas, con un carácter y una estructura muy distintos del rito romano.</p></div>
+    </div>
+    <div class="note-line"><b>Una nota honesta:</b> cada uno de estos usos exige su propia investigación de fuentes, con el mismo estándar de verificación que ya rige el resto de la aplicación. Se añadirán uno a la vez, y solo cuando el texto pueda mostrarse con confianza real, nunca como un relleno aproximado.</div>
+  </section>
+
+  <section id="languages-es">
+    <h2><span class="swatch" style="background:var(--lit-green)"></span>Muchos más idiomas</h2>
+    <p class="intro">El corazón de esta aplicación es la lectura interlineal: latín junto a la lengua vernácula, verso a verso. Casi ningún breviario interlineal ofrece más que un puñado de idiomas junto al latín, y ese es precisamente el vacío que quiero llenar. El plan es terminar de pulir el inglés como segundo idioma con fuente propia, no solo como traducción automática de modo beta, y luego seguir sumando.</p>
+    <div class="lang-cloud">
+      <span class="lang-pill done">Latín · disponible</span>
+      <span class="lang-pill done">Español · disponible</span>
+      <span class="lang-pill next">Inglés · en camino a ser idioma propio</span>
+      <span class="lang-pill">Francés</span>
+      <span class="lang-pill">Italiano</span>
+      <span class="lang-pill">Portugués</span>
+      <span class="lang-pill">Alemán</span>
+      <span class="lang-pill">Polaco</span>
+      <span class="lang-pill">Tagalo</span>
+      <span class="lang-pill">Lingala</span>
+      <span class="lang-pill">Igbo</span>
+      <span class="lang-pill">Suajili</span>
+      <span class="lang-pill">y más</span>
+    </div>
+    <p>Cada idioma nuevo seguirá la misma regla que ya gobierna el proyecto entero: fuentes verificables, de dominio público o con permiso claro, nunca una traducción moderna con derechos de autor copiada sin más. Eso significa que el ritmo de cada idioma dependerá de qué fuentes confiables existan, no solo de cuántas personas lo pidan.</p>
+  </section>
+
+  <section id="ideas-es">
+    <h2><span class="swatch" style="background:var(--lit-rose)"></span>Más personalización</h2>
+    <div class="idea-grid">
+      <div class="idea"><h3>Cuántos están rezando</h3><p>Un contador visible, agregado y anónimo, de cuántas personas están rezando la misma hora en este momento, para sentir de un vistazo que la Liturgia de las Horas se reza en comunidad, aunque cada uno esté solo frente a su pantalla.</p></div>
+      <div class="idea"><h3>Memorias libres, a tu elección</h3><p>Un interruptor para decidir si quieres rezar las memorias opcionales (<i>ad libitum</i>) del día o seguir el ciclo ferial sencillo, tal como ya lo permite el calendario oficial de la Iglesia.</p></div>
+      <div class="idea"><h3>Fondos según la fiesta o el tiempo</h3><p>Imágenes de fondo que cambien según la fiesta o el tiempo litúrgico del día, activables o desactivables por completo para quien prefiera una pantalla más sobria.</p></div>
+      <div class="idea"><h3>La Liturgia preconciliar</h3><p>El antiguo rito de 1962, con su propio calendario, su propia estructura de horas y su propio breviario, ofrecido como una opción real junto al rito actual, no como un simple archivo histórico.</p></div>
+      <div class="idea"><h3>Aplicación instalable, sin conexión</h3><p>Poder instalar la aplicación en el teléfono y rezar aunque no haya señal, algo esencial para quien reza de camino a algún lugar o dentro de un templo sin cobertura.</p></div>
+      <div class="idea"><h3>Cantos e himnos con audio</h3><p>Grabaciones cantadas de los himnos y los tonos salmódicos, para quien quiera aprender la melodía tradicional además de leer el texto.</p></div>
+      <div class="idea"><h3>Un vistazo al año litúrgico</h3><p>Una vista de calendario completa, para ver de un vistazo dónde cae cada tiempo, cada solemnidad y cada fiesta a lo largo del año.</p></div>
+      <div class="idea"><h3>Tus ajustes en todos tus dispositivos</h3><p>Hoy la configuración vive solo en tu dispositivo; con el tiempo, una forma opcional de llevarla contigo a otro teléfono u ordenador sin perder nada de lo personalizado.</p></div>
+    </div>
+  </section>
+
+  <div class="note-line" style="margin-top:3rem;"><b>Sobre los plazos:</b> este es un proyecto de una sola persona, construido en el tiempo libre y con el mismo cuidado en cada fuente que ya has visto en el resto de la aplicación. Nada de esto tiene una fecha prometida, pero todo está anotado, y nada se ha olvidado.</div>
+
+  <footer class="colophon">
+    Gracias por acompañar este proyecto mientras sigue creciendo.
+    <div class="footer-links"><a href="#" id="linkMakingEs">Cómo se hizo</a><a href="#" id="linkBetaEs">Guía beta</a></div>
+  </footer>
+</div>
+
+<div data-lang-block="en">
+  <p class="free-notice">Pro Omnibus Gentibus is, and will always be, free, with no ads and no paid version, and open source. Here is what I hope to build next.</p>
+
+  <header class="hero">
+    <div class="eyebrow">Roadmap</div>
+    <h1 class="title">Future Plans</h1>
+    <p class="dek">Where this project is headed: more rites, more languages, and more ways to make the Liturgy of the Hours your own.</p>
+  </header>
+
+  <section id="rites-en">
+    <h2><span class="swatch" style="background:var(--lit-violet)"></span>Other Rites and Uses</h2>
+    <p class="intro">The Liturgy of the Hours in the app today follows the Roman Rite, the form an ordinary diocesan Latin-rite Catholic would pray. But the Latin Church has, and has always had, its own forms of the Divine Office that grew up inside particular religious families, each with its own calendar, its own hymns, and its own character. I hope, over time, to offer several of these as real options, not as a footnote.</p>
+    <div class="rite-grid">
+      <div class="rite"><h3>Dominican</h3><p>The breviary proper to the Order of Preachers, with its own calendar, hymns, and distinctive cursus, one of the most complete and well-documented religious uses that exists.</p></div>
+      <div class="rite"><h3>Benedictine / Monastic</h3><p>The monastic cursus that shapes contemplative life from the Rule of St. Benedict, with a different psalter distribution than the secular breviary and its own calendar of monastic feasts.</p></div>
+      <div class="rite"><h3>Carmelite</h3><p>The proper use of the Order of Carmel, with its own saints and spiritual tradition reflected in its calendar and proper texts.</p></div>
+      <div class="rite"><h3>Carthusian</h3><p>The Office of the Charterhouse, one of the monastic uses that has kept its original form most faithfully across the centuries.</p></div>
+      <div class="rite"><h3>Premonstratensian</h3><p>The proper use of the Norbertine canons, a close cousin of the monastic cursus with its own distinct liturgical identity.</p></div>
+      <div class="rite"><h3>Ambrosian</h3><p>The rite proper to the Church of Milan, an independent Latin liturgical tradition tracing back to St. Ambrose, distinct from the Roman Rite.</p></div>
+      <div class="rite"><h3>Hispano-Mozarabic</h3><p>The ancient rite of Visigothic Spain, still living today in a handful of chapels, with a character and structure quite different from the Roman Rite.</p></div>
+    </div>
+    <div class="note-line"><b>An honest note:</b> each of these uses demands its own sourcing research, held to the same verification standard already governing the rest of the app. They'll be added one at a time, and only once the text can be shown with real confidence, never as an approximate placeholder.</div>
+  </section>
+
+  <section id="languages-en">
+    <h2><span class="swatch" style="background:var(--lit-green)"></span>Many More Languages</h2>
+    <p class="intro">The heart of this app is interlinear reading: Latin beside vernacular, verse for verse. Almost no interlinear breviary offers more than a handful of languages next to the Latin, and that's precisely the gap I want to fill. The plan is to finish polishing English into a fully sourced second language, not just beta mode's machine translation, and then keep adding from there.</p>
+    <div class="lang-cloud">
+      <span class="lang-pill done">Latin · available</span>
+      <span class="lang-pill done">Spanish · available</span>
+      <span class="lang-pill next">English · being finalized as a sourced language</span>
+      <span class="lang-pill">French</span>
+      <span class="lang-pill">Italian</span>
+      <span class="lang-pill">Portuguese</span>
+      <span class="lang-pill">German</span>
+      <span class="lang-pill">Polish</span>
+      <span class="lang-pill">Tagalog</span>
+      <span class="lang-pill">Lingala</span>
+      <span class="lang-pill">Igbo</span>
+      <span class="lang-pill">Swahili</span>
+      <span class="lang-pill">and more</span>
+    </div>
+    <p>Every new language will follow the same rule already governing the whole project: verifiable sources, public domain or clearly permitted, never a copyrighted modern translation copied wholesale. That means the pace for any given language depends on what trustworthy sources actually exist, not just on how many people ask for it.</p>
+  </section>
+
+  <section id="ideas-en">
+    <h2><span class="swatch" style="background:var(--lit-rose)"></span>More Customization</h2>
+    <div class="idea-grid">
+      <div class="idea"><h3>How Many Are Praying</h3><p>A visible, aggregated, anonymous count of how many people are praying the same hour right now, so it's clear at a glance that the Liturgy of the Hours is prayed in community, even when each person is alone in front of their own screen.</p></div>
+      <div class="idea"><h3>Optional Memorials, Your Choice</h3><p>A toggle to decide whether to pray the day's optional (<i>ad libitum</i>) memorials or keep to the plain ferial cycle instead, exactly as the Church's own calendar already permits.</p></div>
+      <div class="idea"><h3>Feast and Season Backgrounds</h3><p>Background imagery that shifts with the day's feast or liturgical season, fully toggle-able off for anyone who prefers a plainer screen.</p></div>
+      <div class="idea"><h3>The Pre-Conciliar Office</h3><p>The old 1962 rite, with its own calendar, its own structure of hours, and its own breviary, offered as a real option alongside the current rite, not as a historical curiosity.</p></div>
+      <div class="idea"><h3>Installable, Offline-Ready</h3><p>The ability to install the app on your phone and keep praying even without a signal, essential for anyone praying on the way somewhere or inside a building with no reception.</p></div>
+      <div class="idea"><h3>Sung Hymns and Chant Audio</h3><p>Sung recordings of the hymns and psalm tones, for anyone who wants to learn the traditional melody as well as read the text.</p></div>
+      <div class="idea"><h3>The Liturgical Year at a Glance</h3><p>A full calendar view, to see at a glance where every season, solemnity, and feast falls across the year.</p></div>
+      <div class="idea"><h3>Settings That Follow You</h3><p>Today your settings live only on your device; eventually, an optional way to carry them to another phone or computer without losing anything you've customized.</p></div>
+    </div>
+  </section>
+
+  <div class="note-line" style="margin-top:3rem;"><b>On timelines:</b> this is a one-person project, built in whatever free time is available, held to the same sourcing care you've seen throughout the rest of the app. None of this carries a promised date, but none of it has been forgotten either.</div>
+
+  <footer class="colophon">
+    Thank you for walking alongside this project as it keeps growing.
+    <div class="footer-links"><a href="#" id="linkMakingEn">How It Was Made</a><a href="#" id="linkBetaEn">Beta Guide</a></div>
+  </footer>
+</div>
+
+</div>
+
+<script>
+  (function () {
+    var params = new URLSearchParams(location.search);
+    var urlLang = params.get('lang');
+    var lang = (urlLang === 'en' || urlLang === 'es') ? urlLang : 'es';
+    document.documentElement.setAttribute('data-lang', lang);
+    function sync() {
+      document.getElementById('btnEs').setAttribute('aria-pressed', String(lang === 'es'));
+      document.getElementById('btnEn').setAttribute('aria-pressed', String(lang === 'en'));
+      ['linkMakingEs', 'linkMakingEn'].forEach(function (id) {
+        var el = document.getElementById(id); if (el) el.href = 'making-pog.html?lang=' + lang;
+      });
+      ['linkBetaEs', 'linkBetaEn'].forEach(function (id) {
+        var el = document.getElementById(id); if (el) el.href = 'beta-guide.html?lang=' + lang;
+      });
+    }
+    sync();
+    document.getElementById('btnEs').addEventListener('click', function () {
+      lang = 'es'; document.documentElement.setAttribute('data-lang', lang); sync();
+    });
+    document.getElementById('btnEn').addEventListener('click', function () {
+      lang = 'en'; document.documentElement.setAttribute('data-lang', lang); sync();
+    });
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Making Pro Omnibus Gentibus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;1,400;1,500&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ground: #fbf6ea;
+    --ground-alt: #f3ead6;
+    --ink: #2b2318;
+    --ink-soft: #5a4d3a;
+    --rule: #ddccA4;
+    --accent: #9c3b2e;
+    --accent-soft: #d8c49a;
+    --gold-ink: #8a6a2b;
+
+    --lit-white: #a89a78;
+    --lit-green: #4b6b4f;
+    --lit-violet: #5b4570;
+    --lit-red: #8a3327;
+    --lit-rose: #b8697a;
+
+    --shadow: 0 1px 0 rgba(43,35,24,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #1c1610; --ground-alt: #251d15; --ink: #ece0c8; --ink-soft: #c2b291; --rule: #4a3d2a;
+      --accent: #dd7c5f; --accent-soft: #6e5a34; --gold-ink: #c7a565;
+      --lit-white: #cdbfa0; --lit-green: #7ea187; --lit-violet: #9d84b3; --lit-red: #c96a56; --lit-rose: #d495a4;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #1c1610; --ground-alt: #251d15; --ink: #ece0c8; --ink-soft: #c2b291; --rule: #4a3d2a;
+    --accent: #dd7c5f; --accent-soft: #6e5a34; --gold-ink: #c7a565;
+    --lit-white: #cdbfa0; --lit-green: #7ea187; --lit-violet: #9d84b3; --lit-red: #c96a56; --lit-rose: #d495a4;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: 'Cormorant Garamond', 'Palatino Linotype', Georgia, serif; font-size: 1.22rem; line-height: 1.62; }
+  a { color: var(--accent); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  [data-lang-block] { display: none; }
+  html[data-lang="es"] [data-lang-block="es"] { display: block; }
+  html[data-lang="en"] [data-lang-block="en"] { display: block; }
+
+  .langbar {
+    position: sticky; top: 0; z-index: 20;
+    display: flex; justify-content: center; gap: 0.4rem;
+    padding: 0.6rem 1rem;
+    background: var(--ground-alt);
+    border-bottom: 1px solid var(--rule);
+  }
+  .langbar button {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase;
+    padding: 0.4rem 0.9rem; border-radius: 999px; cursor: pointer;
+    background: none; border: 1px solid var(--rule); color: var(--ink-soft);
+  }
+  .langbar button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--ground); }
+
+  .page { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem 6rem; }
+
+  .free-notice {
+    text-align: center;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-style: italic;
+    font-size: 1.05rem;
+    color: var(--ink-soft);
+    max-width: 34rem;
+    margin: 0 auto 2.6rem;
+    padding-bottom: 2.2rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .free-notice b { font-style: normal; color: var(--accent); }
+
+  header.hero { text-align: center; padding-bottom: 2.6rem; margin-bottom: 2.6rem; border-bottom: 1px solid var(--rule); }
+  .eyebrow { font-family: 'Cinzel', Georgia, serif; font-weight: 600; font-size: 0.72rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--gold-ink); }
+  h1.title { font-family: 'Cinzel', Georgia, serif; font-weight: 600; font-size: clamp(2.1rem, 5vw, 3rem); letter-spacing: 0.02em; margin: 0.6rem 0 0.9rem; text-wrap: balance; }
+  .dek { font-style: italic; font-size: 1.28rem; color: var(--ink-soft); max-width: 34rem; margin: 0 auto; text-wrap: balance; }
+  .colophon-line { margin-top: 1.6rem; font-family: 'Cinzel', Georgia, serif; font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); display: flex; justify-content: center; gap: 0.55rem; flex-wrap: wrap; }
+  .colophon-line .dot { color: var(--rule); }
+
+  section { margin: 3.6rem 0; }
+  section > h2 { display: flex; align-items: baseline; gap: 0.65rem; font-family: 'Cinzel', Georgia, serif; font-weight: 600; font-size: 1.5rem; letter-spacing: 0.01em; margin: 0 0 1.5rem; }
+  section > h2 .swatch { width: 0.62rem; height: 0.62rem; border-radius: 50%; flex: none; box-shadow: var(--shadow); }
+
+  p { margin: 0 0 1.15rem; }
+  .lede::first-letter { font-family: 'UnifrakturCook', Georgia, serif; font-weight: 700; font-size: 3.6rem; line-height: 0.72; float: left; padding: 0.06em 0.1em 0 0; color: var(--accent); }
+
+  .feature-groups { display: grid; gap: 1.5rem; }
+  .fgroup { background: var(--ground-alt); border: 1px solid var(--rule); border-radius: 4px; padding: 1.3rem 1.5rem 1.4rem; }
+  .fgroup h3 { margin: 0 0 0.7rem; font-family: 'Cinzel', Georgia, serif; font-size: 0.92rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold-ink); }
+  .fgroup ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 0.5rem; }
+  .fgroup li { padding-left: 1.2rem; position: relative; font-size: 1.08rem; }
+  .fgroup li::before { content: "†"; position: absolute; left: 0; color: var(--accent); font-size: 0.85em; }
+
+  .story { display: grid; gap: 0.2rem; }
+  .story-item { padding: 1.5rem 0; border-top: 1px solid var(--rule); }
+  .story-item:first-child { border-top: none; padding-top: 0; }
+  .story-item h3 { font-family: 'Cinzel', Georgia, serif; font-size: 1.08rem; font-weight: 600; margin: 0 0 0.55rem; color: var(--ink); }
+  .story-item p:last-child { margin-bottom: 0; }
+
+  .curio-list { display: grid; gap: 1.5rem; }
+  .curio { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1.1rem; align-items: start; }
+  .curio .tag { font-family: 'Cinzel', Georgia, serif; font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-soft); padding-top: 0.3rem; text-align: right; }
+  .curio p { margin: 0; }
+  @media (max-width: 560px) { .curio { grid-template-columns: 1fr; gap: 0.3rem; } .curio .tag { text-align: left; } }
+
+  .arch-diagram { display: grid; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; margin: 1.8rem 0; }
+  .arch-step { display: grid; grid-template-columns: 9.5rem 1fr; gap: 1rem; padding: 1.05rem 1.3rem; background: var(--ground-alt); }
+  .arch-step:nth-child(even) { background: var(--ground); }
+  .arch-step + .arch-step { border-top: 1px solid var(--rule); }
+  .arch-step .who { font-family: 'Cinzel', Georgia, serif; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--gold-ink); padding-top: 0.15rem; }
+  .arch-step .what { font-size: 1.06rem; }
+  @media (max-width: 560px) { .arch-step { grid-template-columns: 1fr; gap: 0.3rem; } }
+
+  .closing { margin-top: 4rem; padding-top: 2.4rem; border-top: 1px solid var(--rule); }
+  .closing p { font-size: 1.14rem; }
+  .closing .signoff { font-family: 'EB Garamond', Georgia, serif; font-style: italic; color: var(--ink-soft); margin-top: 1.6rem; }
+  .closing .contact { margin-top: 0.6rem; font-family: 'Cinzel', Georgia, serif; font-size: 0.85rem; letter-spacing: 0.03em; }
+
+  footer.colophon { margin-top: 4.5rem; padding-top: 1.8rem; border-top: 1px solid var(--rule); text-align: center; font-family: 'EB Garamond', Georgia, serif; font-style: italic; color: var(--ink-soft); font-size: 1rem; }
+  .footer-links { margin-top: 0.8rem; font-family: 'Cinzel', Georgia, serif; font-style: normal; font-size: 0.78rem; letter-spacing: 0.04em; }
+  .footer-links a { margin: 0 0.5rem; }
+
+  ::selection { background: var(--accent-soft); color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="langbar" role="group" aria-label="Language">
+  <button id="btnEs" aria-pressed="true">Español</button>
+  <button id="btnEn" aria-pressed="false">English</button>
+</div>
+
+<div class="page">
+
+<div data-lang-block="es">
+  <p class="free-notice">Pro Omnibus Gentibus es y será siempre gratuito. No tendrá versión de pago ni anuncios. Es completamente de código abierto: cualquiera puede tomarlo, adaptarlo y hacerlo propio. Esta página cuenta cómo llegó a existir.</p>
+
+  <header class="hero">
+    <div class="eyebrow">Reseña de un proyecto</div>
+    <h1 class="title">Haciendo Pro&nbsp;Omnibus&nbsp;Gentibus</h1>
+    <p class="dek">Cómo se construyó una Liturgia de las Horas bilingüe, rezada como la Iglesia realmente la reza: las funciones, los tropiezos, la arquitectura y algunas curiosidades.</p>
+    <div class="colophon-line"><span>Latín y español</span><span class="dot">·</span><span>Calendario de 4 años</span><span class="dot">·</span><span>Estático, autoalojado</span></div>
+  </header>
+
+  <section id="overview-es">
+    <h2><span class="swatch" style="background:var(--lit-white)"></span>Qué es</h2>
+    <p class="lede">Pro Omnibus Gentibus es una aplicación web para rezar la Liturgia de las Horas, el ciclo diario de salmos, lecturas y oraciones de la Iglesia, en latín junto al español, con un inglés experimental generado por traducción automática para quienes lo necesiten solo para seguir el texto. No es un libro de oraciones estático. Cada página se calcula: la semana del salterio, el tiempo litúrgico, el santo del día si lo hay, y el rango exacto que ese santo ocupa, todo deducido desde cero para cualquier fecha dentro de un período de cuatro años, de la misma manera en que lo haría un sacristán consultando las tablas litúrgicas.</p>
+    <p>La regla que guio el proyecto, repetida más de una vez cuando la tentación era tomar un atajo, fue sencilla de decir y difícil de cumplir: tiene que mostrar lo que la Iglesia realmente reza. No una paráfrasis, no una aproximación razonable: la antífona real, el responsorio real, investigado y verificado, o marcado honestamente como algo que todavía falta.</p>
+  </section>
+
+  <section id="features-es">
+    <h2><span class="swatch" style="background:var(--lit-green)"></span>Todo lo que hace</h2>
+    <div class="feature-groups">
+      <div class="fgroup">
+        <h3>Rezar las horas</h3>
+        <ul>
+          <li>Laudes, Vísperas y Completas totalmente implementadas; el Oficio de Lectura, Tercia, Sexta y Nona aparecen visibles como "próximamente" en lugar de ocultarse</li>
+          <li>Dos idiomas cualesquiera lado a lado, latín, español o inglés beta, elegidos de forma independiente como Principal y Vernáculo</li>
+          <li>El calendario completo de 2026 a 2029: semanas del salterio, Adviento, Navidad, Cuaresma, Pascua y Tiempo Ordinario, cada rango de fiesta de santo, fiestas móviles calculadas a partir de la propia fecha de Pascua</li>
+          <li>En una memoria, los salmos permanecen feriales mientras la antífona, la lectura, el responsorio, las preces y el himno se toman de los textos propios del santo o de su Común, la regla real y no un atajo</li>
+          <li>Una insignia de color litúrgico y un encabezado que leen correctamente el día: blanco, verde, morado, rojo o rosado</li>
+          <li>Un aviso de "Reza ahora" sobre la hora vigente, sensible al atardecer local real para las Vísperas</li>
+        </ul>
+      </div>
+      <div class="fgroup">
+        <h3>Hacerla tuya</h3>
+        <ul>
+          <li>Control tipográfico completo, incluidas dos tipografías propias seleccionadas a mano, junto a un estante de fuentes de Google</li>
+          <li>Una fuente distinta para el idioma que quede como "secundario", activable</li>
+          <li>Desplazamiento continuo o una vista paginada con cinta marcadora</li>
+          <li>Visualización lado a lado, solo en latín o solo en vernáculo</li>
+          <li>Capitulares en cuatro estilos, desde sencillas hasta medievales iluminadas</li>
+          <li>Tu propia imagen de fondo, con desenfoque y opacidad ajustables para mantener la legibilidad</li>
+          <li>Un interruptor para el "pan de cada día" del Padrenuestro, <i>cotidianum</i> o <i>supersubstantialem</i>, una bifurcación de traducción genuina y centenaria</li>
+          <li>El idioma del menú (latín, español o inglés) elegido de forma independiente al idioma en el que realmente estás rezando</li>
+        </ul>
+      </div>
+      <div class="fgroup">
+        <h3>Más allá del texto</h3>
+        <ul>
+          <li>Intenciones personales, traducidas automáticamente para coincidir con los idiomas mostrados, añadidas a las Preces justo antes del Padrenuestro</li>
+          <li>Un Diario de oración: contador de racha, marca de "rezado hoy", nota sobre la lectura breve del día, salmos marcados</li>
+          <li>Un Himnario completo: explora y busca toda la biblioteca, filtra por hora o por si un himno se canta genuinamente en más de un idioma (la mayoría no; una traducción para seguir el texto no cuenta), y añade el tuyo propio con letra bilingüe completa</li>
+          <li>Un himno recomendado cada día, calculado en el servidor con la misma lógica litúrgica que todo lo demás: el himno de un mártir en el día de un mártir, el ciclo semanal del Tiempo Ordinario en los demás casos</li>
+          <li>Un modo beta, protegido por una advertencia bilingüe, que desbloquea inglés traducido en vivo, un panel de depuración y un simulador de teléfono para pruebas</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="origin-es">
+    <h2><span class="swatch" style="background:var(--lit-rose)"></span>Por qué existe</h2>
+    <p class="lede">Rezo la Liturgia de las Horas todos los días. He visitado monasterios y seminarios, y he amado los libros y las aplicaciones que usan quienes viven esa vida de oración. Con el tiempo me fui adentrando en esa cultura: la enorme cantidad de aplicaciones católicas que existen, cada una intentando hacer muchas cosas a la vez, algunas mejor que otras, pero con un rasgo en común. Ninguna dejaba personalizar demasiado.</p>
+    <p>Conozco y uso todos los días aplicaciones extraordinarias: DivineOffice.org, Universalis, iBreviary, iPieta y Laudate, entre otras. Son un regalo para los católicos y no pretendo reemplazarlas. Pero no encontré ninguna en la que un breviario interlineal en latín pudiera acompañarse de más de un puñado de idiomas, si acaso alguno. La Liturgia de las Horas es una oración profundamente íntima, rezada todos los días y varias veces al día, y depende por completo de tener un libro, una fuente, una aplicación, algo que te guíe y te diga qué está diciendo hoy la Iglesia universal a Dios. Pensé que necesitábamos más opciones de personalización, especialmente aquí.</p>
+    <p>Así que decidí construir algo mejor. Primero solo para mí. Luego para mis amigos. Luego para mi parroquia. Y ahora para todos. Algún día espero llevar esta aplicación a monasterios y seminarios, pedir consejo y ayuda a monjes y seminaristas, y recoger las opiniones de quienes rezan las Horas como forma de vida, no como excepción.</p>
+  </section>
+
+  <section id="hard-parts-es">
+    <h2><span class="swatch" style="background:var(--lit-violet)"></span>Las partes difíciles</h2>
+    <p>Nada de esto fue difícil en el sentido habitual del software. Lo difícil fue casi siempre la confianza: si un fragmento de texto en latín o español era realmente correcto, y si dos idiomas colocados uno junto al otro decían realmente lo mismo.</p>
+    <div class="story">
+      <div class="story-item">
+        <h3>Lo que realmente se puede copiar</h3>
+        <p>La Liturgia de las Horas moderna, actualmente impresa, tiene derechos de autor. Eso descartó el atajo obvio de copiar directamente la traducción moderna oficial, incluido un argumento formal de uso legítimo, redactado en serio y presentado, que fue rechazado por sus propios méritos antes de continuar el trabajo. Lo que quedó fue más estrecho y más lento: la Vulgata de dominio público y una Biblia española de 1823 también de dominio público, búsquedas individuales verificadas contra sitios litúrgicos en vivo para llenar vacíos concretos, y traducción original del latín cuando no existía nada más. La reproducción masiva de una edición moderna con derechos de autor nunca estuvo sobre la mesa, sin importar cómo se planteara el pedido.</p>
+      </div>
+      <div class="story-item">
+        <h3>Los datos de otro, equivocados en silencio</h3>
+        <p>Buena parte del contenido en español se apoya en una base de datos litúrgica de terceros, tratada como una caché de confianza que de vez en cuando había que desmentir. El mismo fallo volvía a aparecer: el texto de un santo, copiado y pegado donde no correspondía, resurgiendo en un día completamente distinto meses o años después. Ocurrió tantas veces que ganó su propio nombre en las notas de trabajo del proyecto, el error de clonado y mala etiqueta, y cada nueva aparición había que rastrearla y confirmarla contra una fuente en vivo antes de darla por resuelta.</p>
+      </div>
+      <div class="story-item">
+        <h3>Un libro escaneado de 1823</h3>
+        <p>El Antiguo Testamento y el salterio en español provienen de un escaneo OCR de una Biblia impresa del siglo diecinueve. Un OCR de un libro de esa edad significa notas al pie mezcladas dentro del texto del versículo, fragmentos de número de página aparecidos a mitad de una frase, y caracteres leídos mal directamente. Un repaso completo de cada versículo que la aplicación realmente muestra (378 referencias distintas, revisadas una por una contra el escaneo original) encontró y corrigió docenas de estos casos, además de un puñado de versículos directamente ausentes, recuperados de la misma fuente.</p>
+      </div>
+      <div class="story-item">
+        <h3>Dos Vulgatas, y un error escondido durante años</h3>
+        <p>Los salmos en latín de esta aplicación siguen la Vulgata Clementina más antigua; la Liturgia de las Horas moderna usa la Nova Vulgata, y el texto difiere en casi todos los salmos. Ese es un trabajo grande, aplazado a propósito. Un primo más pequeño y más difícil de detectar sí se corrigió: la Vulgata numera el encabezado hebreo antiguo de un salmo, jamás pronunciado en voz alta, como si fuera el primer versículo, mientras que el lado español no lo cuenta en absoluto. Cincuenta y ocho salmos estaban desalineados en silencio por exactamente una fila cada vez que aparecían, algo que nadie notó hasta que una comparación automática, línea por línea, en todo el calendario, descubrió el patrón.</p>
+      </div>
+      <div class="story-item">
+        <h3>La regla que todos daban por hecha</h3>
+        <p>Comparar el día de un santo directamente contra un sitio de referencia conocido reveló algo extraño: el responsorio en latín era correcto, específico para ese tipo de santo, mientras que el español mostraba un texto ferial sin relación. La causa no era un valor equivocado, sino una regla ausente. Una memoria debe tomar su lectura breve, su responsorio, sus preces y su himno de los textos propios del santo o de su Común, igual que ya hacía con su antífona y su oración colecta; esa pieza simplemente nunca se había construido. Una vez hecha, la corrección se aplicó de inmediato a cada memoria del calendario, no solo a la que reveló el problema.</p>
+      </div>
+      <div class="story-item">
+        <h3>Las propias notas del editor, orando en voz alta</h3>
+        <p>Notas internas de investigación ("verificado mediante una consulta en vivo, coincide palabra por palabra con el texto existente") debían quedarse internas, adjuntas a ciertas antífonas solo como rastro documental para quien mantuviera el proyecto. Un vacío en el análisis del texto dejó que se filtraran directamente en el texto de oración mostrado, sentadas allí sin que nadie lo notara durante un buen tiempo, hasta que la misma revisión de consistencia que descubrió el error de numeración de los salmos también descubrió este.</p>
+      </div>
+      <div class="story-item">
+        <h3>Código antiguo, sirviendo el pasado en silencio</h3>
+        <p>El servidor de pruebas local mantiene un proceso de Python en ejecución por comodidad, recalculando la página de cada día en cada solicitud, salvo que un proceso en ejecución solo carga su propio código una vez, al iniciar. Editar el motor de renderizado y actualizar el navegador seguía mostrando resultados de antes de la edición, mientras el proceso mismo siguiera vivo. No había nada mal en el código; el servidor simplemente no sabía que debía fijarse.</p>
+      </div>
+      <div class="story-item">
+        <h3>La última sorpresa, al final de todo</h3>
+        <p>Publicar en un alojamiento público parecía, a primera vista, simplemente copiar archivos. No lo era: rutas que resuelven bien cuando un servidor de desarrollo aloja todo el proyecto se rompen en silencio en cuanto solo se publica la carpeta correspondiente. Las tipografías y la biblioteca de himnos desaparecieron en el primer despliegue real, algo que solo se descubrió cargando la dirección pública de verdad y leyendo su propia consola, no por nada que apareciera en local.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works-es">
+    <h2><span class="swatch" style="background:var(--lit-red)"></span>Cómo funciona</h2>
+    <p>No hay un servidor en vivo rezando junto a ti. Un motor en Python calcula, para cualquier fecha, exactamente lo que calcularía un sacristán: la semana del salterio, el tiempo litúrgico, cualquier fiesta, combina los textos feriales, de tiempo litúrgico y propios de cada santo según las propias reglas de precedencia de la Iglesia, y compone el resultado en una sola página autocontenida. Nada se calcula en tu navegador salvo qué idioma mostrar y qué hora abrir.</p>
+    <div class="arch-diagram">
+      <div class="arch-step"><div class="who">Motor de calendario</div><div class="what">Dada una fecha, calcula la semana del salterio, el tiempo litúrgico, y si algún santo o fiesta móvil (Pascua, sus dependientes, solemnidades trasladadas) tiene precedencia, siguiendo las reglas reales de qué supera a qué.</div></div>
+      <div class="arch-step"><div class="who">Fusión de contenido</div><div class="what">Toma los textos feriales, de tiempo litúrgico y propios correspondientes y los superpone correctamente: una memoria conserva sus salmos feriales pero toma su antífona, lectura, responsorio, preces e himno de los textos propios del santo, o del Común compartido cuando no existe nada más específico.</div></div>
+      <div class="arch-step"><div class="who">Construcción estática</div><div class="what">Compone todo un rango de fechas (latín, español, cada etiqueta estructural) en un solo archivo HTML con los datos incrustados directamente, para que la página pueda renderizarse y cambiar de idioma enteramente del lado del cliente, sin necesitar servidor alguno para rezar desde ella.</div></div>
+      <div class="arch-step"><div class="who">Servidor local de desarrollo</div><div class="what">Vuelve a ejecutar el mismo motor en cada solicitud mientras se edita, para que un cambio de contenido o de código aparezca al actualizar sin una reconstrucción completa; la única pieza que existe solo para el trabajo local, no en lo que se publica.</div></div>
+    </div>
+    <p>Una prueba de estrés de cuatro años (cada día desde 2026 hasta 2029, cada hora, cada idioma) se ejecuta después de casi cualquier cambio de contenido o de código, buscando cualquier cosa que haya quedado en blanco sin deber estarlo. Es un seguro barato, y más de una vez ha detectado retrocesos reales.</p>
+  </section>
+
+  <section id="curiosities-es">
+    <h2><span class="swatch" style="background:var(--lit-rose)"></span>Curiosidades</h2>
+    <div class="curio-list">
+      <div class="curio"><div class="tag">Versículo uno</div><p>La Vulgata numera de verdad el encabezado hebreo antiguo de un salmo como su versículo de apertura, un título erudito que nadie reza jamás en voz alta, sentado en el texto como si lo fuera.</p></div>
+      <div class="curio"><div class="tag">Vigilia nocturna</div><p>El ciclo semanal de himnos de Completas tiene cerca de mil quinientos años y apenas ha cambiado, los mismos himnos que un monje habría cantado al cierre del día en el siglo sexto.</p></div>
+      <div class="curio"><div class="tag">Palabras prestadas</div><p>Que un santo sin textos propios completos tome prestado del Común de Mártires o del Común de Vírgenes compartido no es un remedio inventado para esta aplicación; es exactamente lo que el breviario real ha hecho siempre. El código solo tuvo que aprender esa costumbre de la Iglesia.</p></div>
+      <div class="curio"><div class="tag">Año correcto</div><p>El leccionario dominical corre en un ciclo de tres años, y 2026 cae precisamente en el Año A, lo que hizo posible demostrar, revisando una ocurrencia real y en vivo, que dos antífonas del quinto domingo de Cuaresma llevaban quién sabe cuánto tiempo intercambiadas entre la mañana y la tarde.</p></div>
+      <div class="curio"><div class="tag">Sus propias palabras</div><p>La antífona de la memoria de San Agustín es una línea directa de sus propias Confesiones, <i>"Sero te amavi"</i>, tarde te amé, así que sus propios escritos terminan rezando su propia fiesta.</p></div>
+    </div>
+  </section>
+
+  <div class="closing">
+    <h2 style="font-family:'Cinzel',Georgia,serif; font-weight:600; font-size:1.5rem;">Gracias</h2>
+    <p>Este proyecto empezó como algo mío. Sigue siéndolo, pero ahora también es tuyo si lo quieres: gratuito hoy, gratuito siempre, sin anuncios, sin versión de pago, y abierto para que cualquiera lo tome y lo haga suyo. Rezo la Liturgia de las Horas todos los días, y voy a seguir usando esta aplicación junto a ustedes, cada día, todos los días.</p>
+    <p>Si encuentras un error, tienes una sugerencia o simplemente quieres contar cómo te fue rezando con ella, escríbeme. Todos son bienvenidos.</p>
+    <p class="signoff">Con gratitud,</p>
+    <p class="contact">inputgtag@gmail.com</p>
+  </div>
+
+  <footer class="colophon">
+    Pro Omnibus Gentibus — Liturgia Horarum.
+    <div class="footer-links"><a href="#" id="linkBetaEs">Guía beta</a><a href="#" id="linkFutureEs">Planes futuros</a></div>
+  </footer>
+</div>
+
+<div data-lang-block="en">
+  <p class="free-notice">Pro Omnibus Gentibus is, and will always be, free. There is no paid version and there are no ads. It's fully open source: anyone can take it, adapt it, and make it their own. This page tells the story of how it came to be.</p>
+
+  <header class="hero">
+    <div class="eyebrow">A Project Retrospective</div>
+    <h1 class="title">Making Pro&nbsp;Omnibus&nbsp;Gentibus</h1>
+    <p class="dek">How a bilingual Liturgy of the Hours, prayed the way the Church actually prays it, got built: the features, the wreckage, the architecture, and the odd corners.</p>
+    <div class="colophon-line"><span>Latin &amp; Spanish</span><span class="dot">·</span><span>4-year calendar</span><span class="dot">·</span><span>Static, self-hosted</span></div>
+  </header>
+
+  <section id="overview-en">
+    <h2><span class="swatch" style="background:var(--lit-white)"></span>What It Is</h2>
+    <p class="lede">Pro Omnibus Gentibus is a web app for praying the Liturgy of the Hours, the Church's daily cycle of psalms, readings, and prayer, in Latin alongside Spanish, with an experimental machine-translated English for people who need it just to follow along. It isn't a static prayer book. Every page is computed: the psalter week, the liturgical season, whichever saint's day it happens to be, and the exact rank that saint's memorial carries, all worked out from first principles for any date across a four-year span, the same way a sacristan would work it out from a set of liturgical tables.</p>
+    <p>The guiding rule, repeated back to the project more than once when the temptation was to cut corners, was simple to say and hard to satisfy: it has to display what the Church is actually praying. Not a paraphrase, not a plausible approximation, the real antiphon, the real responsory, sourced and cross-checked, or else honestly marked as not yet there.</p>
+  </section>
+
+  <section id="features-en">
+    <h2><span class="swatch" style="background:var(--lit-green)"></span>Everything It Does</h2>
+    <div class="feature-groups">
+      <div class="fgroup">
+        <h3>Praying the Hours</h3>
+        <ul>
+          <li>Lauds, Vespers, and Compline fully implemented; Office of Readings, Terce, Sext, and None sit visible as "coming soon" rather than pretending not to exist</li>
+          <li>Any two languages side by side, Latin, Spanish, or beta English, chosen independently as Main and Vernacular</li>
+          <li>The full 2026–2029 calendar: psalter weeks, Advent, Christmas, Lent, Easter, Ordinary Time, every rank of saint's day, movable feasts computed from Easter's own date</li>
+          <li>A Memorial's psalms stay ferial while its antiphon, reading, responsory, intercessions, and hymn borrow from the saint's own texts or their Common, the actual rule, not a shortcut</li>
+          <li>A liturgical color badge and hero banner that read the day correctly: white, green, violet, red, or rose</li>
+          <li>A "Pray Now" halo on whichever hour is current, aware of your actual local sunset for Vespers</li>
+        </ul>
+      </div>
+      <div class="fgroup">
+        <h3>Making It Your Own</h3>
+        <ul>
+          <li>Full typography control, down to two hand-picked custom typefaces alongside a shelf of Google fonts</li>
+          <li>A separate font for whichever language sits on the "secondary" side, toggle-able</li>
+          <li>Continuous scroll or a paged, ribbon-marked reading view</li>
+          <li>Side-by-side, Latin-only, or vernacular-only display</li>
+          <li>Drop caps in four styles, from plain to medieval illuminated</li>
+          <li>Your own background image, with blur and overlay controls for legibility</li>
+          <li>A toggle for the Our Father's "daily bread," <i>cotidianum</i> or <i>supersubstantialem</i>, a genuine, centuries-old translation fork</li>
+          <li>The interface chrome's own language set independently of what you're actually praying in</li>
+        </ul>
+      </div>
+      <div class="fgroup">
+        <h3>Beyond the Text</h3>
+        <ul>
+          <li>Personal Intentions, auto-translated to match whatever languages are on screen, folded into the Preces before the Our Father</li>
+          <li>A Prayer Diary: a streak counter, a mark for each day prayed, a note on the day's short reading, bookmarked psalms</li>
+          <li>A full Hymnal: browse and search the whole library, filter by hour or by whether a hymn is genuinely sung in more than one language (most aren't, a translation for following along doesn't count), and add your own with full bilingual lyrics</li>
+          <li>A recommended hymn every day, worked out server-side from the same liturgical logic as everything else: a martyr's hymn on a martyr's day, the Ordinary Time weekday cycle otherwise</li>
+          <li>A beta mode, gated behind a bilingual warning, unlocking live machine-translated English, a debug drawer, and a phone simulator for testing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="origin-en">
+    <h2><span class="swatch" style="background:var(--lit-rose)"></span>Why It Exists</h2>
+    <p class="lede">I pray the Liturgy of the Hours every day. I've visited monasteries and seminaries, and I've loved the books and apps used by people who live that life of prayer. Over time I got pulled into that whole culture, the sheer number of Catholic apps out there, each trying to do many things at once, some better than others, but with one thing in common. None of them let you customize very much.</p>
+    <p>I use, and admire, several excellent apps every day: DivineOffice.org, Universalis, iBreviary, iPieta, and Laudate, among others. They're a gift to Catholics, and I have no interest in replacing them. But I never found one where a Latin interlinear breviary could sit beside more than a handful of languages, if any at all. The Liturgy of the Hours is an intensely personal prayer, said every day and several times a day, and it depends entirely on having a book, a source, an app, something to guide you and tell you what the universal Church is uttering to God this day. I thought we needed more options for customization, especially here.</p>
+    <p>So I set out to build something better. First just for me. Then for my friends. Then for my parish. And now for everyone. One day I hope to bring this app to monasteries and seminaries, ask seminarians and monks for their advice and help, and gather feedback from people who pray the Hours as a way of life, not as an exception.</p>
+  </section>
+
+  <section id="hard-parts-en">
+    <h2><span class="swatch" style="background:var(--lit-violet)"></span>The Hard Parts</h2>
+    <p>None of this was difficult in the way software is usually difficult. The hard part was almost always trust: whether a piece of Latin or Spanish text was actually correct, and whether two languages sitting side by side were actually saying the same thing.</p>
+    <div class="story">
+      <div class="story-item">
+        <h3>What's actually allowed to be copied</h3>
+        <p>The modern, currently-in-print Liturgy of the Hours is copyrighted. That ruled out the obvious shortcut of just typing in the official modern translation wholesale, including a formal fair-use argument, drafted and submitted in earnest, which was turned down on its own merits before work continued. What remained was narrower and slower: the public-domain Vulgate and a public-domain 1823 Spanish Bible, individually verified lookups against live liturgical sites for specific gaps, and original translation from the Latin when nothing else existed. Bulk reproduction of a copyrighted modern edition was never on the table, no matter how the request was framed.</p>
+      </div>
+      <div class="story-item">
+        <h3>Someone else's data, quietly wrong</h3>
+        <p>A large share of the Spanish content leans on a third-party liturgical database, treated as a cache to be trusted and occasionally caught out. The same failure kept recurring: one saint's text, copy-pasted somewhere it didn't belong, surfacing on a completely unrelated day months or years later. It happened often enough to earn its own name in the project's working notes, the clone-and-mislabel bug, and each fresh instance had to be run down and confirmed against a live source before it could be trusted as fixed.</p>
+      </div>
+      <div class="story-item">
+        <h3>A scanned book from 1823</h3>
+        <p>The Spanish Old Testament and psalter come from an OCR scan of a nineteenth-century printed Bible. OCR from a book that age means footnotes bleeding into verse text, page-number fragments landing mid-sentence, and characters misread outright. A full sweep across every verse the app actually shows, 378 distinct references, checked one by one against the original scan, found and fixed dozens of these, plus a handful of outright missing verses filled back in from the same source.</p>
+      </div>
+      <div class="story-item">
+        <h3>Two Vulgates, and a bug hiding for years</h3>
+        <p>The Latin psalms here follow the older Clementine Vulgate; the modern Liturgy of the Hours uses the Nova Vulgata, and the wording differs in nearly every psalm. That's a large, deliberately deferred piece of work. A smaller, sneakier cousin of the same problem got fixed: the Vulgate numbers a psalm's ancient Hebrew heading, never actually spoken aloud, as verse one, while the Spanish side doesn't count it at all. Fifty-eight psalms were quietly misaligned by exactly one row wherever they appeared, undetected until an automated line-by-line comparison across the whole calendar caught the pattern.</p>
+      </div>
+      <div class="story-item">
+        <h3>The rule everyone assumed was already right</h3>
+        <p>Comparing one saint's day directly against a well-known reference site turned up something odd: the Latin responsory was correct, specific to that kind of saint, while the Spanish showed an unrelated ferial text. The cause wasn't a wrong value, it was a missing rule. A Memorial is supposed to draw its short reading, responsory, intercessions, and hymn from the saint's own texts or their Common, the same as its antiphon and collect already did; that piece had simply never been built. Once it was, the fix applied to every memorial on the calendar at once, not just the one that exposed it.</p>
+      </div>
+      <div class="story-item">
+        <h3>The editor's own notes, praying out loud</h3>
+        <p>Internal sourcing notes, "verified via a live fetch, matches the existing text word for word," were meant to stay internal, attached to certain antiphons purely as a maintainer's paper trail. A parsing gap let them leak straight into the rendered prayer text instead, sitting invisibly in the data for a long stretch before the same consistency pass that caught the psalm-numbering bug caught this one too.</p>
+      </div>
+      <div class="story-item">
+        <h3>Stale code, quietly serving the past</h3>
+        <p>The local test server keeps a Python process running for convenience, re-computing each day's page fresh on every request, except a running process only ever loads its own code once, at startup. Editing the renderer and refreshing the browser kept showing results from before the edit, for as long as the process itself stayed alive. Nothing was wrong with the code; the server just hadn't been told to notice.</p>
+      </div>
+      <div class="story-item">
+        <h3>The last surprise, at the very end</h3>
+        <p>Deploying to a public host looked, at first glance, like copying files. It wasn't: paths that resolve correctly when a dev server hosts the whole project quietly break once only the published folder is actually served. Fonts and the hymn library both went missing on the very first live deploy, caught only by loading the real, hosted address and reading its own console output, not by anything that showed up locally.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works-en">
+    <h2><span class="swatch" style="background:var(--lit-red)"></span>How It Works</h2>
+    <p>There's no live backend praying alongside you. A Python engine works out, for any date, exactly what a sacristan would work out by hand: the psalter week, the season, any feast, merges the right ferial, seasonal, and saint-specific texts by the Church's own precedence rules, and bakes the result into one self-contained page. Nothing is computed in your browser except which language to show and which hour to open to.</p>
+    <div class="arch-diagram">
+      <div class="arch-step"><div class="who">Calendar engine</div><div class="what">Given a date, works out the psalter week, the liturgical season, and whether any saint's day or movable feast (Easter, its dependents, transferred solemnities) takes precedence, following the real ranking rules for what outranks what.</div></div>
+      <div class="arch-step"><div class="who">Content merge</div><div class="what">Pulls the matching ferial, seasonal, and proper texts and layers them correctly: a Memorial keeps its ferial psalms but borrows its antiphon, reading, responsory, intercessions, and hymn from the saint's own texts, or the shared Common when nothing more specific exists.</div></div>
+      <div class="arch-step"><div class="who">Static build</div><div class="what">Bakes a whole date range, Latin, Spanish, every structural label, into one HTML file with the data embedded directly in it, so the page can render and switch languages entirely client-side, no server required to actually pray from it.</div></div>
+      <div class="arch-step"><div class="who">Local dev server</div><div class="what">Re-runs the same engine fresh on every request while editing, so a content or code change shows up on refresh without a full rebuild, the one piece that only exists for local work, not in what gets published.</div></div>
+    </div>
+    <p>A four-year stress test, every day from 2026 through 2029, every hour, every language, runs after nearly every content or code change, checking for anything left blank that shouldn't be. It's cheap insurance, and it has caught real regressions more than once.</p>
+  </section>
+
+  <section id="curiosities-en">
+    <h2><span class="swatch" style="background:var(--lit-rose)"></span>Curiosities</h2>
+    <div class="curio-list">
+      <div class="curio"><div class="tag">Verse one</div><p>The Vulgate genuinely numbers a psalm's ancient Hebrew superscript as its opening verse, a scholarly heading, never actually recited by anyone praying the Hours, sitting there in the text as if it were.</p></div>
+      <div class="curio"><div class="tag">Night watch</div><p>Compline's weekly hymn cycle is close to fifteen hundred years old and has barely changed, the same handful of hymns a monk would have sung at the close of day in the sixth century.</p></div>
+      <div class="curio"><div class="tag">Borrowed words</div><p>A saint whose own texts were never fully written down borrowing from a shared "Common of Martyrs" or "Common of Virgins" isn't a workaround this project invented, it's exactly what the real breviary has always done. The code just had to learn the Church's own habit.</p></div>
+      <div class="curio"><div class="tag">Right year</div><p>The Sunday lectionary runs on a three-year cycle, and 2026 happens to land on Year A, which is precisely what made it possible to prove, by checking a real live occurrence, that two antiphons for the fifth Sunday of Lent had been swapped between morning and evening for who knows how long.</p></div>
+      <div class="curio"><div class="tag">His own words</div><p>St. Augustine's memorial antiphon is a direct line from his own Confessions, <i>"Sero te amavi"</i>, "late have I loved you," so his own writing ends up praying his own feast day.</p></div>
+    </div>
+  </section>
+
+  <div class="closing">
+    <h2 style="font-family:'Cinzel',Georgia,serif; font-weight:600; font-size:1.5rem;">Thank You</h2>
+    <p>This project started as something for me. It still is, but now it's yours too, if you want it: free today, free always, no ads, no paid tier, and open for anyone to take and make their own. I pray the Liturgy of the Hours every day, and I'll keep using this app right alongside all of you, every single day.</p>
+    <p>If you find a bug, have a suggestion, or just want to tell me how praying with it went, write to me. Everyone is welcome.</p>
+    <p class="signoff">With gratitude,</p>
+    <p class="contact">inputgtag@gmail.com</p>
+  </div>
+
+  <footer class="colophon">
+    Pro Omnibus Gentibus — Liturgia Horarum.
+    <div class="footer-links"><a href="#" id="linkBetaEn">Beta Guide</a><a href="#" id="linkFutureEn">Future Plans</a></div>
+  </footer>
+</div>
+
+</div>
+
+<script>
+  (function () {
+    var params = new URLSearchParams(location.search);
+    var urlLang = params.get('lang');
+    var lang = (urlLang === 'en' || urlLang === 'es') ? urlLang : 'es';
+    document.documentElement.setAttribute('data-lang', lang);
+    function sync() {
+      document.getElementById('btnEs').setAttribute('aria-pressed', String(lang === 'es'));
+      document.getElementById('btnEn').setAttribute('aria-pressed', String(lang === 'en'));
+      ['linkBetaEs', 'linkBetaEn'].forEach(function (id) {
+        var el = document.getElementById(id); if (el) el.href = 'beta-guide.html?lang=' + lang;
+      });
+      ['linkFutureEs', 'linkFutureEn'].forEach(function (id) {
+        var el = document.getElementById(id); if (el) el.href = 'future-plans.html?lang=' + lang;
+      });
+    }
+    sync();
+    document.getElementById('btnEs').addEventListener('click', function () {
+      lang = 'es'; document.documentElement.setAttribute('data-lang', lang); sync();
+    });
+    document.getElementById('btnEn').addEventListener('click', function () {
+      lang = 'en'; document.documentElement.setAttribute('data-lang', lang); sync();
+    });
+  })();
+</script>
+</body>
+</html>

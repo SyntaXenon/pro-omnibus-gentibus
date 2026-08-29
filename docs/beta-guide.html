@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pro Omnibus Gentibus Beta Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ground: #fbf6ea;
+    --ground-alt: #f3ead6;
+    --ink: #2b2318;
+    --ink-soft: #5a4d3a;
+    --rule: #ddccA4;
+    --accent: #9c3b2e;
+    --accent-soft: #d8c49a;
+    --gold-ink: #8a6a2b;
+
+    --ok-bg: #e4ecdf; --ok-fg: #3f5d3e;
+    --partial-bg: #f3e6cf; --partial-fg: #8a5a1f;
+    --soon-bg: #ece3d6; --soon-fg: #6b5f4b;
+
+    --shadow: 0 1px 0 rgba(43,35,24,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #1c1610; --ground-alt: #251d15; --ink: #ece0c8; --ink-soft: #c2b291; --rule: #4a3d2a;
+      --accent: #dd7c5f; --accent-soft: #6e5a34; --gold-ink: #c7a565;
+      --ok-bg: #2b3a2a; --ok-fg: #a9c7a4;
+      --partial-bg: #3d3121; --partial-fg: #e0b578;
+      --soon-bg: #33291d; --soon-fg: #c2b291;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #1c1610; --ground-alt: #251d15; --ink: #ece0c8; --ink-soft: #c2b291; --rule: #4a3d2a;
+    --accent: #dd7c5f; --accent-soft: #6e5a34; --gold-ink: #c7a565;
+    --ok-bg: #2b3a2a; --ok-fg: #a9c7a4;
+    --partial-bg: #3d3121; --partial-fg: #e0b578;
+    --soon-bg: #33291d; --soon-fg: #c2b291;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--ground); color: var(--ink); font-family: 'Cormorant Garamond', 'Palatino Linotype', Georgia, serif; font-size: 1.18rem; line-height: 1.58; }
+  a { color: var(--accent); }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  [data-lang-block] { display: none; }
+  html[data-lang="es"] [data-lang-block="es"] { display: block; }
+  html[data-lang="en"] [data-lang-block="en"] { display: block; }
+
+  .langbar { position: sticky; top: 0; z-index: 20; display: flex; justify-content: center; gap: 0.4rem; padding: 0.6rem 1rem; background: var(--ground-alt); border-bottom: 1px solid var(--rule); }
+  .langbar button { font-family: 'Cinzel', Georgia, serif; font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.4rem 0.9rem; border-radius: 999px; cursor: pointer; background: none; border: 1px solid var(--rule); color: var(--ink-soft); }
+  .langbar button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--ground); }
+
+  .page { max-width: 760px; margin: 0 auto; padding: 3rem 1.5rem 5.5rem; }
+
+  .free-notice { text-align: center; font-family: 'EB Garamond', Georgia, serif; font-style: italic; font-size: 1rem; color: var(--ink-soft); max-width: 34rem; margin: 0 auto 2.4rem; padding-bottom: 2rem; border-bottom: 1px solid var(--rule); }
+  .free-notice b { font-style: normal; color: var(--accent); }
+
+  header.hero { padding-bottom: 2.2rem; margin-bottom: 2.6rem; border-bottom: 1px solid var(--rule); }
+  .eyebrow { font-family: 'Cinzel', Georgia, serif; font-weight: 600; font-size: 0.72rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--gold-ink); }
+  h1.title { font-family: 'Cinzel', Georgia, serif; font-weight: 600; font-size: clamp(1.9rem, 4.6vw, 2.6rem); margin: 0.55rem 0 0.8rem; text-wrap: balance; }
+  .dek { font-style: italic; font-size: 1.18rem; color: var(--ink-soft); max-width: 38rem; text-wrap: balance; }
+
+  section { margin: 3.1rem 0; }
+  section > h2 { font-family: 'Cinzel', Georgia, serif; font-weight: 600; font-size: 1.32rem; margin: 0 0 1.2rem; }
+  p { margin: 0 0 1.05rem; }
+
+  .step-list { display: grid; gap: 0; counter-reset: step; }
+  .step { display: grid; grid-template-columns: 2.4rem 1fr; gap: 0.9rem; padding: 0.9rem 0; border-top: 1px solid var(--rule); }
+  .step:first-child { border-top: none; padding-top: 0; }
+  .step::before { counter-increment: step; content: counter(step); font-family: 'Cinzel', Georgia, serif; font-weight: 600; font-size: 1.15rem; color: var(--accent); line-height: 1.4; }
+  .step p { margin: 0; }
+  .step p + p { margin-top: 0.5rem; }
+
+  .callout { margin-top: 0.7rem; border: 1px solid var(--accent-soft); border-left: 3px solid var(--accent); border-radius: 3px; background: var(--ground-alt); padding: 0.75rem 1rem; }
+  .callout .callout-label { display: block; font-family: 'Cinzel', Georgia, serif; font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold-ink); margin-bottom: 0.35rem; }
+  .callout p { font-family: 'EB Garamond', Georgia, serif; font-style: italic; color: var(--ink-soft); font-size: 1rem; margin: 0 0 0.5rem; }
+  .callout p:last-child { margin-bottom: 0; }
+
+  .feat-grid { display: grid; gap: 1.1rem; }
+  .feat { background: var(--ground-alt); border: 1px solid var(--rule); border-radius: 4px; padding: 1.05rem 1.3rem; }
+  .feat h3 { margin: 0 0 0.4rem; font-family: 'Cinzel', Georgia, serif; font-size: 1rem; font-weight: 600; }
+  .feat p { margin: 0; font-size: 1.05rem; color: var(--ink-soft); }
+
+  .chip { display: inline-flex; align-items: center; gap: 0.35rem; font-family: 'Cinzel', Georgia, serif; font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.22rem 0.6rem; border-radius: 999px; white-space: nowrap; }
+  .chip.ok { background: var(--ok-bg); color: var(--ok-fg); }
+  .chip.partial { background: var(--partial-bg); color: var(--partial-fg); }
+  .chip.soon { background: var(--soon-bg); color: var(--soon-fg); }
+
+  .status-table { display: grid; gap: 0.5rem; }
+  .status-row { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1rem; padding: 0.7rem 1rem; background: var(--ground-alt); border: 1px solid var(--rule); border-radius: 4px; }
+  .status-row .name { font-size: 1.08rem; }
+  .status-row .name small { display: block; font-size: 0.88rem; color: var(--ink-soft); font-style: italic; }
+
+  .gap-list { display: grid; gap: 0.9rem; }
+  .gap { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 1rem; padding-bottom: 0.9rem; border-bottom: 1px solid var(--rule); }
+  .gap:last-child { border-bottom: none; padding-bottom: 0; }
+  .gap .desc { font-size: 1.06rem; }
+  .gap .count { font-family: 'Cinzel', Georgia, serif; font-size: 0.78rem; letter-spacing: 0.04em; color: var(--ink-soft); white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+  .aside { border-left: 3px solid var(--accent-soft); padding-left: 1.05rem; margin-top: 1.8rem; font-family: 'EB Garamond', Georgia, serif; font-style: italic; color: var(--ink-soft); }
+  .aside b { font-style: normal; color: var(--ink); }
+
+  footer.colophon { margin-top: 4rem; padding-top: 1.6rem; border-top: 1px solid var(--rule); text-align: center; font-family: 'EB Garamond', Georgia, serif; font-style: italic; color: var(--ink-soft); font-size: 0.98rem; }
+  .footer-links { margin-top: 0.7rem; font-family: 'Cinzel', Georgia, serif; font-style: normal; font-size: 0.78rem; letter-spacing: 0.04em; }
+  .footer-links a { margin: 0 0.5rem; }
+  ::selection { background: var(--accent-soft); color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="langbar" role="group" aria-label="Language">
+  <button id="btnEs" aria-pressed="true">Español</button>
+  <button id="btnEn" aria-pressed="false">English</button>
+</div>
+
+<div class="page">
+
+<div data-lang-block="es">
+  <p class="free-notice">Pro Omnibus Gentibus es y será siempre gratuito, sin anuncios ni versión de pago, y de código abierto. Gracias por probar la aplicación mientras sigue en construcción.</p>
+
+  <header class="hero">
+    <div class="eyebrow">Para probadores beta</div>
+    <h1 class="title">Guía beta de Pro&nbsp;Omnibus&nbsp;Gentibus</h1>
+    <p class="dek">Qué desbloquea el modo beta, en qué punto exacto está el proyecto hoy, y qué es lo más útil que puedes revisar.</p>
+  </header>
+
+  <section id="why-es">
+    <h2>En qué punto estamos</h2>
+    <p>Este es un texto litúrgico en construcción activa, no un breviario terminado y publicado. El contenido se investiga y se verifica fuente por fuente, día por día: la mayor parte del calendario está sólida, y una parte más pequeña, documentada con honestidad, todavía tiene vacíos. Esto se dice claramente en la primera visita, en ambos idiomas, y vale la pena tomarlo en serio: si algo se ve raro, es muy posible que lo esté, y decirlo es exactamente lo más útil que puedes hacer.</p>
+  </section>
+
+  <section id="enable-es">
+    <h2>Cómo activar el modo beta</h2>
+    <div class="step-list">
+      <div class="step"><p>Marca <b>Modo probador beta</b> en la barra superior, ya sea en la pantalla de selección de hora o en la vista principal de oración.</p></div>
+      <div class="step">
+        <p>Aparece una advertencia en inglés y en español antes de que cambie nada, explicando con precisión en qué te estás inscribiendo.</p>
+        <div class="callout">
+          <span class="callout-label">Nota importante</span>
+          <p>El latín y el español son el texto propio y verificado de la aplicación.</p>
+          <p>El inglés es una traducción automática en vivo, generada al vuelo, pensada solo para ayudar a los probadores beta que no leen latín ni español a seguir el texto. No es un tercer idioma con fuente propia.</p>
+        </div>
+      </div>
+      <div class="step"><p>Confirma, y el inglés queda disponible en cualquiera de los menús de idioma, mientras las herramientas de depuración aparecen en el encabezado.</p></div>
+    </div>
+  </section>
+
+  <section id="features-es">
+    <h2>Qué desbloquea el modo beta</h2>
+    <div class="feat-grid">
+      <div class="feat">
+        <h3>Traducción al inglés en vivo</h3>
+        <p>Traducido por máquina al vuelo desde el texto propio que se esté mostrando, nada queda guardado ni escrito de antemano. Trátalo como una ayuda de comprensión, no como una cita; a veces sonará torpe o perderá un matiz que el latín o el español sí conservan.</p>
+      </div>
+      <div class="feat">
+        <h3>Panel de depuración</h3>
+        <p>El estado de la configuración como JSON editable, algunas variables internas en vivo, un botón para borrar todos los datos guardados en el dispositivo, y una forma de forzar una nueva descarga del contenido del día, para rastrear cualquier cosa que se vea mal por dentro.</p>
+      </div>
+      <div class="feat">
+        <h3>Simulador de teléfono</h3>
+        <p>Una vista enmarcada de 375×812 de la página en vivo, para comprobar cómo se ve realmente algo en una pantalla de tamaño teléfono sin salir del navegador de escritorio.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="hours-es">
+    <h2>Qué está realmente implementado</h2>
+    <div class="status-table">
+      <div class="status-row"><div class="name">Laudes, Vísperas, Completas</div><span class="chip ok">Funcionando</span></div>
+      <div class="status-row"><div class="name">Oficio de Lectura, Tercia, Sexta, Nona <small>visibles en la pantalla de selección de hora, marcadas "próximamente" en lugar de ocultarse</small></div><span class="chip soon">Aún no construidas</span></div>
+    </div>
+  </section>
+
+  <section id="gaps-es">
+    <h2>Vacíos de contenido conocidos</h2>
+    <p>Estos son los vacíos reales, medidos de forma automática en los cuatro años del calendario (2026 a 2029) después de casi cada cambio, así que esta lista refleja el estado real, no una suposición.</p>
+    <div class="gap-list">
+      <div class="gap"><div class="desc">Un puñado de días cada año no tiene su antífona de Vísperas en latín (el español sí está presente)</div><div class="count">4 a 18 días / año</div></div>
+      <div class="gap"><div class="desc">Un día cada año no tiene su responsorio de Vísperas en latín</div><div class="count">1 día / año</div></div>
+      <div class="gap"><div class="desc">Un día, solo en 2026, no tiene sus preces de Vísperas en latín</div><div class="count">1 día, una vez</div></div>
+    </div>
+    <div class="aside"><b>Lo grande que aún falta:</b> los salmos en latín de esta aplicación siguen la Vulgata Clementina más antigua, en lugar de la Nova Vulgata que usa la Liturgia de las Horas moderna. La redacción es realmente distinta en casi todos los salmos, un trabajo real y aplazado a propósito, no un descuido, y el mayor vacío que queda entre esta aplicación y un breviario plenamente moderno.</div>
+  </section>
+
+  <section id="feedback-es">
+    <h2>Lo más útil para probar</h2>
+    <div class="step-list">
+      <div class="step"><p>Reza una hora completa de principio a fin en ambos idiomas, uno junto al otro. Las discrepancias de <i>sentido</i> entre columnas son más difíciles de detectar de forma automática que un texto faltante, y es justo lo que un lector humano detecta mejor.</p></div>
+      <div class="step"><p>Revisa un día de un santo que conozcas, sobre todo una memoria; ahí es donde ocurren la mayoría de las decisiones de investigación más delicadas.</p></div>
+      <div class="step"><p>Prueba las opciones de tipografía y diseño, fuentes, capitulares, vista paginada o de desplazamiento continuo, tanto en tema claro como oscuro del sistema.</p></div>
+      <div class="step"><p>Si el inglés está activo, compáralo con el latín o el español a su lado en lugar de leerlo solo, y señala cualquier lugar donde la traducción automática cambie el sentido real.</p></div>
+    </div>
+  </section>
+
+  <footer class="colophon">
+    Gracias por rezar junto a nosotros a través de los detalles ásperos.
+    <div class="footer-links"><a href="#" id="linkMakingEs">Cómo se hizo</a><a href="#" id="linkFutureEs">Planes futuros</a></div>
+  </footer>
+</div>
+
+<div data-lang-block="en">
+  <p class="free-notice">Pro Omnibus Gentibus is, and will always be, free, with no ads and no paid version, and open source. Thank you for testing it while it's still being built.</p>
+
+  <header class="hero">
+    <div class="eyebrow">For Beta Testers</div>
+    <h1 class="title">Pro&nbsp;Omnibus&nbsp;Gentibus Beta Guide</h1>
+    <p class="dek">What beta mode unlocks, exactly where the project stands today, and what's most useful for you to look at.</p>
+  </header>
+
+  <section id="why-en">
+    <h2>Where Things Stand</h2>
+    <p>This is a working liturgical text under active construction, not a finished, published breviary. Content is sourced and cross-checked source by source, day by day: most of the calendar is solid, and a smaller, honestly-documented part of it still has gaps. You'll see that stated plainly on first visit, in both languages, and it's worth taking at face value: if something looks off, it very well might be, and saying so is exactly the useful thing to do.</p>
+  </section>
+
+  <section id="enable-en">
+    <h2>Turning Beta Mode On</h2>
+    <div class="step-list">
+      <div class="step"><p>Check <b>Beta Tester Mode</b> in the top bar, on either the hour-selection screen or the main prayer view.</p></div>
+      <div class="step">
+        <p>A warning appears in both English and Spanish before anything changes, explaining specifically what you're opting into.</p>
+        <div class="callout">
+          <span class="callout-label">Important note</span>
+          <p>Latin and Spanish are the app's own sourced text.</p>
+          <p>English is a live machine translation, generated on the fly, meant only to help beta testers who don't read Latin or Spanish follow along. It is not a third sourced language.</p>
+        </div>
+      </div>
+      <div class="step"><p>Confirm, and English becomes available in either language dropdown, and the debug tools appear in the header.</p></div>
+    </div>
+  </section>
+
+  <section id="features-en">
+    <h2>What Beta Unlocks</h2>
+    <div class="feat-grid">
+      <div class="feat">
+        <h3>Live English translation</h3>
+        <p>Machine-translated on the fly from whichever sourced text is showing, nothing is stored or pre-written. Treat it as a comprehension aid, not a citation; it will occasionally read awkwardly or miss a nuance the sourced Latin or Spanish carries correctly.</p>
+      </div>
+      <div class="feat">
+        <h3>Debug drawer</h3>
+        <p>Raw settings state as editable JSON, a few live internal variables, a button to clear all locally-stored data, and a way to force a fresh refetch of the day's content, for tracking down anything that looks wrong under the hood.</p>
+      </div>
+      <div class="feat">
+        <h3>Phone simulator</h3>
+        <p>A 375×812 framed preview of the live page, for checking how something actually looks on a phone-sized screen without leaving your desktop browser.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="hours-en">
+    <h2>What's Actually Implemented</h2>
+    <div class="status-table">
+      <div class="status-row"><div class="name">Lauds, Vespers, Compline</div><span class="chip ok">Working</span></div>
+      <div class="status-row"><div class="name">Office of Readings, Terce, Sext, None <small>visible on the hour-selection screen, marked "coming soon" rather than hidden</small></div><span class="chip soon">Not yet built</span></div>
+    </div>
+  </section>
+
+  <section id="gaps-en">
+    <h2>Known Content Gaps</h2>
+    <p>These are the honest, currently-measured gaps, checked automatically across all four years (2026 to 2029) after nearly every change, so this list reflects the real state, not a guess.</p>
+    <div class="gap-list">
+      <div class="gap"><div class="desc">A handful of days each year are missing their Latin Vespers antiphon (Spanish is present)</div><div class="count">4 to 18 days / year</div></div>
+      <div class="gap"><div class="desc">One day each year is missing its Latin Vespers responsory</div><div class="count">1 day / year</div></div>
+      <div class="gap"><div class="desc">One day in 2026 only is missing its Latin Vespers intercessions</div><div class="count">1 day, once</div></div>
+    </div>
+    <div class="aside"><b>The one large piece still ahead:</b> the Latin psalms here follow the older Clementine Vulgate rather than the Nova Vulgata the modern Liturgy of the Hours actually uses. The wording is genuinely different in nearly every psalm, a real, deliberately deferred undertaking, not an oversight, and the single biggest remaining gap between this app and a fully modern breviary.</div>
+  </section>
+
+  <section id="feedback-en">
+    <h2>Most Useful Things to Test</h2>
+    <div class="step-list">
+      <div class="step"><p>Pray an actual hour start to finish in both languages side by side. Mismatches in <i>meaning</i> between columns are harder to catch automatically than missing text, and are exactly what a human reader is best at spotting.</p></div>
+      <div class="step"><p>Check a saint's day you know something about, especially a Memorial, that's where the most sourcing judgment calls happen.</p></div>
+      <div class="step"><p>Try the settings that touch typography and layout, fonts, drop caps, paged vs. scrolling, across both a light and a dark system theme.</p></div>
+      <div class="step"><p>If English is on, compare it against the Latin or Spanish beside it rather than reading it alone, and flag anywhere the machine translation changes the actual sense.</p></div>
+    </div>
+  </section>
+
+  <footer class="colophon">
+    Thank you for praying through the rough edges with us.
+    <div class="footer-links"><a href="#" id="linkMakingEn">How It Was Made</a><a href="#" id="linkFutureEn">Future Plans</a></div>
+  </footer>
+</div>
+
+</div>
+
+<script>
+  (function () {
+    var params = new URLSearchParams(location.search);
+    var urlLang = params.get('lang');
+    var lang = (urlLang === 'en' || urlLang === 'es') ? urlLang : 'es';
+    document.documentElement.setAttribute('data-lang', lang);
+    function sync() {
+      document.getElementById('btnEs').setAttribute('aria-pressed', String(lang === 'es'));
+      document.getElementById('btnEn').setAttribute('aria-pressed', String(lang === 'en'));
+      ['linkMakingEs', 'linkMakingEn'].forEach(function (id) {
+        var el = document.getElementById(id); if (el) el.href = 'making-pog.html?lang=' + lang;
+      });
+      ['linkFutureEs', 'linkFutureEn'].forEach(function (id) {
+        var el = document.getElementById(id); if (el) el.href = 'future-plans.html?lang=' + lang;
+      });
+    }
+    sync();
+    document.getElementById('btnEs').addEventListener('click', function () {
+      lang = 'es'; document.documentElement.setAttribute('data-lang', lang); sync();
+    });
+    document.getElementById('btnEn').addEventListener('click', function () {
+      lang = 'en'; document.documentElement.setAttribute('data-lang', lang); sync();
+    });
+  })();
+</script>
+</body>
+</html>
