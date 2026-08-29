@@ -1,5 +1,5 @@
 <!doctype html>
-<html><head><meta charset="utf-8"><title>Pro Omnibus Gentibus - Liturgia Horarum - __DATE__</title>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Pro Omnibus Gentibus - Liturgia Horarum - __DATE__</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=EB+Garamond:ital@0;1&family=Crimson+Text:ital@0;1&family=Alegreya:ital@0;1&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
@@ -185,6 +185,14 @@ select, input[type=text], input[type=number] {
   font-size: 0.92rem; padding: 0.32rem 0.5rem; font-family: var(--font-main);
   background: var(--panel-bg); color: var(--fg); border: 1px solid var(--panel-border); border-radius: 6px;
 }
+/* The closed <select> control picks up --panel-bg/--fg fine, but most
+   browsers render the OPEN options list using the system's own light popup
+   chrome regardless of author CSS on the select itself - on a dark preset
+   that leaves light --fg text sitting on that same light system background,
+   unreadable. Pinning the option text to a fixed dark color (matching the
+   existing .menu-lang-select workaround below) keeps the open list legible
+   on every preset without needing per-theme option styling. */
+select option { color: #222; background: #fff; }
 .meta { color: var(--fg); opacity: 0.7; margin-bottom: 1.5rem; font-family: var(--font-rubric); font-size: 0.85rem; }
 #tzNote { background: #fff3cd; color: #664d03; border: 1px solid #ffe69c; border-radius: 6px;
            padding: 0.6rem 0.9rem; margin-bottom: 1rem; font-size: 0.85rem; opacity: 1; }
@@ -213,6 +221,12 @@ td.single { width: 100%; }
 .col-right { font-family: var(--font-latin); font-size: var(--font-size-latin); }
 td.single { font-family: var(--font-main); font-size: var(--font-size-main); }
 .unit-label { font-size: 0.68rem; opacity: 0.55; font-family: var(--font-rubric); text-transform: uppercase; }
+.gloria-patri-row td { font-style: italic; opacity: 0.85; }
+.sacred-silence-row td {
+  text-align: center; font-family: var(--font-rubric); text-transform: uppercase; letter-spacing: 0.12em;
+  font-size: 0.75rem; opacity: 0.6; padding-top: 0.9rem; padding-bottom: 0.9rem; border-bottom: none;
+}
+.marian-antiphon-row td { font-style: italic; }
 .vn { font-size: 0.68rem; opacity: 0.55; font-family: var(--font-rubric); vertical-align: super; }
 tr:last-child td { border-bottom: none; }
 .hymn-line { font-style: italic; }
@@ -292,6 +306,12 @@ body.reading-paged .page.active { display: block; }
   .settings-layout { flex-direction: column; }
   .settings-preview { position: static; width: 100%; flex: none; max-height: 45vh; }
 }
+.settings-group-heading {
+  font-family: var(--font-rubric); font-size: 0.8rem; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--fg); opacity: 0.55; margin: 1.6rem 0 0.6rem; padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--accent-soft);
+}
+.settings-group-heading:first-child { margin-top: 0; }
 .settings-section {
   background: var(--panel-bg); border: 1px solid var(--panel-border); border-radius: 12px;
   padding: 1.1rem 1.3rem; margin-bottom: 1.1rem;
@@ -518,7 +538,9 @@ body.reading-paged .page.active { display: block; }
      buttons a touch and letting the row wrap keeps everything reachable
      without needing a redesign. */
   .app-header { flex-wrap: wrap; row-gap: 0.35rem; padding: 0.6rem 0.85rem; }
-  .icon-btn { padding: 0.32rem 0.42rem; font-size: 1.05rem; }
+  .icon-btn { padding: 0.4rem 0.5rem; font-size: 1.15rem; min-width: 2.4rem; min-height: 2.4rem; display: inline-flex; align-items: center; justify-content: center; }
+  body { font-size: 17px; }
+  .modal-primary-btn, .modal-secondary-btn { padding: 0.7rem 1.2rem; font-size: 0.9rem; }
 }
 </style></head>
 <body>

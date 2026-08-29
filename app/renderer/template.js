@@ -39,6 +39,15 @@ const UI = {
     secPaterNoster: 'Our Father', paterNosterBreadLabel: '"Daily bread" wording',
     optCotidianum: 'Panem cotidianum (daily bread)', optSupersubstantialem: 'Panem supersubstantialem (supersubstantial bread)',
     paterNosterBreadHint: 'Two traditional Latin renderings of the Greek epiousios (Luke’s vs. Matthew’s Vulgate text) - applies to Latin, Spanish, and English alike.',
+    secGroupAesthetics: 'Aesthetics', secGroupLiturgical: 'Liturgical',
+    secPrayerElements: 'Prayer Elements',
+    gloriaPatriLabel: 'Gloria Patri after each psalm and canticle',
+    gloriaPatriHint: 'Adds the Glory Be after every psalm and canticle, before its antiphon is repeated.',
+    sacredSilenceLabel: 'Sacred silence after the reading',
+    sacredSilenceHint: 'Marks a pause for silent reflection after the short reading (Lectio Brevis), as recommended by the General Instruction.',
+    marianLabel: 'Marian antiphon at the end of Compline',
+    marianHint: 'A closing antiphon to Our Lady, prayed after Night Prayer’s own dismissal.',
+    marianChoiceLabel: 'Which antiphon', marianNone: 'None',
     resetBtn: 'Reset all settings to default', resetConfirm: 'Reset all appearance settings to the default Parchment theme?',
     intentionsTitle: 'Personal Intentions',
     intentionsHint: "Checked intentions are added to today's Preces, just before the Pater Noster.",
@@ -111,6 +120,15 @@ const UI = {
     secPaterNoster: 'Padre Nuestro', paterNosterBreadLabel: 'Expresión del "pan de cada día"',
     optCotidianum: 'Panem cotidianum (pan de cada día)', optSupersubstantialem: 'Panem supersubstantialem (pan supersustancial)',
     paterNosterBreadHint: 'Dos traducciones latinas tradicionales del griego epiousios (el texto de Lucas frente al de Mateo en la Vulgata) - se aplica al latín, español e inglés por igual.',
+    secGroupAesthetics: 'Estética', secGroupLiturgical: 'Litúrgico',
+    secPrayerElements: 'Elementos de oración',
+    gloriaPatriLabel: 'Gloria al Padre después de cada salmo y cántico',
+    gloriaPatriHint: 'Añade el Gloria después de cada salmo y cántico, antes de repetir su antífona.',
+    sacredSilenceLabel: 'Silencio sagrado después de la lectura',
+    sacredSilenceHint: 'Marca una pausa de reflexión silenciosa después de la lectura breve, tal como recomienda la Instrucción General.',
+    marianLabel: 'Antífona mariana al final de Completas',
+    marianHint: 'Una antífona final a Nuestra Señora, rezada después de la despedida propia de Completas.',
+    marianChoiceLabel: 'Qué antífona', marianNone: 'Ninguna',
     resetBtn: 'Restablecer toda la configuración', resetConfirm: '¿Restablecer toda la apariencia al tema Pergamino predeterminado?',
     intentionsTitle: 'Intenciones personales',
     intentionsHint: 'Las intenciones marcadas se añaden a las Preces de hoy, justo antes del Padrenuestro.',
@@ -183,6 +201,15 @@ const UI = {
     secPaterNoster: 'Pater Noster', paterNosterBreadLabel: 'Verba "panis cotidiani"',
     optCotidianum: 'Panem cotidianum', optSupersubstantialem: 'Panem supersubstantialem',
     paterNosterBreadHint: 'Duæ formæ Latinæ traditionales verbi Græci epiousios (secundum Lucam et secundum Matthæum) - Latinæ, Hispanicæ, Anglicæque simul applicantur.',
+    secGroupAesthetics: 'Pulchritudo', secGroupLiturgical: 'Liturgica',
+    secPrayerElements: 'Partes Orationis',
+    gloriaPatriLabel: 'Glória Patri post omnem psalmum et canticum',
+    gloriaPatriHint: 'Glóriam Patri post omnem psalmum et canticum addit, antequam antiphona repetitur.',
+    sacredSilenceLabel: 'Silentium sacrum post lectionem',
+    sacredSilenceHint: 'Pausam silentii post lectionem brevem signat, sicut Institutio Generalis commendat.',
+    marianLabel: 'Antiphona mariana in fine Completorii',
+    marianHint: 'Antiphona finalis ad Beatam Virginem, post ipsam dimissionem Completorii dicta.',
+    marianChoiceLabel: 'Quænam antiphona', marianNone: 'Nulla',
     resetBtn: 'Omnes ordinationes ad primam formam reddere', resetConfirm: 'Omnes ordinationes ad thema "Membrana" restituere?',
     intentionsTitle: 'Intentiones Personales',
     intentionsHint: 'Intentiones electæ hodiernis Precibus adduntur, ante Pater Noster.',
@@ -354,6 +381,10 @@ function defaultSettings() {
     useSecondaryFont: true,
     intentionsEnabled: true,
     paterNosterBread: 'supersubstantialem', // 'supersubstantialem' | 'cotidianum'
+    showGloriaPatri: true,
+    sacredSilence: true,
+    marianAntiphonEnabled: true,
+    marianAntiphonChoice: 'salve_regina', // key into MARIAN_ANTIPHONS, or 'none'
   };
 }
 
@@ -1134,6 +1165,61 @@ function applyPaterNosterBread(unit) {
 let currentPages = [['placeholder']]; // rebuilt by render(); each entry is one page's HTML string
 let currentPageIndex = 0;
 
+// Fixed, non-date-dependent liturgical formulas - never sourced per-day like
+// psalms/readings are, so they live here as plain constants rather than
+// flowing through render_day.py.
+const GLORIA_PATRI_TEXT = {
+  la: 'Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in sǽcula sæculórum. Amen.',
+  es: 'Gloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén.',
+  en: 'Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.',
+};
+const SACRED_SILENCE_LABEL = { la: 'Silentium sacrum', es: 'Silencio sagrado', en: 'Sacred Silence' };
+
+const MARIAN_ANTIPHONS = {
+  none: { title: { la: '', es: '', en: '' } },
+  alma_redemptoris: {
+    title: { la: 'Alma Redemptóris Mater', es: 'Alma Redemptoris Mater', en: 'Alma Redemptoris Mater' },
+    text: {
+      la: 'Alma Redemptóris Mater, quæ pérvia cæli porta manes, et stella maris, succúrre cadénti, súrgere qui curat pópulo: tu quæ genuísti, natúra miránte, tuum sanctum Genitórem, Virgo prius ac postérius, Gabriélis ab ore sumens illud Ave, peccatórum miserére.',
+      es: 'Madre amable del Redentor, puerta del cielo siempre abierta, y estrella del mar: socorre al pueblo que, aun cayendo, se esfuerza por levantarse. Tú que, para asombro de la naturaleza, engendraste a tu santo Creador, Virgen antes y después del parto, y de labios de Gabriel recibiste aquel Ave, ten piedad de los pecadores.',
+      en: 'Loving Mother of the Redeemer, gate of heaven, star of the sea, assist your people who have fallen yet strive to rise again. To the wonderment of nature you bore your Creator, yet remained a virgin after as before. You who received Gabriel’s joyful greeting, have mercy on us poor sinners.',
+    },
+  },
+  ave_regina: {
+    title: { la: 'Ave, Regína Cælórum', es: 'Ave, Reina de los Cielos', en: 'Hail, Queen of Heaven' },
+    text: {
+      la: 'Ave, Regína cælórum, Ave, Dómina Angelórum: Salve, radix, salve, porta, Ex qua mundo lux est orta: Gaude, Virgo gloriósa, Super omnes speciósa, Vale, o valde decóra, Et pro nobis Christum exóra.',
+      es: 'Salve, Reina de los cielos; salve, Señora de los ángeles; salve, raíz, salve, puerta, por donde vino al mundo la luz. Alégrate, Virgen gloriosa, hermosa entre todas; adiós, oh bellísima, y ruega por nosotros a Cristo.',
+      en: 'Hail, Queen of Heaven; hail, Lady of the Angels; hail, root of Jesse, hail, gate of Heaven, through whom the light of the world has arisen. Rejoice, glorious Virgin, lovely beyond all others; farewell, most beautiful of all, and pray for us to Christ.',
+    },
+  },
+  regina_caeli: {
+    title: { la: 'Regína Cæli', es: 'Reina del Cielo', en: 'Queen of Heaven' },
+    text: {
+      la: 'Regína cæli, lætáre, allelúia: Quia quem meruísti portáre, allelúia: Resurréxit, sicut dixit, allelúia: Ora pro nobis Deum, allelúia.',
+      es: 'Reina del cielo, alégrate, aleluya; porque el Señor, a quien mereciste llevar en tu seno, aleluya, ha resucitado según predijo, aleluya; ruega al Señor por nosotros, aleluya.',
+      en: 'Queen of Heaven, rejoice, alleluia. For he whom you were worthy to bear, alleluia, has risen as he said, alleluia. Pray for us to God, alleluia.',
+    },
+  },
+  salve_regina: {
+    title: { la: 'Salve, Regína', es: 'Salve, Reina', en: 'Hail, Holy Queen' },
+    text: {
+      la: 'Salve, Regína, mater misericórdiæ, vita, dulcédo, et spes nostra, salve. Ad te clamámus éxsules fílii Hevæ. Ad te suspirámus geméntes et flentes in hac lacrimárum valle. Eia ergo, advocáta nostra, illos tuos misericórdes óculos ad nos convérte. Et Iesum benedíctum fructum ventris tui, nobis post hoc exsílium osténde. O clemens, o pia, o dulcis Virgo María.',
+      es: 'Dios te salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra; Dios te salve. A ti llamamos los desterrados hijos de Eva; a ti suspiramos, gimiendo y llorando en este valle de lágrimas. Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos; y después de este destierro muéstranos a Jesús, fruto bendito de tu vientre. ¡Oh clementísima, oh piadosa, oh dulce siempre Virgen María!',
+      en: 'Hail, Holy Queen, Mother of Mercy, our life, our sweetness, and our hope. To thee do we cry, poor banished children of Eve. To thee do we send up our sighs, mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy toward us, and after this our exile, show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary.',
+    },
+  },
+};
+
+function renderFixedBilingualRow(textObj, uLeft, uRight, single, rowClass) {
+  const left = textObj[uLeft] || textObj.en || '';
+  const right = single ? left : (textObj[uRight] || textObj.en || '');
+  if (single) {
+    return `<tr class="${rowClass}"><td class="single">${esc(left)}</td></tr>`;
+  }
+  return `<tr class="${rowClass}"><td class="col-left">${esc(left)}</td><td class="col-right">${esc(right)}</td></tr>`;
+}
+
 function render() {
   const dayData = currentDayData();
   if (!dayData) return;
@@ -1201,13 +1287,44 @@ function render() {
           }
         }
       }
+      // A real psalm or canticle (not the verse-numbered short reading,
+      // which also happens to use kind:"psalm" for its line formatting)
+      // traditionally closes with the Gloria Patri, before its antiphon
+      // is repeated - settings.showGloriaPatri makes that optional.
+      if (unit.kind === 'psalm' && unit.label !== 'reading' && settings.showGloriaPatri) {
+        html += renderFixedBilingualRow(GLORIA_PATRI_TEXT, uLeft, uRight, single, 'gloria-patri-row');
+      }
+      if (unit.label === 'reading' && settings.sacredSilence) {
+        html += renderFixedBilingualRow(SACRED_SILENCE_LABEL, uLeft, uRight, single, 'sacred-silence-row');
+      }
     } else if (unit.kind === 'hymn_choice') {
       html += renderHymnChoiceRows(unit, uLeft, uRight);
     } else if (single) {
       html += `<tr><td class="single dropcap">${renderUnitContent(unit, uLeft)}</td></tr>`;
+      if (unit.label === 'reading' && settings.sacredSilence) {
+        html += renderFixedBilingualRow(SACRED_SILENCE_LABEL, uLeft, uRight, single, 'sacred-silence-row');
+      }
     } else {
       html += `<tr><td class="col-left dropcap"><div class="unit-label">${left.toUpperCase()}</div>${renderUnitContent(unit, uLeft)}</td>` +
               `<td class="col-right"><div class="unit-label">${right.toUpperCase()}</div>${renderUnitContent(unit, uRight)}</td></tr>`;
+      if (unit.label === 'reading' && settings.sacredSilence) {
+        html += renderFixedBilingualRow(SACRED_SILENCE_LABEL, uLeft, uRight, single, 'sacred-silence-row');
+      }
+    }
+  }
+
+  // Marian antiphon (Salve Regina and its seasonal siblings) is a fixed
+  // closing devotion, traditionally added after Night Prayer's own
+  // dismissal - not part of any day's sourced content, so it's appended
+  // here client-side rather than flowing through render_day.py.
+  if (hour === 'compline' && settings.marianAntiphonEnabled && settings.marianAntiphonChoice !== 'none') {
+    const ant = MARIAN_ANTIPHONS[settings.marianAntiphonChoice];
+    if (ant && ant.text) {
+      const uLeft = (left === 'en') ? 'es' : left;
+      const uRight = (right === 'en') ? 'es' : right;
+      const titleText = ant.title[uLeft] || ant.title.en;
+      html += `<tr class="unit-header unit-divider"><th colspan="2">${esc(titleText)}</th></tr>`;
+      html += renderFixedBilingualRow(ant.text, uLeft, uRight, single, 'marian-antiphon-row');
     }
   }
 
@@ -1764,6 +1881,8 @@ function renderSettingsScreen() {
   const body = document.getElementById('settingsBody');
   document.getElementById('settingsTitle').textContent = s.settingsTitle;
   body.innerHTML = `
+    <div class="settings-group-heading">${s.secGroupAesthetics}</div>
+
     <div class="settings-section">
       <h3>${s.secPresets}</h3>
       <div class="preset-grid" id="presetGrid"></div>
@@ -1861,6 +1980,8 @@ function renderSettingsScreen() {
       <div class="settings-row"><label for="showLogo">${s.showLogoLabel}</label><div class="settings-control">${toggleHtml('showLogo', settings.showLogo)}</div></div>
     </div>
 
+    <div class="settings-group-heading">${s.secGroupLiturgical}</div>
+
     <div class="settings-section">
       <h3>${s.secPaterNoster}</h3>
       <div class="settings-row"><label for="paterNosterBread">${s.paterNosterBreadLabel}</label>
@@ -1871,6 +1992,21 @@ function renderSettingsScreen() {
           </select>
         </div></div>
       <p class="settings-hint">${s.paterNosterBreadHint}</p>
+    </div>
+
+    <div class="settings-section">
+      <h3>${s.secPrayerElements}</h3>
+      <div class="settings-row"><label for="showGloriaPatri">${s.gloriaPatriLabel}</label>
+        <div class="settings-control">${toggleHtml('showGloriaPatri', settings.showGloriaPatri)}</div></div>
+      <p class="settings-hint">${s.gloriaPatriHint}</p>
+      <div class="settings-row"><label for="sacredSilence">${s.sacredSilenceLabel}</label>
+        <div class="settings-control">${toggleHtml('sacredSilence', settings.sacredSilence)}</div></div>
+      <p class="settings-hint">${s.sacredSilenceHint}</p>
+      <div class="settings-row"><label for="marianAntiphonEnabled">${s.marianLabel}</label>
+        <div class="settings-control">${toggleHtml('marianAntiphonEnabled', settings.marianAntiphonEnabled)}</div></div>
+      <p class="settings-hint">${s.marianHint}</p>
+      <div class="settings-row"><label for="marianAntiphonChoice">${s.marianChoiceLabel}</label>
+        <div class="settings-control"><select id="marianAntiphonChoice"></select></div></div>
     </div>
 
     <div class="settings-reset"><button id="resetSettingsBtn">${s.resetBtn}</button></div>
@@ -1885,6 +2021,18 @@ function renderSettingsScreen() {
   mlSel.addEventListener('change', e => {
     settings.menuLang = e.target.value; saveSettings();
     syncMenuLangSelects(); renderSettingsScreen(); refreshChromeText();
+  });
+
+  const marianSel = document.getElementById('marianAntiphonChoice');
+  Object.entries(MARIAN_ANTIPHONS).forEach(([key, ant]) => {
+    const o = document.createElement('option');
+    o.value = key;
+    o.textContent = (key === 'none') ? s.marianNone : (ant.title[settings.menuLang] || ant.title.en);
+    if (key === settings.marianAntiphonChoice) o.selected = true;
+    marianSel.appendChild(o);
+  });
+  marianSel.addEventListener('change', e => {
+    settings.marianAntiphonChoice = e.target.value; saveSettings(); render();
   });
 
   // Presets
@@ -1966,6 +2114,9 @@ function wireSettingsControls() {
   on('showSymbols', 'change', e => { settings.showSymbols = e.target.checked; saveSettings(); applySettingsToDOM(); });
   on('dropCapStyle', 'change', e => { settings.dropCapStyle = e.target.value; saveSettings(); applySettingsToDOM(); });
   on('sunsetAware', 'change', e => { settings.sunsetAwareVespers = e.target.checked; saveSettings(); });
+  on('showGloriaPatri', 'change', e => { settings.showGloriaPatri = e.target.checked; saveSettings(); render(); });
+  on('sacredSilence', 'change', e => { settings.sacredSilence = e.target.checked; saveSettings(); render(); });
+  on('marianAntiphonEnabled', 'change', e => { settings.marianAntiphonEnabled = e.target.checked; saveSettings(); render(); });
   on('useSecondaryFont', 'change', e => { settings.useSecondaryFont = e.target.checked; saveSettings(); applySettingsToDOM(); });
 
   on('bgUpload', 'change', e => {
@@ -2003,7 +2154,7 @@ function wireSettingsControls() {
     const keepMenuLang = settings.menuLang;
     settings = defaultSettings();
     settings.menuLang = keepMenuLang; // resetting appearance shouldn't silently switch your menu language
-    saveSettings(); applySettingsToDOM(); renderSettingsScreen();
+    saveSettings(); applySettingsToDOM(); renderSettingsScreen(); render();
   });
 }
 
@@ -2295,6 +2446,12 @@ syncMenuLangSelects();
 refreshChromeText();
 render();
 renderHero();
+// The liturgical-color lookup in applySettingsToDOM() depends on
+// currentDayData() actually resolving - on first paint that data isn't
+// reliably bound yet, so the very first accent color could be the preset's
+// default rather than today's liturgical color. render()/renderHero() above
+// guarantee the day data is live by this point, so re-apply once more here.
+applySettingsToDOM();
 maybeShowFirstVisitModal();
 
 // Land on the Hour Selection screen by default, unless there's a very
