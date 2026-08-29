@@ -40,7 +40,7 @@ const UI = {
     optCotidianum: 'Panem cotidianum (daily bread)', optSupersubstantialem: 'Panem supersubstantialem (supersubstantial bread)',
     paterNosterBreadHint: 'Two traditional Latin renderings of the Greek epiousios (Luke’s vs. Matthew’s Vulgate text) - applies to Latin, Spanish, and English alike.',
     secGroupAesthetics: 'Aesthetics', secGroupLiturgical: 'Liturgical',
-    secPrayerElements: 'Prayer Elements',
+    secPrayerElements: 'Liturgical',
     gloriaPatriLabel: 'Gloria Patri after each psalm and canticle',
     gloriaPatriHint: 'Adds the Glory Be after every psalm and canticle, before its antiphon is repeated.',
     sacredSilenceLabel: 'Sacred silence after the reading',
@@ -121,7 +121,7 @@ const UI = {
     optCotidianum: 'Panem cotidianum (pan de cada día)', optSupersubstantialem: 'Panem supersubstantialem (pan supersustancial)',
     paterNosterBreadHint: 'Dos traducciones latinas tradicionales del griego epiousios (el texto de Lucas frente al de Mateo en la Vulgata) - se aplica al latín, español e inglés por igual.',
     secGroupAesthetics: 'Estética', secGroupLiturgical: 'Litúrgico',
-    secPrayerElements: 'Elementos de oración',
+    secPrayerElements: 'Litúrgico',
     gloriaPatriLabel: 'Gloria al Padre después de cada salmo y cántico',
     gloriaPatriHint: 'Añade el Gloria después de cada salmo y cántico, antes de repetir su antífona.',
     sacredSilenceLabel: 'Silencio sagrado después de la lectura',
@@ -202,7 +202,7 @@ const UI = {
     optCotidianum: 'Panem cotidianum', optSupersubstantialem: 'Panem supersubstantialem',
     paterNosterBreadHint: 'Duæ formæ Latinæ traditionales verbi Græci epiousios (secundum Lucam et secundum Matthæum) - Latinæ, Hispanicæ, Anglicæque simul applicantur.',
     secGroupAesthetics: 'Pulchritudo', secGroupLiturgical: 'Liturgica',
-    secPrayerElements: 'Partes Orationis',
+    secPrayerElements: 'Liturgica',
     gloriaPatriLabel: 'Glória Patri post omnem psalmum et canticum',
     gloriaPatriHint: 'Glóriam Patri post omnem psalmum et canticum addit, antequam antiphona repetitur.',
     sacredSilenceLabel: 'Silentium sacrum post lectionem',
@@ -1983,7 +1983,7 @@ function renderSettingsScreen() {
     <div class="settings-group-heading">${s.secGroupLiturgical}</div>
 
     <div class="settings-section">
-      <h3>${s.secPaterNoster}</h3>
+      <h3>${s.secPrayerElements}</h3>
       <div class="settings-row"><label for="paterNosterBread">${s.paterNosterBreadLabel}</label>
         <div class="settings-control">
           <select id="paterNosterBread">
@@ -1992,10 +1992,6 @@ function renderSettingsScreen() {
           </select>
         </div></div>
       <p class="settings-hint">${s.paterNosterBreadHint}</p>
-    </div>
-
-    <div class="settings-section">
-      <h3>${s.secPrayerElements}</h3>
       <div class="settings-row"><label for="showGloriaPatri">${s.gloriaPatriLabel}</label>
         <div class="settings-control">${toggleHtml('showGloriaPatri', settings.showGloriaPatri)}</div></div>
       <p class="settings-hint">${s.gloriaPatriHint}</p>

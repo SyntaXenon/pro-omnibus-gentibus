@@ -335,7 +335,11 @@ body.reading-paged .page.active { display: block; }
    column and overflowing past the panel edge. */
 .settings-row.stacked { flex-direction: column; align-items: stretch; gap: 0.5rem; }
 .settings-row.stacked .settings-control { width: 100%; max-width: 100%; justify-content: flex-start; }
-.settings-hint { font-size: 0.75rem; opacity: 0.65; margin-top: -0.4rem; margin-bottom: 0.6rem; }
+/* Was margin-top:-0.4rem, meant to tuck the hint close to its row - but a
+   settings-row always carries its own border-bottom, and the negative
+   margin pulled the hint text up underneath that line, making it look
+   like the border struck through the hint's own text. */
+.settings-hint { font-size: 0.75rem; opacity: 0.65; margin-top: 0.3rem; margin-bottom: 0.6rem; }
 
 .preset-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 0.7rem; }
 .preset-card {
@@ -531,13 +535,18 @@ body.reading-paged .page.active { display: block; }
   .app-header h2 { font-size: 0.95rem; }
   .hour-cards { grid-template-columns: 1fr; }
   .top-bar { flex-wrap: wrap; }
-  /* The icon row (back/logo/debug/hymnal/intentions/diary/settings) has no
-     give at narrow widths otherwise - it just overflows sideways past the
+  /* The icon row (back/logo/debug/info/hymnal/intentions/diary/settings) has
+     no give at narrow widths otherwise - it just overflows sideways past the
      header itself (found via the phone simulator's 375px frame, but the
-     same thing would happen on a real narrow phone). Shrinking the icon
-     buttons a touch and letting the row wrap keeps everything reachable
-     without needing a redesign. */
-  .app-header { flex-wrap: wrap; row-gap: 0.35rem; padding: 0.6rem 0.85rem; }
+     same thing would happen on a real narrow phone). Wrapping the row onto
+     a second line (an earlier fix) worked but pushed the header taller and
+     made it feel like it was "coming down" over the content below - keeping
+     it on one line and letting that one line scroll horizontally instead
+     keeps the header a fixed height while every button stays reachable. */
+  .app-header { flex-wrap: nowrap; padding: 0.6rem 0.85rem; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .app-header::-webkit-scrollbar { display: none; }
+  .app-header > * { flex-shrink: 0; }
+  .header-spacer { flex: 0 0 0.6rem; }
   .icon-btn { padding: 0.4rem 0.5rem; font-size: 1.15rem; min-width: 2.4rem; min-height: 2.4rem; display: inline-flex; align-items: center; justify-content: center; }
   body { font-size: 17px; }
   .modal-primary-btn, .modal-secondary-btn { padding: 0.7rem 1.2rem; font-size: 0.9rem; }
@@ -744,7 +753,7 @@ const UI = {
     optCotidianum: 'Panem cotidianum (daily bread)', optSupersubstantialem: 'Panem supersubstantialem (supersubstantial bread)',
     paterNosterBreadHint: 'Two traditional Latin renderings of the Greek epiousios (Luke’s vs. Matthew’s Vulgate text) - applies to Latin, Spanish, and English alike.',
     secGroupAesthetics: 'Aesthetics', secGroupLiturgical: 'Liturgical',
-    secPrayerElements: 'Prayer Elements',
+    secPrayerElements: 'Liturgical',
     gloriaPatriLabel: 'Gloria Patri after each psalm and canticle',
     gloriaPatriHint: 'Adds the Glory Be after every psalm and canticle, before its antiphon is repeated.',
     sacredSilenceLabel: 'Sacred silence after the reading',
@@ -825,7 +834,7 @@ const UI = {
     optCotidianum: 'Panem cotidianum (pan de cada día)', optSupersubstantialem: 'Panem supersubstantialem (pan supersustancial)',
     paterNosterBreadHint: 'Dos traducciones latinas tradicionales del griego epiousios (el texto de Lucas frente al de Mateo en la Vulgata) - se aplica al latín, español e inglés por igual.',
     secGroupAesthetics: 'Estética', secGroupLiturgical: 'Litúrgico',
-    secPrayerElements: 'Elementos de oración',
+    secPrayerElements: 'Litúrgico',
     gloriaPatriLabel: 'Gloria al Padre después de cada salmo y cántico',
     gloriaPatriHint: 'Añade el Gloria después de cada salmo y cántico, antes de repetir su antífona.',
     sacredSilenceLabel: 'Silencio sagrado después de la lectura',
@@ -906,7 +915,7 @@ const UI = {
     optCotidianum: 'Panem cotidianum', optSupersubstantialem: 'Panem supersubstantialem',
     paterNosterBreadHint: 'Duæ formæ Latinæ traditionales verbi Græci epiousios (secundum Lucam et secundum Matthæum) - Latinæ, Hispanicæ, Anglicæque simul applicantur.',
     secGroupAesthetics: 'Pulchritudo', secGroupLiturgical: 'Liturgica',
-    secPrayerElements: 'Partes Orationis',
+    secPrayerElements: 'Liturgica',
     gloriaPatriLabel: 'Glória Patri post omnem psalmum et canticum',
     gloriaPatriHint: 'Glóriam Patri post omnem psalmum et canticum addit, antequam antiphona repetitur.',
     sacredSilenceLabel: 'Silentium sacrum post lectionem',
@@ -2687,7 +2696,7 @@ function renderSettingsScreen() {
     <div class="settings-group-heading">${s.secGroupLiturgical}</div>
 
     <div class="settings-section">
-      <h3>${s.secPaterNoster}</h3>
+      <h3>${s.secPrayerElements}</h3>
       <div class="settings-row"><label for="paterNosterBread">${s.paterNosterBreadLabel}</label>
         <div class="settings-control">
           <select id="paterNosterBread">
@@ -2696,10 +2705,6 @@ function renderSettingsScreen() {
           </select>
         </div></div>
       <p class="settings-hint">${s.paterNosterBreadHint}</p>
-    </div>
-
-    <div class="settings-section">
-      <h3>${s.secPrayerElements}</h3>
       <div class="settings-row"><label for="showGloriaPatri">${s.gloriaPatriLabel}</label>
         <div class="settings-control">${toggleHtml('showGloriaPatri', settings.showGloriaPatri)}</div></div>
       <p class="settings-hint">${s.gloriaPatriHint}</p>
