@@ -1967,8 +1967,8 @@ function renderSettingsScreen() {
         <div class="settings-control"><input type="file" id="bgUpload" accept="image/*"></div></div>
       <div class="settings-row"><label for="bgClear">${s.bgClearLabel}</label>
         <div class="settings-control"><button class="icon-btn text" id="bgClear">${s.bgClearBtn}</button></div></div>
-      <div class="settings-row"><label for="bgOverlay">${s.bgOverlayLabel}</label>
-        <div class="settings-control"><input type="range" id="bgOverlay" min="0" max="1" step="0.02" value="${settings.bgOverlayOpacity}"><span id="bgOverlayVal">${settings.bgOverlayOpacity}</span></div></div>
+      <div class="settings-row"><label for="bgOverlayOpacityInput">${s.bgOverlayLabel}</label>
+        <div class="settings-control"><input type="range" id="bgOverlayOpacityInput" min="0" max="1" step="0.02" value="${settings.bgOverlayOpacity}"><span id="bgOverlayVal">${settings.bgOverlayOpacity}</span></div></div>
       <div class="settings-row"><label for="bgBlur">${s.bgBlurLabel}</label>
         <div class="settings-control"><input type="range" id="bgBlur" min="0" max="20" step="1" value="${settings.bgBlur}"><span id="bgBlurVal">${settings.bgBlur}px</span></div></div>
       <h3 style="margin-top:1.1rem;">${s.secTextures}</h3>
@@ -2137,8 +2137,8 @@ function wireSettingsControls() {
     const prev = document.getElementById('bgPreview');
     prev.style.backgroundImage = ''; prev.textContent = ui().bgNoImage;
   });
-  on('bgOverlay', 'input', e => { settings.bgOverlayOpacity = +e.target.value; document.getElementById('bgOverlayVal').textContent = e.target.value; applySettingsToDOM(); });
-  on('bgOverlay', 'change', () => saveSettings());
+  on('bgOverlayOpacityInput', 'input', e => { settings.bgOverlayOpacity = +e.target.value; document.getElementById('bgOverlayVal').textContent = e.target.value; applySettingsToDOM(); });
+  on('bgOverlayOpacityInput', 'change', () => saveSettings());
   on('bgBlur', 'input', e => { settings.bgBlur = +e.target.value; document.getElementById('bgBlurVal').textContent = e.target.value + 'px'; applySettingsToDOM(); });
   on('bgBlur', 'change', () => saveSettings());
 
