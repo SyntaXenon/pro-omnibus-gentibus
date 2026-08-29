@@ -189,12 +189,25 @@ select, input[type=text], input[type=number] {
 #tzNote { background: #fff3cd; color: #664d03; border: 1px solid #ffe69c; border-radius: 6px;
            padding: 0.6rem 0.9rem; margin-bottom: 1rem; font-size: 0.85rem; opacity: 1; }
 
-table { width: 100%; border-collapse: collapse; }
+/* table-layout: fixed forces the table to actually respect width:100% /
+   td's 50% split regardless of content - without it, a single long
+   unbreakable word (a citation, a compound Latin term) can silently push
+   the whole table - and everything around it - wider than the viewport.
+   Found on the phone simulator's narrow 375px frame, but the same
+   overflow can happen on any real narrow phone. overflow-wrap makes that
+   same long content wrap onto its own line instead of forcing the issue. */
+table { width: 100%; border-collapse: collapse; table-layout: fixed; }
 th {
   text-align: left; background: var(--accent-soft); padding: 0.45rem 0.65rem; font-family: var(--font-rubric);
   font-size: var(--font-size-rubric); text-transform: uppercase; letter-spacing: 0.04em; color: var(--accent);
 }
-td { width: 50%; vertical-align: top; padding: calc(var(--para-spacing) * 0.6) 0.65rem; border-bottom: 1px solid var(--panel-border); }
+td { width: 50%; vertical-align: top; padding: calc(var(--para-spacing) * 0.6) 0.65rem; border-bottom: 1px solid var(--panel-border); overflow-wrap: anywhere; }
+/* A <select>'s own intrinsic width is driven by its widest OPTION text and
+   doesn't shrink or wrap the way ordinary cell content does - table-layout:
+   fixed alone doesn't stop it from forcing the whole table wider than the
+   viewport (this was the actual cause of the phone-simulator horizontal
+   scrollbar, not unbroken text). max-width:100% caps it to its cell. */
+.hymn-select { max-width: 100%; }
 td.single { width: 100%; }
 .col-left { border-right: 1px solid var(--panel-border); font-family: var(--font-main); font-size: var(--font-size-main); }
 .col-right { font-family: var(--font-latin); font-size: var(--font-size-latin); }
@@ -451,8 +464,20 @@ body.reading-paged .page.active { display: block; }
 .modal-primary-btn, .modal-secondary-btn {
   font-family: var(--font-rubric); font-size: 0.82rem; padding: 0.55rem 1.2rem; border-radius: 8px; cursor: pointer;
 }
-.modal-primary-btn { background: var(--accent); color: var(--panel-bg); border: none; margin-top: 1rem; }
+.modal-primary-btn { background: var(--accent); color: var(--panel-bg); border: none; }
 .modal-secondary-btn { background: none; border: 1px solid var(--panel-border); color: var(--fg); }
+.info-link-list { display: grid; gap: 0.55rem; margin-top: 0.4rem; }
+.info-link {
+  display: block; font-family: var(--font-rubric); font-size: 0.85rem; color: var(--fg);
+  text-decoration: none; padding: 0.65rem 0.9rem; border: 1px solid var(--panel-border);
+  border-radius: 8px; transition: border-color 0.15s, background 0.15s;
+}
+.info-link:hover { border-color: var(--accent); background: var(--accent-soft); }
+/* Only the first-visit notice uses this button standalone (no sibling
+   secondary button, no .modal-btn-row) - the top margin belongs here, not
+   on the shared .modal-primary-btn rule, where it threw betaWarnAccept out
+   of alignment with betaWarnCancel next to it. */
+#firstVisitDismiss { margin-top: 1rem; }
 
 /* ---------- Beta English machine translation ---------- */
 .mt-pending { opacity: 0.45; font-style: italic; }
@@ -486,6 +511,14 @@ body.reading-paged .page.active { display: block; }
   .app-header h2 { font-size: 0.95rem; }
   .hour-cards { grid-template-columns: 1fr; }
   .top-bar { flex-wrap: wrap; }
+  /* The icon row (back/logo/debug/hymnal/intentions/diary/settings) has no
+     give at narrow widths otherwise - it just overflows sideways past the
+     header itself (found via the phone simulator's 375px frame, but the
+     same thing would happen on a real narrow phone). Shrinking the icon
+     buttons a touch and letting the row wrap keeps everything reachable
+     without needing a redesign. */
+  .app-header { flex-wrap: wrap; row-gap: 0.35rem; padding: 0.6rem 0.85rem; }
+  .icon-btn { padding: 0.32rem 0.42rem; font-size: 1.05rem; }
 }
 </style></head>
 <body>
@@ -504,6 +537,7 @@ body.reading-paged .page.active { display: block; }
     <div class="app-logo" id="logoHourSelect"></div>
     <div class="header-spacer"></div>
     <button class="icon-btn hidden" id="btnDebugFromHourSelect" title="Beta debug menu">&#128027;</button>
+    <button class="icon-btn" id="btnInfoFromHourSelect" title="About this project">&#9432;</button>
     <button class="icon-btn" id="btnHymnalFromHourSelect" title="Hymnal">&#9834;</button>
     <button class="icon-btn" id="btnIntentionsFromHourSelect" title="Intentions">&#128367;</button>
     <button class="icon-btn" id="btnDiaryFromHourSelect" title="Prayer Diary">&#128214;</button>
@@ -525,6 +559,7 @@ body.reading-paged .page.active { display: block; }
     <div class="app-logo small" id="logoMain"></div>
     <div class="header-spacer"></div>
     <button class="icon-btn hidden" id="btnDebug" title="Beta debug menu">&#128027;</button>
+    <button class="icon-btn" id="btnInfo" title="About this project">&#9432;</button>
     <button class="icon-btn" id="btnHymnal" title="Hymnal">&#9834;</button>
     <button class="icon-btn" id="btnIntentions" title="Intentions">&#128367;</button>
     <button class="icon-btn" id="btnDiary" title="Prayer Diary">&#128214;</button>
@@ -623,6 +658,22 @@ body.reading-paged .page.active { display: block; }
     <div class="modal-btn-row">
       <button class="modal-secondary-btn" id="betaWarnCancel"></button>
       <button class="modal-primary-btn" id="betaWarnAccept"></button>
+    </div>
+  </div>
+</div>
+
+<!-- About / project info popover -->
+<div id="infoModal" class="modal-backdrop hidden">
+  <div class="modal-box">
+    <h3 id="infoModalTitle"></h3>
+    <p id="infoModalBody"></p>
+    <div class="info-link-list">
+      <a class="info-link" id="infoLinkMaking" href="#" target="_blank" rel="noopener"></a>
+      <a class="info-link" id="infoLinkBeta" href="#" target="_blank" rel="noopener"></a>
+      <a class="info-link" id="infoLinkFuture" href="#" target="_blank" rel="noopener"></a>
+    </div>
+    <div class="modal-btn-row">
+      <button class="modal-primary-btn" id="infoModalClose"></button>
     </div>
   </div>
 </div>

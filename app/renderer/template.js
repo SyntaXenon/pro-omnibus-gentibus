@@ -56,6 +56,9 @@ const UI = {
     debugApply: 'Apply JSON', debugClearStorage: 'Clear all local storage', debugReloadData: 'Force day-data refetch',
     debugPhoneSim: 'Open phone simulator (375×812)',
     tHymnal: 'Hymnal',
+    infoTitle: 'About This Project', infoClose: 'Close',
+    infoBody: 'Pro Omnibus Gentibus is free, always will be, and is fully open source. Read more below.',
+    infoLinkMaking: 'How It Was Made', infoLinkBeta: 'Beta Guide', infoLinkFuture: 'Future Plans',
     hymnalTitle: 'Hymnal', hymnalSearchPlaceholder: 'Search hymns by title or first line…',
     hymnalFilterHour: 'Hour', hymnalFilterAllHours: 'All hours',
     hymnalFilterLang: 'Languages', hymnalFilterAllLangs: 'All', hymnalFilterMultiLang: 'Multi-language',
@@ -125,6 +128,9 @@ const UI = {
     debugApply: 'Aplicar JSON', debugClearStorage: 'Borrar todo el almacenamiento local', debugReloadData: 'Forzar recarga de datos del día',
     debugPhoneSim: 'Abrir simulador de teléfono (375×812)',
     tHymnal: 'Himnario',
+    infoTitle: 'Acerca de este proyecto', infoClose: 'Cerrar',
+    infoBody: 'Pro Omnibus Gentibus es gratuito, lo será siempre, y es completamente de código abierto. Lee más abajo.',
+    infoLinkMaking: 'Cómo se hizo', infoLinkBeta: 'Guía beta', infoLinkFuture: 'Planes futuros',
     hymnalTitle: 'Himnario', hymnalSearchPlaceholder: 'Buscar himnos por título o primer verso…',
     hymnalFilterHour: 'Hora', hymnalFilterAllHours: 'Todas las horas',
     hymnalFilterLang: 'Idiomas', hymnalFilterAllLangs: 'Todos', hymnalFilterMultiLang: 'Varios idiomas',
@@ -194,6 +200,9 @@ const UI = {
     debugApply: 'JSON Applicare', debugClearStorage: 'Omnem memoriam localem delere', debugReloadData: 'Data diei denuo petere',
     debugPhoneSim: 'Simulatorem telephonicum aperire (375×812)',
     tHymnal: 'Hymnarium',
+    infoTitle: 'De Hoc Consilio', infoClose: 'Claudere',
+    infoBody: 'Pro Omnibus Gentibus gratuitum est, semper erit, et fontes eius omnino aperti sunt. Plura infra lege.',
+    infoLinkMaking: 'Quomodo Factum Sit', infoLinkBeta: 'Index Probationis', infoLinkFuture: 'Consilia Futura',
     hymnalTitle: 'Hymnarium', hymnalSearchPlaceholder: 'Hymnos quaere secundum titulum vel primum versum…',
     hymnalFilterHour: 'Hora', hymnalFilterAllHours: 'Omnes horæ',
     hymnalFilterLang: 'Linguæ', hymnalFilterAllLangs: 'Omnes', hymnalFilterMultiLang: 'Plures linguæ',
@@ -649,6 +658,33 @@ function closeHymnal() {
   showScreen(hymnalReturnScreen);
   if (hymnalReturnScreen === 'hourSelectScreen') { renderHero(); renderHourCards(); }
   else { renderHero(); render(); }
+}
+
+const PROJECT_DOCS = {
+  making: 'https://claude.ai/code/artifact/6ebef248-e93f-418c-a23a-f1e98673224e',
+  beta: 'https://claude.ai/code/artifact/e1e10e51-4a01-4c7f-9612-5081a1ee2f4c',
+  future: 'https://claude.ai/code/artifact/0a9b5f50-f880-462a-a91e-4a81c8b86ca8',
+};
+function docLangParam() {
+  // The docs only ship Spanish and English; Latin menu users default to Spanish.
+  return settings.menuLang === 'en' ? 'en' : 'es';
+}
+function openInfoModal() {
+  const s = ui();
+  document.getElementById('infoModalTitle').textContent = s.infoTitle;
+  document.getElementById('infoModalBody').textContent = s.infoBody;
+  document.getElementById('infoModalClose').textContent = s.infoClose;
+  const lang = docLangParam();
+  const makingLink = document.getElementById('infoLinkMaking');
+  const betaLink = document.getElementById('infoLinkBeta');
+  const futureLink = document.getElementById('infoLinkFuture');
+  makingLink.textContent = s.infoLinkMaking; makingLink.href = `${PROJECT_DOCS.making}?lang=${lang}`;
+  betaLink.textContent = s.infoLinkBeta; betaLink.href = `${PROJECT_DOCS.beta}?lang=${lang}`;
+  futureLink.textContent = s.infoLinkFuture; futureLink.href = `${PROJECT_DOCS.future}?lang=${lang}`;
+  document.getElementById('infoModal').classList.remove('hidden');
+}
+function closeInfoModal() {
+  document.getElementById('infoModal').classList.add('hidden');
 }
 
 function saveLastPosition() {
@@ -2233,6 +2269,10 @@ function closePhoneSimulator() {
    ============================================================ */
 document.getElementById('btnSettingsFromHourSelect').addEventListener('click', () => openSettings('hourSelectScreen'));
 document.getElementById('btnSettings').addEventListener('click', () => openSettings('mainScreen'));
+document.getElementById('btnInfoFromHourSelect').addEventListener('click', openInfoModal);
+document.getElementById('btnInfo').addEventListener('click', openInfoModal);
+document.getElementById('infoModalClose').addEventListener('click', closeInfoModal);
+document.getElementById('infoModal').addEventListener('click', (e) => { if (e.target.id === 'infoModal') closeInfoModal(); });
 document.getElementById('btnCloseSettings').addEventListener('click', closeSettings);
 document.getElementById('btnBackToHourSelect').addEventListener('click', goToHourSelect);
 document.getElementById('btnIntentions').addEventListener('click', openIntentionsDrawer);
